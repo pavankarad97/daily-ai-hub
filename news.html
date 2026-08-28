@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>News - Daily AI Hub</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#080b14;
+  color:white;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:#0d1220;
+  border-bottom:1px solid #293852;
+  padding:15px;
+}
+
+.header{
+  max-width:900px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:bold;
+}
+
+.logo span{
+  color:#55c7ff;
+}
+
+.back{
+  color:white;
+  text-decoration:none;
+  background:#18243a;
+  border:1px solid #30415e;
+  padding:9px 13px;
+  border-radius:8px;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:25px 15px 50px;
+}
+
+.article{
+  background:#101827;
+  border:1px solid #293b58;
+  border-radius:18px;
+  padding:25px;
+}
+
+.badge{
+  display:inline-block;
+  background:#193d63;
+  color:#67caff;
+  padding:6px 10px;
+  border-radius:7px;
+  font-size:13px;
+  margin-bottom:15px;
+}
+
+h1{
+  font-size:32px;
+  line-height:1.35;
+  margin-bottom:18px;
+}
+
+.meta{
+  color:#8fa0b8;
+  font-size:14px;
+  border-bottom:1px solid #293852;
+  padding-bottom:18px;
+  margin-bottom:22px;
+}
+
+.info{
+  color:#c3cedd;
+  font-size:17px;
+  line-height:1.8;
+  margin-bottom:25px;
+}
+
+.source{
+  display:inline-block;
+  background:#1681c4;
+  color:white;
+  text-decoration:none;
+  padding:12px 18px;
+  border-radius:9px;
+  font-weight:bold;
+}
+
+.loading,
+.error{
+  text-align:center;
+  padding:50px 15px;
+  color:#9ba9bd;
+}
+
+footer{
+  text-align:center;
+  color:#718096;
+  padding:25px;
+  border-top:1px solid #293852;
+}
+
+@media(max-width:600px){
+
+  h1{
+    font-size:25px;
+  }
+
+  .article{
+    padding:18px;
+  }
+
+  .info{
+    font-size:16px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+  <div class="header">
+
+    <div class="logo">
+      Daily <span>AI Hub</span>
+    </div>
+
+    <a href="./index.html" class="back">
+      ← Home
+    </a>
+
+  </div>
+
+</header>
+
+<main class="container">
+
+  <article id="article" class="article">
+
+    <div class="loading">
+      News loading...
+    </div>
+
+  </article>
+
+</main>
+
+<footer>
+  © 2026 Daily AI Hub
+</footer>
+
+<script>
+
+function escapeHTML(text){
+
+  return String(text || "")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;");
+}
+
+async function loadArticle(){
+
+  const box = document.getElementById("article");
+
+  const params = new URLSearchParams(
+    window.location.search
+  );
+
+  const id = params.get("id");
+
+  if(id === null){
+
+    box.innerHTML = `
+      <div class="error">
+        <h2>News नहीं मिली</h2>
+        <br>
+        <a href="./index.html" class="back">
+          ← वापस Home
+        </a>
+      </div>
+    `;
+
+    return;
+  }
+
+  try{
+
+    const response = await fetch(
+      "./news.json?time=" + Date.now()
+    );
+
+    if(!response.ok){
+      throw new Error("news.json not found");
+    }
+
+    const data = await response.json();
+
+    const news = Array.isArray(data)
+      ? data
+      : (data.news || []);
+
+    const item = news[Number(id)];
+
+    if(!item){
+
+      throw new Error("News not found");
+    }
+
+    const title = escapeHTML(
+      item.title || "Untitled News"
+    );
+
+    const category = escapeHTML(
+      item.category || "News"
+    );
+
+    const source = escapeHTML(
+      item.source || "News Source"
+    );
+
+    const date = escapeHTML(
+      item.date || ""
+    );
+
+    const link = item.link || "#";
+
+    box.innerHTML = `
+
+      <span class="badge">
+        ${category}
+      </span>
+
+      <h1>
+        ${title}
+      </h1>
+
+      <div class="meta">
+        📰 ${source}
+        ${date ? " &nbsp; • &nbsp; " + date : ""}
+      </div>
+
+      <div class="info">
+
+        यह खबर <strong>Daily AI Hub</strong> पर
+        उपलब्ध है।
+
+        <br><br>
+
+        पूरी और मूल खबर पढ़ने के लिए नीचे
+        दिए गए Original Source button पर जाएँ।
+
+      </div>
+
+      ${
+        link !== "#"
+        ? `
+        <a
+          class="source"
+          href="${link}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Original Source →
+        </a>
+        `
+        : ""
+      }
+
+    `;
+
+  }catch(error){
+
+    console.log(error);
+
+    box.innerHTML = `
+      <div class="error">
+
+        <h2>News load नहीं हो सकी</h2>
+
+        <p style="margin:15px 0">
+          कृपया थोड़ी देर बाद फिर कोशिश करें।
+        </p>
+
+        <a href="./index.html" class="back">
+          ← Home
+        </a>
+
+      </div>
+    `;
+  }
+}
+
+loadArticle();
+
+</script>
+
+</body>
+</html>
