@@ -1,273 +1,406 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
 <title>Daily AI Hub</title>
 
 <meta name="description"
 content="Daily AI Hub - India, World, Cricket, Technology, AI and Movies latest news">
 
+<meta name="theme-color"
+content="#080b14">
+
 <style>
 
 *{
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+html{
+scroll-behavior:smooth;
 }
 
 body{
-  font-family:Arial,Helvetica,sans-serif;
-  background:#080b14;
-  color:#fff;
-  line-height:1.5;
+font-family:Arial,Helvetica,sans-serif;
+background:#080b14;
+color:#fff;
+line-height:1.55;
 }
 
+/* HEADER */
+
 header{
-  position:sticky;
-  top:0;
-  z-index:1000;
-  background:#0d1220;
-  border-bottom:1px solid #26344f;
-  padding:15px;
+position:sticky;
+top:0;
+z-index:1000;
+background:#0d1220;
+border-bottom:1px solid #26344f;
+padding:14px 15px;
 }
 
 .header{
-  max-width:1100px;
-  margin:auto;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
+max-width:1100px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
 }
 
 .logo{
-  font-size:24px;
-  font-weight:bold;
+font-size:24px;
+font-weight:800;
 }
 
 .logo span{
-  color:#55c7ff;
+color:#55c7ff;
 }
 
 .menu{
-  background:#172238;
-  border:1px solid #30405d;
-  color:white;
-  padding:10px 14px;
-  border-radius:9px;
-  font-size:20px;
-  cursor:pointer;
+background:#172238;
+border:1px solid #30405d;
+color:#fff;
+padding:10px 15px;
+border-radius:10px;
+font-size:20px;
+cursor:pointer;
 }
 
 nav{
-  display:none;
-  position:absolute;
-  right:15px;
-  top:65px;
-  width:220px;
-  background:#111a2b;
-  border:1px solid #30405d;
-  border-radius:12px;
-  padding:10px;
+display:none;
+position:absolute;
+right:15px;
+top:66px;
+width:230px;
+background:#111a2b;
+border:1px solid #30405d;
+border-radius:14px;
+padding:10px;
+box-shadow:0 15px 40px rgba(0,0,0,.4);
 }
 
 nav.show{
-  display:block;
+display:block;
 }
 
 nav button{
-  width:100%;
-  padding:12px;
-  margin-bottom:5px;
-  border:0;
-  border-radius:8px;
-  background:transparent;
-  color:white;
-  text-align:left;
-  font-size:15px;
-  cursor:pointer;
+width:100%;
+padding:13px;
+margin-bottom:5px;
+border:0;
+border-radius:9px;
+background:transparent;
+color:#fff;
+text-align:left;
+font-size:15px;
+cursor:pointer;
 }
 
 nav button:hover{
-  background:#243451;
+background:#243451;
 }
+
+/* MAIN */
 
 .container{
-  max-width:1100px;
-  margin:auto;
-  padding:30px 15px 50px;
+max-width:1100px;
+margin:auto;
+padding:28px 15px 60px;
 }
 
+/* HERO */
+
 .hero{
-  background:linear-gradient(135deg,#101a32,#111827);
-  border:1px solid #263958;
-  border-radius:20px;
-  padding:28px;
-  margin-bottom:22px;
+background:linear-gradient(135deg,#101a32,#111827);
+border:1px solid #263958;
+border-radius:20px;
+padding:28px;
+margin-bottom:22px;
 }
 
 .hero h1{
-  font-size:34px;
-  margin-bottom:10px;
+font-size:34px;
+margin-bottom:10px;
 }
 
 .hero p{
-  color:#aebbd0;
-  font-size:17px;
+color:#aebbd0;
+font-size:17px;
 }
 
 .status{
-  margin-top:16px;
-  color:#69e6a5;
+margin-top:16px;
+color:#69e6a5;
+font-size:14px;
 }
 
+/* SEARCH */
+
 .search{
-  width:100%;
-  padding:15px;
-  margin:20px 0;
-  border-radius:12px;
-  border:1px solid #334563;
-  background:#101827;
-  color:white;
-  font-size:16px;
-  outline:none;
+width:100%;
+padding:15px 16px;
+margin:20px 0;
+border-radius:12px;
+border:1px solid #334563;
+background:#101827;
+color:#fff;
+font-size:16px;
+outline:none;
 }
 
 .search:focus{
-  border-color:#55c7ff;
+border-color:#55c7ff;
 }
 
+/* CATEGORY */
+
 .categories{
-  display:flex;
-  gap:9px;
-  overflow-x:auto;
-  margin-bottom:25px;
-  padding-bottom:5px;
+display:flex;
+gap:9px;
+overflow-x:auto;
+margin-bottom:26px;
+padding-bottom:5px;
+scrollbar-width:none;
+}
+
+.categories::-webkit-scrollbar{
+display:none;
 }
 
 .categories button{
-  white-space:nowrap;
-  border:1px solid #344866;
-  background:#121c2e;
-  color:white;
-  padding:10px 16px;
-  border-radius:22px;
-  cursor:pointer;
+white-space:nowrap;
+border:1px solid #344866;
+background:#121c2e;
+color:#fff;
+padding:10px 16px;
+border-radius:22px;
+cursor:pointer;
+font-size:14px;
 }
 
 .categories button.active{
-  background:#1677b8;
-  border-color:#1677b8;
+background:#1677b8;
+border-color:#1677b8;
 }
+
+/* TITLES */
 
 .section-title{
-  font-size:24px;
-  margin-bottom:18px;
+font-size:25px;
+margin-bottom:18px;
 }
+
+/* NEWS GRID */
 
 .news-grid{
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:15px;
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
 }
 
+/* CARD */
+
 .card{
-  background:#101827;
-  border:1px solid #263958;
-  border-radius:15px;
-  padding:18px;
-  transition:.2s;
+background:#101827;
+border:1px solid #263958;
+border-radius:15px;
+padding:18px;
+transition:.2s;
 }
 
 .card:hover{
-  transform:translateY(-2px);
-  border-color:#4c8bc1;
+transform:translateY(-2px);
+border-color:#4c8bc1;
 }
 
 .badge{
-  display:inline-block;
-  font-size:12px;
-  background:#193b62;
-  color:#66c9ff;
-  padding:5px 9px;
-  border-radius:6px;
-  margin-bottom:10px;
+display:inline-block;
+font-size:12px;
+background:#193b62;
+color:#66c9ff;
+padding:5px 9px;
+border-radius:6px;
+margin-bottom:11px;
 }
 
 .card h2{
-  font-size:18px;
-  line-height:1.45;
-  margin-bottom:10px;
+font-size:18px;
+line-height:1.45;
+margin-bottom:10px;
 }
 
 .card p{
-  color:#9eacc0;
-  font-size:13px;
-  margin-bottom:15px;
+color:#9eacc0;
+font-size:13px;
+margin-bottom:15px;
 }
 
 .read{
-  display:inline-block;
-  text-decoration:none;
-  background:#1677b8;
-  color:white;
-  padding:9px 13px;
-  border-radius:8px;
-  font-size:14px;
-  font-weight:bold;
+display:inline-block;
+text-decoration:none;
+background:#1677b8;
+color:#fff;
+padding:9px 13px;
+border-radius:8px;
+font-size:14px;
+font-weight:bold;
+border:0;
+cursor:pointer;
 }
 
 .read:hover{
-  background:#2196d2;
+background:#2196d2;
 }
+
+/* LOADING */
 
 .loading,
 .empty{
-  text-align:center;
-  padding:50px 10px;
-  color:#9eacc0;
-  grid-column:1/-1;
+text-align:center;
+padding:50px 10px;
+color:#9eacc0;
+grid-column:1/-1;
 }
 
 .error{
-  background:#2b1212;
-  border:1px solid #6b2929;
-  border-radius:12px;
-  padding:20px;
-  text-align:center;
-  color:#ffb3b3;
-  grid-column:1/-1;
+background:#2b1212;
+border:1px solid #6b2929;
+border-radius:12px;
+padding:22px;
+text-align:center;
+color:#ffb3b3;
+grid-column:1/-1;
 }
 
-footer{
-  text-align:center;
-  padding:25px;
-  border-top:1px solid #26344f;
-  color:#7e8da5;
-  font-size:13px;
+/* DETAIL PAGE */
+
+.detail{
+max-width:850px;
+margin:auto;
 }
+
+.back{
+display:inline-block;
+background:#172238;
+border:1px solid #30405d;
+color:#fff;
+padding:10px 15px;
+border-radius:9px;
+text-decoration:none;
+margin-bottom:20px;
+cursor:pointer;
+}
+
+.detail-card{
+background:#101827;
+border:1px solid #263958;
+border-radius:18px;
+padding:25px;
+}
+
+.detail-card .badge{
+margin-bottom:15px;
+}
+
+.detail-card h1{
+font-size:32px;
+line-height:1.35;
+margin-bottom:15px;
+}
+
+.detail-meta{
+color:#9eacc0;
+font-size:14px;
+margin-bottom:25px;
+}
+
+.detail-text{
+color:#d7dfeb;
+font-size:17px;
+line-height:1.8;
+margin-bottom:28px;
+}
+
+.source-btn{
+display:inline-block;
+background:#1677b8;
+color:white;
+text-decoration:none;
+padding:12px 18px;
+border-radius:9px;
+font-weight:bold;
+}
+
+.home-btn{
+display:inline-block;
+background:#172238;
+border:1px solid #30405d;
+color:#fff;
+padding:12px 18px;
+border-radius:9px;
+text-decoration:none;
+margin-left:8px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:28px 15px;
+border-top:1px solid #26344f;
+color:#7e8da5;
+font-size:13px;
+}
+
+/* MOBILE */
 
 @media(max-width:650px){
 
-  .news-grid{
-    grid-template-columns:1fr;
-  }
+.news-grid{
+grid-template-columns:1fr;
+}
 
-  .hero h1{
-    font-size:28px;
-  }
+.hero h1{
+font-size:28px;
+}
 
-  .hero p{
-    font-size:16px;
-  }
+.hero p{
+font-size:16px;
+}
+
+.detail-card{
+padding:20px;
+}
+
+.detail-card h1{
+font-size:25px;
+}
+
+.detail-text{
+font-size:16px;
+}
+
+.home-btn{
+margin-left:0;
+margin-top:10px;
+}
 
 }
 
 </style>
+
 </head>
 
 <body>
+
+
+<!-- HEADER -->
 
 <header>
 
@@ -277,11 +410,14 @@ footer{
 Daily <span>AI Hub</span>
 </div>
 
-<button class="menu" onclick="toggleMenu()">☰</button>
+<button class="menu"
+onclick="toggleMenu()">
+☰
+</button>
 
 <nav id="nav">
 
-<button onclick="filterNews('All')">
+<button onclick="goHome()">
 🏠 Home
 </button>
 
@@ -316,14 +452,23 @@ Daily <span>AI Hub</span>
 </header>
 
 
+<!-- MAIN -->
+
 <main class="container">
+
+<!-- HOME -->
+
+<section id="homePage">
 
 <section class="hero">
 
-<h1>📰 Daily AI Hub</h1>
+<h1>
+📰 Daily AI Hub
+</h1>
 
 <p>
-India, World, Cricket, Technology, AI और Movies की latest news
+India, World, Cricket, Technology,
+AI और Movies की latest news
 </p>
 
 <div class="status">
@@ -344,32 +489,39 @@ oninput="searchNews()"
 
 <div class="categories">
 
-<button class="active"
+<button
+class="active"
 onclick="filterNews('All',this)">
 All
 </button>
 
-<button onclick="filterNews('India',this)">
+<button
+onclick="filterNews('India',this)">
 🇮🇳 India
 </button>
 
-<button onclick="filterNews('World',this)">
+<button
+onclick="filterNews('World',this)">
 🌎 World
 </button>
 
-<button onclick="filterNews('Cricket',this)">
+<button
+onclick="filterNews('Cricket',this)">
 🏏 Cricket
 </button>
 
-<button onclick="filterNews('Technology',this)">
+<button
+onclick="filterNews('Technology',this)">
 💻 Technology
 </button>
 
-<button onclick="filterNews('AI',this)">
+<button
+onclick="filterNews('AI',this)">
 🤖 AI
 </button>
 
-<button onclick="filterNews('Movies',this)">
+<button
+onclick="filterNews('Movies',this)">
 🎬 Movies
 </button>
 
@@ -381,7 +533,9 @@ All
 </h2>
 
 
-<div id="news" class="news-grid">
+<div
+id="news"
+class="news-grid">
 
 <div class="loading">
 News loading...
@@ -389,53 +543,102 @@ News loading...
 
 </div>
 
+</section>
+
+
+<!-- DETAIL -->
+
+<section
+id="detailPage"
+style="display:none">
+
+<div class="detail">
+
+<button
+class="back"
+onclick="goHome()">
+← Back to Home
+</button>
+
+<div
+id="detailContent">
+
+</div>
+
+</div>
+
+</section>
+
 </main>
 
 
 <footer>
-© 2026 Daily AI Hub • News & Information
+
+© 2026 Daily AI Hub
+<br>
+News & Information
+
 </footer>
 
 
 <script>
+
+/* =========================
+   DAILY AI HUB
+   FINAL VERSION
+========================= */
+
 
 let allNews = [];
 
 let currentCategory = "All";
 
 
-/* LOAD NEWS */
+/* =========================
+   LOAD NEWS
+========================= */
 
 async function loadNews(){
 
-const box = document.getElementById("news");
+const box =
+document.getElementById("news");
 
 try{
 
-const response = await fetch(
-"./news.json?cache=" + Date.now()
+const response =
+await fetch(
+"./news.json?cache=" +
+Date.now()
 );
 
 if(!response.ok){
 
 throw new Error(
-"news.json HTTP error: " + response.status
+"news.json HTTP error: " +
+response.status
 );
 
 }
 
-const data = await response.json();
+const data =
+await response.json();
 
 
 if(Array.isArray(data)){
 
 allNews = data;
 
-}else if(Array.isArray(data.news)){
+}
+
+else if(
+Array.isArray(data.news)
+){
 
 allNews = data.news;
 
-}else{
+}
+
+else{
 
 allNews = [];
 
@@ -443,34 +646,34 @@ allNews = [];
 
 
 console.log(
-"Daily AI Hub: " +
-allNews.length +
-" news loaded"
+"Daily AI Hub:",
+allNews.length,
+"news loaded"
 );
 
 
 renderNews(allNews);
 
 
+/* CHECK DETAIL URL */
+
+openDetailFromURL();
+
+
 }catch(error){
 
-console.error(
-"News loading error:",
-error
-);
+console.error(error);
 
 box.innerHTML = `
 
 <div class="error">
 
-<h3>⚠️ News load नहीं हो पाई</h3>
+<h3>
+⚠️ News load नहीं हो पाई
+</h3>
 
-<p style="margin-top:10px;">
-news.json को पढ़ने में समस्या हुई।
-</p>
-
-<p style="margin-top:8px;font-size:12px;">
-${escapeHTML(error.message)}
+<p style="margin-top:10px">
+कृपया थोड़ी देर बाद refresh करें।
 </p>
 
 </div>
@@ -482,11 +685,14 @@ ${escapeHTML(error.message)}
 }
 
 
-/* DISPLAY NEWS */
+/* =========================
+   RENDER NEWS
+========================= */
 
 function renderNews(list){
 
-const box = document.getElementById("news");
+const box =
+document.getElementById("news");
 
 
 if(!list || !list.length){
@@ -495,9 +701,11 @@ box.innerHTML = `
 
 <div class="empty">
 
-<h3>कोई news नहीं मिली</h3>
+<h3>
+कोई news नहीं मिली
+</h3>
 
-<p style="margin-top:10px;">
+<p style="margin-top:10px">
 दूसरी category या search try करें।
 </p>
 
@@ -510,32 +718,34 @@ return;
 }
 
 
-box.innerHTML = list.map(
+box.innerHTML =
+list.map(
 
 (item,index)=>{
 
 const title =
 escapeHTML(
-item.title || "Untitled News"
+item.title ||
+"Untitled News"
 );
 
 const category =
 escapeHTML(
-item.category || "News"
+item.category ||
+"News"
 );
 
 const source =
 escapeHTML(
-item.source || "News Source"
+item.source ||
+"Google News"
 );
 
 const date =
 escapeHTML(
-item.date || ""
+item.date ||
+""
 );
-
-const link =
-String(item.link || "#");
 
 
 return `
@@ -557,7 +767,8 @@ ${date ? " • " + date : ""}
 
 <a
 class="read"
-href="news.html?id=${index}"
+href="?news=${index}"
+onclick="openDetail(${index});return false;"
 >
 Read Full News →
 </a>
@@ -573,51 +784,415 @@ Read Full News →
 }
 
 
-/* CATEGORY FILTER */
+/* =========================
+   OPEN DETAIL
+========================= */
 
-function filterNews(category,button){
+function openDetail(index){
 
-currentCategory = category;
+const item =
+allNews[index];
+
+if(!item){
+
+return;
+
+}
+
+
+const title =
+escapeHTML(
+item.title ||
+"Untitled News"
+);
+
+const category =
+escapeHTML(
+item.category ||
+"News"
+);
+
+const source =
+escapeHTML(
+item.source ||
+"Original Source"
+);
+
+const date =
+escapeHTML(
+item.date ||
+""
+);
+
+const originalLink =
+safeURL(
+item.link ||
+"#"
+);
+
+
+/* DESCRIPTION */
+
+let description =
+item.description ||
+item.summary ||
+item.content ||
+"";
+
+
+description =
+escapeHTML(description);
+
+
+if(!description){
+
+description =
+"इस खबर की पूरी जानकारी पढ़ने के लिए नीचे दिए गए Original Source button पर जाएँ।";
+
+}
+
+
+document.getElementById(
+"homePage"
+).style.display="none";
+
+
+document.getElementById(
+"detailPage"
+).style.display="block";
+
+
+document.getElementById(
+"detailContent"
+).innerHTML = `
+
+<article class="detail-card">
+
+<span class="badge">
+${category}
+</span>
+
+<h1>
+${title}
+</h1>
+
+<div class="detail-meta">
+
+${source}
+
+${date ? " • " + date : ""}
+
+</div>
+
+<div class="detail-text">
+
+${description}
+
+</div>
+
+
+${
+originalLink !== "#"
+
+?
+
+`
+
+<a
+class="source-btn"
+href="${originalLink}"
+target="_blank"
+rel="noopener noreferrer">
+🌐 Original News पढ़ें →
+</a>
+
+`
+
+:
+
+""
+
+}
+
+
+<a
+class="home-btn"
+href="./"
+onclick="goHome();return false;">
+🏠 Home
+</a>
+
+</article>
+
+`;
+
+
+/* URL */
+
+history.pushState(
+{news:index},
+"",
+"?news="+index
+);
+
+
+/* TOP */
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+
+
+closeMenu();
+
+}
+
+
+/* =========================
+   OPEN DETAIL FROM URL
+========================= */
+
+function openDetailFromURL(){
+
+const params =
+new URLSearchParams(
+window.location.search
+);
+
+const id =
+params.get("news");
+
+
+if(
+id !== null &&
+!isNaN(id)
+){
+
+const index =
+parseInt(id,10);
+
+if(allNews[index]){
+
+showDetailWithoutHistory(index);
+
+}
+
+}
+
+}
+
+
+/* =========================
+   SHOW DETAIL WITHOUT
+   HISTORY PUSH
+========================= */
+
+function showDetailWithoutHistory(index){
+
+const item =
+allNews[index];
+
+if(!item){
+
+return;
+
+}
+
+
+const title =
+escapeHTML(
+item.title ||
+"Untitled News"
+);
+
+const category =
+escapeHTML(
+item.category ||
+"News"
+);
+
+const source =
+escapeHTML(
+item.source ||
+"Original Source"
+);
+
+const date =
+escapeHTML(
+item.date ||
+""
+);
+
+const originalLink =
+safeURL(
+item.link ||
+"#"
+);
+
+
+let description =
+item.description ||
+item.summary ||
+item.content ||
+"";
+
+
+description =
+escapeHTML(description);
+
+
+if(!description){
+
+description =
+"इस खबर की पूरी जानकारी पढ़ने के लिए नीचे दिए गए Original Source button पर जाएँ।";
+
+}
+
+
+document.getElementById(
+"homePage"
+).style.display="none";
+
+
+document.getElementById(
+"detailPage"
+).style.display="block";
+
+
+document.getElementById(
+"detailContent"
+).innerHTML = `
+
+<article class="detail-card">
+
+<span class="badge">
+${category}
+</span>
+
+<h1>
+${title}
+</h1>
+
+<div class="detail-meta">
+${source}
+${date ? " • " + date : ""}
+</div>
+
+<div class="detail-text">
+${description}
+</div>
+
+${
+originalLink !== "#"
+
+?
+
+`
+
+<a
+class="source-btn"
+href="${originalLink}"
+target="_blank"
+rel="noopener noreferrer">
+🌐 Original News पढ़ें →
+</a>
+
+`
+
+:
+
+""
+
+}
+
+<a
+class="home-btn"
+href="./"
+onclick="goHome();return false;">
+🏠 Home
+</a>
+
+</article>
+
+`;
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+
+}
+
+
+/* =========================
+   HOME
+========================= */
+
+function goHome(){
+
+history.pushState(
+{},
+"",
+window.location.pathname
+);
+
+document.getElementById(
+"detailPage"
+).style.display="none";
+
+
+document.getElementById(
+"homePage"
+).style.display="block";
+
+
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+
+
+closeMenu();
+
+}
+
+
+/* =========================
+   CATEGORY
+========================= */
+
+function filterNews(
+category,
+button
+){
+
+currentCategory =
+category;
 
 
 document
-.querySelectorAll(".categories button")
-.forEach(btn =>
+.querySelectorAll(
+".categories button"
+)
+.forEach(
+btn =>
 btn.classList.remove("active")
 );
 
 
 if(button){
 
-button.classList.add("active");
-
-}else{
-
-const buttons =
-document.querySelectorAll(
-".categories button"
+button.classList.add(
+"active"
 );
-
-buttons.forEach(btn=>{
-
-if(
-btn.innerText
-.toLowerCase()
-.includes(category.toLowerCase())
-){
-
-btn.classList.add("active");
-
-}
-
-});
 
 }
 
 
 document.getElementById(
 "search"
-).value = "";
+).value="";
 
 
 if(category === "All"){
@@ -645,10 +1220,14 @@ category.toLowerCase()
 
 renderNews(filtered);
 
+closeMenu();
+
 }
 
 
-/* SEARCH */
+/* =========================
+   SEARCH
+========================= */
 
 function searchNews(){
 
@@ -660,7 +1239,8 @@ document
 .trim();
 
 
-let list = allNews;
+let list =
+allNews;
 
 
 if(currentCategory !== "All"){
@@ -702,7 +1282,9 @@ renderNews(list);
 }
 
 
-/* MENU */
+/* =========================
+   MENU
+========================= */
 
 function toggleMenu(){
 
@@ -714,28 +1296,150 @@ document
 }
 
 
-/* ESCAPE HTML */
+function closeMenu(){
+
+document
+.getElementById("nav")
+.classList
+.remove("show");
+
+}
+
+
+/* =========================
+   SAFE URL
+========================= */
+
+function safeURL(url){
+
+try{
+
+const parsed =
+new URL(
+String(url),
+window.location.href
+);
+
+
+if(
+parsed.protocol === "http:" ||
+parsed.protocol === "https:"
+){
+
+return parsed.href;
+
+}
+
+return "#";
+
+}catch(error){
+
+return "#";
+
+}
+
+}
+
+
+/* =========================
+   ESCAPE HTML
+========================= */
 
 function escapeHTML(text){
 
 return String(text)
 
-.replace(/&/g,"&amp;")
+.replace(
+/&/g,
+"&amp;"
+)
 
-.replace(/</g,"&lt;")
+.replace(
+/</g,
+"&lt;"
+)
 
-.replace(/>/g,"&gt;")
+.replace(
+/>/g,
+"&gt;"
+)
 
-.replace(/"/g,"&quot;")
+.replace(
+/"/g,
+"&quot;"
+)
 
-.replace(/'/g,"&#039;");
+.replace(
+/'/g,
+"&#039;"
+);
 
 }
 
 
-/* START */
+/* =========================
+   BROWSER BACK BUTTON
+========================= */
+
+window.addEventListener(
+"popstate",
+function(){
+
+const params =
+new URLSearchParams(
+window.location.search
+);
+
+const id =
+params.get("news");
+
+
+if(
+id !== null &&
+allNews[id]
+){
+
+showDetailWithoutHistory(
+parseInt(id,10)
+);
+
+}else{
+
+document.getElementById(
+"detailPage"
+).style.display="none";
+
+
+document.getElementById(
+"homePage"
+).style.display="block";
+
+}
+
+}
+);
+
+
+/* =========================
+   START
+========================= */
 
 loadNews();
+
+
+/* =========================
+   AUTO REFRESH
+   30 MINUTES
+========================= */
+
+setInterval(
+function(){
+
+loadNews();
+
+},
+30 * 60 * 1000
+);
 
 </script>
 
