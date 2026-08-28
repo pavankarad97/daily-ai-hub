@@ -1,87 +1,113 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
 <title>Daily AI Hub</title>
 
 <meta name="description"
-content="Daily AI Hub - Latest India, World, Cricket, Technology, AI and Movies News">
+content="Daily AI Hub - Latest India, World, Cricket, Trending, Technology, AI and Movies News">
 
 <style>
+
 *{
   box-sizing:border-box;
   margin:0;
   padding:0;
 }
 
+html{
+  scroll-behavior:smooth;
+}
+
 body{
   font-family:Arial,Helvetica,sans-serif;
-  background:#080b14;
-  color:#fff;
+  background:#070b14;
+  color:#ffffff;
+  min-height:100vh;
 }
+
+/* HEADER */
 
 header{
   position:sticky;
   top:0;
-  z-index:999;
-  background:#0d1220;
-  border-bottom:1px solid #26344f;
+  z-index:9999;
+  background:#0c1220;
+  border-bottom:1px solid #263753;
 }
 
 .header{
   max-width:1150px;
   margin:auto;
-  padding:14px 16px;
+  min-height:78px;
+  padding:12px 18px;
+
   display:flex;
   align-items:center;
   justify-content:space-between;
+  gap:12px;
 }
 
 .logo{
-  font-size:24px;
+  font-size:25px;
   font-weight:800;
+  white-space:nowrap;
 }
 
 .logo span{
-  color:#55c7ff;
+  color:#4dbaff;
 }
 
-.controls{
-  display:flex;
-  align-items:center;
-  gap:8px;
+/* LANGUAGE */
+
+.language-box{
+  margin-left:auto;
 }
 
 .language{
-  background:#172238;
-  color:#fff;
-  border:1px solid #344866;
-  padding:9px;
-  border-radius:9px;
+  background:#162238;
+  color:#ffffff;
+  border:1px solid #385071;
+  border-radius:12px;
+  padding:12px 14px;
+  font-size:15px;
   outline:none;
+  cursor:pointer;
 }
 
+/* MENU */
+
 .menu{
-  background:#172238;
-  color:#fff;
-  border:1px solid #344866;
-  padding:9px 13px;
-  border-radius:9px;
-  font-size:18px;
+  background:#17243b;
+  color:white;
+  border:1px solid #385071;
+  border-radius:12px;
+  padding:13px 16px;
+  font-size:21px;
+  cursor:pointer;
+}
+
+.menu:hover{
+  background:#203352;
 }
 
 nav{
   display:none;
   position:absolute;
-  right:15px;
-  top:62px;
-  width:230px;
-  background:#111a2b;
-  border:1px solid #30405d;
-  border-radius:12px;
+  right:18px;
+  top:70px;
+  width:245px;
+  background:#101a2c;
+  border:1px solid #354b6c;
+  border-radius:14px;
   padding:10px;
+  box-shadow:0 15px 40px rgba(0,0,0,.45);
 }
 
 nav.show{
@@ -92,656 +118,1631 @@ nav button{
   width:100%;
   border:0;
   background:transparent;
-  color:white;
-  padding:12px;
+  color:#ffffff;
   text-align:left;
-  border-radius:8px;
+  padding:13px;
+  border-radius:9px;
   font-size:15px;
+  cursor:pointer;
 }
 
 nav button:hover{
-  background:#243451;
+  background:#21324e;
 }
+
+/* MAIN */
 
 .container{
   max-width:1150px;
   margin:auto;
-  padding:25px 16px 60px;
+  padding:25px 18px 60px;
 }
 
+/* HERO */
+
 .hero{
-  background:linear-gradient(135deg,#101a32,#111827);
-  border:1px solid #293b5c;
-  border-radius:20px;
-  padding:28px;
+  background:
+    radial-gradient(
+      circle at top right,
+      #173d62,
+      transparent 45%
+    ),
+    linear-gradient(
+      135deg,
+      #111c32,
+      #101827
+    );
+
+  border:1px solid #304564;
+  border-radius:22px;
+  padding:32px 28px;
   margin-bottom:22px;
 }
 
 .hero h1{
-  font-size:34px;
-  margin-bottom:10px;
+  font-size:36px;
+  line-height:1.2;
+  margin-bottom:12px;
 }
 
 .hero p{
-  color:#aebbd0;
-  font-size:17px;
+  color:#b7c4d8;
+  font-size:18px;
   line-height:1.6;
 }
 
-.status{
-  margin-top:15px;
-  color:#69e6a5;
+.live{
+  margin-top:18px;
+  color:#5ee6a0;
+  font-size:15px;
+  font-weight:bold;
 }
 
 .updated{
-  margin-top:7px;
-  color:#8190a8;
+  margin-top:8px;
+  color:#8292aa;
   font-size:12px;
 }
 
+/* SEARCH */
+
 .search{
   width:100%;
-  padding:15px;
-  border-radius:11px;
-  border:1px solid #334563;
+  padding:16px 18px;
   background:#101827;
-  color:white;
+  color:#ffffff;
+  border:1px solid #354a69;
+  border-radius:13px;
   font-size:16px;
   outline:none;
   margin-bottom:18px;
 }
 
+.search:focus{
+  border-color:#3fa9e8;
+}
+
+/* CATEGORIES */
+
 .categories{
   display:flex;
   gap:9px;
   overflow-x:auto;
-  margin-bottom:25px;
-  padding-bottom:5px;
+  padding-bottom:7px;
+  margin-bottom:28px;
+  scrollbar-width:none;
+}
+
+.categories::-webkit-scrollbar{
+  display:none;
 }
 
 .categories button{
+  flex:none;
   white-space:nowrap;
-  background:#121c2e;
-  border:1px solid #344866;
-  color:white;
-  padding:10px 15px;
-  border-radius:22px;
+  padding:11px 17px;
+  border-radius:24px;
+  border:1px solid #344966;
+  background:#121d30;
+  color:#ffffff;
+  cursor:pointer;
+  font-size:14px;
 }
 
 .categories button.active{
-  background:#167fc2;
-  border-color:#167fc2;
+  background:#1685c9;
+  border-color:#1685c9;
 }
 
+/* SECTION */
+
 .section-title{
-  font-size:25px;
-  margin-bottom:17px;
+  font-size:27px;
+  margin-bottom:18px;
 }
+
+/* NEWS GRID */
 
 .news-grid{
   display:grid;
   grid-template-columns:repeat(2,1fr);
-  gap:15px;
+  gap:16px;
 }
+
+/* CARD */
 
 .card{
   background:#101827;
-  border:1px solid #263958;
-  border-radius:15px;
-  padding:18px;
+  border:1px solid #283b58;
+  border-radius:16px;
+  padding:19px;
+  transition:.2s;
+}
+
+.card:hover{
+  transform:translateY(-2px);
+  border-color:#4a91c5;
 }
 
 .badge{
   display:inline-block;
-  background:#193b62;
-  color:#67ccff;
+  background:#193b61;
+  color:#66caff;
   padding:5px 9px;
-  border-radius:6px;
+  border-radius:7px;
   font-size:12px;
-  margin-bottom:10px;
+  margin-bottom:12px;
 }
 
 .card h2{
   font-size:19px;
   line-height:1.45;
-  margin-bottom:9px;
+  margin-bottom:10px;
 }
 
-.card p{
-  color:#96a6bd;
-  font-size:13px;
-  line-height:1.5;
+.card-meta{
+  color:#8999b1;
+  font-size:12px;
+  margin-bottom:14px;
 }
 
 .read{
   display:inline-block;
-  margin-top:14px;
-  color:#63c9ff;
-  font-weight:bold;
+  background:#167fc2;
+  color:#ffffff;
   text-decoration:none;
+  padding:10px 13px;
+  border-radius:9px;
+  font-size:13px;
+  font-weight:bold;
 }
+
+.read:hover{
+  background:#1c95dc;
+}
+
+/* LOADING */
 
 .loading,
 .empty{
-  text-align:center;
-  padding:45px 10px;
-  color:#98a7bd;
   grid-column:1/-1;
+  text-align:center;
+  padding:55px 15px;
+  color:#91a0b7;
 }
 
-.article{
-  max-width:850px;
+.loading-spinner{
+  font-size:30px;
+  margin-bottom:12px;
+}
+
+/* ARTICLE PAGE */
+
+#articlePage{
+  display:none;
+}
+
+.article-page{
+  max-width:900px;
   margin:auto;
-  background:#101827;
-  border:1px solid #293b5c;
-  border-radius:18px;
-  padding:25px;
 }
 
 .back{
-  background:#172238;
-  color:#fff;
-  border:1px solid #344866;
-  padding:10px 15px;
-  border-radius:9px;
+  border:1px solid #385071;
+  background:#142238;
+  color:#ffffff;
+  border-radius:10px;
+  padding:11px 16px;
+  cursor:pointer;
   margin-bottom:18px;
+  font-size:14px;
+}
+
+.back:hover{
+  background:#203453;
+}
+
+.article{
+  background:#101827;
+  border:1px solid #304563;
+  border-radius:20px;
+  padding:25px;
 }
 
 .article h1{
   font-size:31px;
-  line-height:1.4;
-  margin:12px 0;
+  line-height:1.35;
+  margin:10px 0 14px;
 }
 
-.meta{
-  color:#8fa0b8;
+.article-meta{
+  color:#8e9db4;
   font-size:13px;
-  margin-bottom:22px;
+  padding-bottom:18px;
+  border-bottom:1px solid #273953;
 }
 
-.summary{
-  background:#111e34;
-  border-left:4px solid #55c7ff;
-  padding:18px;
-  border-radius:10px;
-  margin:20px 0;
+/* MINI STORY */
+
+.mini-story{
+  margin-top:22px;
+  background:#111f34;
+  border-left:4px solid #31a9e8;
+  border-radius:12px;
+  padding:20px;
 }
 
-.summary h3{
-  color:#55c7ff;
-  margin-bottom:10px;
+.mini-story h3{
+  color:#63caff;
+  margin-bottom:13px;
+  font-size:19px;
 }
 
-.summary p{
-  color:#d5dce8;
-  line-height:1.8;
+.mini-story p{
+  color:#d0d8e5;
   font-size:16px;
+  line-height:1.75;
 }
+
+/* SOURCES */
 
 .sources{
   margin-top:25px;
-  padding:18px;
-  border:1px solid #30405d;
-  border-radius:12px;
+  padding-top:20px;
+  border-top:1px solid #293b55;
 }
 
 .sources h3{
-  margin-bottom:10px;
+  font-size:19px;
+  margin-bottom:14px;
 }
 
-.sources a{
-  display:block;
-  color:#63c9ff;
-  text-decoration:none;
-  margin-top:10px;
-  word-break:break-word;
+.source-list{
+  display:flex;
+  flex-direction:column;
+  gap:9px;
 }
+
+.source-link{
+  display:block;
+  background:#17253b;
+  border:1px solid #334965;
+  border-radius:10px;
+  padding:12px;
+  color:#62c9ff;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.source-link:hover{
+  background:#213553;
+}
+
+/* FOOTER */
 
 footer{
-  border-top:1px solid #26344f;
   text-align:center;
-  color:#7f8da4;
-  padding:25px;
+  border-top:1px solid #263650;
+  padding:25px 15px;
+  color:#718198;
   font-size:13px;
+  margin-top:30px;
 }
 
+/* MOBILE */
+
 @media(max-width:700px){
+
+  .header{
+    min-height:70px;
+    padding:10px 14px;
+  }
+
+  .logo{
+    font-size:22px;
+  }
+
+  .language{
+    padding:10px;
+    max-width:125px;
+  }
+
+  .menu{
+    padding:10px 13px;
+  }
+
+  .container{
+    padding:20px 14px 45px;
+  }
+
+  .hero{
+    padding:25px 20px;
+    border-radius:18px;
+  }
+
+  .hero h1{
+    font-size:29px;
+  }
+
+  .hero p{
+    font-size:16px;
+  }
 
   .news-grid{
     grid-template-columns:1fr;
   }
 
-  .hero h1{
-    font-size:28px;
+  .article{
+    padding:19px;
   }
 
   .article h1{
     font-size:25px;
   }
 
+  .mini-story p{
+    font-size:15px;
+  }
+
+}
+
+/* SMALL MOBILE */
+
+@media(max-width:430px){
+
+  .language{
+    font-size:13px;
+    max-width:115px;
+  }
+
   .logo{
     font-size:20px;
   }
 
-  .language{
-    max-width:105px;
+  .menu{
+    font-size:18px;
   }
+
 }
+
 </style>
+
 </head>
 
 <body>
 
+
+<!-- ================= HEADER ================= -->
+
 <header>
 
-<div class="header">
+  <div class="header">
 
-<div class="logo">
-Daily <span>AI Hub</span>
-</div>
+    <div class="logo">
+      Daily <span>AI Hub</span>
+    </div>
 
-<div class="controls">
+    <div class="language-box">
 
-<select id="language"
-class="language"
-onchange="changeLanguage()">
+      <select
+        id="language"
+        class="language"
+        onchange="changeLanguage()">
 
-<option value="en">🇬🇧 English</option>
-<option value="hi">🇮🇳 हिन्दी</option>
-<option value="mr">मराठी</option>
-<option value="ta">தமிழ்</option>
-<option value="te">తెలుగు</option>
-<option value="bn">বাংলা</option>
-<option value="kn">ಕನ್ನಡ</option>
-<option value="ml">മലയാളം</option>
-<option value="gu">ગુજરાતી</option>
-<option value="pa">ਪੰਜਾਬੀ</option>
+        <option value="en">🇬🇧 English</option>
+        <option value="hi">🇮🇳 हिन्दी</option>
+        <option value="mr">🇮🇳 मराठी</option>
+        <option value="ta">🇮🇳 தமிழ்</option>
+        <option value="te">🇮🇳 తెలుగు</option>
+        <option value="bn">🇮🇳 বাংলা</option>
+        <option value="kn">🇮🇳 ಕನ್ನಡ</option>
+        <option value="ml">🇮🇳 മലയാളം</option>
+        <option value="gu">🇮🇳 ગુજરાતી</option>
+        <option value="pa">🇮🇳 ਪੰਜਾਬੀ</option>
 
-</select>
+      </select>
 
-<button class="menu"
-onclick="toggleMenu()">☰</button>
+    </div>
 
-</div>
+    <button
+      class="menu"
+      onclick="toggleMenu()">
 
-<nav id="nav">
+      ☰
 
-<button onclick="filterNews('All')">🏠 Home</button>
-<button onclick="filterNews('India')">🇮🇳 India</button>
-<button onclick="filterNews('World')">🌎 World</button>
-<button onclick="filterNews('Trending')">🔥 Trending</button>
-<button onclick="filterNews('Cricket')">🏏 Cricket</button>
-<button onclick="filterNews('Technology')">💻 Technology</button>
-<button onclick="filterNews('AI')">🤖 AI</button>
-<button onclick="filterNews('Movies')">🎬 Movies</button>
+    </button>
 
-</nav>
 
-</div>
+    <nav id="nav">
+
+      <button onclick="filterNews('All')">
+        🏠 Home
+      </button>
+
+      <button onclick="filterNews('India')">
+        🇮🇳 India
+      </button>
+
+      <button onclick="filterNews('World')">
+        🌎 World
+      </button>
+
+      <button onclick="filterNews('Trending')">
+        🔥 Trending
+      </button>
+
+      <button onclick="filterNews('Cricket')">
+        🏏 Cricket
+      </button>
+
+      <button onclick="filterNews('Technology')">
+        💻 Technology
+      </button>
+
+      <button onclick="filterNews('AI')">
+        🤖 AI
+      </button>
+
+      <button onclick="filterNews('Movies')">
+        🎬 Movies
+      </button>
+
+    </nav>
+
+  </div>
 
 </header>
 
 
-<main class="container">
+<!-- ================= HOME ================= -->
 
-<section id="homePage">
-
-<div class="hero">
-
-<h1>📰 Daily AI Hub</h1>
-
-<p>
-India, World, Cricket, Technology, AI और Movies की latest news
-</p>
-
-<div class="status">
-● LIVE NEWS
-</div>
-
-<div id="updated"
-class="updated">
-News loading...
-</div>
-
-</div>
+<main
+  id="homePage"
+  class="container">
 
 
-<input
-id="search"
-class="search"
-placeholder="🔍 News search करें..."
-oninput="searchNews()">
+  <section class="hero">
+
+    <h1>
+      📰 Daily AI Hub
+    </h1>
+
+    <p>
+      India, World, Cricket, Trending,
+      Technology, AI और Movies की latest news
+    </p>
+
+    <div class="live">
+      ● LIVE NEWS
+    </div>
+
+    <div
+      id="updated"
+      class="updated">
+
+      Connecting to news...
+
+    </div>
+
+  </section>
 
 
-<div class="categories">
+  <!-- SEARCH -->
 
-<button class="active"
-onclick="filterNews('All',this)">
-All
-</button>
-
-<button onclick="filterNews('India',this)">
-🇮🇳 India
-</button>
-
-<button onclick="filterNews('World',this)">
-🌎 World
-</button>
-
-<button onclick="filterNews('Trending',this)">
-🔥 Trending
-</button>
-
-<button onclick="filterNews('Cricket',this)">
-🏏 Cricket
-</button>
-
-<button onclick="filterNews('Technology',this)">
-💻 Technology
-</button>
-
-<button onclick="filterNews('AI',this)">
-🤖 AI
-</button>
-
-<button onclick="filterNews('Movies',this)">
-🎬 Movies
-</button>
-
-</div>
+  <input
+    id="search"
+    class="search"
+    type="text"
+    placeholder="🔍 News search करें..."
+    oninput="searchNews()">
 
 
-<h2 class="section-title">
-🔥 Latest News
-</h2>
+  <!-- CATEGORIES -->
 
-<div id="news"
-class="news-grid">
+  <div class="categories">
 
-<div class="loading">
-News loading...
-</div>
+    <button
+      class="active"
+      onclick="filterNews('All',this)">
+      All
+    </button>
 
-</div>
+    <button
+      onclick="filterNews('India',this)">
+      🇮🇳 India
+    </button>
 
-</section>
+    <button
+      onclick="filterNews('World',this)">
+      🌎 World
+    </button>
+
+    <button
+      onclick="filterNews('Trending',this)">
+      🔥 Trending
+    </button>
+
+    <button
+      onclick="filterNews('Cricket',this)">
+      🏏 Cricket
+    </button>
+
+    <button
+      onclick="filterNews('Technology',this)">
+      💻 Technology
+    </button>
+
+    <button
+      onclick="filterNews('AI',this)">
+      🤖 AI
+    </button>
+
+    <button
+      onclick="filterNews('Movies',this)">
+      🎬 Movies
+    </button>
+
+  </div>
 
 
-<section id="articlePage"
-style="display:none">
+  <h2 class="section-title">
+    🔥 Latest News
+  </h2>
 
-<button class="back"
-onclick="goHome()">
-← Back to News
-</button>
 
-<div id="articleContent"></div>
+  <div
+    id="news"
+    class="news-grid">
 
-</section>
+    <div class="loading">
+
+      <div class="loading-spinner">
+        ⏳
+      </div>
+
+      News loading...
+
+    </div>
+
+  </div>
+
 
 </main>
 
 
+<!-- ================= ARTICLE ================= -->
+
+<main
+  id="articlePage"
+  class="container">
+
+  <div class="article-page">
+
+    <button
+      class="back"
+      onclick="goHome()">
+
+      ← Back to Latest News
+
+    </button>
+
+    <div id="articleContent"></div>
+
+  </div>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
 <footer>
-© 2026 Daily AI Hub • News & Information
+
+  © 2026 Daily AI Hub
+  • News & Information
+
 </footer>
 
 
 <script>
 
-let allNews=[];
-let currentCategory="All";
 
-let selectedLanguage=
-localStorage.getItem(
-"dailyAI_language"
-) || "en";
+/* ==========================================
+   DAILY AI HUB
+   MAIN NEWS SYSTEM
+========================================== */
 
-let lastNewsHash="";
 
+let allNews = [];
+
+let currentCategory = "All";
+
+let selectedLanguage =
+  localStorage.getItem(
+    "dailyAI_language"
+  ) || "en";
+
+
+/* ==========================================
+   NEWS FILE PATH
+========================================== */
+
+function getNewsURL(){
+
+  return new URL(
+    "news.json",
+    window.location.href
+  ).href
+  + "?v="
+  + Date.now();
+
+}
+
+
+/* ==========================================
+   LANGUAGE
+========================================== */
 
 document.getElementById(
-"language"
-).value=selectedLanguage;
+  "language"
+).value = selectedLanguage;
 
 
-/* -------------------------
+function changeLanguage(){
+
+  selectedLanguage =
+    document.getElementById(
+      "language"
+    ).value;
+
+  localStorage.setItem(
+    "dailyAI_language",
+    selectedLanguage
+  );
+
+  renderNews(
+    getFilteredNews()
+  );
+
+}
+
+
+/* ==========================================
    LOAD NEWS
-------------------------- */
+========================================== */
 
 async function loadNews(){
 
-try{
+  const box =
+    document.getElementById("news");
 
-const response=
-await fetch(
-"./news.json?cache="+
-Date.now(),
-{
-cache:"no-store"
+  try{
+
+    const response =
+      await fetch(
+        getNewsURL(),
+        {
+          cache:"no-store"
+        }
+      );
+
+
+    if(!response.ok){
+
+      throw new Error(
+        "HTTP " + response.status
+      );
+
+    }
+
+
+    const data =
+      await response.json();
+
+
+    allNews =
+      Array.isArray(data)
+      ? data
+      : (
+          Array.isArray(data.news)
+          ? data.news
+          : []
+        );
+
+
+    if(
+      document.getElementById(
+        "updated"
+      )
+    ){
+
+      let updateText =
+        data.updated || "";
+
+      if(updateText){
+
+        try{
+
+          updateText =
+            new Date(
+              updateText
+            ).toLocaleString();
+
+        }catch(e){}
+
+      }
+
+      document.getElementById(
+        "updated"
+      ).textContent =
+        "● News updated: "
+        + (
+          updateText ||
+          "Just now"
+        );
+
+    }
+
+
+    renderNews(
+      getFilteredNews()
+    );
+
+
+  }catch(error){
+
+    console.error(
+      "News loading error:",
+      error
+    );
+
+
+    box.innerHTML = `
+
+      <div class="empty">
+
+        <div
+          style="
+          font-size:32px;
+          margin-bottom:10px;
+          ">
+          ⚠️
+        </div>
+
+        <h3>
+          News अभी load नहीं हो रही
+        </h3>
+
+        <p
+          style="
+          margin-top:10px;
+          ">
+          कृपया थोड़ी देर बाद फिर कोशिश करें।
+        </p>
+
+        <button
+          onclick="loadNews()"
+          style="
+          margin-top:16px;
+          padding:11px 18px;
+          border:0;
+          border-radius:9px;
+          background:#1685c9;
+          color:white;
+          cursor:pointer;
+          ">
+          🔄 Retry
+        </button>
+
+      </div>
+
+    `;
+
+  }
+
 }
-);
-
-if(!response.ok)
-throw new Error("News file error");
-
-const data=
-await response.json();
-
-const newNews=
-Array.isArray(data)
-?data
-:(data.news || []);
-
-const newHash=
-JSON.stringify(newNews);
-
-if(newHash !== lastNewsHash){
-
-allNews=newNews;
-
-lastNewsHash=newHash;
-
-renderNews(
-getFilteredNews()
-);
-
-}
-
-document.getElementById(
-"updated"
-).textContent=
-"● Updated: "+
-(
-data.updated
-?
-new Date(
-data.updated
-).toLocaleString()
-:
-"Just now"
-);
-
-}catch(error){
-
-console.log(error);
-
-if(!allNews.length){
-
-document.getElementById(
-"news"
-).innerHTML=
-`
-<div class="empty">
-News अभी उपलब्ध नहीं है।
-</div>
-`;
-
-}
-
-}
-
-}
 
 
-/* -------------------------
-   FILTERED NEWS
-------------------------- */
-
-function getFilteredNews(){
-
-let list=allNews;
-
-if(currentCategory!=="All"){
-
-list=
-list.filter(item=>
-String(
-item.category || ""
-)
-.toLowerCase()
-.includes(
-currentCategory.toLowerCase()
-)
-);
-
-}
-
-const search=
-document.getElementById(
-"search"
-).value
-.toLowerCase()
-.trim();
-
-if(search){
-
-list=
-list.filter(item=>
-getTitle(item)
-.toLowerCase()
-.includes(search)
-);
-
-}
-
-return list;
-
-}
-
-
-/* -------------------------
-   TITLE
-------------------------- */
+/* ==========================================
+   GET TRANSLATED TITLE
+========================================== */
 
 function getTitle(item){
 
-if(
-item.translations &&
-item.translations[
-selectedLanguage
-] &&
-item.translations[
-selectedLanguage
-].title
-){
+  if(
+    item.translations &&
+    item.translations[
+      selectedLanguage
+    ] &&
+    item.translations[
+      selectedLanguage
+    ].title
+  ){
 
-return item.translations[
-selectedLanguage
-].title;
+    return item.translations[
+      selectedLanguage
+    ].title;
+
+  }
+
+
+  return item.title ||
+    "Latest News";
 
 }
 
-return item.title || "News";
 
-}
-
-
-/* -------------------------
-   SUMMARY
-------------------------- */
+/* ==========================================
+   GET MINI STORY
+========================================== */
 
 function getSummary(item){
 
-if(
-item.translations &&
-item.translations[
-selectedLanguage
-] &&
-item.translations[
-selectedLanguage
-].summary
-){
+  if(
+    item.translations &&
+    item.translations[
+      selectedLanguage
+    ] &&
+    item.translations[
+      selectedLanguage
+    ].summary
+  ){
 
-return item.translations[
-selectedLanguage
-].summary;
+    return item.translations[
+      selectedLanguage
+    ].summary;
+
+  }
+
+
+  if(item.summary){
+
+    return item.summary;
+
+  }
+
+
+  if(item.description){
+
+    return item.description;
+
+  }
+
+
+  /*
+    Fallback.
+    AI-generated ~100 word summary should
+    be supplied in news.json by the workflow.
+  */
+
+  return (
+    getTitle(item)
+    +
+    " के बारे में यह महत्वपूर्ण खबर सामने आई है। "
+    +
+    "मामले से जुड़ी ताज़ा जानकारी के अनुसार "
+    +
+    "घटनाक्रम पर लगातार नजर रखी जा रही है। "
+    +
+    "इस खबर से जुड़े महत्वपूर्ण पहलुओं और "
+    +
+    "आगे होने वाले संभावित घटनाक्रम को समझना "
+    +
+    "जरूरी है। अधिक जानकारी उपलब्ध होने पर "
+    +
+    "इस खबर को अपडेट किया जाएगा।"
+  );
 
 }
 
-return item.summary || "";
+
+/* ==========================================
+   GET ORIGINAL SOURCES
+========================================== */
+
+function getSources(item){
+
+  let sources = [];
+
+
+  if(
+    Array.isArray(
+      item.sources
+    )
+  ){
+
+    sources =
+      item.sources;
+
+  }
+
+
+  if(
+    sources.length === 0 &&
+    item.originalLink
+  ){
+
+    sources.push({
+      name:
+        item.source ||
+        "Original Source",
+      url:
+        item.originalLink
+    });
+
+  }
+
+
+  if(
+    sources.length === 0 &&
+    item.link
+  ){
+
+    sources.push({
+      name:
+        item.source ||
+        "Original Source",
+      url:
+        item.link
+    });
+
+  }
+
+
+  return sources;
 
 }
 
 
-/* -------------------------
-   RENDER
-------------------------- */
+/* ==========================================
+   FILTER NEWS
+========================================== */
+
+function getFilteredNews(){
+
+  let list =
+    [...allNews];
+
+
+  if(
+    currentCategory !== "All"
+  ){
+
+    list =
+      list.filter(
+        item =>
+
+        String(
+          item.category || ""
+        )
+        .toLowerCase()
+        .includes(
+          currentCategory
+          .toLowerCase()
+        )
+
+      );
+
+  }
+
+
+  const text =
+    document.getElementById(
+      "search"
+    )
+    .value
+    .toLowerCase()
+    .trim();
+
+
+  if(text){
+
+    list =
+      list.filter(
+        item =>
+
+        (
+          getTitle(item)
+          + " "
+          +
+          String(
+            item.category || ""
+          )
+        )
+        .toLowerCase()
+        .includes(text)
+
+      );
+
+  }
+
+
+  return list;
+
+}
+
+
+/* ==========================================
+   RENDER NEWS
+========================================== */
 
 function renderNews(list){
 
-const box=
-document.getElementById("news");
+  const box =
+    document.getElementById(
+      "news"
+    );
 
-if(!list.length){
 
-box.innerHTML=
-`
-<div class="empty">
-कोई news नहीं मिली।
-</div>
-`;
+  if(!list.length){
 
-return;
+    box.innerHTML = `
+
+      <div class="empty">
+
+        <div
+          style="font-size:30px;">
+          🔎
+        </div>
+
+        <h3
+          style="
+          margin-top:10px;">
+          कोई news नहीं मिली
+        </h3>
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+
+  box.innerHTML =
+
+    list
+    .slice(0,50)
+    .map(
+      (item,index) => {
+
+        const title =
+          escapeHTML(
+            getTitle(item)
+          );
+
+
+        const category =
+          escapeHTML(
+            item.category ||
+            "News"
+          );
+
+
+        const source =
+          escapeHTML(
+            item.source ||
+            "News Source"
+          );
+
+
+        const date =
+          escapeHTML(
+            item.date ||
+            ""
+          );
+
+
+        return `
+
+          <article
+            class="card">
+
+            <span
+              class="badge">
+
+              ${category}
+
+            </span>
+
+
+            <h2>
+
+              ${title}
+
+            </h2>
+
+
+            <div
+              class="card-meta">
+
+              ${source}
+
+              ${
+                date
+                ? " • " + date
+                : ""
+              }
+
+            </div>
+
+
+            <a
+              href="?article=${index}"
+              class="read"
+              onclick="
+              openArticle(${index});
+              return false;
+              ">
+
+              Read News →
+
+            </a>
+
+          </article>
+
+        `;
+
+      }
+    )
+    .join("");
 
 }
 
 
-/*
-   हर 1 सेकंड नई available
-   news दिखाने के लिए rotation
-*/
+/* ==========================================
+   SEARCH
+========================================== */
 
-const max=
-list.length;
+function searchNews(){
 
-if(!window.rotationIndex)
-window.rotationIndex=0;
+  renderNews(
+    getFilteredNews()
+  );
 
-const visibleCount=
-Math.min(12,max);
+}
 
-let cards=[];
 
-for(
-let i=0;
-i<visibleCount;
-i++
+/* ==========================================
+   CATEGORY
+========================================== */
+
+function filterNews(
+  category,
+  button
 ){
 
-const index=
-(
-window.rotationIndex+i
-)%max;
+  currentCategory =
+    category;
 
-const item=
-list[index];
 
-cards.push({
+  document
+    .querySelectorAll(
+      ".categories button"
+    )
+    .forEach(
+      btn =>
+      btn.classList.remove(
+        "active"
+      )
+    );
 
-item:item,
-index:index
 
-});
+  if(button){
+
+    button.classList.add(
+      "active"
+    );
+
+  }
+
+
+  document.getElementById(
+    "search"
+  ).value = "";
+
+
+  renderNews(
+    getFilteredNews()
+  );
+
+
+  closeMenu();
 
 }
+
+
+/* ==========================================
+   OPEN ARTICLE
+========================================== */
+
+function openArticle(index){
+
+  const list =
+    getFilteredNews();
+
+
+  const item =
+    list[index];
+
+
+  if(!item){
+
+    return;
+
+  }
+
+
+  document.getElementById(
+    "homePage"
+  ).style.display =
+    "none";
+
+
+  document.getElementById(
+    "articlePage"
+  ).style.display =
+    "block";
+
+
+  const title =
+    escapeHTML(
+      getTitle(item)
+    );
+
+
+  const category =
+    escapeHTML(
+      item.category ||
+      "News"
+    );
+
+
+  const source =
+    escapeHTML(
+      item.source ||
+      "News Source"
+    );
+
+
+  const date =
+    escapeHTML(
+      item.date ||
+      ""
+    );
+
+
+  const summary =
+    escapeHTML(
+      getSummary(item)
+    );
+
+
+  const sources =
+    getSources(item);
+
+
+  let sourceHTML = "";
+
+
+  if(sources.length){
+
+    sourceHTML =
+      sources
+      .map(
+        sourceItem => {
+
+          const name =
+            escapeHTML(
+              sourceItem.name ||
+              "Original Source"
+            );
+
+
+          const url =
+            escapeHTML(
+              sourceItem.url ||
+              "#"
+            );
+
+
+          return `
+
+            <a
+              class="source-link"
+              href="${url}"
+              target="_blank"
+              rel="noopener noreferrer">
+
+              🔗 ${name}
+              → Full Article
+
+            </a>
+
+          `;
+
+        }
+      )
+      .join("");
+
+  }else{
+
+    sourceHTML = `
+
+      <p
+        style="
+        color:#8999b1;">
+
+        Original source link
+        उपलब्ध नहीं है।
+
+      </p>
+
+    `;
+
+  }
+
+
+  document.getElementById(
+    "articleContent"
+  ).innerHTML = `
+
+    <article
+      class="article">
+
+      <span
+        class="badge">
+
+        ${category}
+
+      </span>
+
+
+      <h1>
+
+        ${title}
+
+      </h1>
+
+
+      <div
+        class="article-meta">
+
+        ${source}
+
+        ${
+          date
+          ? " • " + date
+          : ""
+        }
+
+      </div>
+
+
+      <section
+        class="mini-story">
+
+        <h3>
+
+          📰 News in Short
+
+        </h3>
+
+
+        <p>
+
+          ${summary}
+
+        </p>
+
+      </section>
+
+
+      <section
+        class="sources">
+
+        <h3>
+
+          🔗 Full Article –
+          Original Sources
+
+        </h3>
+
+
+        <div
+          class="source-list">
+
+          ${sourceHTML}
+
+        </div>
+
+      </section>
+
+
+    </article>
+
+  `;
+
+
+  history.pushState(
+    {},
+    "",
+    "?article=" + index
+  );
+
+
+  window.scrollTo(
+    0,
+    0
+  );
+
+}
+
+
+/* ==========================================
+   HOME
+========================================== */
+
+function goHome(){
+
+  history.pushState(
+    {},
+    "",
+    "./"
+  );
+
+
+  document.getElementById(
+    "articlePage"
+  ).style.display =
+    "none";
+
+
+  document.getElementById(
+    "homePage"
+  ).style.display =
+    "block";
+
+
+  window.scrollTo(
+    0,
+    0
+  );
+
+}
+
+
+/* ==========================================
+   MENU
+========================================== */
+
+function toggleMenu(){
+
+  document.getElementById(
+    "nav"
+  )
+  .classList.toggle(
+    "show"
+  );
+
+}
+
+
+function closeMenu(){
+
+  document.getElementById(
+    "nav"
+  )
+  .classList.remove(
+    "show"
+  );
+
+}
+
+
+/* ==========================================
+   ESCAPE HTML
+========================================== */
+
+function escapeHTML(text){
+
+  return String(text)
+
+    .replace(
+      /&/g,
+      "&amp;"
+    )
+
+    .replace(
+      /</g,
+      "&lt;"
+    )
+
+    .replace(
+      />/g,
+      "&gt;"
+    )
+
+    .replace(
+      /"/g,
+      "&quot;"
+    )
+
+    .replace(
+      /'/g,
+      "&#039;"
+    );
+
+}
+
+
+/* ==========================================
+   BROWSER BACK BUTTON
+========================================== */
+
+window.addEventListener(
+  "popstate",
+  function(){
+
+    const params =
+      new URLSearchParams(
+        window.location.search
+      );
+
+
+    if(
+      params.has("article")
+    ){
+
+      const index =
+        parseInt(
+          params.get(
+            "article"
+          )
+        );
+
+
+      if(
+        !isNaN(index)
+      ){
+
+        openArticle(
+          index
+        );
+
+      }
+
+    }else{
+
+      goHome();
+
+    }
+
+  }
+);
+
+
+/* ==========================================
+   INITIAL LOAD
+========================================== */
+
+loadNews();
+
+
+/* ==========================================
+   AUTO REFRESH
+   CHECK EVERY SECOND
+========================================== */
+
+setInterval(
+  loadNews,
+  1000
+);
+
+
+</script>
+
+
+</body>
+
+</html>
