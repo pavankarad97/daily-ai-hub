@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,14 +18,14 @@ content="Daily AI Hub - Latest India, World, Cricket, Technology, AI and Movies 
 
 body{
   font-family:Arial,Helvetica,sans-serif;
-  background:#070b14;
+  background:#080b14;
   color:#fff;
 }
 
 header{
   position:sticky;
   top:0;
-  z-index:1000;
+  z-index:999;
   background:#0d1220;
   border-bottom:1px solid #26344f;
 }
@@ -48,10 +48,10 @@ header{
   color:#55c7ff;
 }
 
-.right{
+.controls{
   display:flex;
   align-items:center;
-  gap:10px;
+  gap:8px;
 }
 
 .language{
@@ -77,7 +77,7 @@ nav{
   position:absolute;
   right:15px;
   top:62px;
-  width:220px;
+  width:230px;
   background:#111a2b;
   border:1px solid #30405d;
   border-radius:12px;
@@ -110,7 +110,7 @@ nav button:hover{
 }
 
 .hero{
-  background:linear-gradient(135deg,#111c35,#111827);
+  background:linear-gradient(135deg,#101a32,#111827);
   border:1px solid #293b5c;
   border-radius:20px;
   padding:28px;
@@ -129,14 +129,14 @@ nav button:hover{
 }
 
 .status{
-  color:#68e6a3;
-  margin-top:16px;
+  margin-top:15px;
+  color:#69e6a5;
 }
 
 .updated{
+  margin-top:7px;
   color:#8190a8;
   font-size:12px;
-  margin-top:8px;
 }
 
 .search{
@@ -155,8 +155,8 @@ nav button:hover{
   display:flex;
   gap:9px;
   overflow-x:auto;
-  padding-bottom:8px;
   margin-bottom:25px;
+  padding-bottom:5px;
 }
 
 .categories button{
@@ -191,10 +191,6 @@ nav button:hover{
   padding:18px;
 }
 
-.card:hover{
-  border-color:#55c7ff;
-}
-
 .badge{
   display:inline-block;
   background:#193b62;
@@ -225,37 +221,45 @@ nav button:hover{
   text-decoration:none;
 }
 
-.card .source{
-  margin-top:5px;
-}
-
 .loading,
 .empty{
   text-align:center;
   padding:45px 10px;
   color:#98a7bd;
+  grid-column:1/-1;
 }
 
 .article{
+  max-width:850px;
+  margin:auto;
   background:#101827;
   border:1px solid #293b5c;
   border-radius:18px;
   padding:25px;
 }
 
+.back{
+  background:#172238;
+  color:#fff;
+  border:1px solid #344866;
+  padding:10px 15px;
+  border-radius:9px;
+  margin-bottom:18px;
+}
+
 .article h1{
   font-size:31px;
-  line-height:1.35;
+  line-height:1.4;
   margin:12px 0;
 }
 
-.article-meta{
+.meta{
   color:#8fa0b8;
   font-size:13px;
-  margin-bottom:20px;
+  margin-bottom:22px;
 }
 
-.ai-summary{
+.summary{
   background:#111e34;
   border-left:4px solid #55c7ff;
   padding:18px;
@@ -263,38 +267,34 @@ nav button:hover{
   margin:20px 0;
 }
 
-.ai-summary h3{
-  margin-bottom:10px;
+.summary h3{
   color:#55c7ff;
+  margin-bottom:10px;
 }
 
-.ai-summary p{
+.summary p{
   color:#d5dce8;
-  line-height:1.7;
+  line-height:1.8;
+  font-size:16px;
 }
 
-.source-box{
+.sources{
   margin-top:25px;
   padding:18px;
   border:1px solid #30405d;
   border-radius:12px;
 }
 
-.source-box a{
-  color:#63c9ff;
-  text-decoration:none;
-  display:block;
-  margin-top:8px;
-  word-break:break-word;
+.sources h3{
+  margin-bottom:10px;
 }
 
-.back{
-  background:#172238;
-  color:white;
-  border:1px solid #344866;
-  padding:10px 15px;
-  border-radius:9px;
-  margin-bottom:15px;
+.sources a{
+  display:block;
+  color:#63c9ff;
+  text-decoration:none;
+  margin-top:10px;
+  word-break:break-word;
 }
 
 footer{
@@ -340,9 +340,10 @@ footer{
 Daily <span>AI Hub</span>
 </div>
 
-<div class="right">
+<div class="controls">
 
-<select id="language" class="language"
+<select id="language"
+class="language"
 onchange="changeLanguage()">
 
 <option value="en">🇬🇧 English</option>
@@ -358,7 +359,8 @@ onchange="changeLanguage()">
 
 </select>
 
-<button class="menu" onclick="toggleMenu()">☰</button>
+<button class="menu"
+onclick="toggleMenu()">☰</button>
 
 </div>
 
@@ -367,17 +369,18 @@ onchange="changeLanguage()">
 <button onclick="filterNews('All')">🏠 Home</button>
 <button onclick="filterNews('India')">🇮🇳 India</button>
 <button onclick="filterNews('World')">🌎 World</button>
+<button onclick="filterNews('Trending')">🔥 Trending</button>
 <button onclick="filterNews('Cricket')">🏏 Cricket</button>
 <button onclick="filterNews('Technology')">💻 Technology</button>
 <button onclick="filterNews('AI')">🤖 AI</button>
 <button onclick="filterNews('Movies')">🎬 Movies</button>
-<button onclick="filterNews('Trending')">🔥 Trending</button>
 
 </nav>
 
 </div>
 
 </header>
+
 
 <main class="container">
 
@@ -392,20 +395,23 @@ India, World, Cricket, Technology, AI और Movies की latest news
 </p>
 
 <div class="status">
-● Live News Updates
+● LIVE NEWS
 </div>
 
-<div id="updated" class="updated">
-Updating...
+<div id="updated"
+class="updated">
+News loading...
 </div>
 
 </div>
+
 
 <input
 id="search"
 class="search"
 placeholder="🔍 News search करें..."
 oninput="searchNews()">
+
 
 <div class="categories">
 
@@ -420,6 +426,10 @@ All
 
 <button onclick="filterNews('World',this)">
 🌎 World
+</button>
+
+<button onclick="filterNews('Trending',this)">
+🔥 Trending
 </button>
 
 <button onclick="filterNews('Cricket',this)">
@@ -438,17 +448,15 @@ All
 🎬 Movies
 </button>
 
-<button onclick="filterNews('Trending',this)">
-🔥 Trending
-</button>
-
 </div>
+
 
 <h2 class="section-title">
 🔥 Latest News
 </h2>
 
-<div id="news" class="news-grid">
+<div id="news"
+class="news-grid">
 
 <div class="loading">
 News loading...
@@ -459,9 +467,11 @@ News loading...
 </section>
 
 
-<section id="articlePage" style="display:none">
+<section id="articlePage"
+style="display:none">
 
-<button class="back" onclick="goHome()">
+<button class="back"
+onclick="goHome()">
 ← Back to News
 </button>
 
@@ -470,6 +480,7 @@ News loading...
 </section>
 
 </main>
+
 
 <footer>
 © 2026 Daily AI Hub • News & Information
@@ -480,130 +491,89 @@ News loading...
 
 let allNews=[];
 let currentCategory="All";
+
 let selectedLanguage=
-localStorage.getItem("dailyAI_language") || "en";
+localStorage.getItem(
+"dailyAI_language"
+) || "en";
 
-document.getElementById("language").value=selectedLanguage;
+let lastNewsHash="";
 
 
-const TEXT={
+document.getElementById(
+"language"
+).value=selectedLanguage;
 
-en:{
-summary:"AI News Summary",
-source:"Full Article – Original Source",
-back:"← Back to News",
-loading:"Loading news...",
-updated:"Last updated"
-},
 
-hi:{
-summary:"AI न्यूज़ सारांश",
-source:"पूरा लेख – मूल स्रोत",
-back:"← न्यूज़ पर वापस जाएँ",
-loading:"न्यूज़ लोड हो रही है...",
-updated:"अंतिम अपडेट"
-},
-
-mr:{
-summary:"AI बातमी सारांश",
-source:"संपूर्ण लेख – मूळ स्रोत",
-back:"← बातम्यांकडे परत",
-loading:"बातम्या लोड होत आहेत...",
-updated:"शेवटचे अपडेट"
-},
-
-ta:{
-summary:"AI செய்தி சுருக்கம்",
-source:"முழு கட்டுரை – அசல் மூலம்",
-back:"← செய்திகளுக்கு திரும்பு",
-loading:"செய்திகள் ஏற்றப்படுகின்றன...",
-updated:"கடைசி புதுப்பிப்பு"
-},
-
-te:{
-summary:"AI వార్తా సారాంశం",
-source:"పూర్తి కథనం – అసలు మూలం",
-back:"← వార్తలకు తిరిగి",
-loading:"వార్తలు లోడ్ అవుతున్నాయి...",
-updated:"చివరి నవీకరణ"
-},
-
-bn:{
-summary:"AI সংবাদ সারাংশ",
-source:"সম্পূর্ণ নিবন্ধ – মূল উৎস",
-back:"← সংবাদে ফিরে যান",
-loading:"সংবাদ লোড হচ্ছে...",
-updated:"সর্বশেষ আপডেট"
-},
-
-kn:{
-summary:"AI ಸುದ್ದಿ ಸಾರಾಂಶ",
-source:"ಪೂರ್ಣ ಲೇಖನ – ಮೂಲ ಮೂಲ",
-back:"← ಸುದ್ದಿಗೆ ಹಿಂತಿರುಗಿ",
-loading:"ಸುದ್ದಿ ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
-updated:"ಕೊನೆಯ ಅಪ್‌ಡೇಟ್"
-},
-
-ml:{
-summary:"AI വാർത്താ സംഗ്രഹം",
-source:"പൂർണ്ണ ലേഖനം – യഥാർത്ഥ ഉറവിടം",
-back:"← വാർത്തകളിലേക്ക് മടങ്ങുക",
-loading:"വാർത്തകൾ ലോഡ് ചെയ്യുന്നു...",
-updated:"അവസാന അപ്‌ഡേറ്റ്"
-},
-
-gu:{
-summary:"AI સમાચાર સારાંશ",
-source:"સંપૂર્ણ લેખ – મૂળ સ્ત્રોત",
-back:"← સમાચાર પર પાછા",
-loading:"સમાચાર લોડ થઈ રહ્યા છે...",
-updated:"છેલ્લું અપડેટ"
-},
-
-pa:{
-summary:"AI ਖ਼ਬਰਾਂ ਦਾ ਸਾਰ",
-source:"ਪੂਰਾ ਲੇਖ – ਅਸਲ ਸਰੋਤ",
-back:"← ਖ਼ਬਰਾਂ 'ਤੇ ਵਾਪਸ",
-loading:"ਖ਼ਬਰਾਂ ਲੋਡ ਹੋ ਰਹੀਆਂ ਹਨ...",
-updated:"ਆਖਰੀ ਅੱਪਡੇਟ"
-}
-
-};
-
+/* -------------------------
+   LOAD NEWS
+------------------------- */
 
 async function loadNews(){
 
 try{
 
 const response=
-await fetch("./news.json?t="+Date.now());
+await fetch(
+"./news.json?cache="+
+Date.now(),
+{
+cache:"no-store"
+}
+);
 
 if(!response.ok)
-throw new Error("news.json error");
+throw new Error("News file error");
 
-const data=await response.json();
+const data=
+await response.json();
 
-allNews=
+const newNews=
 Array.isArray(data)
 ?data
 :(data.news || []);
 
-document.getElementById("updated").innerText=
-TEXT[selectedLanguage].updated+
-": "+
-(data.updated
-?new Date(data.updated).toLocaleString()
-:"Just now");
+const newHash=
+JSON.stringify(newNews);
 
-renderNews(allNews);
+if(newHash !== lastNewsHash){
 
-}catch(e){
+allNews=newNews;
 
-document.getElementById("news").innerHTML=
+lastNewsHash=newHash;
+
+renderNews(
+getFilteredNews()
+);
+
+}
+
+document.getElementById(
+"updated"
+).textContent=
+"● Updated: "+
+(
+data.updated
+?
+new Date(
+data.updated
+).toLocaleString()
+:
+"Just now"
+);
+
+}catch(error){
+
+console.log(error);
+
+if(!allNews.length){
+
+document.getElementById(
+"news"
+).innerHTML=
 `
 <div class="empty">
-<h3>News अभी उपलब्ध नहीं है</h3>
-<p>थोड़ी देर बाद फिर कोशिश करें।</p>
+News अभी उपलब्ध नहीं है।
 </div>
 `;
 
@@ -611,14 +581,74 @@ document.getElementById("news").innerHTML=
 
 }
 
+}
+
+
+/* -------------------------
+   FILTERED NEWS
+------------------------- */
+
+function getFilteredNews(){
+
+let list=allNews;
+
+if(currentCategory!=="All"){
+
+list=
+list.filter(item=>
+String(
+item.category || ""
+)
+.toLowerCase()
+.includes(
+currentCategory.toLowerCase()
+)
+);
+
+}
+
+const search=
+document.getElementById(
+"search"
+).value
+.toLowerCase()
+.trim();
+
+if(search){
+
+list=
+list.filter(item=>
+getTitle(item)
+.toLowerCase()
+.includes(search)
+);
+
+}
+
+return list;
+
+}
+
+
+/* -------------------------
+   TITLE
+------------------------- */
 
 function getTitle(item){
 
-if(item.translations &&
-item.translations[selectedLanguage] &&
-item.translations[selectedLanguage].title){
+if(
+item.translations &&
+item.translations[
+selectedLanguage
+] &&
+item.translations[
+selectedLanguage
+].title
+){
 
-return item.translations[selectedLanguage].title;
+return item.translations[
+selectedLanguage
+].title;
 
 }
 
@@ -627,13 +657,25 @@ return item.title || "News";
 }
 
 
+/* -------------------------
+   SUMMARY
+------------------------- */
+
 function getSummary(item){
 
-if(item.translations &&
-item.translations[selectedLanguage] &&
-item.translations[selectedLanguage].summary){
+if(
+item.translations &&
+item.translations[
+selectedLanguage
+] &&
+item.translations[
+selectedLanguage
+].summary
+){
 
-return item.translations[selectedLanguage].summary;
+return item.translations[
+selectedLanguage
+].summary;
 
 }
 
@@ -642,313 +684,64 @@ return item.summary || "";
 }
 
 
+/* -------------------------
+   RENDER
+------------------------- */
+
 function renderNews(list){
 
-const box=document.getElementById("news");
+const box=
+document.getElementById("news");
 
 if(!list.length){
 
 box.innerHTML=
-`<div class="empty">कोई news नहीं मिली।</div>`;
-
-return;
-
-}
-
-box.innerHTML=list.map((item,index)=>{
-
-const title=escapeHTML(getTitle(item));
-
-const category=
-escapeHTML(item.category || "News");
-
-const source=
-escapeHTML(item.source || "News Source");
-
-const date=
-escapeHTML(item.date || "");
-
-const summary=
-escapeHTML(getSummary(item));
-
-return `
-
-<article class="card">
-
-<span class="badge">
-${category}
-</span>
-
-<h2>${title}</h2>
-
-<p class="source">
-${source}${date ? " • "+date : ""}
-</p>
-
-${summary
-?`<p style="margin-top:10px">
-${summary.substring(0,180)}...
-</p>`
-:""}
-
-<a class="read"
-href="?article=${encodeURIComponent(item.id || index)}">
-Read Full News →
-</a>
-
-</article>
-
+`
+<div class="empty">
+कोई news नहीं मिली।
+</div>
 `;
 
-}).join("");
+return;
 
 }
 
 
-function openArticle(){
+/*
+   हर 1 सेकंड नई available
+   news दिखाने के लिए rotation
+*/
 
-const params=
-new URLSearchParams(window.location.search);
+const max=
+list.length;
 
-const id=params.get("article");
+if(!window.rotationIndex)
+window.rotationIndex=0;
 
-if(id===null)
-return;
+const visibleCount=
+Math.min(12,max);
+
+let cards=[];
+
+for(
+let i=0;
+i<visibleCount;
+i++
+){
 
 const index=
-parseInt(id);
+(
+window.rotationIndex+i
+)%max;
 
 const item=
-allNews[index];
+list[index];
 
-if(!item){
+cards.push({
 
-goHome();
-return;
-
-}
-
-document.getElementById("homePage").style.display="none";
-
-document.getElementById("articlePage").style.display="block";
-
-const title=
-escapeHTML(getTitle(item));
-
-const summary=
-escapeHTML(getSummary(item));
-
-const source=
-escapeHTML(item.source || "Original Source");
-
-const date=
-escapeHTML(item.date || "");
-
-const link=
-item.originalLink || item.link || "#";
-
-document.getElementById("articleContent").innerHTML=
-
-`
-
-<div class="article">
-
-<span class="badge">
-${escapeHTML(item.category || "News")}
-</span>
-
-<h1>${title}</h1>
-
-<div class="article-meta">
-${source}${date ? " • "+date : ""}
-</div>
-
-<div class="ai-summary">
-
-<h3>
-🤖 ${TEXT[selectedLanguage].summary}
-</h3>
-
-<p>
-${summary || "इस खबर का AI summary अभी तैयार नहीं है।"}
-</p>
-
-</div>
-
-<div class="source-box">
-
-<strong>
-🔗 ${TEXT[selectedLanguage].source}
-</strong>
-
-<a href="${escapeAttr(link)}"
-target="_blank"
-rel="noopener noreferrer">
-${link}
-</a>
-
-</div>
-
-</div>
-
-`;
-
-}
-
-
-function goHome(){
-
-history.pushState({}, "", "./");
-
-document.getElementById("articlePage").style.display="none";
-
-document.getElementById("homePage").style.display="block";
-
-}
-
-
-window.addEventListener("popstate",function(){
-
-location.reload();
+item:item,
+index:index
 
 });
 
-
-function filterNews(category,button){
-
-currentCategory=category;
-
-document.querySelectorAll(".categories button")
-.forEach(b=>b.classList.remove("active"));
-
-if(button)
-button.classList.add("active");
-
-let list=allNews;
-
-if(category!=="All"){
-
-list=list.filter(item=>
-String(item.category || "")
-.toLowerCase()
-.includes(category.toLowerCase())
-);
-
 }
-
-renderNews(list);
-
-}
-
-
-function searchNews(){
-
-const text=
-document.getElementById("search")
-.value
-.toLowerCase()
-.trim();
-
-let list=allNews;
-
-if(currentCategory!=="All"){
-
-list=list.filter(item=>
-String(item.category || "")
-.toLowerCase()
-.includes(currentCategory.toLowerCase())
-);
-
-}
-
-if(text){
-
-list=list.filter(item=>
-
-String(getTitle(item))
-.toLowerCase()
-.includes(text)
-
-);
-
-}
-
-renderNews(list);
-
-}
-
-
-function changeLanguage(){
-
-selectedLanguage=
-document.getElementById("language").value;
-
-localStorage.setItem(
-"dailyAI_language",
-selectedLanguage
-);
-
-renderNews(allNews);
-
-openArticle();
-
-}
-
-
-function toggleMenu(){
-
-document
-.getElementById("nav")
-.classList.toggle("show");
-
-}
-
-
-function escapeHTML(text){
-
-return String(text)
-.replace(/&/g,"&amp;")
-.replace(/</g,"&lt;")
-.replace(/>/g,"&gt;")
-.replace(/"/g,"&quot;")
-.replace(/'/g,"&#039;");
-
-}
-
-
-function escapeAttr(text){
-
-return String(text)
-.replace(/&/g,"&amp;")
-.replace(/"/g,"&quot;")
-.replace(/</g,"&lt;")
-.replace(/>/g,"&gt;");
-
-}
-
-
-/* AUTO REFRESH
-   Every 10 minutes
-*/
-
-setInterval(()=>{
-
-loadNews();
-
-},10*60*1000);
-
-
-/* Initial load */
-
-loadNews();
-
-setTimeout(()=>{
-
-openArticle();
-
-},500);
-
-</script>
-
-</body>
-</html>
