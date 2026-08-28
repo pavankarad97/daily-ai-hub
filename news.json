@@ -1,78 +1,1214 @@
 {
-  "updated": "2026-08-28T04:24:27.955996+00:00",
-  "count": 12,
-  "articles": [
+  "updated": "2026-08-28T06:06:33.148524+00:00",
+  "total": 151,
+  "news": [
     {
-      "title": "TIME Reveals the 2026 TIME100 AI List of the World’s Most Influential People in Artificial Intelligence - Time Magazine",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeUg5OE1hZExocUtuYVlkbmN0a2NrWmNQaW5GY0NQN0tRamFjWmx2UTBGeTRydGp5c3FHeVdRTlNaYi00clplLTZrZDlHamE3bXpBOWE4MldraHZrbVBMMjN1X1ZTLVR0YV9LVllMcldob1I5UDRzZzRPdWhpMTRGaDJrV3Z4eWFVWEJoZ3pQbTFneUFHa3ZEX1RTOUUyRG1hTHFubEVQVl85TEhRWGI2c0FFakl1VVNaV1o2c0JHaHQ1MDc4ZEZwazBMWUpqWms3MGZIdTJQZw?oc=5",
-      "date": "Thu, 27 Aug 2026 12:30:00 GMT",
-      "source": "Time Magazine"
+      "title": "Delhi couple held over Pakistan espionage links, were in touch with operatives since 2024, sent SIM cards via Dubai - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPd21vMUtQeWhYcE5YMTlBQlFlMTU2RTQycHVxc2lZZXkwSVkxNk5zXzdYRUVZNlIzdmNmVXZYN09CQlUwdmFfNXU2Rzk3T2RIYldSVWxTa3BCWFp3V0JZMzZnVnBya08zOFN4SElHR0dTSHVuc2tibDVRZ0VySFFTc3NwTjNZeHBhblZCZkF2czFzWE9MXzBpMUNqVXBLMHR4NGpfZEVhTXZDNDlFdWpZdlNEYnY5VjB2UWQzRnVZQkhsVUpGYUhqTVFGOVBfUWpVejBoempZVXVMVHhHT2Z3bnZaZkg2eWxBWjlSTXhBR3MxOU1VSmttQ2ZsM0xiZGE2?oc=5",
+      "date": "Fri, 28 Aug 2026 05:04:54 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News"
     },
     {
-      "title": "Trump administration illegally retaliated against Anthropic, judge rules - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtSEtpbWFrLThEbVNOQk15R05rUk5ZR1QyRG5PWWtYOUdEUkNsUUlQel9fWFljbm1XbWY4ZXBCY2ZoS3hnXzdjSm5oT3BmZVRGX0hzQlJiRlN3UQ?oc=5",
-      "date": "Fri, 28 Aug 2026 02:57:30 GMT",
-      "source": "BBC"
+      "title": "Why India wants Bangladesh's Tarique Rahman in Delhi - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QMktMUmJpMVZSUFVQeklHU2pJV1lBMW9nNkI2YTVhcGZHSEY1bWFiVE1WYnV6RlV3clpHczFpTDZrZHpLdktWejdMNm51Qm1ma2tnaWJGZkUyQQ?oc=5",
+      "date": "Thu, 27 Aug 2026 23:36:00 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News"
     },
     {
-      "title": "AI is changing religion and religions are trying to change AI - The Economist",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcC1NRzIxOHVUSldTRF9wT1NRUHFQT2Riam1GYkNCWDU3b3pTekpBeU5iZDB3VWY4OGdfc3VwMTJCbHJsMG01dDJYVlZBeWs0cDhUcmtkOXYtZ3NtZXpDQzBlNG1ady1CNW9naUtmeDRvbDFkLVVpQmhkdU05ZFNUNkl2UUNCdmZDNldaUG9taDY2WTNSWTBSZ3dfY0JUelA0ZlZwUmQxbXN1S0Zpb2lQM3p3?oc=5",
-      "date": "Thu, 27 Aug 2026 14:02:18 GMT",
-      "source": "The Economist"
+      "title": "Nepal floods swept ​bodies 200km downstream, 3 found in UP - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZEVDWXpEdElaaHVwRWREdk5SaGJJdHB6emVGTmZ2NkVGMldxR0VDcVR0SGk0RFV3UWlGLVY5b2pZUnMzVm5GYi1qb2lhS3prZmdTV1JSVkx5end1UEpnM0lyekY1T3pmNlB1azFrZkV0QmtJNW5RWUxVS1RENnlqaVJFWlg5Yzg5OFBoa3NiZUZJcVQ2YnFfMFF5NGJ1bUpBV050TW9MOXZrMTRCZTEyTUJlMl9yREk5bWRGcEJzR240QdIBxwFBVV95cUxQOTNkMXYxODFLRnNFSzJKMGJKZVdRbndHUVBYUGc0c3lISGpOcUZKRGtOMXRNb3BKcXpkMUp2Zy1vUXhCb3NPNDRyOUNKRlQtZHZUN21HV0EyT1hYT0syeXpCWXlvcS12aGtjS3ZKWTVPcG5VRENjdGdaOGhLVWZZckUxQUh5NlIxbjluWnJNSHQ5ZHA5OUZIdi01bE84czNjZXBkSXJucGt3cDN2cEp3Y2JmSWphcXZULUlkcE9IVENQbl9qRks4?oc=5",
+      "date": "Fri, 28 Aug 2026 03:26:00 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News"
     },
     {
-      "title": "Some Scientists Have ‘Magic Hands’ in the Lab. This A.I. Is Learning Why. - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVlJGVXBLc3hNRmt6N0laMG5iY2V3aDB1OXpJYmpKbEl2Xy00SjBPRlZMZUVnb1hwNHVkYURvN2pSS0k2TW1SQ1ZaYUxPaUhBaC1iZjR4azc0ZUNYQzY3clg5X3JLWnI0RDRLQ1J3YXBobTRhMEx4V2JKdjhTbS1MVmQtVkVGZTM5bWo5NWpB?oc=5",
-      "date": "Thu, 27 Aug 2026 09:01:02 GMT",
-      "source": "The New York Times"
+      "title": "Penguin India won’t publish Sonia Gandhi’s book, had asked for ‘changes’ which author rejected - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbVZZQy0yN08tcFZteGNya0RGZWRfNmNnOXhhTDdWYWV0YW9paG9iWWk2U2NYOFIxdVVyMzlrTzJOZjVNVFFDb19uaFJEcmFvMkxFcVRnVlBRS05ocG40TWJGX1gtRXRON0p4WVl6dURhODFYX1pRSmZPWXg4N0pvQ2lKbm5HUXpOOFdfMjY0R2FRWXd0QUtIWURrUHVkUDNyOHpzdEViWWxoallXb1ZGT1BZSXBjal9uME9Ub29pdjNOamgtUnM5ZUJ2dGdxLTRaSWRKck91MEw0dFFiNlN5WDJsc9IB6gFBVV95cUxNT2hldzRBYmlZVWpEYW5HWklvUXBpZUhRQ1NPVTUzZVRzZXpPM3pHQjVXd0xqb1lzUnptUzJiRFBVTzl5OWhSNE5jV3o2ZmlnZTVaVEZ6ZmRMRGN0YTE5cFRqTG1QTFhSVnU3VVM5dkNUX1VpRXh2d3ZiNEU1VWdiY2Zmd29XMUtBYnp1anV6Znk2UmFZbkpHckd1Q0YxMm5JUGxtRkNIS1BCTmxmMmJPUUh1cDI5X1B2NGpPSzZGWEtzQWZXUFhqQU9aekozR3d5YURnYXBvOEJOWjFjU1F6dGh4a1BDU1lMQ2c?oc=5",
+      "date": "Fri, 28 Aug 2026 00:59:10 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News"
     },
     {
-      "title": "EXCLUSIVE: Anthropic in talks with chip start up MatX to speed up chip design, sources say - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVG5SUDh0c0lLWkFTNWlLWmMtdnhHOXZHMC1zMmlTNFZnTG9CZnpXUG1QbnRZMmFCQTJ5QkhCdzVkX3JtWWNWbFNtSmpNVTJqTERPLWVKbXdxSV9oc2tKdm95YTZnX1B2YXlrRmptRGNqOUZUenctc2dTQi1TdGtnR1NZQXRSVmJMVS1QZWhnX1V0dHAyVG01RVIyQmtQd1VqQnJVcEIxYXBuOVlpeXE2SWxPTEVlcHhIeG9rSlln?oc=5",
-      "date": "Thu, 27 Aug 2026 21:22:00 GMT",
-      "source": "Reuters"
+      "title": "PM still going strong, NDA likely to win 326 seats if polls held today: India Today-CVoter MOTN - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOdktZU3VMQ1REaEN0dWNtWTZtSjY5Rm8zZFI3S0F1M3gzS1NxR1JHME51c0dtQjRqVTZVX080ekpsQ3ZCbEZvMlZIaGp4XzBCRTF6WTdfMHJ1LVc5Wkl4V1lSUDJIZjhpUVAxZWhqOUF5Ung1cm5ZV29uTFgydHZPdEx2Zm05VEp1Vk9VV0NFOTFzbVBHbHpIT1FlYXF3dGdpUnJqYV9wcXd0YjNFanM0T2NBU3lsUGZfb2lZOWlkeXd3NXVDN3BPQWtzbjlOMlFrT0pIbHQ3TjFYRTdJZnhTNVZMZE43NGpQRHBHOUF4U0hIWWc1U1HSAfsBQVVfeXFMTlgyb003T3FoUUVDeC1DYURGOHVfZ2hTc09ERXFZTkNLTjhNTjZ0YmFUTnV2Q3JTOGhuZTBKUC1iVzBxSXdmMHZNWm5UclFaOXMxTzJLQU41WEc1UUZwYUM0ZmhfY3RJTWdrdXNzM2Y0dEIzVDU4SVlWbGpCMWFjTjVRTFVya1dxdkg3MUNId0NMQnFuN0JZa0hzbGxrQ3dkdjRLaXRCbk43clY1WHFsMkt0Ym42LW5JSW9peG5fVTdqR0NqZ2txTWRaQ3NpLU5HQXpwMTdyU0RJZXZlNE05MEtxNkJJdHJFNDZXSVFLRFFJTFl5Um4yemdlN1E?oc=5",
+      "date": "Thu, 27 Aug 2026 12:36:58 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News"
     },
     {
-      "title": "Huawei’s Chip, Data Center Bid Takes US-China AI Rivalry to Egypt - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSHBrVVJXbEptZVZvX2xvdThURW9OTUx0V1NGaGFqTEhUUGdzRzJXTWlzbE9MNGpxcHdOOXBTLURuSjViNkJ2Zk5tQjUzdWhkNjNPLTU1YmJQSjNtMUtCN3g4ejNxRjZ1dVNySUxPSTk0a3VqakxpYV82MnYzWUJKNUVsOWRLMGRLTUJGWTZLTklOVGpqcHQ4TEN0LV9lXzc2Nm8yUFNldGo1dnFIVzBHR0Q1cGdhZ3I1dUE?oc=5",
-      "date": "Fri, 28 Aug 2026 03:55:00 GMT",
-      "source": "Bloomberg.com"
+      "title": "Delhi model murder: Prime accused Imran arrested after encounter - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLTNIR1hGZUpRLXdUVmNxWmNONG9XZDZWQ290S1RQd05GNHRMbVlkMHB2NWFqay1vMXQ5dkhwTHJ4YWJQUzhrbHc5TWpzeW9qSXRFUW9qZDhxQXlJdkdEWm5KQ1JRa2gwaWZuY2pRY3NpMEJxNzRBNzcxMWpIMXVwMjhFQkVBa3U5SGZkR1VKN2JYOENheHNFMHJydEkzeTVNelFvUXg3bXRsUi1mZHpvMzZVQmJrZHVsYW44bXBKWXNXekxHNEc4Y2NJVFl4XzhMS2fSAdcBQVVfeXFMT0hleGNlX09EQ1EtTmxZaUV3MFlYT09HOGhVOHE1dnpOQmpGVFZJTDJfUnZUcE5xbXhjYnRHS0pWTDR3REZJemtaNUx0SkRaUGpYR3otcExDQzZYeDVRX2ROeHZ1Z2dSbFN2ME9lYTZtN1hUbDk3a2RseDd5RkRkZWZqZngyazlHNllsNW5qZkNVUEtsMWF5VmtjakZXR0hkVmd4R09SQzdRbHB1ejhZN0NkZWFmZ0JIUm5SZ1l0SUYwVHNvSFJCRFNjU2EwVzRzX3hFdmtjNFE?oc=5",
+      "date": "Fri, 28 Aug 2026 01:32:00 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News"
     },
     {
-      "title": "I surveyed workers to see if AI had caused job losses and was surprised by the findings - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTThrUzAxTWNJZ2lTSVMteXctV3Jadnl5SDJsdW9MUjRmTXNvV3lBOHFvZ1Z6ZEhaWXdJeFZnTjVHcF9PX1RQcE12WEtTQzlqUmt6QmVtWXVXU1B2dnV2cXlWWVhZMVZ6eXoyTFZwUXdVYzJtQjFXVko5dV9oTlZMWjA3VmZQYnJ0TjZ4LWFuVjdQanNwazhIRjBHVkwwbHAtQktPX2VLLTBHbGl6cGIteTFfNEhkWUVVdnZPNFNxOA?oc=5",
-      "date": "Thu, 27 Aug 2026 12:09:29 GMT",
-      "source": "The Conversation"
+      "title": "Women's Asia Cup: Anything less than title will be a 'major disappointment' for Harmanpreet Kaur's India - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQM21kQlpJRGsxckNBc2ppQ2FPYzRSQURpTXRsREw3cGQyNHRWbVA1aENVcXJibEcwWkZJMUVRdXB3dG1JTVhkUlI2YUdHU1pmcE1lRHZPWk5MeTIxeE5JeHZrdncwT0RNQ0tfTTVjMklnaUVkZ3hMR1NjR1VTUy1oNGZ4QWtQY1VGSXVVaTc5NldrcU1OcFpmMl9GcXBXUWdIcTBmTzA2NjhpUmR2bEFQbnhsSGdHSm5RZDlkSWFyb3o5VjR5a1BBX3Y3RWR4UEFYTlg5dndEYUNibnNVWF9KWVA0NEt5VDRPVVgzMFRKVTM2azI1QXY5XzF5bTUwQzRvZ3h6bXhkSUZuUEJuTGtRYlg5ZzNTZG5NcHk5RERLOVRudHM?oc=5",
+      "date": "Fri, 28 Aug 2026 00:30:00 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News"
     },
     {
-      "title": "OPM calls for wider AI adoption in federal hiring process - Federal News Network",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNM0Q1MHhjcUN5VENtMHZiR21uaFR1SU1JandiMlNCb282MUc0QWwtX1k0OWI4TThNUWNKOHNPRHNqQklTN2FXRXhIeU04cFphWDNMR3p6UmhhLU5EeFR6VGl4R200ZnU4cFE5YTZuejNYenpwYS1jeTlNYUdXNDZfYy1nV0JmWTM4ZG9KY3lOR2tmem0taXlVT2lNSlVsQXM0b2F4c09VY3gwN3BqS0lmbF9UZTRhbG9VdTZaeU9n?oc=5",
-      "date": "Thu, 27 Aug 2026 22:57:36 GMT",
-      "source": "Federal News Network"
+      "title": "2 Pilots Dead In Training Aircraft Crash In Kanpur - NDTV",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTXotRVlPOXFQYXVOYzRiX1BwNkc2YzFMUm5ReDktR2hwRWt5SHUxUFU1UUVWbTVqNTJfaE9GTkdLT2oxdnpobTZBOFZjbGI1dzNHeUd1bUdCRlk4Sm1HUjVFczRxQUNvTGY4RzR0blFpeWswS0M1bFlYdWE4M0UxUmY0VnNGTDFRNXJxUkY3LTdwQk13YVRKVW5OREEtMjc1OG5HZlVVNnphVGY5aTBB0gG3AUFVX3lxTE0zVjRveE56ZkJacjN2SkFSMEg1UVhqRXJGdjN3OTlwMGozM3Rrdi1mT0IyQm9NSDhuRDdHRmw2M3MzYk83MVRpaUo0aWVBR1NwOHVvdjJuVElJMVJfR3kxY0hYU3ZsR2JYMVNuZ2ZqWF91Y2hWWFB1SGVGcDBOUEZwLU9Pb0Z2Qk9NUmYtakdxS1J6elF0SFVFWDBUczViX3BrSEplRnR4MzdRN29BOEpxM0NzQTRSNA?oc=5",
+      "date": "Thu, 27 Aug 2026 07:23:22 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News"
     },
     {
-      "title": "USC and UCLA bet big on AI to meet soaring student, job market demands - Los Angeles Times",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQmNrRU5za2w3azdHa2s5Ums0YnJzbTJOVVlEX2tXTDVsdGtnUHlaX0ZqWDluRUNNUUpVbzJfMEkyNk9HaXphb0xOWEE2SkEtYW9kWjRXMlYtUm41Z0ZaQUM1TnZvaWZwQjJseXhtMlRFclVnaXZFMUprMTJZX3c5emV6RFQtNS03SmUwc0lJRm5YQUE?oc=5",
-      "date": "Thu, 27 Aug 2026 10:00:00 GMT",
-      "source": "Los Angeles Times"
+      "title": "नई दिल्ली: पीएम मोदी ने विकसित भारत के लिए नशा-मुक्त युवा संकल्प अभियान की शुरुआत की - News On AIR",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2tFem5XeGdFOVRKOUhwWWZEdnNSdGY1YV9UeVlvdkdrOWk1aDhoZzlXV0FjdDJ4Mk9mMWpkdlVpYjhuVVl2Y3VSbi1QYzlhQkJ6VjdJQ3lYQmoweVFvVlN0bmJpTTJzdlpGX2xBdTVYSUNLeFNrMFloV3ZUNTM1UV93ZzdKUzdpS1ctdXBkQ2V4WUNIbjFSUWNEdFJTY0NIUlYwN2Z2MXoteG9EUVZ1TFJPSkJvLTUxS1dtNklVaw?oc=5",
+      "date": "Mon, 03 Aug 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News"
     },
     {
-      "title": "Palantir Billionaire Peter Thiel Just Bought This Magnificent Artificial Intelligence (AI) Stock Up 347,260% Since Its IPO - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWF1N1RYdDNaWUpBU01NbFkxN3Aza2xhZk5pejAxZEl4UUVLeDBFNUlSMXlFVjBHUzAzd2lKLVRmT0FFRjFKbVM5bXZVbGRIUDhkQkw0TEhfUkFBbm1PSzR0R19KTFMxRGJ3U01qTlIzejdzYl9ZNlNRQ05qZXZaX3BIOC1aWjVFdkI2LW1LRjVOSDlJX1JF?oc=5",
-      "date": "Thu, 27 Aug 2026 19:12:00 GMT",
-      "source": "The Motley Fool"
+      "title": "मानसून उत्तर भारत में मचाएगा तांडव, जानें IMD का ताजा अपडेट - Aaj Tak News",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUS1YSlZHLTdhbTB1TTF0SGhDajVudG9KNURVd09jN2JvZFBBU0Fkb3IwR1ZhYWJJUzR0UXN2MkRiZHdBTVpKYjNCQ09Pd3ZjMmdydDVuMDlvTzlOWHFTemt4T20zczBwVWtKNDZQYy1VbTFtOXFQSHExXzVyMUVjY0NIRnUxcWd5RjhaNGlfSnJXcVZJSmlDVHFuSE5qRmd1QjJaUWVXdy15dWc3NTU4aExSRmwtWUXSAbwBQVVfeXFMT0JLVGFXNW1aZEdOTHo3a2h5N1JEMTQ3TjBsV29BSl9iSFl1V2M4UHRXNE9HWm1SZDl3c1FfcnhkMjA1bzNxMmwzLXdOVy0tWnNZZ2c0T1U0RzBDNTNlRE5zQnc3T25zSnZLMkYxb1lTWjVnN1dncHNvZW5pYXg1dW9KZ09OYXl1dmpBcm0tZ2NIbXlJd1IzTzJQVkVvYlRuV095NjR4Nk94dklFNWc2blhaX2lnY3U1clZyNU8?oc=5",
+      "date": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "नई दिल्ली में आज ‘भारत टेक्स-2026’ में शामिल होंगे मध्य प्रदेश के मुख्यमंत्री डॉ. मोहन यादव - News On AIR",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEVsVXRjQTZxUWg2dTc4ZGRZNndrRjcxempKWTZ4ZWZXS1lNX1JBYXpKVDJlYjVUekJvcER0UXluUVNVTnFKSG9ORTlOdUJMRVhpZGJFQjlsYml6dVJHWEJCWk5RVHhOUExDRUw0bzlJUDBNQmRGcDZBYk1tQWZjbW9nLTlPcW1aWDZSWVZsaDZjQkxXUmZNUXdfcWkxcUF4WGhsVGtaYkdwblhaN2dXaHVKcFo0ZFo4MFkwdzZQdWZTcDU4eWZj?oc=5",
+      "date": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "भारत-यूके रिश्तों को नई मजबूती मिलेगी : मोदी - Hindustan",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUFptNzd5QzBMNHBra1ZtZWRNbkZWdUlfdzBDUlZDRTVtTmtzUnJjSDZoMXBJOUZGekxJT3VEQ3JYYzZIdFByV3JILTNodzlocUtNd1lWTjJLZUFaV0RTV3hjaWozZXJYcmw3ZlhZZVdNMmF0LVE1b2VpZ1dwMkFXakxPb0VLLXBmQzAxcWJ1SlN6WmZXU1ZRcG1BWVpaeW1FajkzZXJhLTVYRjJXWlBmWkdpenFoOEhVTS1XWGJPOTBsS3ZvLWZLQVo3aWVyUDVUbDV0RjVmM0toNmFxUDB30gHkAUFVX3lxTE5WT1B4cjA1S0FNWjdYRXRJR2xxNl9OSnZYbkZ2a2R6Uk11cEVzUjdGU2xzbUczYjA5clkzaFVlUUxCbnd2THFlV3B6ekhrRTZ2ZkpMTzZwYmZQYmdEMERZSnJQWUJiQ0RKNkNPa1dUTGd2aWxEOEhmWTloR21ULUVkVmxZblRQMU90NEd6RklCSERtenAtLVJiNFR6bWhMWUpJalpJbTJpeHViV2dIUGluZ2RfTDFyWk9VR21nVGVWR3BNcWtpXzJERHZzakhSQTNtNWdnVktqUlpmbE92SEpDV2FraQ?oc=5",
+      "date": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "चीनी सेना 60 किमी भारत में घुस आई? क्या है सच्चाई जानिए, सरकार का आ गया जवाब - ABP News",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdGJhX2J4TFVWLVhUVjFMYlBpR1ZVNjJIbXMwWFZjTldvVXdjaDNjdTJrem11ZVJRZnB2Xy1ReklNLWg4OThjU2tGVGFMWjJuU0tmZWhVM0pTdWROcm5fcGdXYkJrSTJObGVwUTU4Z0JxUzFSTlFJZXoxUWk0OEpyQlViUk8wdUwzODh1cjQ0Qi1wZDVnM3Q5NGtRbjJLYzkwQklRT2hTTXrSAa4BQVVfeXFMUDJfdGZFeHVWblhHa0RIU3pZbnppbXUyS0puOGRuQno4Si00WFMxSTNnX1ZMMk5iQ1M3aWFDYWNHLVJsY18yZC1Ia2hCNV9Gd042a0lyYXYtakxBbTFHYnZUTExCbE9Sd2NkbGVMYkNLSU1UVGp4ZkxROFc0OHFBaGxCamFQODRCcUZqRU83dlpxZG04OW4xanZXLVNON01oZ3YzNWpyTlQ1Wmx0OTd3?oc=5",
+      "date": "Tue, 07 Jul 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "नई दिल्ली के बजाय वॉशिंगटन से क्यों आ रही हैं खबरें?, भारत-यूएस व्यापार समझौते पर जयराम रमेश ने उठाए 5 गंभीर सवाल - Navbharat Times",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOd3JHek9xMFhKOG5FXzA5bTh3dFREX0RhQVZjZmcxSHZMQk5EMFRnSllyOWRlRm1wQndUVHhiUkZlRGY3M0hUMVV5QWN2d1kzNFBGdy1ZQXBRcWpQZUZrRnVzdWkwbE9vUGtySVdnX3NDeW12XzM4ODZOYUh3Y3FHdm9WMXhSSzkxckt3dmtXenNOZEJqa0tHMjdjTnR6SjFCelB3bUdCOU9tSTExSDdjSDBDaG1uZVBRRTFGZ3cyRXltejFpQVl6djVHU1YxN1ZkazREMmtKeVBWa0UxdVBMYnJ6QWNHQ3dITFNoUThkRWdNSHNJTGp6ckJOZFZKSXRnT2YxTE5B0gGLAkFVX3lxTE9mbVJtS1ItcmdxMkI3U001ZWRIT012ZjRmb0M4d1FTN04zNXlnZTc4WTdHV0lvLW15QWp5S2ZIMWZPanJoMVhNSnNPQjdRejE4bUo1V0U3SXNvQ0xrWWpRUXhMXzEtbHNXenl0R1lkdUt2ZkZDeUh5WEFqLVplSTd4QlBkREVramFGR0hzSXRkTGh1ZEJDcHhXXzZ0ZExFdTFNRkwwVlQxTU1EYmc0MkhFYnJSak55b0JWZ1VxRGkzWk1sU1poQy1UTTBGZ1dnZWFtZGVLVUtRUVBSYWJSSDdLQkdyakhDcUFsODk4TVkwMDQ3LW12a3BLQmZBSnM3RlJCUzF1emJRcEhuSQ?oc=5",
+      "date": "Mon, 25 May 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Ambala News: कालका-नई दिल्ली रूट पर शताब्दी की जगह लेगी वंदे भारत - Amar Ujala",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeC1zTjZHeFBEY09ydXk2TnFRMnZOQ1JzaW9Na2dSN3B6RGhZakh6cnoyOVBtT1ZzTElISEZ3ZjR5T251X2txcVZ5MHA5V3J6ekhmYWtya1M3RGtKcGQzMEFXTVFfZUMzYTRGRTI4SXhPZHNVZUVzcHAybk9GR0NjRzFXeUpEVGVSOFlRZVVXeVZVWVR2YkFaWDV5d2JxYXJYTWdwU0tQT2pVSWJCREdsdnpwYktGZHdhbDhuVDJWWFE3Z2dBM19WRDNXbEh3LURVUFJiLXNCQm5yR212UkxFaEVlTdIB6AFBVV95cUxOSTZOV0tTN201NDNfaHM4ZE9zVkNwSkZYTDE5NVF1UUFqV0ZJTWZsTEtxaEFaQk1HUk9taWlVVG9ocG1xX2s2NTZWVjFhazZaUzNldWJpWE01ZEROaU01ZGtBaGlpcENBWlp0eFhKYW5YTzk4b0RQVS1UX1hwNEJoTzM1bEdyYVRxNERwNFgtUGU1aWpjem9SalJfQ0V4bDg2Zks1WjJCTmdySmt4N09pUlJfdmdaQzNfTUFNNU5SZldOSG5oLUE2UG14YWQ5X1RqMGsyVnBSdGdianhxYU1hZkpmWmtPem1j?oc=5",
+      "date": "Fri, 03 Jul 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Aaj Ki Taza Khabar: पढ़ें 2 जून 2026 की सुबह की बड़ी खबरें और अन्य समाचार - Aaj Tak News",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUGhHWW1nQ2hVTXpLeTgxMGRRZ3V1eHU2ckp3ZTNPOU1tOHUyZHVUa1hxOVFmM1Nma2FsXzBuQlVoakcxbk40QjJ0OTlHTGZWVnE3M3BrQjI0LTVlLU5iQm1ERFd0SFhMY3hLbGFlek9FVEpkdkxjUWExdXNYT3RIWmFSYkRybHRWN1NBeHZxM0pnZ3JMMzhGOG8zQndsTGhwNmd6Rk9tMmlzdUUyRGJoazZRWXowV2M0WTlndmxVNHRId9IBxwFBVV95cUxOSzJ5a2djUEJyS1EwdW9RU3oyc3NHUkdsek5XMlhjVDJGQUVMQWlHUldzQVlfNXI1VlU2cXVOenFpckpaUEt0U3htRENnRXJhSEVXYWhsdHBDcTNWR0M2c0t6d1dlOTdfc2lnV3VCVmJESGVfUW53RWhqZ1NoLVVJTGQtTXBtQmRVLWwzYTI1Zkc5VVliNzQ3Qkh4cjJnenY1MlpYaWtlV2xZLWVESFlucEozaVU5M1NiU2piZVV0cUgwR1RaV3Jv?oc=5",
+      "date": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Ebadot Hossain प्रोफाइल- Ebadot Hossain ICC रैंकिंग, करियर, बैटिंग, बोलिंग, लेटेस्ट न्यूज़ मराठी मध्ये - TV9 Marathi",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSWRLclZQV21CVkd1bWp2cl9Yd3N2VEFvWGh4dEFLa24yRzRDWUJmUUtNaXhHWFlCMWVnXzhvb0hLbFg5Wk9GY0JNaURtZlIxTThNd1JITGFFX2NhblVqWUR0ODhXbElndklhTE1hS1lwMXpMWEhCRmptOHpJNTBUOHhWTXVidk01ZVE?oc=5",
+      "date": "Wed, 26 Aug 2026 20:36:36 GMT",
+      "category": "India",
+      "language": "mr",
+      "source": "Google News"
+    },
+    {
+      "title": "श्रावणात स्वस्त बोंबील घेताय? थांबा! बोंबीलावर होतोय लाल रंगाचा वापर, ताजा बोंबील ओळखण्याची सोपी ट्रिक जाणून घ्या! - Maharashtra Times",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLVU5Nm15YXp0YS16bkJZMFJ4SmE1OFRDQV8xbFJnU013Q3JzbEVXNmJhY2Z3SzFhRmNvZ3J0U1hfWnpTLV9wQ1kwUVZhSG5UNk5ycmNGZTR2T2xhZWFQNFVqTmhLN0hLczhJZ1dPNkRreDAwUHhobUJjQ05WdGcxQ3JmV3V4YXpZNV9hMm5obXlKN3IzZGRrNWhLNkV1ZlpJdmxZU09QT3hfSExDTXhQdjR5VUlNeURNVm05eEw0Znd3bWlVel83VG1rTEhFSGpTZHBuV254NXdkSTdTcXREUXlBVUJDVVlaUEZkUFByZHR4ZzRxUHd4bW51alg4Z3czVnctckpfcXJ6TXfSAYsCQVVfeXFMTi1VOTZteWF6dGEtem5CWTBSeEphNThUQ0FfMWxSZ1NNd0Nyc2xFVzZiYWNmd0sxYUZjb2dydFNYX1p6Uy1fcENZMFFWYUhuVDZOcnJjRmU0dk9sYWVhUDRVak5oSzdIS3M4SWdXTzZEa3gwMFB4aG1CY0NOVnRnMUNyZld1eGF6WTVfYTJuaG15SjdyM2RkazVoSzZFdWZaSXZsWVNPUE94X0hMQ014UHY0eVVJTXlETVZtOXhMNGZ3d21pVXpfN1Rta0xIRUhqU2RwbldueDV3ZEk3U3F0RFF5QVVCQ1VZWlBGZFBQcmR0eGc0cVB3eG1udWpYOGd3M1Z3LXJKX3Fyek13?oc=5",
+      "date": "Tue, 25 Aug 2026 07:21:41 GMT",
+      "category": "India",
+      "language": "mr",
+      "source": "Google News"
+    },
+    {
+      "title": "Good News : मुंबई-पुण्यात १० नवी मेट्रो सुरू होणार, नावे आली समोर, वाचा लेटेस्ट अपडेट - Saam Tv",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbGh6cy10NGkzNkt5bFQ3Q2ZuYVVydVotLUdyWlNLMTZOSjZjeDJ2elpaS2piN1NYdHYyRVpXalhLR0FyQUpHNkRqLWd5dGRuNC1ZM0JXSnAyeEVfbFhCdUVrWm1HR1gzdUt0SldjdUJsbkJnc3pyUzI2RGJOX2xhWEtUcEcyN0QybVp3YVRYSU5vcXMwWmo2b2lsUUJSODVxNlU1S3BUVG1iZ2xtb3NJWWtPRzgtQ2FrQm0ybjNob3YwNnU2ckptR0FaVUZDN2YxblVLRGhJRmwxR05za1U4Uk15cGw0Q3JldzZZVWFQVTlnTEXSAYACQVVfeXFMUDdJV3Nram1GUXRuUDVpeVRDUFEwc19BT3laaU5nWThfQWtnTWF4OEkzb2ZRSU85WUR2eGFsaUlyaUJmUktJd24wLXdqZmdtR2dqSVVLd1V0NGlYT1RxMGdtcjZCS0hrOVpvNWQwdEQtTk95VjcteFpHc1FpQnFUTkNqZHdjWnBnRWZleTlESDY2RVlSSWh4LU9FYjdwZURDWFA5b19QWlJZZnE1X0NRTjk3cTU5MHVyM3lJbW8xRkItazBwRzN2Y3AtRVpkbE1TUmdkQWZJQ1hkdFR0UXVVbnlVWDJYTnB6SlRsMFBlWDFrSU44MDgwTGFkc2pTU1JrcQ?oc=5",
+      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "mr",
+      "source": "Google News"
+    },
+    {
+      "title": "Yami Gautam: यामी गौतम होणार ‘नई नवेली’ वधू; चित्रपटाचं पहिलं पोस्टर समोर - Dainik Prabhat",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdXZUa192dVVZRnRhWHpxb2RwWXFNNVRhdjJoWFFuczY0RUpheXNmMGZyVTJQamhIQ25WWW5iMXdWY1N2Nzl1Y3ZNbko3b3VqeXUxNWZnVzRuYXJHWkxJTWZZUnZhT1lSZU5pd3ZMWXNlMzQwMVNCNFV6NkVobW5CbENEeVZYWXZKMDAwRy1lcUc2azVGQjl5YUZiMU1qZEZ0blY5cjJMMXZPbzBPNFY2SmUxcllBS001NzJCTFdGY2c4SUo2TTR4X0Z0VzNXTFk2V21FZUpEeGhObWNRZjMtN1lFdm8?oc=5",
+      "date": "Thu, 20 Aug 2026 06:57:00 GMT",
+      "category": "India",
+      "language": "mr",
+      "source": "Google News"
+    },
+    {
+      "title": "TET Paper Leak: मोठी बातमी! टीईटीचा पेपर फुटला; उद्याची होणारी परीक्षा रद्द, नवी तारीख होणार जाहीर - Lokmat.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaGFsLWl6VjZDbkFFVmlNeXIwV2llYjBUakZ3b2U5TGZqd2p4ZVRsVHYyV1ZCWTQ1Ymd0cndyZS1nTEJwTUhQaVBqOXdQMFNhcUk1U0l0bF85bUpiN2NmcHh0OW0yNndYWFRtckFYU28ya2kwcVR0ZURRa2s0RHY1YnpFd3pzdHNKTGZ2cUhvZXI3V1ZiVGNJbVdwc1JUR01jU0Z2dXJpektSbThza3lUT1J3Nk1UZlp6aVHSAb8BQVVfeXFMT0ZteXBQbDR3d1VBM2ZwcDlXTnB1OG1iazJfSXVqSHlWU2h0M2N0ZFZ6Wm13OW9YMl9PbkN3WnVYVnU3dU5TVktuUTJNd1B4aENOcUFmX1ZndDY2QlEtY1I2bkpad3QxZFpVQkpLd3MxTEd5WWFETWxoT2FvbDYxQmdWelU4TkYteHBNMnJsU2R3c0lZTEEyWmFHZm14cURrZ09oa1ZFUlF1dU5INkFldHRHRWU2dTRzTVJPcG90Wlk?oc=5",
+      "date": "Sat, 27 Jun 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "mr",
+      "source": "Google News"
+    },
+    {
+      "title": "Gold-Silver Price: सराफा बाजारात खळबळ! घसरणीनंतर काही तासांतच सोनं कडाडलं; जाणून घ्या १० ग्रॅमचा आजचा ताजा भाव - Loksatta",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVExkY0ZseGZoWDNKZlFBME5iV1RhUlFIQnYtWW1HSHloeURoVXlQOFNkLXRpVVIyMzJtLVVyeXRHSkJNNktRNXhDaWVVUXhFVGNWLTNSenFEd1hkSVU2M2VuUVFORkprN0huNXppNkloa0pIb2xVcmM1OVhKOWVEQ2NJdnkwVXRmd05heDlHc0swc3d4X3hfRWNlVnpjamZXR00xdnVnZ09CUXV0dVRoWGp4MHliX2t5cl9yZHM3YXJad0ZjYTRPdUpWRlFhMkxkbnI0MHF0dFVxbVg0Sk5SS0pn0gHoAUFVX3lxTE5saVVZRVBKWno2ZzNNdHZkQ01hQ2hUbHREb1UwUldNeFR0UTFnVmoyMHB6emxMNUhnX0NUbmttN0xXWjBaQjhrNmt3RnRVTU1hNDlBNXRpSjlCcmNxekphU3FrUkNZNGR6LVpVWDg1eVJxc3ZJZVBZdEdfdVVPWDQyX3U4Y2lvQ3ZUWHJPV1lEN1N4OFkyM3kxTE9NYWFPMXFsTTFVSGlndTJfMGZObmxWTkxYZEpZREU2WHo1Sl9OVUhVQUFHeGgxRVJkWkdQNWxlSjE0Q0xsWFZlY1JtR2JCcVpwY0ZUbko?oc=5",
+      "date": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "mr",
+      "source": "Google News"
+    },
+    {
+      "title": "Mumbai Local Train:मुंबईत रात्रीपासून धो-धो पाऊस! घराबाहेर पडण्यापूर्वी पाहा लोकल ट्रेनची लेटेस्ट स्थिती काय? - News18 Marathi",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeF96OHkyenFUVGVJV2hmMTkwMHZDZVk2UFNFamNIOFgxbmVRUUNQSGlKU3Z4SktScHgwb2xROEw3ZGxzOXpvcHpfV3Z6SVdNOFFvT0NhQVVNMklsY1laV0V4U2JReHJabXlneURzcVlkc0hrR3JHdHN1TW90NGQ3anFkLUY4Zk55bHN1T1A4QXZPMnhZNWhfNVlwTWUzdTI2Y0xHdTdBTnVDV25qSlhVWjZ1MHdXNTVEbGF5OGQtYkluMENM?oc=5",
+      "date": "Mon, 20 Jul 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "mr",
+      "source": "Google News"
+    },
+    {
+      "title": "Petrol- Diesel Rate : आज पेट्रोल आणि डिझेलच्या दरात वाढ झाली की नाही? लेटेस्ट दर तपासा - Maharashtra Times",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOV3Boc3FrbFZCUEVyUkluVlFiMFJhN2ZnQ05UeGJuOC1DQkpqckpwcC1uUWkxTWxkR2xkRDJDbm43ZlFqLUVqck9PaWlRZWZmNjNGZEgwU1JNVEtJOEo2TDliTGZ0OVBVeDZmZnU4OWg2ZTlPVlk5RWF5UmE4SE5ZbEZjbnRlejJKTGNjSk1TLWZBM1FrSG5NNnpOMXp1MXQ4dHpJdTN3Y3lBYnYyRTE5X05aM3hlemFZNnN0Y3RaT1ZWQTdldHlTVHZKZU81T3N1NnBmblQyOGxQNEhRRUZjY3FIdmlpOXo2Ym9RUS1mWnBsbEc5VEhLc2pVRkdOREVx0gGGAkFVX3lxTE1vOUQwWDNUM2YzNl85TDRxNkdtQ2xlUER3LXdHazhVMmc3NnR0R1hibnBhNkhfNkRJdEZBeG5aaWV4NkU2U2ctWlpFRmdMMGI2MnNpWEttOXVJaWpsVTNoY0VoQ1lqQUpaN0VxM01ubUJmWVVPYXFvYWRPX1E5ZE1rNnoyZVN2S3RCYUJfaDNmRmdhcEtJSmFXSXFBNi1ybU5neG9qTlEzSmpTVFhISmdmOU9LX29tWEhScHE2c2tVcHdBYjRjbTRmTGR4b1NSelVmSXRJRTZWOTRKcUg0el9rYUlKZm83U3hoRXZLUDBsT1FCb0xaTVE2TUl2R2R0RmhoWllXdFE?oc=5",
+      "date": "Wed, 27 May 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "mr",
+      "source": "Google News"
+    },
+    {
+      "title": "இன்றைய செய்திகள் ஆகஸ்ட் 25 - நேரலை! - Dinamani",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbi1sOFhUSU1VdWlFNEpDV3AtSkt4LTlCWW1WaEJMUXZjWUxTdHVtc2hKS0hPMFFUVDF6em9CRUJXbVlwWDY0YTBpNWcxX2pHM1o2RzdXbGZlYjN0UTdKX0FjTWk5aDU4ajZmWmQ0QjJjS0hPaF83OHpWV01hdlI5VUQ4NEVRc3PSAZQBQVVfeXFMTlZQYlQ3RUgteS1LTHZIU2JBUWVPdmFCTU5oTjRUODFXd1IyTzRTdDQ3VTYyUnRxT0VoeGptVDZTcmdmbmdQTWJzZVY0eGJRdHZBOTNDQUdXOGp5dHFlQVdpTmlkUGJDRm9HVkFRUkEteWppRTNUZDFaX2prbUVnZElLUmxzNTRhQjEyUzZYQzI4aFVqOA?oc=5",
+      "date": "Tue, 25 Aug 2026 14:10:00 GMT",
+      "category": "India",
+      "language": "ta",
+      "source": "Google News"
+    },
+    {
+      "title": "நேபாள வெள்ளத்தில் சிக்கியுள்ள தமிழர்களை மீட்க தமிழ்நாடு அரசு எடுக்கும் நடவடிக்கைகள் என்ன? - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82bEFoM0hmSEVFeG5FTEJVcFU0ZDlSOGJmSnFabHdROGd2TkMzLWRxSy1uUmM2QUg5V3Zocy1SQXFuR3BGVUluWGdlM3VBeldZWkphXzByR0hKMFnSAWBBVV95cUxPOWJNNm8xT3lld18xazhCcDB2d0pjcmo3bVVQVEJuTVo3cV82eGpGazhETzZfLXNaNnBoWTFjd2lsV0U3RC14X0Nnd19iUjNnZTBJLTJhUjBtakV5amZUaDc?oc=5",
+      "date": "Thu, 27 Aug 2026 10:00:44 GMT",
+      "category": "India",
+      "language": "ta",
+      "source": "Google News"
+    },
+    {
+      "title": "Weather Update | தமிழகத்தில் இன்று மழை.. எங்கெல்லாம் தெரியுமா? வானிலை மையம் அலர்ட்! - News18 Tamil",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQWhZQm5fWDlraVJ2N2MwRVZTNzREdnlRV3VaZzRHNFhpcmJlRHBsN3NZYnozRHlTNVhISFNVSlNUcm9LU3hoV1pLc1VaMWZiUHVIM2lEbGZjNXgydUFUYTlHVzBPM1VidXFjLTI3ZW96elZYc2NsZXYtUHktcEt5eW4xTEl3YlJxNWxFX3Q4SDMyTmRFNGlVRDBOcHZwSTN6Y0hxU1BtaTRZcEZlUUxiVGZxeHBuZzFLQnFwRVhUalYyVzNrNUNFSg?oc=5",
+      "date": "Fri, 28 Aug 2026 00:42:00 GMT",
+      "category": "India",
+      "language": "ta",
+      "source": "Google News"
+    },
+    {
+      "title": "தமிழ்நாட்டின் நலனுக்கே மேகதாது அணை: டி.கே.சிவக்குமார் - Daily Thanthi",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZXRhUUN5QjR6X2luZkQzaFRRRjhCdnNrRDhHVC1pQ2NnVlJWWmRDc2MwYkprRDJoRkQ2ay0xS1VqcjNlM1MxOFdzaEd4V0lVUm1OdTBXZ3FjOTNSMTQ2N3ZXQTFXTFZLT3JmYm5COWZaUTFWZzRydnFDM3N5R2x3NDFnSDFhdDJDQU05UmQzS3BoRGhIaUk1aENhUEpzQdIBqwFBVV95cUxQM1lLc1JvVnZiMzhGQ3BFeHJjeW9QRExkQURXaEZ3bjlhSVhFc3RlUlozTVladVBKVDZRZXNvdS05VDE3OFVwX181LUZSdVkySlJBajV1T3l4U29rZHpJb0lZZnJ2WkRCeVhXRk1CQjROdkVQQTcyMmkzeFVDazY4Y3gzR3lOMG8yRE04R0hBMjRTZmphTVBpeGNYTzdHbTdtMGgweGZVVjRGR3M?oc=5",
+      "date": "Thu, 27 Aug 2026 03:50:10 GMT",
+      "category": "India",
+      "language": "ta",
+      "source": "Google News"
+    },
+    {
+      "title": "Today Headlines | காலை 7 மணி தலைப்புச் செய்திகள் - 28 August 2026 | TN Assembly | Nepal Floods.. - News18 Tamil",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUk5xMVotWkkwS1NEeGdnWjFISmR1NXN0UzliejVpTDY5MXNXQ3Jncmt2RzRrOU9CYkRqc3BtemRibVg2S2FKZmEyR1hOc2dsZ24wYlJKWkJkWnY5NDczZEZDclp6bXFsRVdtcV9nYnVoUUJJbVJleXZlUko3a3Fnb1ZCSXZyWFJkR0Z2WDNtVTY5Uk5uZHV6OWNYZmxqMktkM2Y3eWxaYmFaaExQSThoWWo4Yw?oc=5",
+      "date": "Fri, 28 Aug 2026 01:51:16 GMT",
+      "category": "India",
+      "language": "ta",
+      "source": "Google News"
+    },
+    {
+      "title": "நேபாள வெள்ளம்: டெல்லி தமிழ்நாடு இல்லத்தில் அமைச்சர்கள் அவசர ஆய்வு– மீட்புப் பணிகள் தீவிரம்! - Samayam Tamil",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVV9fa09mZ0lpMjBRbWY0NjRqdW9qeVNvVENQOHNKeGltb1BlY2gwdjNQdnNFWWJJNV9RTV9PQm5lWTVDUnVSenk1Z2xGbGZZR3o3X210eVdtNjBIN0V2bGxFZ09QelJMalBjeHhzQ21ZRGZBeWlVVHp5U0cwWkRCOGQxWkh2aEJGbXBKQ0J4OWhDSms4bElKX0xwbi1DR0JGdmlxamowXzlhNVlseFhMQnhOMVBncEJZSnUwTEdvQmZUcGhHMUlKUEpLRk84dEhlVjdEcDhRX2dDbFJzdVhWLS1R0gHnAUFVX3lxTFB2VnRaX0dHa1BMdmwzRnJudHctNDFwenh2Y1J6VkxvTGdwTnZoWnRUOUNISFF0V25Sem1rSV9FUDFFOXhubXB2bERYTl9fWldFZUZ1LXAzVzFNWjdLV1VTSjcxZndzdi1xTkx4QjBYMEVwLU0wOHF5dlNscndJOGZFLUdlZXFWLXZ2NWFBajJibXJwNEw2MEdhX2tzb21LQ0VHZktjNzdZeThTeC1Jdl90MEVYY0s1RFQ2Uk0weW9NUjZnSlBmMThHTWlhUHozTDlyQ2lJdUFwZ08yeEdpVDRUenhhVVVjSQ?oc=5",
+      "date": "Fri, 28 Aug 2026 01:13:52 GMT",
+      "category": "India",
+      "language": "ta",
+      "source": "Google News"
+    },
+    {
+      "title": "Today Headlines | இரவு முக்கிய தலைப்புச் செய்திகள் | 27.08.2026 | Nepal Floods | TN Assembly - News18 Tamil",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVXJranNDTFVQdVRnVGZVY1A0TWZCRlJrWUlGcG9YN1lHTk8zY0J5MHk2STFTczZLX1VQUk4xaHZhOFRnMk80bzlpMFZPa1UzRTc5cDVkZFB6S3FNSDlZYmZjcUlCNFZvY19NUVFNdmdNd3R5M2hGNWNSVUp3YVVvSHEtMWEyM0R5RDlSYTd1SlJ2N2lyOHlJSkJaZ2pWRkIyTFBqV1pfSUJNVjg?oc=5",
+      "date": "Thu, 27 Aug 2026 16:48:41 GMT",
+      "category": "India",
+      "language": "ta",
+      "source": "Google News"
+    },
+    {
+      "title": "Tamil Nadu Assembly Live Updates | சட்டபேரவை காலை 9.30 மணிக்கு தொடக்கம் - News18 Tamil",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRXM4RWNwdE1rNGJfbHg3X2h2TFIzYy15MndwS1A3Q3hKWVpVRUhpLTRnNGlDQmNYc291YmZDemhaLXpuZmw1Ym9Jb3pKLXBHVDRQRXBwSTFPdzR3Q3M2TWVYV2dyQ1FMM3Z0UHZMVWxVWjgzam9pOUpTRW5meXEyVk9CM3BkeTJRZzV4ZkozWkhhRXZqdGVwb1BYYXhCeHhOWWFkdFVBRWNzdV9DTkpMMHhZQ3JpLWhKdGpMMVFpZE50cHJzaUYtMjBidVo0WEdmcG5VZUFSVFh0M28?oc=5",
+      "date": "Fri, 28 Aug 2026 02:44:21 GMT",
+      "category": "India",
+      "language": "ta",
+      "source": "Google News"
+    },
+    {
+      "title": "తెలుగు వార్తలు | Telugu News | Online Telugu News Today | Latest Telugu News | News in Telugu - Lokal Telugu",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORHVTYWJwQ2JSRWI2dDRxbXVKamEwSGFPa0lrSENyOE9hYW9TcVRDTFdrWjZBdlZfSFExd0VDcmtxRy1yM0NKdXhjNEpyYzl2T2YyZUtsSWtETkJLVmJEdlFXLXBWOFVac1ItWHd4dmEwUXRid1JXVDY5cTA0ZEIxbXBBblRhbk5tY3JucG5Sc2MwVkZONDVTYkM2NlcwZWdEU05UVGZBTWN1SXNqVnc?oc=5",
+      "date": "Fri, 28 Aug 2026 02:13:37 GMT",
+      "category": "India",
+      "language": "te",
+      "source": "Google News"
+    },
+    {
+      "title": "నేపాల్ వరదలు: బురద నుంచి ప్రజల తరలింపు - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BMTE2aXdZY0prY1NvaDE0bHFtOTBwRXhOM2dvdlRteDBDd1MwYjlMcTYyeDVxSnh0ay1XQjA3OV92YmpVQWhWWXE4UU0wdXozdzFJblp0dklPaXVX0gFiQVVfeXFMTWxNSmJnRWhCWDBuTEotVzc3YXd6YUgxTEhnTWM5VHdDNG83V0NyOXp1ZVFLcjhrVElrQ3hFNzAxUDJYaGMwVDNTcndfTDFaak9DUFZuckFDX1Nma3FaRk1LN1E?oc=5",
+      "date": "Thu, 27 Aug 2026 16:03:59 GMT",
+      "category": "India",
+      "language": "te",
+      "source": "Google News"
+    },
+    {
+      "title": "Nepal Floods: తెలుగు యాత్రికుల ప్రాణాలు కాపాడిన టీ.. ఆగకుంటే మృత్యు ఒడికే! - News18 Telugu",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSWMwb2VzRjZGQ1dtTmZ1bTJ5YWJlQWFZcUxUb2dmeE51cGRMX2NTd1lQTmx3V0VOZ0ZzbFFJS1N5c1hYYmM5MXl4ZThXZU9oeHZFTXJQNjRiWGdLU01xM1dzUWkzbUc5TlRDcDlpNXBMZk1tOC1HeHREdnRqUHQ4VHhNY2hhaHJwcU5xS0l1cWk4Y3FQY3E5RGdReVBQN2J1X2N5eW5fWXd2QUxqdE5TWXRnNklfRzdUVkh1aC1rbTI0QU01NWhKYnlpaTZPbTJLTGtSa1lsV2lyUHVlR2dUU1Q3VWd4WEFGYkRlZ3hMZEpPYm9qdHc?oc=5",
+      "date": "Fri, 28 Aug 2026 00:32:00 GMT",
+      "category": "India",
+      "language": "te",
+      "source": "Google News"
+    },
+    {
+      "title": "Dil Raju: ‘రామాయణ’పై దిల్‌రాజు భారీ స్కెచ్... తెలుగు థియేట్రికల్ రైట్స్ కోసం రికార్డు స్థాయి డీల్! - Samayam Telugu",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNFg1SjdBTkpmRkRaaVVUN1dwOFFxMzQ1OXpFc0hNSXRfbXhtRFZHLUgxU2Q2MG90Ni1kNWlJWXNSNjZadnowTURvY3M1bG5WakE5R1EtTlF0eFhrUnBZRDkzOVZpRkl4SVF2eHVDaXE4UVJXcGJsMjN2T1JTWEpsNDRtSGFQajFZWHdqZUtKUjdaY0prLU1xZFRDM2plYUlLR2RMZ3J5SkhBTFJ6LUl0cUZYMHdpek9MX0R2c3E4OEVkWUJwYk92Wnp1bkVGRGhRZEJmUWtsc1pTdkl3anB0REVMYlBoTHF4T2tpbEd30gHzAUFVX3lxTFBwMEN3MmpETXVBZ3IxdWE1Ujc2Wk00T18wenBaZ05zQzhFMjc2aGt5aXlmSmVoVUFscHEyazRZT0ZoRlV3N1lTclQ2V2N2Y2hGbElaLXloUExMYjBSZHBMV0djZC1QWVB3SEdRWWxYSkRIejQtSFFqdlk0Z2RyRDZRSklDcVMtZl9ON3ZRaS1CMllEM2ZOeWFtMHpEcC1uazNBMmZpeWQ3MTltbDBkN3Jmb1lrRFNzVlZ5NFdscll3YWlEX1U1WkFZZTZMbS01a1lOUEd0dlNkNi1Wc3hTQVhMMkJFbnhLQWlmeTRLU1lrNG5Fcw?oc=5",
+      "date": "Fri, 28 Aug 2026 04:20:50 GMT",
+      "category": "India",
+      "language": "te",
+      "source": "Google News"
+    },
+    {
+      "title": "Venkaiah Naidu: మాతృభాష వికాసానికి ‘సీటీఏ’ కృషి అభినందనీయం: ఎం.వెంకయ్య నాయుడు - Eenadu",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSkFQSkR2SENfeGhaZkd0MFRES3dEZmRlMHhXNV80NUNzbUp4VFR6dlozRDRKa2VyQktYUjYySmZEV3FES1hXd3ZHY1ZXWUVBT2FFOE5GMGFkSkQxMUdLUHhLNzNORnNhR1ZpcFZSN3ZWX0FvWnU4MFlpck8tcUxIN1dYODdTU3E2eVNYVndSemljS0l3enhjcVJiNGZWaDYyYnJKd2NZRlNfVEczaGdVWVFjX2M5OFNnWjhwTG96cGvSAcABQVVfeXFMUEpBUEpEdkhDX3hoWmZHdDBUREt3RGZkZTB4VzVfNDVDc21KeFRUenZaM0Q0SmtlckJLWFI2MkpmRFdxREtYV3d2R2NWV1lFQU9hRThORjBhZEpEMTFHS1B4SzczTkZzYUdWaXBWUjd2Vl9Bb1p1ODBZaXJPLXFMSDdXWDg3U1NxNnlTWFZ3UnppY0tJd3p4Y3FSYjRmVmg2MmJySndjWUZTX1RHM2hnVVlRY19jOThTZ1o4cExvenBr?oc=5",
+      "date": "Thu, 27 Aug 2026 17:30:22 GMT",
+      "category": "India",
+      "language": "te",
+      "source": "Google News"
+    },
+    {
+      "title": "OTT Releases: ఈ వీకెండ్ ఓటీటీలలో థ్రిల్లర్ల నుంచి ప్రేమ కథల వరకు చూడాల్సిన సినిమాలు, సిరీస్ లు ఇవే.. - NTV Telugu",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFdoZ25DLVdzTWktMHZ4bFJ5SkJPSmJWU0xxbWlHN0QxWjhrTE1qR0NpdGZQTjVQZjh1QXFCb2NLRU9pN0NQcmJPWk41cU5IY1lDNllsd3o4dXk1aDdORmRBaV93OVJ0NTlqOGdTVE5BSHJxejd0NDhPQjZITlc0TTZkMDFLYlJuT29UeWpxaFU3c3VrUUdNTFZYdEFkdFFKVE5kMU9VdWFxMXEzNnhXVV9Id9IBuAFBVV95cUxPU0xvMnBMaEZOc3FhT3ZkZFpWYXVZVXJNQjRVVDVzQVNIaExJcG5mOE5ZcksyUG8xT2hMTS0zMzRzVzJ4WncxNzFwVldYMTYwX0NNdzdmWHdkU2xWSWRzMEU5T0RDLU1TeE1oUVNHWnN3a0pRQ01FMVFUZExzdTNUX3hVenZiNS1oSGMxSnRSLTRwd0tDTHZDTUNYLWxoUXRxY2plVFNBdGFLNGU1OVgxd1hZd1lhUFg1?oc=5",
+      "date": "Fri, 28 Aug 2026 05:32:28 GMT",
+      "category": "India",
+      "language": "te",
+      "source": "Google News"
+    },
+    {
+      "title": "శ్రీలంక తెలుగు ప్రజలకు తెలుగు నేర్పే కార్యక్రమం ప్రారంభం - prabhanews.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTHFjMzQwYmdKblFGRTJ1YTM2dVlTZHp3UktHRUxUMmdVUm9ZdlJQSVhqM1Nkd0FieUF2dkR5VFVPNHN1ekRXRXhsb3NiRTdmcmxUeHRXcFNMZ3V0SGVfbV81VEw1R0NnUzZWaGQ5ZVNKQ082dmRsQ05Ia3Izc0tETzBTUEFzQm5CTDFUNmF6QQ?oc=5",
+      "date": "Thu, 27 Aug 2026 15:00:28 GMT",
+      "category": "India",
+      "language": "te",
+      "source": "Google News"
+    },
+    {
+      "title": "দু’দিনের জমজমাট মিডিয়া ফুটবল শেষ, সেরার ট্রফি জিতল ‘জাগো বাংলা’ এবং ‘বিশ্ববাংলা সংবাদ’ - Anandabazar Patrika",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT0EyWXFJVmJMZ3NkY0ZWSDE3S25JRUpkeXNENHNha3dKemFaYlljcEthSzU3RUVjcENaQmsybHFGY0dwRlNTdnZSNW1laElibjJGTWI4TWpZWk1xRjdOazA4SldWcG5xeWNUZ1ltUUwzUFI1Tm15S1dMQzRhajNCVWNRWWVZZ3dwZXVrcjJSUmJ0WHoxNzFnUGRrVV95dW5iZU1BcWF4UW9mM1Q3OXoyQW5XUUx4SXZNdHowUk1TYmZic19kdHFlck1rWF9aU04yb3J5SWdrNGpYejjSAeABQVVfeXFMTlZjUDNjaGtieE5SX2RUUmJzOW1oa3JOSmpvZ1VhQjB3akQzOTA4Y0FmTWFtSmZoeFRHX2JiVURpckdrei1NUTdOcVFmWVBGWXNfNmd5cDlCWTg1WFlRU2hSdWRGSGpoSVlZSU9hYm51V20teEJzYmg3VjZPb0JESWNOR3VYRy0wWDIyMkVBemstOGlvdUt2ZzJxbFpFMVlvdTR4YXQ4emZZYkhHVTJxQzl6WnZjeTZxZFotckwtZ3ZoOEdfQkhMbXltdHh0aVNjSkJndk9lSVJnN0JqYzQ1SlM?oc=5",
+      "date": "Fri, 07 Aug 2026 16:56:45 GMT",
+      "category": "India",
+      "language": "bn",
+      "source": "Google News"
+    },
+    {
+      "title": "‘বাংলার ইতিহাস আপনিই লিখবেন’, TV9 বাংলার মেগা কনক্লেভে মুখ্যমন্ত্রীকে বললেন MD-CEO বরুণ... - TV9 Bangla",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQzRBVWJRVlB4ZTNTVThPOEZfSTk1czQtMkpabnQwWG9PVm9DVTZmV0lMaUM0a0ZzckVxN3JfZU42aURCZUpOVzBhd1M0UW45eEFTUGFPUDFBcTY1WUM4emdpeGVSZVduWFF1SE5Vc2hEN1hNdzcxSUNmZHQwblM5R09xOGlpWGRIS2ZMamxwZUN0OW91amVQSnFvVTJvU2RzV1lnUm02dnJPUHpfY3c4WlBaZ0U1ZHhMM0tsakN0WXdHOS1XVHMtQzladEhWNHlWamRyelVJQllDdU5KMVZkcFZJRWc5eDYtaEtoWnBuRlpkclZwNXFYREhWOFZ2UdIBgwJBVV95cUxNeTBIbGZ4ZUtPb3lqMDhpdDNCblpRMXJVa2FJaGtnNEtvYXlJQktQMkZGZk1DS183dFhaNUtOZ2d0UVFwbzV4Rmh3Y1FpQXphNFR4eWFtZ2J6WWFJM3FYczBDZy1YYTY1WXRidV9fTXY1SDVNaWVISFpvVTcyQVRHX1dVOEFERzlHZmhKeWFQNGdMYnAwbVI5ZTdYUnJNMHFpVGlnUndLSVB3a2VnOUlwbUVKRWE3OW1ZWXJGWEJHcDg5WGc3Tzdrb2xSUFFvT1F2N3I4dHdRelJfRVJDTFp5R1FQNlF6anpsb1VhRlZSWU5EV0owdmVYdjZQR2JKbGtPczRZ?oc=5",
+      "date": "Thu, 27 Aug 2026 08:14:24 GMT",
+      "category": "India",
+      "language": "bn",
+      "source": "Google News"
+    },
+    {
+      "title": "Zee 24 Ghanta. . Bangla News Live | সারা দিনের সব গুরুত্বপূর্ণ খবর দেখুন জি ২৪ ঘণ্টায় | Zee 24 Ghanta | Bengali News #westbengalelectionresults #bjpwinsbengal #zee24ghanta #livenews - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMijwVBVV95cUxNWUlVRUltaFZaWkgyUURKczIxQUNVa0tFMHFjNFpFX0lMeENLdTFVQ3JHcXpQVlRLMlBGV3VsMmg0U1VNdnVaLWFnM3F1XzI2cFExXy1yVnZQTENqb0RRZzFXWGxKLVRya21KUkxkUjZEM2ppZTFKZ09LS2pwWjVod0NEcFlyYnN3M2FaZ0I4U3NnS3BXYndEckF4UWlWcjBYclJwQzJGQm9Ybm1RU254cHdUNDVyU2ZqMm9yUHBBVk5KRV9sWEpOZ19tOVhrRDhjSDMxVVhWbGFaRi1rSkw2SkNKRWRMTnhmSVBJaFlvOUJVdlh5OGV1Y2NPOFVQVzB1WEtpMjUxU1laaEdJOC13QllWR2s3RjRHRFA4Qi1GT0pHc3VLVFBVT0tCQTJwRU10U2Vydlh4ZXQzZGZjNFFuRWZwYjVSWUlTZEFEbC1ValJHc2ZBNXA5dzVBT1FoWlkyckxuSkZwVndZVXEzQWFnSWI4QUhlOXo5X3l4dHREeVR1cGFDN191VkUtemFMZUY5dTZrQ2xHcEZ4OG83dkpNRV9scGg2TzJZV0Z5WDA5b3hsenlOdjAxRF9KczBIV1dYMTBOSlFvbEVpVGxSN2VRSC1PWEVEMFdYNGtWZjU4QzR0ZG84c2dubVVRNWtOWmJsQW8zX1piN050ck5DZUE5YU5aV2U0TUV1LWphOXdVVm9XcHdmYkpIZTFZNzZaNTFGUlVlR2JsenJtVzVncEpwSmJ0MEQzaWJBc3RNdXZrUzNZRGd0aUx0YnRWTk5GcWE5ZzNGRUxpa0ZqSy1IeHBPdTloSDVtbEFwNWFaTjllUEJfekZ5ZktpX3FCdkJZYlQ3WHFMT1czUXpZM1dPaHRR?oc=5",
+      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "bn",
+      "source": "Google News"
+    },
+    {
+      "title": "জাতীয় সংসদে প্রথম ওয়াকআউট কবে ও কেন হয়েছিল - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVOHFSNUo0TjQyNEwzUjUtMDFmdTQxbGcyRGNvaHRORURwYnRQTlgxaG5IWmh1RVFSRjBZQ0UzTFN2bmZCSmg2amJ2R2Nya3VyZDhxU3RIdHJqcnIzSUHSAWNBVV95cUxNaDAwLUVKUjdxMW1seVpEX3BvZTdzYTZTMldVLXhBVUZ5REx6dW81ZHdBZU15S0NyNWgtOWNLem5Ca3kyekNQb0F1X0FtakhCTVd1YzZmR3E1RTF5UUtqUGRjc0E?oc=5",
+      "date": "Thu, 27 Aug 2026 15:50:16 GMT",
+      "category": "India",
+      "language": "bn",
+      "source": "Google News"
+    },
+    {
+      "title": "ধর্মীয় গণ্ডি গুঁড়িয়ে বিপ্লব! ভোরে 'বন্দে মাতরম', সকালে সংস্কৃত! সংবাদের শিরোনামে বাংলার এই অনন্য মাদ্রাসা - Indian Express Bengali",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT3d4YllMY1hyVDF4aXpxVXZ1emFGVm9kc3RDYW43UnhUZy1SWGZxWlBfTXh0T1NxLWllRXppcUZOMC04LXZ4NkhBWWJpeU9hMTNVSV9uZGtCRXltU2E3aEtkc0VZMHF4Y0lPZDlaWTVEZUNyV3lwN2N4QnZEVHBGVUZEQy01NjVOVGJvU1dnV0VMTzZhXzBBNVZXWWRiU2p4NUhSOTRIaEd2WU1POU5wNGxic9IBswFBVV95cUxNT3d4YllMY1hyVDF4aXpxVXZ1emFGVm9kc3RDYW43UnhUZy1SWGZxWlBfTXh0T1NxLWllRXppcUZOMC04LXZ4NkhBWWJpeU9hMTNVSV9uZGtCRXltU2E3aEtkc0VZMHF4Y0lPZDlaWTVEZUNyV3lwN2N4QnZEVHBGVUZEQy01NjVOVGJvU1dnV0VMTzZhXzBBNVZXWWRiU2p4NUhSOTRIaEd2WU1POU5wNGxicw?oc=5",
+      "date": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "bn",
+      "source": "Google News"
+    },
+    {
+      "title": "ভিডিও - ATN Bangla",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMTZSMWRUX2tXUmY4c3diNFQwdGxjR2Z1R1BQQXFpbXQtZVUtSGdRM0JhT1lUdlJmdGstYlkxUTZUSVV2V0JvZE5sSWhiV2tENlRRYTI4V1cwbjVVSVN0cllfb0o1QnBNdm4yYjBKV3FEeWoyV3o5M0doYkN0bFphTFpWU0JiczExRnZr?oc=5",
+      "date": "Thu, 27 Aug 2026 09:38:11 GMT",
+      "category": "India",
+      "language": "bn",
+      "source": "Google News"
+    },
+    {
+      "title": "India vs Uruguay: ব্রাজিলের পর কলকাতায় খেলবে নুনেজ, ভালভার্দের উরুগুয়ে, টিভি৯ বাংলার অনুষ্ঠানে ঘোষণা... - TV9 Bangla",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPekE4Vm54dU1UaFNtUjVyZkdpdU1VTW5rU1ZOeTY5UHdfU1FJNlpkZlJ6RXIyVUVrWFVIWVM2cW5tVnBjV1NWbWNfTUEwcUtIRG85MFl6b1lJSlFrMGhhM1ZYaGhzTkttZlBKMk85RmtGVy11WXdsREhKWG9teFg4WnNLMzhydlQ5blZIZVJBSk1UWWZ6aVZfaWJieUxWdEZsUnNHNUhxZjhDbGM5alRTNVJ5MGYzYU01OExaX05ObjltRWZyWUHSAcsBQVVfeXFMTXh2Ym5TQ0MzYmt5cTI1eEZHd2RGcDJoY2I5NTVqV2JSR1p6WHBMMm9SUUU5WkthSFVpT2VjazN1Umd1UWdWNHFFTmFNdi1STnloUHVrTWY3RXFCVE96d2RJWnNnR05oLTZRcWpXVm1Ta3BrX3czVDlQUzg1R19zTHlBOGxvNDRZb3dkZEZ2NzVfM2d2MWxJNWxkXzJOZ21NV3ZwMFBocmV5ZG9qaDFSSVVDWWJNcHd3OEhiN0pTaHRWYmRMZThTRjdZRFU?oc=5",
+      "date": "Thu, 27 Aug 2026 13:42:59 GMT",
+      "category": "India",
+      "language": "bn",
+      "source": "Google News"
+    },
+    {
+      "title": "বাংলায় আসছে ‘মুহাম্মদ (সা.)’ ও ‘ইউসুফ-জুলেখা’ :: এটিএন নিউজ - ATN News",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CZ2M4c2ZFZXc5UUFzMnBnZEprU3ZSeFhKcG1MZTd6eFJ5bWp3NURmMkhNUmQwRTRsMFJLRXVFODFRWE5aTVZBV2VIbzZaRy1C?oc=5",
+      "date": "Thu, 27 Aug 2026 13:40:50 GMT",
+      "category": "India",
+      "language": "bn",
+      "source": "Google News"
+    },
+    {
+      "title": "അറബികൾ പോലും ‘അമ്മേ’ എന്ന് വിളിച്ച മലയാളി വനിത; യുഎഇയിൽ വൻ അനുശോചന പ്രവാഹം - Manorama Online",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcnd6ZldBN0tJVEJtallTeWt3NEZDR3YzVDd2OEtkVG80NlRYaWVYeVF5STFRMnFMTVA1UzQwakJDYi04LTY5S0c2TnNEbF9DX2dDcnQ5Qkx4MzY0VDdELVdsNlNXLWEweXBNMDlVZFg3WC1WcE0yWmlfdHFGX01NTTNLckU5bjNjT05TaFlncWxjdjJJQzhsWGVIdXZueC0zTHBoUnEzaHlYVG1GcERGX1lqYUoxTmoyb3lvRjlzVVhxTElKeTdzUWc1VTdKUnRV0gHWAUFVX3lxTE1DeTNCdzBrV1pDRGRDMXdXNm1wNlRfZ2g0REc3RXNoOU84YTNCYUNpcVRCWHNnSVRNeVlMd0IwN3NuMmQ2Z2JIZUhDRjgwWGN1QlJzWTM4MlVCYUdVUzVkYk1xVFk2R2xRdDdvRmFyRG1NUHNkTkxCbllIYUFWdVVlZktRS2U0TG96OXczTmlHcXg4bGZFMDdnWWg4NHhPUmRoU1RySkFBNzMwb0FfNGJXSkdtUWlsVmpnY3JibHY0Nm1CbncxMnh2czcyREJSaF9BU0t4QVE?oc=5",
+      "date": "Fri, 28 Aug 2026 01:58:39 GMT",
+      "category": "India",
+      "language": "ml",
+      "source": "Google News"
+    },
+    {
+      "title": "നേപ്പാൾ പ്രളയത്തിൽ മരണസംഖ്യ 177: അകപ്പെട്ട 53 മലയാളികൾ ബന്ധപ്പെട്ടെന്ന് നോർക്ക സിഇഒ; കൂടുതൽ പേർ കുടുങ്ങിയെന്ന് സംശയം; ആശയവിനിമയ സംവിധാനം തകർന്നു! - Asianet News Malayalam",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNzl4Y0YzZVlkRE8wakw4MkV0bXNnYmV0S0pJWDRGS1ZlRHdhZHFKeldlVnhDQmpiUzlHYnVaWUJNbVA3RWxaSGJPd2pFeG1TUklpYVVxU01NU3ZWWjU2WGMxYWxfTG1MMGdlVVhPclBibFBfZU1iUWVraF9fbFVfSlByeTY2SndpUjhHaUdiUUJ4bjlrTGoxNk5SZV9jQ2xTazJ3dEhnekZxamhJU3NPbmo0dDBFdXNDczBHazE4VXN1TlVNSnNvWHJEN2hFZ9IB0wFBVV95cUxNOUpDT0NXRFk4WEludTVPeW9nTVhYTUMtbkZlb0l5TjRNUVR0RThDWjJvejdMc1VQcHhRTDVmQjlRLTJmSXVid0N1RTBWNTV4T2ozTXdFTllUQW5kelBpZEZRRnlWVEdPNER2RkZucHozQXdnaXdMZ2xxd1hJMTRCRjBsbEphLUF6dWpFNVF2Y3dGQ3dqYWszVkR3aWlHRThOMzFDaXRFSDVJRDlGMFRiaXpua1FCSVZSRjhlVnZUUHlkUnJlM1dJRmJkeU43LTZocVpr?oc=5",
+      "date": "Thu, 27 Aug 2026 06:24:23 GMT",
+      "category": "India",
+      "language": "ml",
+      "source": "Google News"
+    },
+    {
+      "title": "ടെറസിൽ നിന്ന് വീണു; പ്രവാസി മലയാളിക്ക് ദാരുണാന്ത്യം, കണ്ണീർ വിട - Manorama Online",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVZTa0hSYkR6bVdnNGhxNWkyZE1DdWdwWEVyTVdaak9ud09IS0llRVZjQkhxZzNNX24zeWRYSG5PZ1UtLTh6YVdEWVFzY1N4UzU2TUpVeEtlMHlUXzRqWWVnaHRvNDByRG1QSnFiTHk0V0hvUlYtS1N2OU5jYm4xYzJTc0o2ZGZqRzhlUTZBX2VSQzZJeUtiR2c3dS1LV25sS2xzd2JJdUIzYWFBMmItdm00NnhpNlFmZVVuRjB0Q1ZkZUtENXc4YnRyX3dhc21QaExV0gHYAUFVX3lxTFA0Y0RONTYwUExVQllYTm9XUGxGc1VjT0JzQkRWLXNlWjdKMjFORTcxRWYtMUthYUlxb3FMT2N1Q3hCaHNmLTk5cVpSeE1lOWRWb2FsdWQ0cmtlb2lWRXl0Zng3TGRtelZ1bVZRTHNwdS1BZVh2bzZ1a3RLYWRBa2xBN3ozQ0Z2TnVBLVJBMHJDLVB1RVVTZ21EaHY4YnpES3JKYlZ0R29JNXFDOUhqMzJMV2JhOTNhbGRvRnRQaFlYXzBncGhNVVdrUDlYZkx1QVlrNmJZZmJrdw?oc=5",
+      "date": "Fri, 28 Aug 2026 04:52:31 GMT",
+      "category": "India",
+      "language": "ml",
+      "source": "Google News"
+    },
+    {
+      "title": "തമാശയാണെന്ന് കരുതി തൊട്ടു; യുഎഇയിൽ പ്രവാസി ബാലന് ദാരുണാന്ത്യം - Manorama Online",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObTFKZnItbllyVVRiRDAzekVWZHB4dnQ5amRnWjg3VlB6NHkwc21RVWNiNkN6LVk4Q1RFTXBpajFnaEZEcmRGN2lzUzZvUEZZNzZKMGZwU3dGY2R4a0Y4SS1wZ0NsOUUzV2NmR3NMVkdoM1NTbDF2a0FGSlNQaHBCWmdHLXdmR0tZRENyemdYU0x4Rk81VWRjdmhUckZrSEFxX1QyM3ZsZUdVaWJ0NkVRTmdPN3lTelZZSktnSmRRTDgxc2Rr0gHKAUFVX3lxTE5KaXNqMjNBX181OTdoT3h6MEhNOHI2aGJoeU9pczBCSG1HdmFNZzJSUUJadFRHdlYtY3pONzMxTmYxcERGeF9rckdJXzdPZW1Rb0VsN3NETy1lU3RzaHJ0TnV6UVJiNFF1ZEI2Mk01em9vVmxWOFFCRUVhbmJrU3I3MGJpbjZ3blJQblZuUDJhT2ZKM0xTSWJhOEJPOEtORGxuNjdqazlVMkFNcm8wbmV1MlVKcjRuRTU5Ym1SOFBFNWw4czJRX3BxQlE?oc=5",
+      "date": "Thu, 27 Aug 2026 01:54:58 GMT",
+      "category": "India",
+      "language": "ml",
+      "source": "Google News"
+    },
+    {
+      "title": "അമേരിക്കയിൽ ‘ശുചിമുറി പ്രതിസന്ധി’; തിരിച്ചടിയായത് കാനഡയുടെ പിണക്കം, അനിശ്ചിതത്വം - Manorama Online",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbzhhcV9EZlJkZFJaSEg5S0kxLVNfNG5EV01XcGM4SVBnYnQ2ZHRZLTJfcXkzVk4xLUdBNFBmSlRFdmVGRnNPZDhFQUR0SE9lVjA4X0V6azhlVmVqcnpUSWpteVpBN1gwdnlaVHVyeVBtUnlMM2hLNzZGdXcxUVZTcm1YVUQ2ZHpzVzV0NUJ6SnZtNDRXYnVCU1p1MTBobHJfUDRsaTJPSG9zdFZMT0JfOE1aQ2xkZVJUSFZFS0J1d2psVzVLVE50LXJB0gHPAUFVX3lxTE85MVRhZFRqandhM20yWjhReWtsZlpWQTlfZW0wb2lZQ29XRlc4enNSeklrNFFlUVZqV3RrRmNZUHhLWHVzbDRKS1MtTWJhVm9VSlU2Mk5mdFg5eTZjV0swSW9DRmhpdERiWkpkTXVkWEZxN25ZNUJuSkY4WnRwT2JxdkVkcWFsdTJZVkVYaUVsckZZOTV0RGxUV056NGFjOEh0aGdHNXZMZkNmS0FxX2VVZjZxbzdxeEkwOFlQd2gxSy0xSnBQamM3ZVdjTDJkTQ?oc=5",
+      "date": "Thu, 27 Aug 2026 03:35:29 GMT",
+      "category": "India",
+      "language": "ml",
+      "source": "Google News"
+    },
+    {
+      "title": "ദുബായിൽ ഇത്തരം താമസത്തിന് ‘സ്പെഷൽ പെർമിറ്റ്’; ലംഘിച്ചാൽ ‘എട്ടിന്റെ പണി’, ഫ്രീ സോണുകൾക്കും ബാധകം - Manorama Online",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS3huMUdSN0drNWxnb19hamZUNGc3V2dSendQaXY4U2NCUVFONnRaaU91Y2g4OHBWNlhaZFAyNXFvRUczSVlRRjhSUHhTTWtYb3REaXg0Y25XTmZMQ2FQNTQ2bmo1NE9wOW54LVdrT3ZLRTYyWENRX0V2cTFXRno4WHphSE9jUGFjLXlpdTFDQkFhVDE2YzJ6TldiLUxhMVpvQ1Q1T2FVdS0yLXNIZlFtVkV1TzVWVVFCS09ianBpU1o5cGlJZE04T2lPR2RYc0lHUzE4T21nTXZzWUM10gHiAUFVX3lxTE9XN25hSm43ZHltVVB1T2tmZEFEWXBwZDNMYUE2Ykg4Q1pNRE01VUJUZDlhWkFJZE1CS3RxSGtSWGpSajhaTmlwUU8tdWk5T054Tl9LOGNuTS13OE1lMnkyS1FWeW1ZeW9ZVDFadTJvRmR5Sk95QmZ4WHV6VzJxTnV4cE9NQy1YRkxKTVdsUHA3blBPcGRDWGdXWVk4M1JzS01XTFFYMTM1eG1DUk5BUU5PX2NSY0I2VVNoaFltcllpdjdWV01hYlp4aS1kOUdoN3RyRzR5RTZjQjNvcGlrZnhJQ1E?oc=5",
+      "date": "Thu, 27 Aug 2026 02:13:55 GMT",
+      "category": "India",
+      "language": "ml",
+      "source": "Google News"
+    },
+    {
+      "title": "യുഎഇയിൽ പ്രവാസി മലയാളിക്ക് കോടിക്കിലുക്കം; അമിതിനെ തേടി ആറാം തവണയും ഭാഗ്യദേവത, നേട്ടം കൊയ്ത് ഇന്ത്യക്കാർ - Manorama Online",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRkFqZGVZcEY3Q3V2bHVxeV9JTVVjamhKMlljYzBPMjEyaHVJd0lWdHBaQm5yOGd6Ylp6X3ZndG1LcDV6S0xjX1RVN1JxbU1rUzlIeW9KTG5BcDdZWnZmeVlUQWFnRTVtSjB4LXBRSEl0SWtwa3NHNkVJelFxRUJ1TWVld3E0aW5SZE1XVm5TYWdHY2NXTXhnOGdEaHBOaXZTb3d1Q3dkcHU3clNmd3ZwblM2TFd6VlRmVHNKUFFPVlhOdUIyVXFaSkV4c25yNGFqanfSAdcBQVVfeXFMT25SVjRYaVdhdHk5T2FGRUxzdVU0b3FPMGE2ZDVXTEk1X2M5OUJBLW5USEFXdEVWdjlzTkpPMlY1bzlGamNvY0YwV2VaNnBUMlAxNmNZbTFlVF82WUNGSWxSN2dMX1AyNVRuaXBpSFczRng2MC1vUVcySjVLR1dGa1ZwcWh4UjEtb2lOUklhX1Bwa0REM0UzWk1tVUtBUDVJSlFROXRzclpHNUJrNUpWQ3RSemlaRFhuQkxJMHVNc09ISnhWTjVOM2RQVzZkMUhRRUNfZDh6ek0?oc=5",
+      "date": "Thu, 27 Aug 2026 02:30:45 GMT",
+      "category": "India",
+      "language": "ml",
+      "source": "Google News"
+    },
+    {
+      "title": "ഒരു വാഴയിലയ്ക്ക് പോലും ‘മെഗാ പ്ലാനിങ്’, റോൾസ് റോയ്‌സും മാവേലിയുടെ ‘സിനിമാസ്റ്റൈൽ’ എൻട്രിയും; ഇത് നാട്ടിലെ ‘ഓണം വൈബ്’ അല്ല, അതുക്കും മേലെ! - Manorama Online",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdDRmTWVWTFY4TXF4aHdaSzVUNUs5YmpLY0JHZkxBWG9qZk9ORXBfLVBGdXU4YnN3aS03LWxtYW1USVZpQ0UyZG1Zb3E0elR5eFBmdGdhMTdrTEpfUm1vbFVlVUZJWVdBdVhlWFh4VUdFTXZIUmdTbnI4dHpLUDZIYTdjYzdSaHFMZklfSGNfdlBkMDJEdk9ETEI5TjJlWm1RRmlkOGtldmJGajFRaVE2bHEzVXJQMVV4OTBQb1BFb21rVFFuTG13MDVB0gHPAUFVX3lxTE5hTDNVLWw2MDhNSkNndlRLV0JHc3ROTlJWQWRCVlFVc0NlcTlVeFIzbHVqRTg3QThLMW9fcS1aZlVhdVhKOTZFb1pKVGc2UEhqWkpRZFp0cVMzc1l5Q0VwU0syNWZDc2JPaVRxVkl5eDdVOGVXcnQ0bEZBTFQwRUEtU0pCOHEydVRCNGczaEZGcVd4SDZMTHVfSm5sTnZFQlJITGR4UmVTVkc3Y1VJQS1hdkhrcVljLTE0ZDRyWW5uRHByTVMwblY0b0dMOUZmRQ?oc=5",
+      "date": "Thu, 27 Aug 2026 04:21:32 GMT",
+      "category": "India",
+      "language": "ml",
+      "source": "Google News"
+    },
+    {
+      "title": "નેપાળ પૂર હોનારત: કુલ 26 ગુજરાતીઓ સંપર્કવિહોણા! અમદાવાદ, સુરત, વડોદરામાં ચિંતાનો માહોલ; જુઓ લિસ્ટ - Gujarat Samachar",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQ3hYNFJOQ3d6TWYzQ01iT0ZYLV9NcjYydEJaZUYwY2FMNEhKQVpfUkNNN29VWnZJdEpQOHJJMnFfZl9aQlY3ck9CeGpJUlBJOTE4LUlwTHFvSnZ0WjRqS3lJVGV1WksxLVlFbzREZlVjZDFhRnFCeGtpYXQwa21Xd0hoWGdxajhRUkdfUk5kYlM5bmZhUzB2dVBfTVhPTzFXeHdOYUl5Z2NqZ0kyTUxuNjF1NkxkcV95ektLeFdjOUYxclFhTUZPRVY3N0c?oc=5",
+      "date": "Fri, 28 Aug 2026 04:57:52 GMT",
+      "category": "India",
+      "language": "gu",
+      "source": "Google News"
+    },
+    {
+      "title": "હવે મંદિરો-પર્યટન સ્થળો પર નહીં દેખાય ભિક્ષુકો: ગુજરાતના આ 4 સ્થળોથી શરૂ થશે મોટું અભિયાન - Gujarat Samachar",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTXNNd1pHSXg1VWRyUG4weFFxbVloTWxQdC1oQVhSMUJzM3dqUndJaXRGLWxNUVd0Z2dKc0xhT1J1R3BFRlNwd3VBcWdJak85cHFvN3pGNFUwZ0tFOHE3MVdPT0RjUmtNTHo5UHA4bXpnd0JodGxxbFUtNm93bWRWQjhMMElZenJLX3ZBeGJRZEZxNEFkYmZwSDZ6U1g1MzFQNC1uV2JEX3NiMmRMNDJXcWtMdC1RWExTZU41aGVocEw2Y2JSQzFWYTVLVjYwSWpyQVE?oc=5",
+      "date": "Fri, 28 Aug 2026 03:13:42 GMT",
+      "category": "India",
+      "language": "gu",
+      "source": "Google News"
+    },
+    {
+      "title": "સોનું થશે સસ્તું! સરકાર લઈ શકે છે મોટો નિર્ણય, 10 ગ્રામે રૂ. 14,000 સુધી ભાવ ઘટવાની શક્યતા - Gujarat Samachar",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPNWhwdnFKTVhGWDJUcVlWZTJNclRfZ0hhVDF2bHhLX055ckdJVkpYbFg1UkFEaW5ZbHJtbEFtMkVDdnZfVVRVOFE0eUhMa01XeEZsd3ZEM0lPeV91SGdEcFpsMGNrZE1uNEVGLXJONGk3ODlkSVhqeE8xUWNhUEs0eVBxaFZsZmp4Wk1WQnJxa0RaZTR0VUxmQ1ZiSkFfb2VTcy04SDZ3bnVsc2V2QndudXJBdTdvVFMtMWdXWXRVWFhhR2liOFJobi1xNEVGZlJKaV9xQlRxZElTZFRtdF91c1M5czBWTGozYmZKVFZR?oc=5",
+      "date": "Fri, 28 Aug 2026 04:49:55 GMT",
+      "category": "India",
+      "language": "gu",
+      "source": "Google News"
+    },
+    {
+      "title": "વિદેશી રેસ્ક્યૂ ટીમોની મદદ લેવાનો નેપાળનો ચોખ્ખો ઇનકાર! મોતનો આંકડો 500ની નજીક - Gujarat Samachar",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT3JCUUpRVW1TYkpKYTNRQnZJYlE1Y3MwUUxzVXB0RnV4NGNGWWpFZlRXeGxXTWdRNGNlNHJTanhTT25weUxzYzItaGlBMVkwYVdQeU1uMDFVU2szMmFCVHRFYkFBUzYzNVZlV1Vfb1pFdWt2N2RwWGJtVGlTT0xPT2c0dV9OY1pmY0o1NGd5eExVSUwtZmpEX3hmbWdCc2VQZ3BSX0JlSTZLekFqNGVKd2VWUHBXSW0tWi1wZk5BcGNIY1lVbmdweVJ6U1AxbXpBZjZlb1hfUQ?oc=5",
+      "date": "Fri, 28 Aug 2026 04:51:52 GMT",
+      "category": "India",
+      "language": "gu",
+      "source": "Google News"
+    },
+    {
+      "title": "અમરેલીમાં ગમખ્વાર અકસ્માત: જાફરાબાદના ચોત્રા રોડ પર ટ્રેક્ટર-બાઈક વચ્ચે ટક્કર, 2 યુવકોના મોત - Gujarat Samachar",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbkQzenZJSXFOM19lWVp6TEJsd3FSSjF1R1hrNEJEQVRWV0xMbm5JVERPaG1Gak1aNXU1cXF1dFd4eGlaYzl6TXFJTEpTZHB2M3Z2M2VhczlxcndJVWRBdl9Od3Y1U3NjSWpWbUJ5N2pBbmxGT3RQMWNVVmhVQ09YZWtvZDNWX1lOWGcyYTZlWmFfZ1dJdDNEdlY2dnZtMWNrSUZ5SW5hejNRSmdqVVRqd2ZTTUpwMVFQWTd2MlVHUjM5RUhpaTVLcW1PNGphZ2s?oc=5",
+      "date": "Fri, 28 Aug 2026 05:57:54 GMT",
+      "category": "India",
+      "language": "gu",
+      "source": "Google News"
+    },
+    {
+      "title": "રક્ષાબંધને ચંદ્રગ્રહણનો પડછાયો: જાણો તમામ 12 રાશિઓ પર કેવો રહેશે પ્રભાવ અને અચૂક ઉપાયો - Gujarat Samachar",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObTlFaDBCQ2tjNzFyb21tQ0FtZkxKVlBERTZPOGxMaURjY05Ndzk2SldabXdrbUxVeGhVejNieXc4dEF5RmRmM2ltMElZMTY5RV84VU5RRlBFZU5nQTFTYW1zbnpfOE1zbGFrbXFQdWRwTXhLSmpWMEFVYl9DV0RsT2MyZllwYnk4MFlzS3c4RS0wT29BN0VjMWZQeWxPektYcUNzNHVRLUp0a0NXekxPMUljQ1h6UkFxNWpFTHh1OVhoV3pGYmh1ekZwQnJfbGhPQ1E?oc=5",
+      "date": "Fri, 28 Aug 2026 03:59:45 GMT",
+      "category": "India",
+      "language": "gu",
+      "source": "Google News"
+    },
+    {
+      "title": "રૂ.100 કરોડની ઓપનિંગના બીજા જ દિવસે 'Toxic'નો ધબડકો! કમાણીમાં 64 ટકાનો કડાકો, જાણો કેટલું થયું કલેક્શન - Gujarat Samachar",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOcjFnSXYwWE42QmtKdXE1TmxUTVpJMEVoTXNUTE9kTUJxV2JWX25fMDFNODdlYWJQeEtxbTV0RXFOby1MNi1wd0pkV2JPX3pqMDhmcWlMNU5OeUxLQjZtS1dMeVFYQmhqNmJ1ODZVWGZBYUM2Uk5jeTJDOXRxc3VuYmp5UzI2RTJKbXNUOFpLUnFrVHFOdW9RZTZOQnplN2hlOENaVkZWZ0k4UklGUlJsLUNyTm5ad0taaVFFZG9fWjRYQ1ViRldKU19hQkk1ZFJOSUdrdHVScnpSVjFuXzZ4TFV1bWJKcTAzTHVmeHJNZVE3NEpORnNxZ19tVzhmOHdlQnpsYlU5VllWcjRPS2JLaXJtOFk3bWZQQVEtVQ?oc=5",
+      "date": "Fri, 28 Aug 2026 04:17:06 GMT",
+      "category": "India",
+      "language": "gu",
+      "source": "Google News"
+    },
+    {
+      "title": "નેપાળમાં જળપ્રલય : 469ના મોત, 30 દેશોના લોકો સંપર્કવિહોણા; 288 ભારતીયોની શોધખોળ તેજ - Gujarat Samachar",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdWhQZ3FFU2d2a25RbjRUYzZtbWt4ZDNURlJQTHJzbkRlT09mNi1pcWpZbFpGU3RMODNpNFZSQWo1Q0pWY2dySXktTUlNTl81QVY0VzhkdVJqOFlQRWliUmNwel82bjUyV1I3R29IR3NHMHhPS2JsWmtvZ08zWmw4TkJGUE9sRXoyZ213TUF6cWEtZ2EyV2hNekRGS3h0RGRvVEQzUU93T182dlh0cjdVdVZRQ3Y3YmhjS01ZYlJrcGxFTG1LTmU3cXdvYWY4NHFrZUdNeTN4NVl0bENUZEoycmJuUHJ1Mi1mZmhyRlJBTmk?oc=5",
+      "date": "Fri, 28 Aug 2026 04:08:59 GMT",
+      "category": "India",
+      "language": "gu",
+      "source": "Google News"
+    },
+    {
+      "title": "Breaking- ਪੰਜਾਬੀ ਗਾਇਕ ਰਵਿੰਦਰ ਗਰੇਵਾਲ ਨਾਲ 92 ਲੱਖ ਦੀ ਕਥਿਤ ਠੱਗੀ, FIR ਦਰਜ - Babushahi Punjabi",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfenRkMXVuSGMwNWVPRVcyX3FOdHRkNTlJRmgwQVptNklQV185WEtzTDZGMUdBNnRDcTlaU2diNTJzYnZWS2QwVDhsS2FmR1FwTWFBOGxpY1JocHRyX25wUzlQbmVvR1E?oc=5",
+      "date": "Thu, 27 Aug 2026 08:10:00 GMT",
+      "category": "India",
+      "language": "pa",
+      "source": "Google News"
+    },
+    {
+      "title": "Big Breaking: ਰਾਤ 10 ਵਜੇ ਦੀਆਂ ਵੱਡੀਆਂ ਖਬਰਾਂ - Wishav Warta",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA2UElPY1gxcmF2TkszLUtBNGVxWUJZdHhTUDZmemVCNXJHTTd2TmlYc1Y4TVBJakt6UzJDX3hLZjlaSzVTOTJVcWpQSmJXZTM1QVRKZEZua2RCX1pzVjNZVGV2TQ?oc=5",
+      "date": "Thu, 27 Aug 2026 16:29:29 GMT",
+      "category": "India",
+      "language": "pa",
+      "source": "Google News"
+    },
+    {
+      "title": "ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ | Punjabi News Live Today | Latest Punjab News | Chardikla Time Tv - timetv.news",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOeUl2N2tVN0ZQSTI3cldTU2xIc05uTW5QOWRrS2QtNEZVaUdES0xLWnV0MHRWSUJUbXpYc2dWelRiTnNWc09wQ2U2VVlJa1hGWFRJa0duOUJhb2Y2Ul9XTUZ0Skx4Wk9RZFRYWkFIdDBsVzNJMGNXUmZjdFRhVi1xeXBEMTQxWmNNbWNyQ3NMeXJZbElUM2xZVENlSG12ZUdlaW5nRlljUk9sY2QxNzdiNUVYZWlYQmg2NjJtV050UlBxekZrcm1zLXFDM090emFHZGhzM1hhTmlKbnhReXFuYWNEMHA5V3pPS3VtWFhHZnl3OEEzNjd5cVVNLUFkRGRjT0NIWW5nQXlDcmNVOGppNFRTRTd6RGhHX29BM3pueGdBeUhTM0HSAaYCQVVfeXFMTnlJdjdrVTdGUEkyN3JXU1NsSHNObk1uUDlka0tkLTRGVWlHREtMS1p1dDB0VklCVG16WHNnVnpUYk5zVnNPcENlNlVZSWtYRlhUSWtHbjlCYW9mNlJfV01GdEpMeFpPUWRUWFpBSHQwbFczSTBjV1JmY3RUYVYtcXlwRDE0MVpjTW1jckNzTHlyWWxJVDNsWVRDZUhtdmVHZWluZ0ZZY1JPbGNkMTc3YjVFWGVpWEJoNjYybVdOdFJQcXpGa3Jtcy1xQzNPdHphR2RoczNYYU5pSm54UXlxbmFjRDBwOVd6T0t1bVhYR2Z5dzhBMzY3eXFVTS1BZERkY09DSFluZ0F5Q3JjVThqaTRUU0U3ekRoR19vQTN6bnhnQXlIUzNB?oc=5",
+      "date": "Tue, 25 Aug 2026 05:38:00 GMT",
+      "category": "India",
+      "language": "pa",
+      "source": "Google News"
+    },
+    {
+      "title": "ABP Sanjha Top 10, 26 August 2026: ਅੱਜ ਦੀਆਂ ਬ੍ਰੇਕਿੰਗ ਨਿਊਜ਼, ਪੜ੍ਹੋ ABP Sanjha ਤੇ ਸ਼ਾਮ ਦਾ ਬੁਲੇਟਿਨ ਚ 10 ਮੁੱਖ ਖ਼ਬਰਾਂ - Evening - ABP Sanjha",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNX01NRGh5WEhaejBpZG54QWRMb1RuN2xKRlNrQXJsdFBuT0sxODhPTWZhMEJXcHB6RHphQlZuQURabWZjUTd2RmxTN0hQVUtWWlBwR2dIX3lsODRJcW5mQmFlSDBubTllaEVzNl9TM0hsN0VJejJRcjcyZXlNbnl3ODNxSDhLVlppdXhIV1BDVWFkQ2V3bDVaUnBPc2R5Nm04WTFfaVFRUGp0Z2dNS0FvOHowTEotdGxHZWEyVjJZdmdHdzNXNTBVS2Y5RnpCRGxmV0gwN1FUZFZIZ1ByZEQ2NlNmQ0phSnhCSzlTdHFEWlNzREnSAfgBQVVfeXFMTzJqS0hPVnVsYkhiQnk4RnkzRWgzRmwtWWZxTnhjV21CVTR2aEFNanVKM2NMeGZtbDRIT1p5NVpMclNVZnk2elU2ckczdmdsMkFVSFp5Zzk3MDZNUjJJWGVZaDgxbS1MZ3ZkNUdNM19lOVoyeFFzZEJBeXEzY1Z2Y1dyNWsxd2ZyYlVwdFBBVXc0eTFKSUxrSnFrZTlRTWVlMzJHcFRpSUo0X09BR0Vfd1Y3Yjc1U1dtbk5xV3ZNTnE0N2hoeV9xMEpDVVkyUEc0NjdER2VTZ2stSGJLRHJIc19HNFJBM0xiQWZTeko4dTVRS3h1WllaRGI?oc=5",
+      "date": "Wed, 26 Aug 2026 15:30:04 GMT",
+      "category": "India",
+      "language": "pa",
+      "source": "Google News"
+    },
+    {
+      "title": "You searched for \" governmentbuses \" - Punjabi Tribune",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tX3VHQndzUEFKSkNVLXFIRmxVLU9yVlVQOWRlMEhicF9uZ0d1UUdDalBKeEVYdHNuUC1wLXZCelZmTXdqM29QTmxqSnRPS3VHOEFyekpuVldMMVA2Q1ZxblNabjNiUGgwa19TUVRWZkN2cFRJX1Qw?oc=5",
+      "date": "Wed, 26 Aug 2026 14:13:36 GMT",
+      "category": "India",
+      "language": "pa",
+      "source": "Google News"
+    },
+    {
+      "title": "ਪੰਜਾਬ ਕੇਂਦਰੀ ਯੂਨੀਵਰਸਿਟੀ ਵਿਖੇ ਪੰਜਾਬੀ ਨਾਟਕ ‘ਬਾਬਾ ਘਸੀਟੇ ਦੀ ਨਾਟਕ ਮੰਡਲੀ’ ਦਾ ਮੰਚਨ - Babushahi Punjabi",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1rd1p5NE92MkRGUXczcThnY0dMVTFGRHlDaGxXWFFxZDFfUmp0X0g3eWFzTkdYRU5YbFZPOThtR05GSXA0d1VTQXV2U3U4eWk5czA0YVJIZWk3NXZ3aWJBdk9lWQ?oc=5",
+      "date": "Wed, 26 Aug 2026 16:12:00 GMT",
+      "category": "India",
+      "language": "pa",
+      "source": "Google News"
+    },
+    {
+      "title": "ABP Sanjha Top 10, 27 August 2026: ਅੱਜ ਦੀਆਂ ਬ੍ਰੇਕਿੰਗ ਨਿਊਜ਼, ਪੜ੍ਹੋ ABP Sanjha ਤੇ ਸਵੇਰ ਦੇ ਬੁਲੇਟਿਨ ਚ 10 ਮੁੱਖ ਖ਼ਬਰਾਂ - Morning - ABP Sanjha",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSDhNeUttcVBGZ0o0SllUSS1mZGhfSThoamYyem1DVi1tZGQ2eTZ2QnBGVXg3cVFtMXVaTGxOQURQSVlGRTctVzB6eGd6N1VnWGxFam41YndHRnBWNUo0QmhuZU55bC1aY093RC1ZZzMyQU9wNkdHdWJFdVFXd2tIdnl1cXRuX003MmY4YU95VmFnY01xMWExeGdpd1FBZExWd1RES2diZ0JJVVItSi0tMi00bXNmLUxvdzFwZUdlRjlfSWpaZHFWVGhXLThvT3pIRW1UTU9qc3hOaHVDQ29r0gHkAUFVX3lxTE53RUpZbzNiUzhKbVE2cXZTUTVyaURVanNGT08wYTdyZW9aVTVGQUVibFVWZC1zeGpNbHNISWF1TC1DX0lWM3pjNVItNXdYY1lYenFjU0JsQm1YbmYybkJINGphckpUWnl5S3FfdkRlLXEyNUpwa3d3X21Nd3dyZlJxaVo2eThnNzNZSGo4dnBEVTNaNmd6ZVFNOEdjQ3lWWWs5MS1DbDNuT2QybW12a1o2dGNkQTV3RnJ0dGQxenFITnUxdnh6VU40M2Z4SzJyRHZfeDRTN3M5OTNCcTNPWWpQLXVOQw?oc=5",
+      "date": "Thu, 27 Aug 2026 01:00:03 GMT",
+      "category": "India",
+      "language": "pa",
+      "source": "Google News"
+    },
+    {
+      "title": "Big Breaking : ਦੁਪਹਿਰ ਵੇਲੇ ਦੀਆਂ ਵੱਡੀਆਂ ਖ਼ਬਰਾਂ - Wishav Warta",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5CQndZNTNnY0pSQjBNZGs0QXFZQjBfOGZrVWJmbnpIUHA0bl9oMkxiME9YUlFIN2ViMWdldmI4SDNwUVRIYzdkVTZZSXl4T1JGUC05cHlSTGdtalZYNVE?oc=5",
+      "date": "Thu, 27 Aug 2026 06:29:39 GMT",
+      "category": "India",
+      "language": "pa",
+      "source": "Google News"
+    },
+    {
+      "title": "‘People got richer. Their diets got poorer’: Austrian man on how India has changed - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVnNma0RkOWRSUVphRmNicFU3eVZxSjRIdWJfX1VQV05Fb2d4SUtob3BYYmpmMFNJeUVvOTE5QXU3d2dyd3RpczN1UVcxaDRkSm00QllfYXM3ZGtXUzBGOGhaWE1rTTJNVE1BQXBjeHlxVE5fRlJqbXFleFlEN2dVQ1NJU3Z4ZldHZjk1YUVNa0IyX3Z3ODNhbHdJNHRHd2s0MjBwMjZsREdldnljX2I0RjB4LVVKVDN4dVJfZ9IBwwFBVV95cUxOMXEzR1NxMFNOVGlIaXQyOWJHZVlDcFN5SFRRbjhGakRrMm5iVFhJc1l1bnZ0WVBrczFWOXhfejVQdWMwMFhWQ3lZdkRlU0ZyelVWOU9UbjBMbXVaemdBOS1XcWRnNm90TENScHQ3Unk0LWRrUGVrR2h2REl1VTZPelgzNFJlMVJmWkpRdHhacEJvUHkxTms1YmZTSTZHcXpKOHNzZng2YzZyZDl0VEJUV3FJMzg4WklqZ3psaXVkUVctdWc?oc=5",
+      "date": "Thu, 27 Aug 2026 13:08:00 GMT",
+      "category": "Trending",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "US garage gives Tesla Cybertruck an Indian makeover, video will blow your mind - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTWtJOS05bW5TYWVnMTZDZlRLVmtOclZ1QzhCOU1CbWRaWHVkZ19VNW13YmI1aHBOM1pHdXZvX1A3ZmY5NHl0ek9UOVZrWjFPR2JjTi1PLXdIa1ItWFFTdFZrQ1dlVXh4akVmYXJPXy1oNkRMSWkxNXhXc01ZOEVsanFuT0g1QnllaFozRWRxaGZOYV9xSzZjTVBWMmljd1NPMVd5MzkwczFuT2N0ZHdwbDYzV3VPY1ZjNHZKYVRGcFZtcG5PWDM0MHdRTm5LaXp0ektwY2M2QUJqd9IB3wFBVV95cUxQZjJTZ0ZwcUF5cXpDdnVQMlFjNHpOcjZfdV9VdTNENHotOVJ0RUJjNlZUVnR3MXlZUHp2MUdLZk9YRHFNRVFGNzRJTV84Ym9oNDFSTWRsTVA5OEpOTk5taGs3S05jcUg4ZGdOZWppVjE1bnFoV1UxdTZCeWVNRHlPUk0tdHlUZklwd2M4aFR6clFVaXZPb2lneUZETHlFX3pDdkFadVFCNEZ3aXRJMTBkeG43Q2hIY2ZQaHRPM2xvRGl1Y3FKQk5Ib0xzMzU3aDJyV2hYQnZVNnNwVHZ0dU1v?oc=5",
+      "date": "Thu, 27 Aug 2026 14:51:52 GMT",
+      "category": "Trending",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Indian man says he saved more on Rs 25 lakh India salary than $8,000 US income - Storyboard18",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcXYxckZ2eW41ZTl3enpGb2xVRFRFRE8xd0lPclRwU096SXFIWEdONzFsaWV2ZkZqNmtPcHpkSnRPd1ctVW1iVFBVd0pIUUtzUkFkVjE5UWFuQkRuVjBIbkhTZWRrblJCcDJQdU52WHU3QXpjcDRYUXU2RHVoV1pCRm80NFpDQjBhWmpfcVlxQUlPQ2ZNRjNaSWJHOV9YRFZPakxDZXlZTzdzUXA2UW1jN0tPRjZ1dDVJWHhMdkhuRGRkV3c?oc=5",
+      "date": "Wed, 26 Aug 2026 13:01:02 GMT",
+      "category": "Trending",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Austrian man who visited India for 22 years lists what got worse: ‘People got richer. Their diets got poorer’ | Trending - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVnJIanBBb0t4NV93ZG1MQlNGaXFQU1lJQlJEQkJEZWNENjZEVGR4UGxyODZWYm5iMnBSalJHVnhXUFEteG5uaXNvbF9uMENyUFNvWDZMUlNUbHp6QnRPbzBRN3p0Qnk2N045cXk3dm0yTjVnR2NmX0NKV3RwUnpsLVVjVTN3Tm5iVVdMamdBOUdTTTZmOXdicXFBRWlIYUNKUVVadDRiS21fQ2dVc0R1QXQza1VETWlGVEk1MXhpa3RqbVIyaVRUZWhTVTR4bm9MUXN0UTY2cTJTbWQ0MW1aaWxkVVF0TmZfNEpza2tXNUJ4R2ttVXFkeFBR0gH_AUFVX3lxTE5UbncyUFpDSGNsa0R0MTZXcHFJZl9yMmYtemhYbzdkaVJNckdWcno1RFBLZzg4MU9fMkZqWV9MQVB3ZE9RYmlXZ09WZ2djV3JXZXl5Zy1qYVA0OXl3aXlmM2NJTWJtbTBpODZxVGtFaHhDVzJJMUJxbjVmZ0pXRlZkYWU2Yk5WOWQ0RUhrZ0xNVE5jTzY1VUxWY28zUDQxUVlaZC1BM2lFRXZwelpVQmJ1VEhkQXRiN2dzdHZsSnlvUF9VdUN0RlhHU0hOazJKRFVqQlNoVURaemhjampVN2pFX3c4SUdNcHlUZ1FmcUhNa0twUHlwZ0JXT0VCQ3ZGWQ?oc=5",
+      "date": "Wed, 26 Aug 2026 12:11:01 GMT",
+      "category": "Trending",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "‘Started hating that life’: Why a Dubai real estate agent opened cafe in Uttarakhand - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWJzcS05STVDbFcyeS0zeWVrYjNXWFJFbmFYMGJYc3V3MTdxWGRlcUhteFFmNngzVDRTdGRkQWp1VUNBWFE0eUJyYUdhOGpmUHZhRVZORktHX2E4MG50Tm5EdUV5VHJNYlZHdndqeDdnM2J6M3NYcDNaNnRrSDh0UjU4NW9mTzlsVmNYUDFfVFFvd3VTYWNLck50WFZDQkVLUmRja2lqazlSWWdvR0FPemZtLW9BRDBwdW5EaFFOM3YzZHQ2M0pqTNIBzwFBVV95cUxORGtFbUU4UzFpSUZpc0JtOVdzYXFxc1ZIRUl5TjEyc3ItaFBudkhqVlFULUlFSTJIYlRxTFV6cDRCRTR1VHFkRzl0aHo5ZjExcjJwd2o2RUxWTlQyWXNVSzc4clJkMmJCRllxemxPWjlGOFRfbUtNYlNYaXhRdlJOYkNIdUxhZ0x6U2pOeFdHSGFTUll2U1ZLTHRzbmhDVWczSW1nVjBsWmd6MFAyRU52RUpSQmt5TGphQy1IYlZ6am9tVWg3TmR6NzBaZllKOHM?oc=5",
+      "date": "Thu, 27 Aug 2026 12:31:49 GMT",
+      "category": "Trending",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Chandigarh's wide roads leave British man wondering why India feels so different - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS2lYXy0wZ2lpVVJNZFFrRXZ1RnF3QWtQS0w0TC0ycmdKWWJ6SHB5V0hRejNGb0pIb2tGN1VjMWVMMXZLU1ROMHJFR3FVZXgtbmJVZndVSjRnSlRad0RsS3Z1Mm5DazlSUFBySE0xRzhzTlJMQ2hWSVVGU0pBSFp1UWdiaFBiSnVGeGJWS3hTdUtNQUZXZHRSbGhqN0NGcnRZRkdDU0pwX0pIbk5uMXgzX1V2OFYxMGFGWGhvS1F0bkVsRHB2SjduRDJMRVRuWFUxcTFKMHFfelFXczVt0gHiAUFVX3lxTFBvVTVZd0FHclQ5VTRNdFNsaF9jVkNzLUpqcE5nQ3JxTXdMNVVTQVRGbDZBWlRrTWFqclM2bDhCRWdRUGxlVXljNEtLdWJPTndyMDFPRXctaVdfdHV4LVh4VHVLRjJ4eHZERVVhZ1pIRGZjOEtLN1JDVDVpXzZPaTFQZUFnXzBvc1V0czZ5ZklIb3FEaHNkUldCOXZXd3dDbmFXMExzNWxjVzlwV0RmMm8xdEFRVUppMEtZVnhobHBaeVBNV1lvOGZXZjNIc3VwU1NZMHFkR3VXMDhsOGVTSVNFblE?oc=5",
+      "date": "Thu, 27 Aug 2026 08:12:49 GMT",
+      "category": "Trending",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Richest countries in the world 2026: See India's ranking among the wealthiest nations - Storyboard18",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWVZaTGN0b0pWcEhDX3RkUm9LLXpZOUR1RmJYbkxCQjV1WkgzY2JsZ1NTa293RGs3a0hZQWJOQlNzbm13MDFDZ3FEYmdlc2JYYVNXME9zamRWOUdSR2JKU1ZRVzNUSS1nWV9udWRtaUFiV1RZWUlfdUdtMXAxZ1h4STdfT1Z0eElsWXV1ejNkSy1ZQnFKOVJ3Z0RGU2U1QktMb3I0ODlPeTJKR3REdjFwVkt0SnNWRVplb3p6Yzlab2lFNHdkWmNsNHRScDVEcElJeE000gHYAUFVX3lxTFBlSWFzWU50emtjZG9IR3ZWYzRIVjBPNi1OaW4yVS1PaUtBaldIX3ZPWDd5a3hYc1FDY1QzZXozT1M0Ry0zMzBhSGUyVFY3a1FGTUYxOUV1c0xySjFkTUdLS3VCX2hSREhnUVEwQkxRQUh5NVpjenFIdXRBa2xvN1dfaWQzbXBaME5FZndqcEljRDBHb0tQU25ENG9kdmZUMDlWR2Z6Nm52MDk3aUQ1dWJvX2NLUGttQUZXdWx5RkJiNEJSMER5cTRFYWhyTVVodUttZlA3QWdlYw?oc=5",
+      "date": "Wed, 26 Aug 2026 05:45:58 GMT",
+      "category": "Trending",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Bihar man in US explains why moving back to India is different in 20s and 40s: 'There are two types of NRIs' | Trending - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQMjJyV05peVNSUnVVVnRyZlR4WmdkWThxSjRSUFlQanA4bVd0ZWF4OC1UNTRRa2sxNUdGbkdEV1AxNDRsbzFzazQtdC1BOVR4UHkzOGFRMVVEenl5MkhtZDUwb1pQTGlhczlEUUR4TzBNLVJobm04U0JacGcxN1VFeGNVR3Z4aXhlSEZ3TXBjTzNPY0FDYThXZDhtOWpoMGYyY2RMTzVyNUN3Q0hpRGREeWVVMzJaX1drRzlWNU94ZWUtT1NPaEk1MWtwZ2RRVXJMOFFCN3hVeEJTak5Db1dhTGFmUXBfU3Y4VkQ3Mnlnd0VuWjh0VFJFS2930gH_AUFVX3lxTE1uZGZJRWh2b05XOEx5c0t4c2NGcWIzSWE3bFkxaFhacDhkZE1RLXhmZVRFVjQwcW03QUVseU1pZHJ0SVlfNFlTRjVhTjVGYUR5NnVoNFQ3N2VHNzBjRThQWWtYSXFrVHFVZ0V3VHQ2M3RfNjVEUW8yUTFrN21KRWtNUDBKeHJwN0NrbURSQ1RXU19ONzdtN3lFS0xRV1phc0NLX1NJbG5DOGVlNjlRQTNBY3lxek5JQzBfMzJBSFRzUWJGVWdTYXEwWUV0b2NUUUJGTkVYNFZxRTFHeGVBVjZZdXpnOW1ZUDZVX1dwY0RpRkZmWG9VQ1c5NUpZeUNCZw?oc=5",
+      "date": "Tue, 25 Aug 2026 13:07:46 GMT",
+      "category": "Trending",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Haridwar Railway Station: वंदे भारत एक्सप्रेस में घुस रहा था 10 फीट लंबा अजगर! #VandeBharatExpress #Haridwar #PythonInTrain #RailwayNews #HaridwarNews #ViralVideo #TrendingNews #UttarakhandNews vande bharat express python, h - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi9ARBVV95cUxPbHlkZ2RMdHREem5kZS1yanZjVU8wSW1FMWZJLUdURjNRSFNVRnU3aEFMMEtoS2NHSmh4anZhaXVOWTdRVnJtRGxrVFhqT25uaDJHN1Jka25SYjI4aWVWR0gtbHNCNGlMTmFMcVE1UGRzSTR3NjdsYU0tMlhuSFNZZUllSWJsTWhwcVlMMTlWNUVUQU5yWS1rRTZONzFDakpveUo2Qkl6NDdaeU5ucklzWG1ZekY3emxXTDhNZlJPa1lmaVVWRmdNTDV5VDl3ZUF4YlhuTGtmRGhjN0FmSFdIcmpZeXoxQUlKVmI4aUh2SFM3ZWVpVzU3Nld4OUR6V1o2UmF2VlVoNEpwcWRnSWMzLWhBWGNnY1BCTWNqUWx0UW1BTUItd3h5c0MwSmRNNXRQMVBmdjVaQ3ZHN0NHdFlMcVVMNTVTLTRmQ3Fxb0Q2SXhuVldfU1pXcTFLT1d0M1d3anpqRk01OFMweVlTMnpfNldiV1hNR181bUZaUnA4cy1DYXhZem83U0poV0FIY2tDSHNwb1ZJNE5XOFpidUZ0STJSSHhGVkVyUkFRZUszNlJzNzVnaUpod19tOXpaRzc1TWxpNmQtQW9fNWZjcllTOTZmTnE3RUh6VTVGNDVYYTNvRXhsSHpNUTVqaG44UVdBTFprLXluaXFJUmhfZExoc2lNVjdSOUFFYzZDdXRoLXpuNWM2Qk4yb2ItbVBIRG5vNTBOWldkcHJUVk02UkNEVTNpQ01lR3djYXRyOUlCWVVraXF6LWFWNU15emtmRklQQjY1b3dqQkNydUhFV0Raa1VGTFdwZWpKV0pZVEJfWm5QRkpI?oc=5",
+      "date": "Thu, 20 Aug 2026 15:10:20 GMT",
+      "category": "Trending",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Top News: झारखंड में CM से इस्तीफे की मांग; पूर्वोत्तर भारत में भूस्खलन; US में बारिश-तूफान से टूटे रिकॉर्ड - Amar Ujala",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSGlLWWl3QW11dFh4MzNjSEZCekdBWFJVTDJGQUlkWlljYTBVSFFKbXE2Q2JhdUZaamphM2psTDdObkVRTTdSNnY0Q3FEb1pfelNhelBjVEVZMGFfY05OU2hmYlV6WUpjcDNSN1g2M0gzd1RhUUJHYWU3R2M2MGRfVlYwTW5DemhDN0FXNXdVS3M5TUN3ci1mM2ZBUnB3SDhZeUJiQTNDMU5wejlHa0tCbFdZWV80aHBEeUFxd3Z5V0NVM0VLMXowZV9XWmJUUmFzMFJLWUlEYTB4UmFPVzNvUlF1QnJHV0tGWnpB0gHwAUFVX3lxTE1ycEY3ODRuOFlucDVWblBWV3dISDhORHpXdDhxcmd3ektVTlRfbHBaWkREZTdKc0R2M0txTDlsSGxCTHQxTU5XSjdLa1RfMHk2bTlUbDJIOFRUeUJyR054SW9DRk9kRnFGRjhDZmRzOUhHNXNKSWN4SXMwYm9DRzM2cGQ4c2VCb0ZJN19CdnhQYy1LalVXeFFEbEN6TXd0OXRVQjJhMzg3bEZuU3RWcDZ1QXlhWFdyMjBDbDBXSnFpYUJndUFCMHM4MzhXbU14UXZIMU9EbHI2X3dTSlctQjJJMHBablBsU0JKNjhoR0NydA?oc=5",
+      "date": "Sun, 16 Aug 2026 00:53:21 GMT",
+      "category": "Trending",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Google Trends: एक घंटे तक इंडिया गेट में छाया रहेगा अंधेरा, जानें क्या है इसकी वजह - Jansatta",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNHU2VWU2Sno0alpRUnRUQm1sRjFyV3Mxa3ZGSmJRN0FsRm1yV1VBNlp4VnQxSzJ4MkszenpXWll6V1JDWkpWdWNfVnJ2RmNrS1BSOHNSYWdPQmszbGtOeVdoaHVlbWlQMHI5TWlmUzZUOFJXekJiRG4wUWE2S2k1VDlYSEVZNDZoU0dHQ0E2cHRCX3pvM1c3RDUydXBsckhPSXdhR1VwMDFEckHSAbIBQVVfeXFMTkFOeXlBU2tFTGlaS0wwY0NHMGlNR2hhdTA5MlR1dzJFT3NEU3lobTR1NkQzNEhJaTdaUklwQUwySk5DOVpHUE1NMTFfV2p5S2Znb0JWUWJ5ck90QUxaTlhUMjNFRGkxSFY1RjFEU0xCek9lREJvX25GWHB0NE5QVUNRT2k1N2FaaHE1ZV92NGF3SUpEeHo0MFhzZlk4ZF9pNV9sS2lyakVUY0x0TF9pcjk1UQ?oc=5",
+      "date": "Sat, 28 Mar 2026 07:00:00 GMT",
+      "category": "Trending",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "पड़ोसियों के भारत वापस लौटने पर फूट-फूटकर रो पड़ी अमेरिकी महिला, दिल छू लेने वाला Video हो रहा वायरल - India TV Hindi",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLXlEOVNtWlNkYUhaXzFQNWFoZTZrV1Uwcmh3Vk10TXVlcTdncGpWcGMzODdiNDczQm9iUGNkd2NDNFgzb2FEWGVzMHctUFVsa0h0VERkREdCaV9zSUQtM0ZtbFlnUF92cW9BUm15YTIyRWQ5a1JWYmY5cDc0NG9SNkR6MGlrN2NIRThvTUgzNXdEdExWYUdObE5wc3NLLVZadDNlM1QwdjFiLWhHNkxqREQyc2ZLWElkTXRLQWxwVHZ1cHBhZDdDN9IBzgFBVV95cUxNUktGVGF6ajBydUcxQ0xxaDd6S1RNZWR1Q192WGJwX195MkkxX3dzaGp1dWE2RDVPVHN0U2tHT1ZnNlRRY180RDBfTG5yVEd4bU1MdURSSFpUWXVZRXQxbDc4eWNkNlN0WTNQTjdsbHJCbFB2QlY1Ulctb1c4bnU3azR1TmFGYmdvN21pV3hacUFVLXVUNVVLRWp2UUxod0g5R0Rpb2hYQ0RncWRTUDQwT3BPdDNVR1BManZZSTRibENzZzZucklnRElRR3k5UQ?oc=5",
+      "date": "Sun, 16 Aug 2026 07:00:00 GMT",
+      "category": "Trending",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Top News: सरकार और CJP प्रतिनिधियों की बैठक आज, अमेरिका ने भारत समेत कई देशों पर लगाया 10 फीसदी शुल्क - Amar Ujala",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQkMtYzlpeWthdHI2WXk4WUR4TUdOVURpV0FCMDRXeDkxT1c0bUluTGc0bnRaeWVvQWM5OTNMU2trWURIWjRoNkY5VjlCLUZPV3JyWG9qSFljdUxIQlN3UmtTc28wcWZheXN4TDAwMVZZUFFKTXZWdlBPcWwxX2VMOGpRanNIVXUyczlFTHY1SXpQclU2a1Qxc21FTnRSQmpPd2tlX0dpdVpTOThfaUhFaE9md215Wnhod000cDc0eEVRSkIzRjFfUXBpZGVlX0FrQWFNWEZkMkFqaEhmeEZ4a3dlaktGbkg5MEpV0gHwAUFVX3lxTE5uS2wzUkdSYTZwTi1RaUxjSFRSSEd4X19wYWdNdXNXYk1WTVBseXA2eWxqSy1QdUpYME0yMXRCRTdCYm04STlKZlEtXzY2WHlCNjQzN2c3c3I3NXZFWVNCbmhldFExVWdSU0VwZ1FITEJBY0FHdENEWG4xa2c3WUZhcE4tUTJmSEpRTnp6NzhtY3RJQnhabzBKWElxblh5d2xxd2pmYS1pc0dkN1Q5ZHg2UkU5TXBwMkVNV0ZjYmprMDRuODYwUVhMbEo0MWN4ZG5vcE1uTDFPMTRNaVJmM1I1bldudHZrSWN0TmxxSGFwTA?oc=5",
+      "date": "Fri, 24 Jul 2026 07:00:00 GMT",
+      "category": "Trending",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "'ये लोग नहीं सुधरेंगे...' नो एंट्री के बावजूद इंडिया गेट के सामने बने फाउंटेन में उतरे लोग, Video देख भड़के - India TV Hindi",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYVFxWXZjdFBEUTBMS2tUeVZFdjBvdlRrbDkwZFFNcU1vQkxucDVfT1NIR2w0T1Q0YlNyYWFMRGFjblNmRVhXc0R0U2pUMXJYS3hsaGFERTkxQmZiMVJ1NWRUTm5UNVVMaDV0Sjhsc3RYMGtIMVlIN21WY0NkbDU5YVNDQ256OVNEX3NjVWpVX211X2FEenJmRWRjWnA3clpXRlVTY0Y5TWNPMFJpRHozR3M1M0lsRE5jMVJjNmRHc2hmbGU1cUpzTU5nb2h6T09HQXk40gHYAUFVX3lxTE1PN2NSc1piaE1HLVBpX2wxRWd4N0JncWxhTm1iWno4SWZCMHBtZFlyODRyWGpqbUZyOTFXdGlFaFF1al9sNHF5dnYwNVBzeWl1NnVRbmFDODdNOGY2cWUwMGhoSHFWZlhFSmE0SG9NREd2SE5yeUxZQUR4MDVpNzhYQVQxSTRQYmc2S3VwdDh0ZHJhcGo0VWx2aHgtai1hQmNFZXZBOENuYnBVT04tcFF0a0QtTm9jTzFwaVNwMUFKbUU5QVVFUWR4MGVjMzBadjg3UWR6S1I1Vw?oc=5",
+      "date": "Sun, 16 Aug 2026 07:00:00 GMT",
+      "category": "Trending",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Top News: लाल सागर में भारतीय जहाज पर हमला; लोकसभा अधिकारी ने लगाई फांसी; यरूशलम में अल-अक्सा मस्जिद पर तनाव - Amar Ujala",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYnVwYjA1cFVkbWZZNW9kTVo4UWFBejd0T3l0VERSTmt3d19NTFlCbl9DRUxfR0pJZ1BqZW9vc0prb3JqXzNBWWgwbEZlNGlnTjQxSEZaTGtyOGhvNEMydExGdHJNeVM5Y1ZoNzk4R0FTX3JqQTJFRkR4bFQ4OEZzTV82Z2c1UDl2ZF9aMHJRVUZPdDh3WnhYLVZLVkNYSVJzMlQ0djVCRzVjNlZmZkJUUUhWWGNCMFVkMFNrQUJEZTdrZHJqdFRGUXVqeGhmWWYtRXJkdjk3R1ZabXFfSVlJZUtNSEdhUdIB6wFBVV95cUxPQTRGcUgyeVBxbUhBT3dMWE5kNG9uRGRmSjAwaC13enU4blFNXy14YU5kbUhhbWQ2UDBYUVdUblJTbVVNb2tUdVkyZk9MTld0TFAxRUNQc0NEZDZNWS1TZU1vaUJmcU1PaVlVQjBUMXdJeU9JQWM2YzFIdWljaDVNNUNnZ2YwN0laRnhXUEl5T3ZoSVRUelBhX3F6UUtPOTB2UHhaR1g4aW9jRXkyWFJNWGdJRjZmYVhzblpyR2xUeGltMUNrRGRQYWJpTDNZREc1Zk1zd3haXzVRT0VqdUNLeUhTQm5YVk5TOGpV?oc=5",
+      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "category": "Trending",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "भारत और नीदरलैंड की मेडिकल व्यवस्था में क्या अंतर है, डच महिला ने शेयर किया डिलीवरी का अनुभव; Video - India TV Hindi",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVU5hRUNlbXVKWWF5WkhxOWNoQmY0Q19pZVdSeTA3ZEJGUExaQzMwdWpzaVBoODczZ1U2RWl4NW5nS3hOa1pwUlU3YnFVTW1PY2NhdkhnNXZIdzFucmJYWnBOUjVCeVl4VVUtUGlSLXYzSnhjdjZONmpNdkpKZkw4MGNUSHpsMHVKVXFVMmxzOV9tVXFoZGpZcWFjazRrRDM4OVQyQXU2ZWRRbWRIc05PZ0xDTlIwUkdfZk9CRVVXWEVROVJkN2t5dm9uNzZRQ18xbEpZczl6ZEs1M0JNNkRTVHFveXhoZ9IB6wFBVV95cUxPc0VNT1I2cEszUkR4UXVuNG1rY1FHdzByR29GakFQNjdIV3ZMUVRJbmgzWjJjYW5FZE53Y1BwRHJGNXVXOThSX2NfTW5qZzNRYzdkNGN6OFo4ZjcyRmhCaVlnNnNzVU5ucGZIMzg4UndzaWpYbXZrSXE5dk9FbGRzNi1TV3FQY2hXWHFfQU5EU0hVQzlMdmNwaDkwSmFiOWdSeFZyb2lrMUpnei16OEw5NHFMdW4xNWhxZTZyNl9Ra0NDQldtaDJJM0NqR0d4dXpqQVg1MVJqWHB6TDBkVnlJSUJDNTZSOXB5aWdR?oc=5",
+      "date": "Thu, 30 Jul 2026 07:00:00 GMT",
+      "category": "Trending",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Indian men’s team looks to finish FIH Hockey World Cup 2026 on a winning note in 7th-8th place match against Belgium - Hockey India",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMXJNdjVWdnVWTy05d1o2QWt2MnIzR1h5MnpNNjNic0tSczNTZFdaaHViU1A5OG9tWVM3QncydGpxLTk5ZWkzYnVyekZLcXlHcTlOYklTUjlYT3lpUWRtdTloQTZQRWFYZ0p6dEJxUkI1NHVqaWdlQVoyTXJRRWtfZjBUalNna0hhOUotNUlVdHZadm5LVVRoOWdLSjZOOGJycTNIanlRSERSdVBfWE1oQWt5eWRhSlNlM1JBT2hCRmpVWVNjZjdoS1pZck93MTd3dUo4U2VUOXRjMU1FT0ZmMHV3?oc=5",
+      "date": "Thu, 27 Aug 2026 18:03:18 GMT",
+      "category": "World",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "More than 380 coastal World Heritage Sites may face climate risks, new data shows - news - Mongabay",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQkp2eGJObWJqSnFnNFJBank4ZWRkYmFwNnJXSFNXaFhrN0tvWElxRWNCWTJPeVNFLWUyWk5xQnpNclFaMlZSSFhZNkt6Nnh3RUJBc09iTXNtMk0wWE1JUHV1cHJtY1c0czd6cHZQVGd0OFZENlp2Y2ExWG8zbUdyY3AyYnF1Qlc3djg1SVA3TGtZVjI1ZlljWEpYM1dzRkhGQl94QUx3U2xPSzZoWURrZ3FVNkRRUdIBuwFBVV95cUxPLWtaaG9WNnpMZWhwWDhUUEdQWFFCeF8xRldYbmJTdUNMNlF5VXoyQW1BM0t6eGk4aS1ZQUowMW1lN3h4TVdJODQ2a3FPNll4V1R0RnJkTXA3VEhaTnpMblVKVF9TLU9pZENGUWVSQUNSazBQRGt0WE5YWnpfSFNydkhsVzdNVW1RWFV0anBzU3BXMHVsdTVwNEhYZVVVckNHS0tRRExuREhjZzkxeEN0dVpqQktHbkhVNDJB?oc=5",
+      "date": "Thu, 27 Aug 2026 18:24:14 GMT",
+      "category": "World",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Netherlands and Argentina women set for FIH Hockey World Cup final rematch - Fédération Internationale de Hockey",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVkZuTnN3bU1uTVh4NzQzdWVNYTFIM0FFWHVqRmVvX3lTVnB0bkxmaVlwRUg2UFdoT2JpZmVMVDZNdzZINEdCSUcwc0xtNzNrdU9MdTI0SGpTU0xFOGdsb0pNWDRuVFBXOHpBQmEwcUpHLTBUUldxZDktT2NicndTVDdoeU0yenJKZ2liNWg2cjVjcTlUM1RGWHdheFZ2X005S2tTMg?oc=5",
+      "date": "Thu, 27 Aug 2026 21:02:47 GMT",
+      "category": "World",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "World champions Jepchirchir and Simbu lead strong fields for Sydney Marathon - worldathletics.org",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTVIybFRPa3V2SFFVV0RSWXlQaWJ1c1pXQlVieFJFT09pNnpHb2RMTFRoWElQNjZvWHh0d0E0dFc3NUptZnhZdDloNFBaSlpmdk12aXJ0VmQ5SDU2QnQySU41UXFCLTdzdjdqdUI1NU50Zll1TVNodjYwVl9KOU5wNWpRRHZmTngyUUV4dHdXYUlGS3lULXZLa0ttZUVEbUtoMDNpWE9ydTFXdHpqVlJZdzNRSE5wZXM?oc=5",
+      "date": "Thu, 27 Aug 2026 21:58:08 GMT",
+      "category": "World",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "School assembly news headlines today- August 28: Top national, sports and world news curated for you - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQT3RNMWNlYXAwV05aTTRfekVJM3J3LV82N0l6Y3RGZjBLLTdiYXMzd3pidEdpMDBtVVNMRllndGc2aUhNVEdfMFprUl9qN2JQU1B5MEFqN1dmRmFTV00ySXA0aWloSmZxcXhRLVZ5MWZYZVRTdEVJd3RmWWhZa2JLb2ttOGRvZzNwN0haYy1rTXB2c0oyWHJTNVZwRHl3SGZMeFdtbk43dXNsal91cHYzSUVpWmNXU2lsU09HRWJDSXlSdnZadWRwYlIzb0VDcy1pZGx0blFmb1QyZDVXNEVvVU1vcUI?oc=5",
+      "date": "Thu, 27 Aug 2026 13:29:42 GMT",
+      "category": "World",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Reuters World News Summary - Devdiscourse",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcnVGRHN1ZWQ4MWNVcU1ONUctX2h4NVJ5X0g5V1g4NDBjYmlfc01qaXRCTmpPVXFWT0YxQnRxdEcwYkVLNHBNT1hBaHJwRm54VExRSUdvUjhpOWdRV0gwQTJ3bG4xMmhFaWplQ291eHVzVHlINl8xU1BkWnpJeC14N1oycFd3a3VIeXZzbEd30gGTAUFVX3lxTE9UVXlMenExdzFqWmVMRjZSanNUdU9JODAtZi1uVEhrTTFmWlhuZUFrczBjYVZaMUpFSmFfLVlLZTBYRFRFV2RuZFhjR0RHSXNLcVV4SE85ZDR3MXRISUlnRmpPTUhFQUx0MXVzNkRLbGJMS05iNlRXanVGeE5BeXZ3RHNESFpkRFhzN0xxQlk4SFNQOA?oc=5",
+      "date": "Thu, 27 Aug 2026 23:54:50 GMT",
+      "category": "World",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "What’s happening this week in economics? - Deloitte",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcV9VYnV0R0RPcWN0d2g1SHJIVlNmaVA1TV9nXzRKdVlFcWtSMjQ1T1B0djE4dDNRanZvSVFGX0ZBNUd6cnZkVnAtenFuMnFzdU9zYzg5cFdkTVRxU1F5YVVXVFhVWGdhd2RsTDBkNS1Xcm9ub1FnMFp5NnB3WVBYa3JJa1FVbG5IT0ZRRHphTUhtNThkenVJS1ZrdWNDdw?oc=5",
+      "date": "Tue, 25 Aug 2026 07:00:00 GMT",
+      "category": "World",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Latest Hockey News and Updates - Hockey India",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc3dOdjVQQ2RGZWFWUFB1VDlCSE1sT0lHNVE5anVQMnBER1RKM3pBc1VxcWxSbjlNRGRIVXN6LVRwMXRUQjZCTjZOYzhDcUxOZ0QwX0VBWnM5aDlPYk9LTmZzWkIzSXZiOEpDRk1XamRUM1hVVFZKQ2FhY0FNQkVQa0JiY3djY0RJQkxsNnlOOW9zOWc2OU5NMGFoXzZGSjg1N09GcWM0SzRiSmV0VDhhQ0U1d0JPUUVqeTRYdzVUQl9KUE84dXNB?oc=5",
+      "date": "Thu, 27 Aug 2026 18:02:29 GMT",
+      "category": "World",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Live Cricket Score | Scorecard | Live Commentary - IPL 2026 - Cricbuzz",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCNlZ3N09QN1ZPZ1R5cDNYaEktNV9jZkJVNU56VFoxS0pGQ00yMVZKVk82dFVwanNaellWako5UlNZNk9xVllPcXlMR0xyTW0wWUVXTW5mYUtPUjNUSnZZ?oc=5",
+      "date": "Fri, 28 Aug 2026 00:54:18 GMT",
+      "category": "Cricket",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "England vs Pakistan, second Test, Lord's, day one - Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPbHJIanBzVndsbWJuSGdrUU42dXdqdGVaVjFLWGFmOFFqbTNVclphUGxqZTh3TEhJbTkzb2M4Z1BJcTY2bTAwZl9Qb3QzMzNVZEphTV9RdkdkRlVjcTZFNUI1Mjh5X1BIQm1ISld4V1d4WDNaY0ptNmVXUFEwMlVIWHZnb0VFRkNXVDJRdktFUERJNkRnVjZzWFEwYUs2Q3ltaTJwMnl4ZUJmdGRWS3ZFS043WW9RTFI1Wll6dTEydG90dUZxZGdUSTBhV2l3R3l4aUhpdXhHb1E2ZERHa2s4ZWFHMlVCbnY4SFR2T1YzcWJxMmdldmwwQVNOc09LeC0wZURMTmZyZkF5anY4aV9IMGljMTFHcWZTRHlWVjhLVWF0UWdfT2c?oc=5",
+      "date": "Thu, 27 Aug 2026 09:00:00 GMT",
+      "category": "Cricket",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "England vs Pakistan, second Test live: Cricket score and latest from day 1 at Lord’s - The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZTJTZzVOTXpFanhHTVRNQ1MxRlFDRTZZLVpHUzFPcnFLOGMzZjRvbjVYd19ZNjQxRkF4NS04VWhLaEZYaHRjSEFkZGpHbTAyT2lHMHFiRXpJSjA0anR6RUttNlRrcHdYOGJkNW02Q2ZZUnlYZGwyWlduQ3dnM1czSzNLWkh3MWxXVFB6Wk1OMjg2bkFyRmY3ZUdmanlsaVhDTFVVbXZn?oc=5",
+      "date": "Thu, 27 Aug 2026 17:14:04 GMT",
+      "category": "Cricket",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "England vs Pakistan 2nd Test Day 1 Highlights - NDTV Sports",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUWxmd0VudG9KdWt4OHhTV19LMlM5bjBiU0xqSTIyU052YXJIcmg3cDZCMnRkeXNwbzhsbXh5SS1NMkRIRGJ2dWUxX2V0OU1oUWtCNkdqRTNMMHJoRDRuWlkyLUZrVndyRGx2cldGYms4QlAxSzlVQS1xR21pYnJiUGprWUZ4WkdQdmNkeTBDTXdtT2ota0g5RFI4TXlhSS1XTnhjS0FYZmR6bThDR2MzMjhzQkJ4aHc1OWJMS1JnaE4yNTQ2Xy14UGFPVHBrcjRBZGJkdHJkZDNxQQ?oc=5",
+      "date": "Thu, 27 Aug 2026 17:50:00 GMT",
+      "category": "Cricket",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "IND vs SL Highlights, 2nd Test: Sonal Dinusha’s twin centuries deny India as Sri Lanka earn hard-fought draw | Hindustan Times - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWVZSdGlHU1ZITm5ic09zSXB2M21SWWM1c3VoZVFJbWhweVNmTXQ2UUpXLTkzRHJNWWtnTUt6eDR0b2JLVEk2ZFEwLVcyTTNXWE05SFJXbTVLbGltMlUydHhrWEdwdlg2ajM5S0EydnpoeGFaTndkdmpfTmVvdFc4SktpaGhGekI2ZlVMdUNiOGxXcjNiUlpfa0tja295c01UdXpoNGYweF9lS2M5QWZNRXNremlEaVVLeVNaTXUyUmphdXdrNGJjTVhRNU1OXzZTdXFLSkxfdHlVRU54VENZNWtLaEllSUM0Q2E3ZkR6MjZIVlZMSmhkNDJNejXSAYICQVVfeXFMTUNwZVFCTVJnMEMtQXY4Ym05LWlUZVFxSE1FY012ZVI2bzRQekJkbWNsSTBHeDVLUGxTVUhjZ0Jib3FRSXBzc2thaDBNT0UzWnN6cGlYeTFWdW1qZllfb2pIeW5XdUtGQzk1WmRqblF6YV9aYUV0c2F0T3JVRGJmdUw4U2RoUDFKYlRUdEJvSnBqNjI4LVlYbHdGbHp4YTBqbHRHRnE2cW51bjZJS1Y5c1NlZDVDSmIyOTZrMXJEOW1BZVRod2JfX0I2MXVUaWNITUlJbXFRbVMtblo2ZE1KV3NyRDNnNlpad2Q3VzdEdUhnckdEc0d2TGJuYnlDSEFEdnN3?oc=5",
+      "date": "Thu, 27 Aug 2026 11:40:40 GMT",
+      "category": "Cricket",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "'Test cricket won': Shubman Gill after Sri Lanka force draw in Colombo - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTUtuRTgtbFF0aUJ1UW1COUpSMWJVX0t4NzllZXJCb0pjN3hsbUs3Rmg4UGM2OGZ6M1hZOHBJcGVOZXpnbHMzSTV5ODhWTWlENW9yblpRMkdaM1pDXzZ5czBjMTAwTjRIU1FLeS1xVGNJR2ZqcDZjQXZxbzc0RG1NTFdvVjc2RUo3VkZnQlc4VFUzZG9PY2lCLWotTWlpRzRVUm1JXzZORWxIQmdjYXF3Nk1pVWtqdjFCRzVOckZkU0xaOEh2ajE3eTJqdDVEeWJnVHpwWExsaXVHS3ozazE1T21TZkUwTW82OGxhTWllNjhIYUZjcVHSAfsBQVVfeXFMT1phY1BaVndIX1NYOFFHVUY3TGVlV1hCUk9ZbTMyRjlPaFBsa190MVExakxaS0N0d1ZGWHJCNTVCeW5nUWo0OS1maXZmXzVMOHdwcFBrdmUtTUN6ZThfN2F4VUFvNXhKYjlOYy1RUDJDVUFoVmRqX0FLQjF1ZHNOSHpNWTY1S0FSWHhLYkw0TUlkcmE5Ry1hWTA4VmZVenVIcEtrV2JFX2piaGR0V2hxRGFPUERmY29xbXJDNFBzN3NtUmdwMXk2ak9OM2xqc3FacGZGbjRINHlpY2kweVdPNTB1SXZ5Q0dQUmlHbkIxdzFaWHJDMUJPUmhjN0E?oc=5",
+      "date": "Fri, 28 Aug 2026 00:00:00 GMT",
+      "category": "Cricket",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Suryakumar Yadav on India comeback: ‘Putting in all the hard work’ - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZVZiNGtpSTJvc1A4QVE0YUNxcUwzXzFPemZpRVM2dGlPT0VGMUNNTURYWHhnallESDdRYzliV3NWY3ZEX21hV3Vvb0M1ZUdoSVRmQjU5SFpXTmpTNGUyODBRRUxyQUh4U1VhVFIzX1VYTTUtNUJtaGQ1VnV4UkVKU09mOU1Ic2k1LU1pXzY2M0xwVVJneHNTVFBFOXRoS3VucktpMXdaZ1M3NVZyRmRtY0hTVTl3bHlrWVpzYkFnVdIBxgFBVV95cUxOTjdlTEZyNGpOOG1fcmRYUGtiTmRBQUlHb1ZBT25rbk1zbXRfT01vMGxZWFNjTmpGeG5TZ1puNDFhMElYTFFUeEkzWnp1cDNvQmJBY05JeVpVd0JKUk5OM1JNNTByTlVmb1gtTXAtTU85WUdTaXYyNDloOWV2cFlMeHRod094eURpWnBKM1ktUi0zcTYwdjktSmNvWmJka2dmYy15YTV5Q3BfakhEdHpWVzVDNkgxbzVubG9fSlJVNGNaTGQxX3c?oc=5",
+      "date": "Thu, 27 Aug 2026 16:46:14 GMT",
+      "category": "Cricket",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Women's T20 Asia Cup 2026 | 'Our focus is to play good cricket...': Harmanpreet Kaur - Mid-Day",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQd3hQcmI5cXdZNWxWZi02MWlRa3pyVVFzeEwybEk5Uk9zdzZuOVYxVE9WdTlxb05nMXd1Uno4OTBzSFQ4TzYtZmtSUUs0SmtDdXF0eGNiV1lRcUY1eVVBeUkzN0dBbGVlY2lqci1YNWJ1STRGVzA2QU5GWWlvOXRGdFc3bG9rWDZhNDhnOTBTMTBtN2hzdXg3c3I5N1Bwa0VkUWN0aGptVkIzelNvX0p2YmRjc0tKVmVoX0dra1FDSW5ub3ZpejlsU21uYkZDM1pQdlZrc0lvNXJSUFBOQWE1QUZobEFEMXBCZENLMG9QUEprNHZUMHJMd1ZSX1ptd9IB_gFBVV95cUxQd3hQcmI5cXdZNWxWZi02MWlRa3pyVVFzeEwybEk5Uk9zdzZuOVYxVE9WdTlxb05nMXd1Uno4OTBzSFQ4TzYtZmtSUUs0SmtDdXF0eGNiV1lRcUY1eVVBeUkzN0dBbGVlY2lqci1YNWJ1STRGVzA2QU5GWWlvOXRGdFc3bG9rWDZhNDhnOTBTMTBtN2hzdXg3c3I5N1Bwa0VkUWN0aGptVkIzelNvX0p2YmRjc0tKVmVoX0dra1FDSW5ub3ZpejlsU21uYkZDM1pQdlZrc0lvNXJSUFBOQWE1QUZobEFEMXBCZENLMG9QUEprNHZUMHJMd1ZSX1ptdw?oc=5",
+      "date": "Fri, 28 Aug 2026 03:47:00 GMT",
+      "category": "Cricket",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "WTC फाइनल में कैसे पहुंचेगी टीम इंडिया? 7 टेस्ट मैच बाकी, जानिए पूरा समीकरण - Aaj Tak News",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYnZ5TmRHaDBNc2E3SXlmMFFZRHZ6U0xKUmFGN1V0TlU5V2trSXdZUlVXQ25SUEF6Sm9FNDFob29mNHByZXpGcHdOVVNVUWpnYnZzbzZvV0UwWE5XS2VnelhqSVNuR3NnT2VMMjRaMlUyN1dSeVNmNFVBcTVNY0x4Tnd4RDFsT1hmWDNsaG5CZW45cXp6VlV6Vk5sM0pjcWc0cFc0eERVczVuQWVEa2c1YWlmbXdaTGlTa1dSakt2bnZzbjdNdUFRcEZqdjJxMEN0MU45Y0tZN2ZSLUxpeFFJeE9TeXVfUkJ4STNTb193?oc=5",
+      "date": "Fri, 28 Aug 2026 03:19:22 GMT",
+      "category": "Cricket",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "India vs Sri Lanka Highlights: सोनल द‍िनुषा अड़े रहे, कोलंबो टेस्ट ड्रॉ, टीम इंडिया ने 1-0 से जीती सीरीज - Aaj Tak News",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOXRTZlEtZFl3WkdIMlFEcmlnR3N3aHdNcDJNVVFiRHZnRHJxeUJZU2wtaVlXLWRTUlg3cktaTjdjN0ViR29rcmp6TzZKcnV4Zlh0VlZfYmd3TDRUcEMwcFhPblBob2pTc25HX1dQeTdyVjh5YnR3N0RGb1JDc0ZjMlNGcFVxSUlSX05SRjVqR2xJUFVGVTN6UWVJd0xDVVJnX29zeENkQlJrZEFpbDN5XzNQdGRRZlVLdVBlblR0a0pwUzBLeVFuZ3FuMUdkTFhnQnkwcUJPMGlVV3VrcXFVbWZmSDVVclRRRXlUdGVR0gHzAUFVX3lxTFB0RVNiWDBnSHh2TDJvbk93bkRBSlNudEx0S1Eyak1kZFYzeERSVnh3ZDlWX3RnX2Y3YjNKT1QxQnI4Z1hzYzlzc25hSWhWOENpVEpfSEdGR1pNNlF4eU9MUHp4S2E0dWItaUd4WFhkUnJFZFE2Ukx1V0FDT0RWckR4OFFvaTFLSThVTEZselg3NkpkV3hTUG52ZkxnYV8yTmdFcUdpYlhGZU9mZENSei1FUWJVZzhJYVUxQmhFS2hSTmRraENZVW4ycExvNGlRaEVsLW1rMVZLT1pxd2didFVfT3ZJVGNnUlRhN3N0SW15MU1rVQ?oc=5",
+      "date": "Thu, 27 Aug 2026 02:35:06 GMT",
+      "category": "Cricket",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "भारत के पास अभी भी WTC फाइनल में पहुंचने का मौका!! शुभमन गिल ने भी नहीं मानी हार - Hindustan",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdm0zWThUM0kzM0gzY0ctMHI0dUY1dG40SlNYTXVyOGhCV2EyZXpOSVBPYnA3dVpzNmdoMGdHTjRFZ0QtZmRwYVBhYUczMmE2SURCeHJaX3dqc3FRVDNQa0ljeTAwWUlqOV9UWl9PRkdyYU5LVS1KdVJLOWxQUmdPTk5WamprYTZiUHlqTkdKUWtrUlp1UV9KMTVkTjlTQnd3b0ZyS09BMDJXVi1zZnE5S2ZrMnM0OWFVMUhsWFZvbkNwVExrUVFyeUVzUGVEYzhEVFN3YTl5NEVXRjJyVVhCUTF6MGlrZ3I5N1FrTjFvb9IB9AFBVV95cUxPTUpVUmR5V20xY2tOWHUzd3pyYzhFOWxBTGt1MVVCSDNXUFYtZUlfd2w5NVdVTGlidU5MNFBkazd6dUdncF9ReG56ZVhNWFp3MXhWX2VsdkFjSmExc0syS29sV0FDaHNNZEwzTjhpeW5RMmZKbUZMdVRZUzN4WTlFcHJnamd2VjF2THdlNkc1UWRuXzFLbDlHYWJudFU1XzZXNjJZaVpmNHFQbEN5bV9CcFZUU1lpb3QtVktKTzc3ekNCZ1VqZThyMmRNRU5lYlRoTWJ3U2hQVDM5VGR2NW4wbzV2dkNEXzVxY3hYWEZWczc2VHBO?oc=5",
+      "date": "Fri, 28 Aug 2026 02:42:36 GMT",
+      "category": "Cricket",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "पाकिस्तानी खिलाड़ियों से एशिया कप में हाथ मिलाएगी टीम इंडिया? पत्रकार के अटपटे सवाल पर भड़क उठीं हरमनप्रीत कौर - Navbharat Times",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNWmstUndaOU1ucjM4X2RNdEl4YnNfSEpSTTg2UmFtTU5SSjVWdmtXTU1aOUFYTTltTm9aTHcyWXh0UHk4ZUoya21kTHBrV1hoZjBXbTdpQl9Jb2l3MzZMdkVtdjRBRmpMU0E2TEVITzQycG9sRXUtamx3N1hBSkhPX1JBX0k3T19YdHFvQnV1X3JoaWdYXy1JazJGcmJhRmdxbEQ2UnRGbnA1Y01NcjJRUFBxaUtBVUFQVldOTk9jN0RERlJOV19GYmpyMGdodDVEY3R4NUhSVGY2SzdMNk5MQVhUV1otNXF4RUE3YnI5YjVlOTdNMFJOcGxxVHB5YlQxejdiZjJ5UHpNeFVnd1lrSFVnUmJvY1E10gGeAkFVX3lxTE1tREpnd3RLcjhQai1tX0dsWkVjNzFSN2FsUWFIbmFONktGd09pbTFnQzhHanZJMkxTV3hQa2hFTDU4U180QktPOGdTd3pzZWhFVWhMLTdDd040WWxRdWZqWFY2UWFkVDlXb0hob2JVMXI3bU1PdVhaVEFZQ2tWdEthazl2VnNoWFg2X2FUX3lvUTVCVGZSUXFEUVAtUWZ2N3JlcHJOZWlTZWRISEM3TjdPLXVzbmJONXFXNm1wS09LOXBDOTkyWDR1dGJNNEg2ZFFyR2lFdHFHVXdHZXZzdzVPcEY1ajUxdlc3dkVqZ0pWSnRUVXpxUC1LbDVrdm9CSy1oNlJGZ0lWSmRkZ3dNSFpxbzZielhFNWQ4MEtPUHc?oc=5",
+      "date": "Thu, 27 Aug 2026 17:03:02 GMT",
+      "category": "Cricket",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "मामला हाउसफुल है... दो महीने बाद न्यूजीलैंड में 12 मैच खेलेगी टीम इंडिया, टिकट अभी से बिक गई - News18 Hindi",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTFpjMXhtOXlWczNMTXdHSXBlT0VzYnVTOEQyd3BaT0VScVZRQzZ3Qk50VVpkM3RYeXdXUWNBVzV6TkFFVXF0R0ZzeUNEQ2xWRUhNMzgwU0JOdXV5NDlBLXQ0dHBhN2tvd3ZxWDVyeHVCcC1kd1hvOFNqTkdfSVdEbVZHMkxuVi1vZXY2VFo0VHdvZDZlMnVRRVhPRTZ6THBLV2k5djJkNnZJbVpETk5zcGxERzBEcDVLaDI40gG7AUFVX3lxTE5MWmMxeG05eVZzM0xNd0dJcGVPRXNidVM4RDJ3cFpPRVJxVlFDNndCTnRVWmQzdFh5d1dRY0FXNXpOQUVVcXRHRnN5Q0RDbFZFSE0zODBTQk51dXk0OUEtdDR0cGE3a293dnFYNXJ4dUJwLWR3WG84U2pOR19JV0RtVkcyTG5WLW9ldjZUWjRUd29kNmUydVFFWE9FNnpMcEtXaTl2MmQ2dkltWkROTnNwbERHMERwNUtoMjg?oc=5",
+      "date": "Thu, 27 Aug 2026 10:12:01 GMT",
+      "category": "Cricket",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "अनाया बांगर को क्रिकेट खेलने की अनुमति, ट्रांसजेंडर ने BCCI से की नियम बदलने की अपील - ABP News",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZ3Z0dkpHUzhPWTA5NTNuaDVTdU9PV1RnS1IyVjV6ZmVReEt4OWJ3Q04xRTNpWFNPZmo4SDZzMlJFcHhFZTR0cUZMeTZRcTR4SG9rQXdvN3RveHFYbmNjcXFGV1dtX2JJRENabXpQYWFiaDJfRzJaQWRzTUNFemRvX1hKR1hsMkFEWGRST0F5WGpOWmN6V1k4NWQzNUVKOXFVbDVMMHFtbXB0R3hxb2Q4TnhNbHJ0Ql9jcE9Fa2JtQU1ldWVVTFJPcmZwWDFDMWZtVEpBRmR3MNIB3AFBVV95cUxQNnRpUXBxUWJQUHZmNnQwODhtTzlweVg0QzdJWFRialdySlcxTE5kUWZydVBDTksyck5JNGtpeWpWWWpuaWJNTnhFLXpiMFVRMVdmbk1XekJ3R19raWdxRUp2a0IwYkd6NWdXZ2JCb2kxaFBSZjg5YllEXzNKMlB2WGVuQWhaZWtiWWVKNUhVb1kyM1BCT3FxRGVVQlpsOGxINjJZQmw4LU9lWnVCbGdUVWlRYkhzYnVaenpWR254YVBkOVdxUHlqd2dhaGJEejJUMDdRWU9YSFdPalA0?oc=5",
+      "date": "Wed, 26 Aug 2026 10:13:45 GMT",
+      "category": "Cricket",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "अनाया का ऑस्ट्रेलिया कनेक्शन क्या है? भारत छोड़ विदेश में क्यों क्रिकेट खेलेंगी संजय बांगड़ की बेटी - Aaj Tak News",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQM2Rkbks2aVBMSmp3bmNZWWlqTGFWVDJpMDM4aGZ5THRaMXZqN2txX2pNaEZlMDBNa093amh6aTh5X0RGeU9ZaHdhcXRBZHE4SUZCbW1EUXZSTGxGYkFEWFlINUdPOGRMblUzV3ozbWdOUmVRYzBSeE5kQlA2ZVprTzFRaFBOaF9aWTY0ZnpJODFrSjUzUnFfa0NoX0dnd0hkNzFHYXNwRzhXQUJSQ3dzem5VQXRab1hPaUs5eGxzcl9wX2llc1VvOGVaa0xBM3FfOWoyTGxxdG52QjhmV0JsUjJncjkzVm1BOFZPNklkT1RNV0V6?oc=5",
+      "date": "Thu, 27 Aug 2026 15:30:07 GMT",
+      "category": "Cricket",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "ऑस्ट्रेलिया में क्रिकेट खेलेंगी अनाया बांगर, भारत में नहीं तो सात समंदर पार मिली मंजूरी - News18 Hindi",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRmtSVFFUQkRwWmI3S2t4SnJnR3MtaXNvN0t2ckxUZHNOdGRqZWQtXzZ4MmRpaldvOVRrdlBOcEZyQWFBSkxOeVFyWldSSG05SVptR3VUMFJOcFZYMnE1VTlLU2FpVmVEckh3Q2R4TC1tbFVnbk5tY3ZkWHRaZ3NXUkJmVXdjRWNUV0JyRy16ZTRuUW1qVHc5VzZmT3hlZzIxYk5GbnhQTEltS1hQWXNCVlNpWFg3aXpNNnE2dk9wTm9xamVSakRwQWc4TmQzMGRzTDZZcjBlNXY3eHk5aFUwTXNrbFdreTlhNXdEQ3VB0gHzAUFVX3lxTE53b1YxMzVGMkpSeUM2V3VTV3ltNnNKMHhycEF1bEV3Rm1SV3ZmeEE2TXpibkppb2hla0FEU01kZkFyTGZIUjRxbFIwNHEycTVFdm1lNTNlZlRWNzFkRWVMaVlDeHViZ0VOd0ZBVFpVMzhfZ002dlBGZXVPdTJPQXhFclBtWTZPcWVaQ1JKNjlYNWtSMkRXWjdsZlp3bzd1OEcxdDRSMzJrZUZnWmt2NWMwNzZkYmx3REZXLW4zZVU3SVJ0SnN4MjBXZGZUVHh4Rm00QVZPZVo3WnFaaFpTT1BwVEVXcC1HMW04QUU1U3M3THVVQQ?oc=5",
+      "date": "Tue, 25 Aug 2026 15:22:09 GMT",
+      "category": "Cricket",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Marvell Technology, Inc. Reports Second Quarter of Fiscal Year 2027 Financial Results - Marvell Technology",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMDhNVWVTS042VzhPTnZYZWgwd2kzVW1aVm9NR29YUHZncmt6QWFsbFJIQVFrLTRsQUtjc00yZHo3VXlvcFZQY3R0dGJiVzVSNDl6bllJQldUM185U0o5LWV6UFRmSWhHMWR0STBfazA5eVNBbU4xbUtyY0xzSnphR2piOVozN1lpd0JWRmFjUDV3UzdCY2RoN3V0M0Y0Q18xYUY2SGw0X2t0ME1JOVNwZ0RzcjlMYXBwVmxhSlFvdUR3bnVNMDQwbDlqVEdQMWMtRjFDQ2cyb3dkdDFyczZJbUJEc20xUQ?oc=5",
+      "date": "Thu, 27 Aug 2026 20:07:22 GMT",
+      "category": "Technology",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Digital Digest: The Latest Tech News – Deutsche Bank, Taurus - Wealth Briefing",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTHRlSUNfeTFiX3ktNzhlRnVWVzNFOWR1ZkJyNkZsQ24yMEFwWG9jRUh6WkN4MU15dzh2T2VVNV9vV19vY08xS29zLUgxdmxNQktZX1cwMG5HMnVXWlBrY1RldDVnTmRYN2p4RmJ4SjZFeHhKSGNqN0E1M181U2NMNnBxY25yS3VpaE9FTG80VmJscFBGXzNrNnRXaUpEcm04TVJWdjBERUlUYWplaGdOWg?oc=5",
+      "date": "Wed, 26 Aug 2026 17:26:04 GMT",
+      "category": "Technology",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Seed industry showcases latest developments at Seed meets Technology 2026 - Hortidaily",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORWd0Q2VjSzBsOW1BbkdEb1BWbE5tLWFnMjdQSnMtYWxaUHJRbGdURmdVV1c4RnR2aUI1ZnNiQ1gzekRfbDRlYlpXZ0dnYzVKZkh1VnNBWUp4bE8tUlNpcG10LW1VaVQxVVpBRUpYcWl2R3pVTDlPa3I5ZzBVV2JkdElqQW8yUWt0WnhvSTZ5cnNTUDVwNW5xcTk1SzhaRnJjUWRvd3hJMFNSYTVxTk14TFpTUDZmREtM?oc=5",
+      "date": "Thu, 27 Aug 2026 12:08:36 GMT",
+      "category": "Technology",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Information Technology Resilience Index, Key Features, Latest News - Vajiram & Ravi",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY3RlbU1zZjA5bWlFU3ZQTU45RnJRcmdzYWRKVzAwWG41bFZzUU55QWx6UG1JTUdwVmRuLWVpX0JOYVZSYndKVXJfeGEwek1rMlhjYUJhQVdUNVd4YUxIYTBDc2NwZ1BKcDhwRW1fLWIxeEJULVZBNXdtY1NSZG8wSWdpV3Q5ZnEzajNv?oc=5",
+      "date": "Tue, 25 Aug 2026 06:54:00 GMT",
+      "category": "Technology",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "AI News: Artificial Intelligence Trends And Top AI Stocks To Watch - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTVTWnJlZkpsVU9ZV0g1WHdKQVBKOFFvcUpPeTJuMW9iT2FTMWI1N2hMYk1ud1cwQlBEVlJObDFVTnpoNnBhejJrZnVFelQ5V3NNRklrM2RlaHUtc2NsbmxWcVV1MWVzd082RUdTYmtJVW9MUmJRTG5sV1dJN3JCd1JNX2Z4VnZtV3VpbzdrNXdKNTVSc3FB?oc=5",
+      "date": "Wed, 26 Aug 2026 17:20:00 GMT",
+      "category": "Technology",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "OpenAI and 100 Others Warn That Window to Defend Against A.I. Attacks Is Narrowing - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMWdJNEdsTXRNZHVjeW1zc2hDYzdodk95bHh4Y1BrOWd6Z3VvV1c3RVNMbTgzMV9CVEJOY0FkNlRBSjlQT0c0UzlpRDFUcnhsd2xjYzNtREJIanR0SGU5Qlg1UXotV3JWMTR6UDZKZHJKSk9qSVMxT3VPcm5TM253LQ?oc=5",
+      "date": "Thu, 27 Aug 2026 17:03:32 GMT",
+      "category": "Technology",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Finland’s Defence Tech Hub Expands Quantum and Dual-Use Technology Ecosystem - The Quantum Insider",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUkFVcU5sZS1lS24xMDJwd3hoMThBYXF2eEVQMUM5dDNZZjlfZnV4SmdMQVZfeTNUbUQ3M1NNTnRiSl95a0V1dWRCOHZrWVI2em00eXRobkRLMkd0REtITFZRRDZ3eXFERHFGeHB6SXo1azlGVU1XX3NWM2s3ZWpuQll3dG1NNjY3MTkxYkhoMDlpamhfWlBpMm5TVzhSVUx0NU1YeUdQbThQaDduY3BoaVpkME9BVW9a?oc=5",
+      "date": "Thu, 27 Aug 2026 10:38:58 GMT",
+      "category": "Technology",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "AI startup DeepSeek poised to reach $74 billion valuation | Technology News\n(HT Tech) - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMHRaRk1pRmZoUGN1QkFRdWRmckhfaTRMQldSbFV6X0sxOUJXWjhMczhTRVBCUjFrZkhheHhrU0lyMndZODlKR1JRZFJrbzVVR1g5VjhoeThtQ2laZ0R2OHdYNlRXSl9qc0plbEJWWkZxeF9QSDFDb21vVWVQY3NjNVNlZGM0SEhtYmpDV3BGcEQ5ZGVIdVdMZHVfN3owbVI1YkQ1VFE4UXk2YVVscllTaDJUR01UUmV1dW1z0gHAAUFVX3lxTE10NHMtWUx4Q0xIdFdkdnRCbXhadGVaN2NnUWRTNUNDVXFlc3dUS2NrLVVKbkFYMmlnaWZmWm1tVDIxMkhaMTN1NDN1S0F2blk3TVpmRVdQVlBpR05xQTNKX3hNQ2NYdFF6dlBxWXJ2RGo1Wjlya3JuLW5Kc0JwVEVsNXJGVEp1UmwteU5BWlZlTmVCdGRNY3dUWXY4Y25xQkx1Xzl6UXc0MS1hZ0o5bjFZeWc2Q095c1Z5UkJCYnZCTA?oc=5",
+      "date": "Thu, 27 Aug 2026 08:30:35 GMT",
+      "category": "Technology",
+      "language": "en",
+      "source": "Google News"
     },
     {
       "title": "The turbulent AI era is here. The choices we make now are critical. - gatesnotes.com",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
-      "date": "Fri, 28 Aug 2026 03:59:28 GMT",
-      "source": "gatesnotes.com"
+      "date": "Fri, 28 Aug 2026 05:38:06 GMT",
+      "category": "AI",
+      "language": "en",
+      "source": "Google News"
     },
     {
-      "title": "3 Artificial Intelligence (AI) Stocks Hedge Funds Are Buying Hand Over Fist - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYUJ1eE9CeHN3YmZNZlNJYjlqb0Fnd2xWU1dNY0VCbXd4eEVUQW1LSTE3d3g2MHZuc0FYVTlCUDd6aVk0OFJwRmlyN09qemFtdjVCTWJ4V1BlSk04TEpXdFpTWGFMOGl4V1ZSYlpZR1R5Q2ZEa1VmaHBibjZPSWlJWURoaF9IRWxGRjBYajdxeDBkd1l6Qy1hak1hdmIyTkI3M2c?oc=5",
-      "date": "Thu, 27 Aug 2026 14:39:00 GMT",
-      "source": "Yahoo Finance"
+      "title": "The state of AI in 2026: On the road to ROI - McKinsey & Company",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVkNzT2lMcURPYXQxQmh0azdzbjVrNFktNzZFLTZacnFlR2xZYXczRnI4MHh2amsya2xOOEh1QURSbFUxU0ZUWGQ5WE5kVHJtbEFJb0NOdTNVUVhPeC1iVVJOZk1VbXpwLVBuYzVod0tMVmlYbVdzNjgwcF83MTVJTWNvVFRaZw?oc=5",
+      "date": "Tue, 25 Aug 2026 00:00:00 GMT",
+      "category": "AI",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "AI impact on employment: Artificial intelligence may cut jobs quietly without triggering mass layoffs, says new report - Livemint",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQb3ppdnBOb1dSV1lZNjVnSFR0OWJPa0lXY3FYNVkwQ3hBWkJYN3ljOE1rT1dQQ2hjdVhZTC16UkRfNTRUalNfSTFJb0xOSENaRVNZd0NDb3YtSjQ5eFFiN19SbVpCQWtlN3Y0YnU0dmFOaXMwbUtFQWJuRUYwTXFMNGxKQ3QwRWdYZFRmOUdVbjJPR0s2V2hXS0ZXQTVNMHFwSHBkRVRNcXhIRVdobnU4X1k0d2xOVm5YTTJZdGNPSWkxMjV2SlR6SGFGcldGSmJJN0lfOXlONWFjQ1JBa0c3ZTBZSjhpTVBWUjFNMkZFdDBpNW44VGRYQXA5VWpUTkRTSnF5NXBWUkJBZmtic0tMUGxSSjdBd0nSAZwCQVVfeXFMUDNNQUFQZE9qY3RKSi1temJsZTBsNlJvMHdGUHh2MVlxYm42VkZ6ZHl4M043cE1tMktWM1lxdGJrSllDeU1HZHVOX3R3NUFyWFVlbDhrSkh5eUR5aURpc0xjQ25rZUIwVHY4SEZCT0psUzdRNkRPUTIyYVA1TDl0N1VFa0NFaVJJTm84QjFHSWRxTkxlS0F6YVpwbm9leDVaeVN0cWh4QV9hV0JjYWdkZ0V0aWVIUTlDbk13eHM0aEVOaEtmaHZMbUZ6ZXBKRHAtZ1JEM3pLSnRNV1NiVm1JZ2xuMEFqcTFzSDBvV1BWb296Q0JIOTJRbXNRcUVqN0gwQ01qS1JOUU5LZWVCdjlZMXJ0ekpqNG9MUllTNnI?oc=5",
+      "date": "Thu, 27 Aug 2026 09:55:59 GMT",
+      "category": "AI",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Big & Rich Vs. Artificial Intelligence on 'Hello AI: Video Premiere - Billboard",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUTczbEUxeWxTcFlValdsWmFhVkVZX3BwSXBFTmtWYTRkblcyUUEzX3FTSkpJbGdEbXZtQnBMUzU2dy1vbF9sdWJvaDloN3VINGx0TEM1LTZ2aEdlQlNsVmtVTVJVbGZBcUcwUmFRRUxVSWUxYnlZM2dZbjN4Q09DRmdRc1BFcVFXbC1PeERUb0s?oc=5",
+      "date": "Thu, 27 Aug 2026 16:00:35 GMT",
+      "category": "AI",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Alibaba issues €8.7 billion in new shares to finance Artificial Intelligence (AI) - Plataforma Media",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWTFjMHRHVEJtb2xNYjk1bHBMYlpoSnBUQ2kxY01VTExRMVFXXzg4QUViemplMFlEVkxmdU1BSUFsRU5oNjZYWnRqLTVrbUFIakhNODZCTTVFUnpjTkJBWU9talhycmcxRUhqTmVvZnRLcHdVOXg1cTVRblhJajJBWVhkY2hLZnlOQ0NXWXVMdHlKWDd4WlBLczBmVFZuRjlRWWc?oc=5",
+      "date": "Mon, 24 Aug 2026 11:32:31 GMT",
+      "category": "AI",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Z.ai shares surge 8% after releasing new AI model running only on Chinese chips - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJYOG11aWZmNUM0QmxZXzloZEdQel9qaTFBbmRzc1VFV0ZiUFNOMHp0VjNFd1BpQU56X3E4YzA2S0tINnd2TEhSc19uM19WSG1NUG9kblZkamRFcURkNE81Ty16c1dmMXVTYW9CSG5tOEpFN1ZyRnFZeTNLdktSRHhRNnhpaEo3RUt5OUVXY9IBlAFBVV95cUxNTHZVd2RGQndFcXFYcTFITlJZcGJvZ0VLeDV0ZnFQX1JGRXBTS2tJOUdZdXh1Q0FrdGtZV3BxMGJvU1E2MDg2MnVpYnFWYzZtNTAyY3NKVTNOd0FGTXZXbkJoY3daVzk2RWY2bVIxRnlFTXpyUUpreVFkTXg4bVZtYmRmVU9GNTVuR3B2NFB5M2hHU1Zq?oc=5",
+      "date": "Thu, 27 Aug 2026 03:20:00 GMT",
+      "category": "AI",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Bio-artificial intelligence (AI), such as Google DeepMind's \"Alpha Fold 3,\" which won the 2024 Nobel.. - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5leDhqdTUzYW10XzEtdFMzejlubHZsR3N1YWN1cTlyZG1fdl8zTmo2UjZ0WVdpV1Y4V0N4aVVTRUJ6anZaa3RMeEMwTQ?oc=5",
+      "date": "Fri, 28 Aug 2026 02:00:50 GMT",
+      "category": "AI",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Nvidia Stock Has a New $500 Billion Opportunity in the Artificial Intelligence (AI) Boom - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZk1NeW9DUV92emF6NnRIeXdzRjNFd0hmaC1kWS1OOUdoV0NHeVBWWm9rQU1BRnNtaGJEaExFeGRCdHVCWk13VVRuVlE1T2RhbnMxRE9yNnI0N0puSDJMZUJVUmljaW84d29IR0pHRThycnlpbnphQXBrdEQyUzdxdHFZNmV6Zm9kRWlWQUNNb2JJTjlaOWc2aFBDOTZ1Ui1LMnc?oc=5",
+      "date": "Wed, 26 Aug 2026 08:32:00 GMT",
+      "category": "AI",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Ananya Raj passes away at 35: AICWA pays tribute, ‘her memories will always remain a part of the Indian f - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNcGF6MHVONXJYeEk5M0ZwMTM3U2JVa2NucGlVd254Y19MUWlSemVaWkJ5Mi1OdzdES09kZmJlZmR5V1FhWTZCMGdiWUszN253ZVRRY2NfY05vbWkyamFTalFJNUZMQVZJcFhVdmRQMXFPTVhqNU1CQjEwS0tuNzltYS1YaTM2TEhEbUlnM3lQTzZSbFZlaDV3RkFNNzMwYWI3Rlo2cElTYTdnTlY0ZmFQeUVhQ005d25Ud2pIVENVc0FYOGRBUURjblZOUFM2aEYtVHFObTVTNm5nNjNCVVlIS1dmM0d4WlF2TnVnQnRVeUZvdjVNWmlGSUVwUzJYWjhSa0lkek9kMkZHOUVEdzFjSzVaUEE4TDNnVUFjT1BEMXJaQ3JadV8yNjF6M0pHcVRNLVhzc2VR0gG7AkFVX3lxTE9KT2JDYlBhcDluLVJKOGx4Vmd3S0Fud3d1YWl1ak9pdEFLNHhiNWFBT2NZcU5PUHpicEtDOGFVdDZVRzhLdlJyZlNCNEhNbkg0VlRkdHJ1TDA3NTcyc0t1MGhQLWNrTm9fXzBNM1FJa3pOUXozNDFwUWZlVGxjY2dnS2hXNm1FNDl1UlFTUlN5XzJrWnBMZWZwZEh2blpmdEdBZHB0MW5EVEprVTBqdXB3QlVnV0w2Nlc1dWVBa2NOY3I4Y0NPN1UyZWxRRjljbHRuSnRZalR6MkxFbkllZzB6MzlLelF4UE5BbVlsaDJ3cUlBc0NEZm1GcVp1WE11SFhUS2ZxM3loWTJYZWdBNW5VRjZmb0ZENG1OMjcwcG5fNGY1RDNqdEdMZWwtQlVmSHhZR2FWbkRsZkZORQ?oc=5",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Kartik Aaryan, Mammootty, Yami Gautam Win Indian National Film Awards - Variety",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVTRFR0ZSeE5NaFo2ZUxxS25pZm5KUUd5RDJNUzlQWGhoZUgtdm8zb3dNTUZzYXpicXN2M1VodHE5SU5kYjJ6MFFjT1VndmNRa3NSd1NNbjlvQ3Y5WThPdXFybUl6TUo4QUJQYlVVTmN2c3hOSy1sUlBZbFA5dWpnYzNCV3VIUEE1TGhsOHViMVJBdFhob2dqNHhiSmFfQ2tMeWZ2UmJ5VDlJYnZKb05YWWhZTGw5MmN4T1FwM1J3?oc=5",
+      "date": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Maitreyi Ramakrishnan and Priyanka Kedia Will Compete with the Best of the Best - Netflix",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZzJKWjFSUXdPYjBjNUZvdzlvTVBoT0ZKWGhxMVNwLTVMaHFCd3R1QUU5NWNidmw2WVNNeUd4eTJrVXZtWjZ4WDRxOVYxbEVtbHRlZ3Y0V3VyRWFLc1ZNY2VjbWluQUZudjBfNGhUSVMxYmNrbVhPNllPbG5nZU5zMkZfclBPRlo4Q3J3?oc=5",
+      "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Ranveer Singh in Don 3: Why a film union in India is boycotting the Bollywood superstar - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GZktqR1diOVdrcDkyaWs4YUhqQkx2a0taOWJqajNLX0ZBekRoM2c4T1AwU21iajJQblhCS3Rxdm94ZEtDQXVBRlNyeC0wa3dTSnFJb3QwRXpQdw?oc=5",
+      "date": "Wed, 27 May 2026 07:00:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Shah Rukh Khan starrer 'King' heads for final schedule as US and South America shoot planned ahead of Dec - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQejdERzVsLUpmd1VISmwyMnZabjgwMjh0cHdYbUFnTE4xbTNtWjRYaDN0dGdoU3RwdWp2d0kwQ1l3MkJ3WGtNeTZZbzFiX1VzcW1JVzhfVTliZDI3ekNYb2J0OTJ4WkNCZDA3MVo1NWJ2ZzB1YjlFZzJPcUlpeHV5U29MTzV2bVZrTlR6ZFVySU5XWkd5ZUFWVDBBSzNXNDNPcGVZQnJqMWxHOHFBeHlCZS13c2ExenkzcWRmZldFTU1jcEoxSkJGTGpjTGpuZ0JYVnhtN1hfdEhkZlZCOUJSNlNORTdkeWNMYkFnVjdiTzBoUUU4ZnFMUG1FcG9PWWlyLXdnTkxJbmU2eWJ2LTRwRjBnN1FrTjhueHQzMGJ5UE9XcVBXV3lsT0NqdF9vYThDUUwtdFl6ejdkQU9naF8xdTF30gHHAkFVX3lxTE1TajJ6bWNfWno4Z2VfNDM1YmgzRkNua0wxTjBvaS1qNExsNzM5eU0yTFpXT0lDUmxPWDB5S2Y2amtXNkR3Vms5b0tVUl84QXlsbUM0UUV2azJCSk5aOXVGQzRhcmNCdFRaYnVBUnFDNjYtTVBTMDhfeWdhZHVVYUQ4aUxFcU5WNkxKRGUwS2xaMjNYZ2xYNTFseVpiT2FVRHlPamZRM3dnb3ZNQS13ZHJmZ3hpSUF2azlPalJRRDcwV2lrTXFwYjRfeUtNbnZTd2NCeVAwdzdGM3hhVWw5MFR2b1ZsSk9zLVhKc0xVaHBaNlhRMTZXN094U0FCb2c5LS1Xc253eTZyRDVaVnlWTEFEdmFHV0RHcldVOFVuYXBGMWdlZFh6QXJDc29HT0tRdnE2aGlDYUdheFE5Q3ZmSTVKU2doNlVyWQ?oc=5",
+      "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Cheran elected South Indian Film Writers' Association president; defeats V.C. Guhanathan by a comfortable - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOWTM3NG03VnVkUDdQa25MXzQ2SDNxbGd3M1Y3eVVjNy1oZERyZG5DNG9Nd3ZfMlpvV0VOT2dLYUsxZllqZ2NpZ0Myell6SkFkNXBsMFlueUNrMVdTQ2FOS1lETDZaUzBkTTJIVlBPZVBvcDdNZVZESGUwN1pkVnFicnZIVUF2QnMybW13SHUwMlNqZU9vZTB1Zm1nZ2xnbXBVZC1ONmpGTzE4LXR4bFdyYzZHN3JKOWhVLUNnamJCbXFXQ3NlcEFsYWpnbzBKT1ozMjRWQVRGVWNiY0MzYUFXNG9XUHdzMmtaZm5pTTZibTdvV0M0cWNGSmhnT0xnUUZVSHRKeXdkSjR4OEhnYVlWYy1OTFVJY1FqUHFDVzQyMmVtVlhrRHFkYUYzc9IBsAJBVV95cUxQNXlFRlhEN1JsLXV5WFhvZEFLLVZQNVY0Tm5GbFVqVXdTc1RXOUtaTngxSWFVbDdQREZrT1VBczFCVEoxNTFSZHp1MzBjTkd3Y1NVZVdsbkpBTlJwOWlzNmtWYzAzbmYtbnFtdDBjVTV4YXVaa3hhX0hMdHh6TmQwdnFDVHVWSFFjR1JjcVpGbks0VFE1Ri1lV0c4TE5VSGt4T1NDdkN3NDVIZlIzakVROGJzTWNjNmZ4RTFvdnM3SndpWmUyM2x4UkY3TExlU2puYngzdUR1YTJPTm5VR0taUVlycVRId3RNQWxabDY1UGFwQWdMbm9WNHV3YWIxSUNnUURNT2FLS2k5Q1VCNWhGZEZvZ0VFbjM3TkdObFJjR0dfRjlfeUNqOEIzUkEtR3hz?oc=5",
+      "date": "Mon, 20 Jul 2026 07:00:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Why is India blocking film on a man who counted Punjab insurgency killings? - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVEs2OUdDelQ5UnVMRlhaemNrd18tVlRNSFRrbkJvM2U1bmNRdXB0WllDUGxDTTRSZGI5anpiTV9DNXZKQmRTcjFYYTVxWExxOWtTVFFtT1M5bHgwUmdCVTNjdVFzbGRTQjRZeUFDaFY4Zm1McmNRQnpmRWRFREwwaDR2elhNTE5UcTlWNnZlUzkwMjZoRU5sUEFXZ2NsUjdFeHdwTTh6QUE2Z2dYdzk2M1VBUExNUdIBuwFBVV95cUxNV2dTVU1kS0pLQ2pFcFdNU25fRlhYZ2ZwcG9ac2prYWRhOFZ6RzJRV3NrTTlieVFLSkYzNWJVa051WUx6WUdvQWdkTmhGYy1EZW5UWGNFUkJTZmtYS2FYR1czeDAzd0hraW5VMTFHdl9IeDlMaExmZlJUYjRLU2pBS2tSNmFoV21peXZKQjdCWXVKeFN6RjJzTXNDQXBaVkpFRWltZmJLOTZFQzhJcUtvcGVEODFlNnRGNmRV?oc=5",
+      "date": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "AI gives ‘Harry Potter’ a Bollywood twist; Ranbir Kapoor, Vidya Balan, Saif Ali Khan look absolutely perf - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQMUx4c0QzT3lNT3gtWDFidTEwXzF4UlExNXFSN01ZS1hfd2VwOUNiblFGRTVfYXdzeFFFdFIwQXVJQUZoR19qak9fU3lON1ZsY0Zfam5QN2tFMnNQMjNJOGZLcHYtRTd0U0tGNVNpODhNNThTOHFkV21RNkNmV3J6dDZGaDRoSzEtaUVYams5QmxJalF1eXY4TElBNGhWWUdrWDF1aUpobTFlWUZxV1Rsby1wblgzaGpiQmZNNkhLeEhaZG13V2lBLXdZX0VkWEhTdHBhMnplZWs1UThyRHlhdVlFNXNBRXR1V2VCMzZNTjZPLXAtZDcwdk9lQTVZaHZDaFRkemhVZGhIUk9KOV9GX1dkc3pCVFMtYU0xdzRnQnFSZlg4cjlV0gGsAkFVX3lxTFBTXzNJU1d6LWRNOHp2a3IwZjFxVnRpTlNnQzlSZzlhb3VUa1RGdnZCdWhfT3dtdFhaX3ZMeTkwZTR0cmFUNmZNNTFXWHQ0MnZnNTdHR2hSck5ieFNJNFBNcDdHWVhKZ1ROd29SUHQyT29yMEJYSXNoYVlxTzBEMFpKWWhYcTkyUG1uakE2WVVjMTh2RFpCSGJDSmoxZVZ3NFpVR0szcHZGOE5NcktPaUkwRnE2ZUhDbmlQSEJkSWtFckpXemlxNW1SZVpDQmE5NXU0aGNKLTVoc1d3LXFzelVoOW9uTnVrV2dCQ1ZCNVNSZWlObFdKRmN6bjRKdlpzM01QSFA3bDgtNW5TRE8tR0tsMlFQLVVZQ2hYVlpfYTgyYXVpUWprNkhwQ1Z4ag?oc=5",
+      "date": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "ऐश्वर्या राय इस एक्टर को बांधती हैं राखी, 18 साल पहले शुरू हुआ था ये सिलसिला - Hindustan",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNX1ZyMW91U2xkdlE1ZkJPekJiZmpTTnZpR2VpeDdacnoxOElhWlowZkFkZkYtdmVjRzk3dUNDeFU5Q0pUMGZoWmtlTHpCZ24xWHZNSFc2My05LV9ubjZPektRSjg1SkFpMGIxYjJEcWJvVGdVRXlVd25qLTVDdTF6V3pndU5DV1pXWWVuS1ByaGsxX05BaXd3dkI3TTczN3VobklyOFdWRGdkcGNlemRFWTk4RUVZREFXWUhtaElGaXp3Q0RWVEdyMkVSWm9KQkwzbklrcnJ2bm5MaWloaGtZUmQ3WXNJV3VmTDltLUpueldlYU0zMVVUNXo2UWd3a3hIMVlVOGxnb2wzRU1YdGFENVNad9IBmAJBVV95cUxOVjRSZE9nNzh0YmJYSmwycnlZNXlUd1lFc0pJejBsdjFMYkdWVkM4azU4Z0tEbkNsT090TzNtdlZFSU5pend2cGRYSTU1Zlk5LVAwOGdDN1FxOTFoM21qWHFYdWVic1V0aWxza25QenRWaG5Bc0NOdU5YbnNnb0pSNVkzNkM5Q3Y4cUFBamxKZDZ1eVFncVVoMmxYTjNHNTJaYnN6V3pqSm1Fd3k4R0d1YUdyTmVlZWY2Z2VpWmd5ZUNCSlpLWl91WEZKOXZLc1Y1T2JWMlVUWnVtOUVZdEFaTHFfRXB5elViTlV4ZVpLTTdZX1QtTE1FZkwxSDJFZ25lVnRBT0ZfSnZqNUpaRmRsTm5lQ0I0eXZH?oc=5",
+      "date": "Fri, 28 Aug 2026 05:38:27 GMT",
+      "category": "Movies",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "बॉलीवुड डेब्यू करने जा रही रहीं प्रियदर्शन की बेटी कल्याणी, रणवीर सिंह की 'प्रलय' में निभाएंगी अहम रोल, दिख... - News18 Hindi",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObU56T19ST21ONnpPaGJRcXRMa1lCUUN5azRtUXBMZ191UFJucG5xdHlvVDM0U3J6dE1ucnZfUmg4OGNuZk1xOFZoX1V2QnpVT0hlLVNEUUJJWkw4T0hvd1QyM1FMMkdQdzhvM3lQbzFoUm5FV3RacjViSm52RFZZalZfTUVIbzV1ZXhFaVNKa2V0SE1ZQWVsdEtNOHd3MjE1OFBhclRfZElwXzJNSlpzMTlSblZYaGFmdnFmTVhDSTl3T0ZsWTRtX09ISDhsMFFJaVRzNVJhc1ZTZTk2MW9pMEZQb3dOdWhDQ3RCUkZ0XzloYmZmRUpybnc2RjI3c291OTJMRlRqWDhhZ9IBigJBVV95cUxObU56T19ST21ONnpPaGJRcXRMa1lCUUN5azRtUXBMZ191UFJucG5xdHlvVDM0U3J6dE1ucnZfUmg4OGNuZk1xOFZoX1V2QnpVT0hlLVNEUUJJWkw4T0hvd1QyM1FMMkdQdzhvM3lQbzFoUm5FV3RacjViSm52RFZZalZfTUVIbzV1ZXhFaVNKa2V0SE1ZQWVsdEtNOHd3MjE1OFBhclRfZElwXzJNSlpzMTlSblZYaGFmdnFmTVhDSTl3T0ZsWTRtX09ISDhsMFFJaVRzNVJhc1ZTZTk2MW9pMEZQb3dOdWhDQ3RCUkZ0XzloYmZmRUpybnc2RjI3c291OTJMRlRqWDhhZw?oc=5",
+      "date": "Fri, 28 Aug 2026 05:12:52 GMT",
+      "category": "Movies",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Read Also: India News: ऑपरेशन सिंदूर पर पूर्व CDS जनरल अनिल चौहान का बड़ा खुलासा आया सामने - totaltv.in",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxONjV6bVF0RDVwUWF3VkVWWlRWUFgyZnBVS25NNkpnOTJIRUprSG15LUExMzdVMU93S2JQS21XcTk5MHZPbjVyT1JMUnRjSHNUNVFJbWs0SnRZdm5ueUlYZlZBYmxMOWVqaHgyOU5rUWRUNzJ3eUNJb1dCSHZGSmsxb1hja3hOSWw5ZEx5cDRYTzBvR2tSWnJ4ejVOOFl3aTkybXpvTkNSeFNneUxSMVNpUnVoQTJsTFJMUElfRUFwTWNZSWVMNzNQcVNjMHVRQm9saGxWZHo4OHdFVHJFWVh0VENtampoMTZaNDV1dFotYTVaSnVvZjRxYzdRV1JyZjA4dEdvX202d0RaM3MyUDh5SFZJV2V6QS00M1dGVmdIQnFWd3FZdEZVdEgtRHBEZ1NMb0xaZG40NWxtMmhqVng5Vw?oc=5",
+      "date": "Thu, 27 Aug 2026 12:24:44 GMT",
+      "category": "Movies",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "'मुझे विदा करो', अरिजीत सिंह के बाद 'आवारापन 2' के कंपोजर अमाल मलिक ने फिल्म म्यूजिक से लिया ब्रेक - Aaj Tak News",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVFo0MnltRG04dXVkVWpzalVSRENPcy03UWZ2VUhsUUh0UGI2TURsMFFHSGs2SF9FQmYycEFGcVBOQ0c5UUFtTU04ZXZ0ZlBCcEthd2R4djZxNGRodmEzMml3Nm1OdmJTVGphaE9yN21PbzNnUUk2SlpoQTJrV2dTOTRNNmQ1N0lsbHFKS1NHeUx1anp6Z3FyTzhtSjlDZTl1QnV0NDFTUEdIQUtiVWtOWlZtSFlOcU1ad2lRTzJROV9DODBCODE5OGJ4M3VmNmk2d1I2eDktNmJiYklKMzBiREdCOHFqbWk4SjR2NmhiTVRrVzlwSVFz?oc=5",
+      "date": "Fri, 28 Aug 2026 03:02:14 GMT",
+      "category": "Movies",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "Toxic की कमाई में दूसरे दिन 62.8% की गिरावट, फिर भी यश की फिल्म ने ऑफिस कमाई पर छापे 138.75 करोड़ - India TV Hindi",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMEVVOE5XQ1BXbEhnY1AtRUJ3WjZNZTViTGFpdzZCYlc3Yk4zQ1d6OUpIeEJuTjQ2WFhudHFNbHVtd0h3N1ZrcThvQW43aWdZZzY3aHlQWDhKcmxmVkpmdHd5aXJXalNmY2NraS0zVTdjU0RCX3gxNnBPY3FDNWNLOGlGRW9MUndtcUM4ekVBd2NtNkd6VmpJRzJXY3RVOFFmV1ZxTG5MaVptOFh1TnNKUkV2VGxLZ2Y2RGI3TTdSSlRFY3JKOVZTOThQN3d0aE9DZ2hXbUtWdE5PbEEzX1FQSjVJbnpUVUp4dGM3akFXZkhRM2o3aThj0gH8AUFVX3lxTE9uaThHNS1kUWJjQzFUd3V3cHU1cFhmSUh6WTJOV0l3YWYtb0NhbmJhSE1OQnNpcFQ2dFJMajhaNHl0WWFKYi1ZT2ctUi10clRJTUJpOUd1dU01bTlWNmZ3MWhodklkcUdzRkVodnJjcVJzaTJ5Y29vakdEVXRWZWdTcml1SVNuY3pWUkRvRFEtLUFqOTJ4eHlXTGF5ZnpGRDAzLUQ4VlNpZlRrcXBJSHZpTlo5MDNVbUIzWUNOTk1RMHZKTTRmMlZpZkQtWFotNXBrb2ZTRnduUW5YbDZRa0NGLW5rWTdwdDBFRHdkUERvcU9zbFNLQlJGWVRuMw?oc=5",
+      "date": "Fri, 28 Aug 2026 05:24:33 GMT",
+      "category": "Movies",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "'तेरा कुत्ता टॉमी...' कुनिका सदानंद ने कंगना रनौत को लिया आड़े हाथ, शेयर किया रक्षाबंधन का पुराना विज्ञापन - Hindustan",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOSkhqeW9NZzNHaEFhc09qd3hVOTNhcmRjRThnVHlraTJKWkpld0pFVU8taDhoWmQ0OTJDSC1jNEhUNmFid3JURU9iYnJUaDJzVV9TQXp3UWNyd1c1NkpoLTRzaHlCMUpiX3cwaktoVXFSS0pvWENCbERkNC05TnZhN1RaSkNLOVZ5TVcxcVdWTGZkVEJXTFdKMDU4ZlFhbzRZTU9YOTdTdVYwQ2N4Zk14aHQ2ZzBmby05SW52RVlYR25YckhHNHlNRWlueDZrZDNnbzRvTGdjN2NtdWxONzVLQlg0YmlkMDRuQWVXaFdoaXh4enE3dEZfUHBOLWRndUNqR1pRN0VObmZYcWlSd1NWQ2dCQWVkRWJFekY1T0J30gGeAkFVX3lxTE5KSGp5b01nM0doQWFzT2p3eFU5M2FyZGNFOGdUeWtpMkpaSmV3SkVVTy1oOGhaZDQ5MkNILWM0SFQ2YWJ3clRFT2JiclRoMnNVX1NBendRY3J3VzU2SmgtNHNoeUIxSmJfdzBqS2hVcVJLSm9YQ0JsRGQ0LTlOdmE3VFpKQ0s5VnlNVzFxV1ZMZmRUQldMV0owNThmUWFvNFlNT1g5N1N1VjBDY3hmTXhodDZnMGZvLTlJbnZFWVhHblhySEc0eU1FaW54NmtkM2dvNG9MZ2M3Y211bE43NUtCWDRiaWQwNG5BZVdoV2hpeHh6cTd0Rl9QcE4tZGd1Q2pHWlE3RU5uZlhxaVJ3U1ZDZ0JBZWRFYkV6RjVPQnc?oc=5",
+      "date": "Fri, 28 Aug 2026 04:10:27 GMT",
+      "category": "Movies",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "'शक्तिमान' पर बदले मुकेश खन्ना के सुर, रणवीर सिंह की देव आनंद से की तुलना, करोड़ों का चेक ठुकराने का है अफस... - News18 Hindi",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRmljalN0elN5TkwwaGlhajdpVktGRl9TQTBOYkkwXzJQdERMSEU0ZjhmVWZNN1g1c0FCeEk1SE1YbWtoQ2VBYk1nSFBNai1iSTZJcVJ1bTFrVG5Ud2tvMXdHRnZmRDB3S0ZvWHp2a052Z0Y1X0hJSkZrQ0RyUk1lOGxqVy13LVgxbUVXMzNxc1FPUlNYN0pHbGdFR1JxdERWckVvLUZzMnhqUnZMaXprNnhMNHhHbldhOVoxSnpkS0NxUmlDMDdQbFB2dTVvNWk2WDBndUVRUWpoQVYzUnJNNnRBQ1NFMTNpSE5OMjd2ZXYtR3Y4Nmpr0gH3AUFVX3lxTE9GaWNqU3R6U3lOTDBoaWFqN2lWS0ZGX1NBME5iSTBfMlB0RExIRTRmOGZVZk03WDVzQUJ4STVITVhta2hDZUFiTWdIUE1qLWJJNklxUnVtMWtUblR3a28xd0dGdmZEMHdLRm9YenZrTnZnRjVfSElKRmtDRHJSTWU4bGpXLXctWDFtRVczM3FzUU9SU1g3SkdsZ0VHUnF0RFZyRW8tRnMyeGpSdkxpems2eEw0eEduV2E5WjFKemRLQ3FSaUMwN1BsUHZ1NW81aTZYMGd1RVFRamhBVjNSck02dEFDU0UxM2lITk4yN3Zldi1Hdjg2ams?oc=5",
+      "date": "Fri, 28 Aug 2026 04:07:46 GMT",
+      "category": "Movies",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "इमरान हाशमी के गाने में दीया मिर्जा को उतारने पड़े थे कपड़े, हुईं अनकंफर्टेबल? बोलीं- मुश्किल काम था - Aaj Tak News",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNOFZYSjlnc2VMTUt3cmhVOUtPbVdnQ0M0YUxUWndSbDd2WEU2RS01dUdjYmFPa3ZUczJwNGdNWkNqV2lQQXBtS1hhbDk3NDVDNnpFME83N0xnbFhkS1hLOFg5LXpvdU1Tc3FSWGpnTHlHM0s5djhSMHVyaDREaGpEQ0NZZ3VTb1dZdlM1SldyMDhHSUk0Y1k4TEZINS1FY2laLTIxTnhMYTNBRnpGTUZFbXBLbHQ5TWtaazhDN09JNkhERS1rVy1lVndyeGZQRURjck9KdnFsWGMwSW5uaTl4ZWNfb1BZb3pFaFVFcC1yeUZkWlFBLUlOdkdaamF2LU9IZUJFQTFR?oc=5",
+      "date": "Fri, 28 Aug 2026 04:30:09 GMT",
+      "category": "Movies",
+      "language": "hi",
+      "source": "Google News"
+    },
+    {
+      "title": "5 new South Indian movies and OTT series releasing between August 24 and 30, 2026 - Lifestyle Asia",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOLVczR3h4UThHN19MTkxiSWVNT1dPdy10bkxjMVlQTEZZT2g4RUFrTjNaZjZqUlJVU3UtY0Q0WkwyMmFzWk1Na01RM3pGQVZnRW9GOVF4SDFGM0dTbC1OYTlBTkUtWVQwSG9hdlR2bHFtR1RZVEpnTExzX3plQXhNX2ctcldRbFhRZUx0S0E5Ym1kUUVJRmZWV3cwa0ZnSENRaXR4bXhSbDlxUFd3Z2NYLTZ6dFV3UHZuQzI3QVV0V1NxUjNtM2FNQkR6V2ZHc3J2Uk01SUlZT3YzLWZUTTM0ZEJyNEJ3MFBsWmlZSmJiM3hkeU5IdUswbG5oMV81QdIBgwJBVV95cUxNMjVuVmJtZXRjekxKdEFHaU96bHBxLUlwUEhhYUxsYy1nN1VGWlBHdHQ2VVdmYktSSEVuX0E3aUd0Zlk5RmZ4YnlZV0dnQ1Y5azh0ajl6VFd1d0Z4clBYdEUzNEJYLWhTeWxzdDBPZmhtNjJ1ZEh4Ym5FZ0pJOExad2dfNWNCWWhMUy16dUhfSnloWHZ2Vmhidjh0R3BYUWZBSkdSNjdsZHhIOHhxVVB5RmpzX21wMkI2WTBaWXQzbXdHemxHeTZBYWNKX2xyTl9vZjdpZHN2UkVJZWh2VEhTeVJoV2xHZmF3UWtKc2VTRkplcEI5VnJLeEdSLXFtM2NHUS00?oc=5",
+      "date": "Mon, 24 Aug 2026 07:09:08 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Netflix To Release New South Indian Film Every Week - Rediff",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQURRakE4WmtFeE1zZlBSUWl5Q1NXU3pqYVZLUUl2bDBiRkkwbjRWSHJLUkg2djJBSWFiSVZEaklnaHlUa0RfaExJSURFd2xrNElnUU1maXpiakZhMzZRdWdDYVVXUFhBUkd6WVFhMEEzYndjXzFiOFRZZ3hyZ09tcWw3UHZWbkF2Qk1hdWoteFAyT3FhM3R1N21kWHhUak1odmtN0gGmAUFVX3lxTFBROVpJdndpZTBJelZ4aGhkM0pjMW5fZXEySEZwenVWR0tpdTBXRG96RnN5czVnZTNXYnhHY2RPamNlckQ3VFBOalpWT1oxUnR1ckxITjNOdzFFSlFKS2wtejUyNGZ5ZThTbmNjV05lMVp3Wmowb0JYQzNaeGFkcURDZDF0enUwc0lDY0Y1QUhsVjJ5dDhNc042Nl9kVk1kcmN2YkRveUE?oc=5",
+      "date": "Fri, 21 Aug 2026 06:56:51 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "South Indian OTT Releases This Week (August 24 - 30): Pluto, I, Nobody, Newton's 3rd Law To Aakali Rajyam - Esquire India",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQUjNGMDBVWXd4c19nSEc1d2RRUE1GZ1BmSXhVbGxLazctZ2dmSzBjRDdraDhwamdwQWxMMkRlalFZQWtkWnc4WkhGRktKekpEc1Q3WXlSWWtIeFVUOTZyMGt3T1FqM1Y3ZWZERElZODBqejlQT3N3NFZ4UUNCTC1RMzJUSWJsQndma1ZLeS1CYW56NTNmWGI2bmcxUlZnSWpMeDd1VzEyUWZ6cnJyNkd3REtpdU45MjNjbmJtVklCUk9PaVV2LS1NaGI4dVhMaFNVRHR3VlZXQ0MzU3dZeFpLTTc0Z2s1b2RtUWxTMUcyS2RhdXhaTF9CUnpvTVNPTFpKYnZtbUdsTDZONmphS3RB0gGcAkFVX3lxTFBIWFVxdUtSd0J0T2lUbm05bUtVLWlVLVFiTy1ZX0JIYmRLVW1rWmEwYkd5bDYtWkMyd2hqczVaZ2kxbVhxUHJRbFI3Ym0xZmllR0UtV3cwaklGdjMwamNDYTFmMkgtLTlOUzk4bjBxeU0wSWVrSjVqSU9IcDRLeVJ4U013amVzbm5scUhzTDQ4NkFXdmI1VjZhVUd4dVNlNlZ5Tjdxcy01N2phVDE3SkJNMmlTSmhHLTBTMjFpcUxzcHJuaDJrcGhqbDBtTTRmVmp6MDlUZldtR0F2a3pSQm5ReDdXM05PUHpLS0s0X1UxeG94dWpkenBtM3duSGhqVWt4STFmbHN4OEp3ak9sZDJEc0xxSTFKMlVMV1NQ?oc=5",
+      "date": "Tue, 25 Aug 2026 07:59:55 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "4 South OTT Releases to Watch This Week: Prithviraj Sukumaran’s I, Nobody to Pluto - Pinkvilla",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUkFBY2F5eWpzMHNOdVlvWTVNS2tONU5lcDVQeDZoSmc5QkFiRGZmS1ZDYTlSdDltMXVOVG1aTDB2WUV5bW1GTzRNLTBtY2I2RWZpREQ0cDh2cXI5UnlTTTZHRm91QmFLWjBjVVJDRnpkM2VrblZmekVHak1xSldZYzJjd0M1Z3dSemUxSGFhc05BVFhxV2ZLazhrbDR5bWpKZ3lpZFowUzRIQ0x3S0hZUTFGLXpqdk1RTTlleGo4SHFnaVZFNUZiazI4dXVGUdIB0wFBVV95cUxOendmTzVpd3FLbk5PMzFFMF9UR2xCcU1SUFFhUUpvdExxcnNEU0FjVTd5SVV0ZHVTVXlMaGR6QUdoVnBJMkswdTNxdE9CSnh1NXlRa1k4OUxJQVBVX3g3TkdzdEJwVUstUFplQ2pnQXhyMnNoU2tBU3ZKTWRGdWNjaXpFSDJJOWw3WHE2X1RscUdDd2ZRa2tQZnZUa1FDREx5dmVxREUzb2NtUllZWjZaZXJGZzhPVkZITXVyQ1kzak1NN05DNWtFakNUR2JOLUZ3OHNB?oc=5",
+      "date": "Mon, 24 Aug 2026 14:51:25 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Thalapathy Vijay 2024 South Ki New Action Movie March 2025 South Indian Movie Releases: Must-Watch Films This Month Filmibeat - Diócesis de Salamanca",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pUENkTkFEa1d0TnYyUlVIdWIwR0JKSkp0cTNTa3J1QnhFNVo3T3NsT1loRUZubEdicGFMWjZ5a3JpMktCZEJtQ29YS1dma0Z1SFhKU0ZKemhhNm51TWd6c0pOSlNTN2xtUXphLUVZM0pKbXF6?oc=5",
+      "date": "Fri, 14 Aug 2026 08:41:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "South Indian Movies And OTT Releases This Week: Toxic, I, Nobody, Pluto And More - Outlook India",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNDczMzQzTHhDdEQwejlMYTg3MnZqOTJHMVhxUTJXWVBxalgxbm9NNmlCMVpMT3FyR1ozQ2RBSTJiYWQxTWRxSjNxUE9laUZLZFFPM2ZfNGpWN1ZRaEVxb1lYUkJQdFNxeHo5WmViQ1Zqc2RVR3pYNmNpbU1OVTJjWEctWVA5cGtMMHVNQVB0M2JUWWd2Q2RPSGczM29KUkxPaHR5eWMzLU9FOWJPOEs4R0Jra2dwMWJfQmpmWHc3WWtaa1dpQ2gzQWtoMmdNRk85NkHSAd8BQVVfeXFMT3ZUdFh0dENRbi1ueUZQdGZJZGRWQU1PZmIyVV9LY3lPM2djYnpiU2tQX1JpX1A0SXhpNS1NQ2oxTklmWnZnRzJEQ0I1N0RKMDB0dkdpTUhLd2NIckNIbzJ6SEt2NzBXZWNxSnFTNDhlZ0w5U0JLMzdfcHhGWVB0dTgxdEg2aWROQ0ozU1dGcklCdW11RUo0eWdaMVNwMllNb3ZRUGpHTUJfOUhRNVFyMkx2cXhEWkYyOG9XWm1KOWJyUXpWN3hxalQ2UDhpTENBcjJxbEhaSGtkWHZ4cDNUcw?oc=5",
+      "date": "Wed, 26 Aug 2026 10:23:06 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "From 'DC' to 'Athiradi': South Indian cinema embraces style over substance - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNelE1Q0htTXBCdnlIQWdfZFdDVnZEMDhZc3M1ZE1zYWZZbjY4TnVjMnZzYUsyek1PT01adm5pWHJOanB5RFFBYVJfLURjYmsxMm1Ya2pfRnUyLVdJcHJPUHZOeno3cnFOaU42VERqVGJ0NnRweGtWODJEODNBWG5YMFdZR2Q1Sm9BdEdKckp3WXJaOUo3S0hBaHNzQ3VBYnpwZ0pua3NhbmhieFdEYmttaFNDaV9yYmtLTXR4MjJhcjZQYjBTZGM5OVBtRnJaMFZHdWV5Tjg5MThPaDRTcHp2YmtUYU9HZnI4eGF4alZ0ckJ3ejdHSmZud1FBONIBgAJBVV95cUxNb1NHam9qNnJsNTJ4Rlg4NkhSZlFsbmFRd2h6RS1GYU5sWmVHM25VUDVJM1dSakFEQ2V3bkozSG1EUFhNRDlWUVVmSWhPaUlWRXZrUi1jdGo4TGZES0wtano5OUU2UXpyYUVYZmxBcXhCeDNJMGVHRElRVEpIYTBOUkNUbU5kaWg5UC12b295bzhQNktqa0dEUnlCUTFQTnBOYmlscEhKWmR4WG11TzZONkRZNjdvcmxaNHU1ZU9GR0lvSDQ0Z1l6SXktV0R4UkRzakNpTWo5VVpTRDFRcnFwTEtqUUQzajJVQWRkeGJwNlBoQ0szNGFiRE52eFFvMHRB?oc=5",
+      "date": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
+    },
+    {
+      "title": "Toxic Box Office: Yash starrer records Rs. 50.31 crore, becomes 3rd highest Hindi-dubbed opening for a South film - Bollywood Hungama",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQT2ZJTy1Oekd2OWwzSkVFb25RdFJ3QUFISDQxaU5YczJndFFJVG55OWxpX0NfREpfZThEZ19ZMVN2YW44NHlWc3ZqSElxSWl0LVF4cW9xLS03YkhWUm0tQmZaYkRIYXoyYU83aWlkMFhuU2E1MURsd1FzWWtKcFZfVXZ3UVN0SmxxdEdJWDFPV3B6SlFSVnMxUlBnTGpGMEt2SEZUeHVMU044c3VpbzUyYnZLVlltdFdNM09yZS04UDFrekI5UUt5Vmh4NWJXdmZpZF90dGQwaHRYRGRKYVU5a2VfSk52TERFczJxQlZhSHpBVkhlWVgxdGpLcjJpeV9kUFEwc3YwVkXSAY4CQVVfeXFMTTRKTHhpZDd1VnBnV1Y5S0k0VUFmOUc4YWxJOVBHZXpuTGdLNmN0cFFYZndXM09rekpPdnpEUk5BbTZJVjVnSDdGc2R6UGM5c3A3emszT2dGZFAyWlhUaElXdThHNUJjajlfeWJOeGM3b1UxZVMzOGotaENrRXh1LXlkaUhSckRpYnJmUWJyOEZobFc5dzdfMFNUdkhoMXEzYlFsZ2JCMi1jTU13ckxya3Ywb1ZOUTdaY09LcmZZVGM1eFNqakJnckF6WndXMkZLS1ZsYVFXQ3J3b1RRelAyVFpYYkoyWHRPeGdXTl9TenRsNUVRbnRia2FLb0VfWVZIWS1HcUQtSFNUTkFldUJn?oc=5",
+      "date": "Thu, 27 Aug 2026 07:35:31 GMT",
+      "category": "Movies",
+      "language": "en",
+      "source": "Google News"
     }
   ]
 }
