@@ -512,6 +512,35 @@ function escapeHTML(text){
 loadNews();
 
 </script>
+<script>
+document.addEventListener("click", function(e) {
+    const link = e.target.closest("a");
 
+    if (!link) return;
+
+    const url = link.href;
+
+    if (
+        url &&
+        url.includes("news.google.com") ||
+        url.includes("http")
+    ) {
+        e.preventDefault();
+
+        const title =
+            link.innerText.trim() ||
+            link.getAttribute("title") ||
+            "Latest News";
+
+        const target =
+            "news.html?title=" +
+            encodeURIComponent(title) +
+            "&url=" +
+            encodeURIComponent(url);
+
+        window.location.href = target;
+    }
+});
+</script>
 </body>
 </html>
