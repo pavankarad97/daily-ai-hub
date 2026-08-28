@@ -7,389 +7,394 @@
 <title>Daily AI Hub</title>
 
 <meta name="description"
-content="Daily AI Hub - Latest India, World, Trending, Cricket, Technology, AI and Movies News">
+content="Daily AI Hub - India, World, Trending, Cricket, Technology, AI and Movies latest news">
 
 <style>
 *{
-box-sizing:border-box;
-margin:0;
-padding:0;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
 }
 
 body{
-font-family:Arial,Helvetica,sans-serif;
-background:#080b14;
-color:#fff;
-min-height:100vh;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#080b14;
+  color:#fff;
+  min-height:100vh;
 }
 
 button,input,select{
-font-family:inherit;
+  font-family:inherit;
 }
 
 header{
-position:sticky;
-top:0;
-z-index:9999;
-background:#0d1220;
-border-bottom:1px solid #26344f;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:#0d1220;
+  border-bottom:1px solid #26344f;
+  padding:15px;
 }
 
 .header{
-max-width:1100px;
-margin:auto;
-padding:14px 15px;
-display:flex;
-align-items:center;
-gap:10px;
+  max-width:1100px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
 }
 
 .logo{
-font-size:23px;
-font-weight:bold;
-white-space:nowrap;
+  font-size:23px;
+  font-weight:bold;
+  white-space:nowrap;
 }
 
 .logo span{
-color:#55c7ff;
+  color:#55c7ff;
 }
 
-.right{
-margin-left:auto;
-display:flex;
-align-items:center;
-gap:8px;
+.header-right{
+  display:flex;
+  align-items:center;
+  gap:8px;
 }
 
 .language{
-background:#172238;
-border:1px solid #30405d;
-color:#fff;
-padding:9px;
-border-radius:9px;
-outline:none;
-max-width:125px;
+  background:#172238;
+  border:1px solid #30405d;
+  color:#fff;
+  padding:9px 10px;
+  border-radius:8px;
+  outline:none;
+}
+
+.language option{
+  background:#111a2b;
+  color:#fff;
 }
 
 .menu{
-background:#172238;
-border:1px solid #30405d;
-color:#fff;
-padding:9px 13px;
-border-radius:8px;
-cursor:pointer;
-font-size:20px;
+  background:#172238;
+  border:1px solid #30405d;
+  color:#fff;
+  padding:9px 13px;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:20px;
 }
 
 nav{
-display:none;
-position:absolute;
-right:15px;
-top:65px;
-width:220px;
-background:#111a2b;
-border:1px solid #30405d;
-border-radius:12px;
-padding:10px;
-box-shadow:0 10px 30px rgba(0,0,0,.4);
+  display:none;
+  position:absolute;
+  right:15px;
+  top:65px;
+  width:220px;
+  background:#111a2b;
+  border:1px solid #30405d;
+  border-radius:12px;
+  padding:10px;
+  box-shadow:0 10px 30px rgba(0,0,0,.4);
 }
 
 nav.show{
-display:block;
+  display:block;
 }
 
 nav button{
-width:100%;
-padding:12px;
-margin-bottom:5px;
-border:0;
-border-radius:8px;
-background:transparent;
-color:#fff;
-text-align:left;
-cursor:pointer;
-font-size:15px;
+  width:100%;
+  padding:12px;
+  margin-bottom:5px;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:#fff;
+  text-align:left;
+  cursor:pointer;
+  font-size:15px;
 }
 
 nav button:hover{
-background:#243451;
+  background:#243451;
 }
 
 .container{
-max-width:1100px;
-margin:auto;
-padding:25px 15px 50px;
+  max-width:1100px;
+  margin:auto;
+  padding:25px 15px 50px;
 }
 
 .hero{
-background:linear-gradient(135deg,#101a32,#111827);
-border:1px solid #263958;
-border-radius:18px;
-padding:25px;
-margin-bottom:20px;
+  background:linear-gradient(135deg,#101a32,#111827);
+  border:1px solid #263958;
+  border-radius:18px;
+  padding:25px;
+  margin-bottom:20px;
 }
 
 .hero h1{
-font-size:32px;
-margin-bottom:8px;
+  font-size:32px;
+  margin-bottom:8px;
 }
 
 .hero p{
-color:#aebbd0;
-line-height:1.6;
+  color:#aebbd0;
+  line-height:1.6;
 }
 
 .status{
-margin-top:14px;
-color:#69e6a5;
-font-size:14px;
-font-weight:bold;
+  margin-top:15px;
+  color:#69e6a5;
+  font-size:14px;
+  font-weight:bold;
 }
 
 .updated{
-margin-top:7px;
-color:#8290a5;
-font-size:12px;
+  margin-top:7px;
+  color:#8290a5;
+  font-size:12px;
 }
 
 .search{
-width:100%;
-padding:14px;
-margin:20px 0;
-border-radius:10px;
-border:1px solid #334563;
-background:#101827;
-color:#fff;
-font-size:16px;
-outline:none;
+  width:100%;
+  padding:14px;
+  margin:20px 0;
+  border-radius:10px;
+  border:1px solid #334563;
+  background:#101827;
+  color:#fff;
+  font-size:16px;
+  outline:none;
 }
 
 .categories{
-display:flex;
-gap:8px;
-overflow-x:auto;
-margin-bottom:22px;
-padding-bottom:5px;
-scrollbar-width:none;
+  display:flex;
+  gap:8px;
+  overflow-x:auto;
+  margin-bottom:22px;
+  padding-bottom:5px;
+  scrollbar-width:none;
 }
 
 .categories::-webkit-scrollbar{
-display:none;
+  display:none;
 }
 
 .categories button{
-white-space:nowrap;
-border:1px solid #344866;
-background:#121c2e;
-color:#fff;
-padding:10px 15px;
-border-radius:20px;
-cursor:pointer;
+  white-space:nowrap;
+  border:1px solid #344866;
+  background:#121c2e;
+  color:#fff;
+  padding:10px 15px;
+  border-radius:20px;
+  cursor:pointer;
 }
 
 .categories button.active{
-background:#1677b8;
-border-color:#1677b8;
+  background:#1677b8;
+  border-color:#1677b8;
 }
 
 .section-title{
-font-size:22px;
-margin-bottom:15px;
+  font-size:22px;
+  margin-bottom:15px;
 }
 
 .news-grid{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:14px;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px;
 }
 
 .card{
-background:#101827;
-border:1px solid #263958;
-border-radius:14px;
-padding:17px;
-transition:.2s;
+  background:#101827;
+  border:1px solid #263958;
+  border-radius:14px;
+  padding:17px;
+  transition:.2s;
 }
 
 .card:hover{
-transform:translateY(-2px);
-border-color:#4c8bc1;
+  transform:translateY(-2px);
+  border-color:#4c8bc1;
 }
 
 .badge{
-display:inline-block;
-font-size:12px;
-background:#193b62;
-color:#66c9ff;
-padding:5px 8px;
-border-radius:6px;
-margin-bottom:10px;
+  display:inline-block;
+  font-size:12px;
+  background:#193b62;
+  color:#66c9ff;
+  padding:5px 8px;
+  border-radius:6px;
+  margin-bottom:10px;
 }
 
 .card h2{
-font-size:18px;
-line-height:1.45;
-margin-bottom:10px;
+  font-size:18px;
+  line-height:1.4;
+  margin-bottom:10px;
 }
 
 .card p{
-color:#9eacc0;
-font-size:13px;
-line-height:1.5;
-margin-bottom:12px;
+  color:#9eacc0;
+  font-size:13px;
+  line-height:1.5;
+  margin-bottom:12px;
 }
 
 .read{
-display:inline-block;
-border:0;
-background:#1677b8;
-color:#fff;
-padding:9px 13px;
-border-radius:8px;
-font-size:14px;
-font-weight:bold;
-cursor:pointer;
+  display:inline-block;
+  border:0;
+  background:#1677b8;
+  color:#fff;
+  padding:9px 13px;
+  border-radius:8px;
+  font-size:14px;
+  font-weight:bold;
+  cursor:pointer;
 }
 
-.loading,.empty{
-grid-column:1/-1;
-text-align:center;
-padding:40px 10px;
-color:#9eacc0;
+.loading,
+.empty{
+  grid-column:1/-1;
+  text-align:center;
+  padding:40px 10px;
+  color:#9eacc0;
 }
 
 /* ARTICLE */
 
 #articlePage{
-display:none;
+  display:none;
 }
 
 .article-wrap{
-max-width:900px;
-margin:auto;
+  max-width:900px;
+  margin:auto;
 }
 
 .back{
-background:#172238;
-border:1px solid #30405d;
-color:#fff;
-padding:10px 15px;
-border-radius:9px;
-cursor:pointer;
-margin-bottom:18px;
+  background:#172238;
+  border:1px solid #30405d;
+  color:#fff;
+  padding:10px 15px;
+  border-radius:9px;
+  cursor:pointer;
+  margin-bottom:18px;
 }
 
 .article{
-background:#101827;
-border:1px solid #263958;
-border-radius:18px;
-padding:24px;
+  background:#101827;
+  border:1px solid #263958;
+  border-radius:18px;
+  padding:25px;
 }
 
 .article h1{
-font-size:31px;
-line-height:1.4;
-margin:10px 0;
+  font-size:31px;
+  line-height:1.4;
+  margin:10px 0;
 }
 
 .meta{
-color:#8999b1;
-font-size:13px;
-margin-bottom:22px;
+  color:#8999b1;
+  font-size:13px;
+  margin-bottom:22px;
 }
 
 .summary{
-background:#111d31;
-border-left:4px solid #55c7ff;
-padding:18px;
-border-radius:10px;
+  background:#111d31;
+  border-left:4px solid #55c7ff;
+  padding:18px;
+  border-radius:10px;
 }
 
 .summary h3{
-color:#55c7ff;
-margin-bottom:10px;
+  color:#55c7ff;
+  margin-bottom:10px;
 }
 
 .summary p{
-color:#d5dce8;
-font-size:16px;
-line-height:1.8;
+  color:#d5dce8;
+  font-size:16px;
+  line-height:1.8;
 }
 
 .facts{
-margin-top:20px;
-padding:18px;
-background:#101827;
-border:1px solid #293b55;
-border-radius:10px;
+  margin-top:20px;
+  padding:18px;
+  background:#111827;
+  border:1px solid #293b55;
+  border-radius:10px;
 }
 
 .facts h3{
-margin-bottom:10px;
+  margin-bottom:10px;
 }
 
 .facts li{
-margin:8px 0 0 20px;
-color:#cbd5e1;
-line-height:1.5;
+  margin:8px 0 0 20px;
+  color:#cbd5e1;
+  line-height:1.5;
 }
 
 .sources{
-margin-top:25px;
-padding-top:20px;
-border-top:1px solid #293b55;
+  margin-top:25px;
+  padding-top:20px;
+  border-top:1px solid #293b55;
 }
 
 .sources h3{
-margin-bottom:12px;
+  margin-bottom:12px;
 }
 
 .source{
-display:block;
-color:#63c9ff;
-background:#17253b;
-border:1px solid #334965;
-padding:11px;
-border-radius:9px;
-text-decoration:none;
-margin-top:8px;
-word-break:break-word;
+  display:block;
+  color:#63c9ff;
+  background:#17253b;
+  border:1px solid #334965;
+  padding:11px;
+  border-radius:9px;
+  text-decoration:none;
+  margin-top:8px;
+  word-break:break-word;
 }
 
 footer{
-text-align:center;
-padding:25px;
-border-top:1px solid #26344f;
-color:#7e8da5;
-font-size:13px;
+  text-align:center;
+  padding:25px;
+  border-top:1px solid #26344f;
+  color:#7e8da5;
+  font-size:13px;
 }
 
 @media(max-width:650px){
 
-.news-grid{
-grid-template-columns:1fr;
-}
+  .news-grid{
+    grid-template-columns:1fr;
+  }
 
-.hero h1{
-font-size:27px;
-}
+  .hero h1{
+    font-size:27px;
+  }
 
-.article h1{
-font-size:25px;
-}
+  .article h1{
+    font-size:25px;
+  }
 
-.article{
-padding:18px;
-}
+  .article{
+    padding:18px;
+  }
 
-.logo{
-font-size:20px;
-}
+  .logo{
+    font-size:20px;
+  }
 
-.language{
-max-width:115px;
-font-size:12px;
-}
+  .language{
+    max-width:120px;
+    font-size:12px;
+  }
 
 }
 </style>
@@ -405,42 +410,66 @@ font-size:12px;
 Daily <span>AI Hub</span>
 </div>
 
-<div class="right">
+<div class="header-right">
 
-<select
-id="language"
+<select id="language"
 class="language"
-onchange="setLanguage()">
+onchange="changeLanguage()">
 
 <option value="en">🇬🇧 English</option>
 <option value="hi">🇮🇳 हिन्दी</option>
 <option value="mr">🇮🇳 मराठी</option>
-<option value="ta">தமிழ்</option>
-<option value="te">తెలుగు</option>
-<option value="bn">বাংলা</option>
-<option value="kn">ಕನ್ನಡ</option>
-<option value="ml">മലയാളം</option>
-<option value="gu">ગુજરાતી</option>
-<option value="pa">ਪੰਜਾਬੀ</option>
+<option value="ta">🇮🇳 தமிழ்</option>
+<option value="te">🇮🇳 తెలుగు</option>
+<option value="bn">🇮🇳 বাংলা</option>
+<option value="kn">🇮🇳 ಕನ್ನಡ</option>
+<option value="ml">🇮🇳 മലയാളം</option>
+<option value="gu">🇮🇳 ગુજરાતી</option>
+<option value="pa">🇮🇳 ਪੰਜਾਬੀ</option>
 
 </select>
 
 <button
 class="menu"
-onclick="toggleMenu()">☰</button>
+onclick="toggleMenu()">
+☰
+</button>
 
 </div>
 
 <nav id="nav">
 
-<button onclick="category('All')">🏠 Home</button>
-<button onclick="category('India')">🇮🇳 India</button>
-<button onclick="category('World')">🌎 World</button>
-<button onclick="category('Trending')">🔥 Trending</button>
-<button onclick="category('Cricket')">🏏 Cricket</button>
-<button onclick="category('Technology')">💻 Technology</button>
-<button onclick="category('AI')">🤖 AI</button>
-<button onclick="category('Movies')">🎬 Movies</button>
+<button onclick="filterNews('All')">
+🏠 Home
+</button>
+
+<button onclick="filterNews('India')">
+🇮🇳 India
+</button>
+
+<button onclick="filterNews('World')">
+🌎 World
+</button>
+
+<button onclick="filterNews('Trending')">
+🔥 Trending
+</button>
+
+<button onclick="filterNews('Cricket')">
+🏏 Cricket
+</button>
+
+<button onclick="filterNews('Technology')">
+💻 Technology
+</button>
+
+<button onclick="filterNews('AI')">
+🤖 AI
+</button>
+
+<button onclick="filterNews('Movies')">
+🎬 Movies
+</button>
 
 </nav>
 
@@ -451,11 +480,15 @@ onclick="toggleMenu()">☰</button>
 
 <!-- HOME -->
 
-<main id="homePage" class="container">
+<main id="homePage">
+
+<div class="container">
 
 <section class="hero">
 
-<h1>📰 Daily AI Hub</h1>
+<h1>
+📰 Daily AI Hub
+</h1>
 
 <p>
 India, World, Cricket, Technology,
@@ -466,7 +499,9 @@ AI और Movies की latest news
 ● LIVE NEWS
 </div>
 
-<div id="updated" class="updated">
+<div
+id="updated"
+class="updated">
 News loading...
 </div>
 
@@ -483,36 +518,44 @@ oninput="searchNews()">
 
 <div class="categories">
 
-<button class="active"
-onclick="category('All',this)">
+<button
+class="active"
+onclick="filterNews('All',this)">
 All
 </button>
 
-<button onclick="category('India',this)">
+<button
+onclick="filterNews('India',this)">
 🇮🇳 India
 </button>
 
-<button onclick="category('World',this)">
+<button
+onclick="filterNews('World',this)">
 🌎 World
 </button>
 
-<button onclick="category('Trending',this)">
+<button
+onclick="filterNews('Trending',this)">
 🔥 Trending
 </button>
 
-<button onclick="category('Cricket',this)">
+<button
+onclick="filterNews('Cricket',this)">
 🏏 Cricket
 </button>
 
-<button onclick="category('Technology',this)">
+<button
+onclick="filterNews('Technology',this)">
 💻 Technology
 </button>
 
-<button onclick="category('AI',this)">
+<button
+onclick="filterNews('AI',this)">
 🤖 AI
 </button>
 
-<button onclick="category('Movies',this)">
+<button
+onclick="filterNews('Movies',this)">
 🎬 Movies
 </button>
 
@@ -524,10 +567,14 @@ All
 </h2>
 
 
-<div id="news" class="news-grid">
+<div
+id="news"
+class="news-grid">
 
 <div class="loading">
 ⏳ News loading...
+</div>
+
 </div>
 
 </div>
@@ -537,17 +584,21 @@ All
 
 <!-- ARTICLE -->
 
-<main id="articlePage" class="container">
+<main id="articlePage">
+
+<div class="container">
 
 <div class="article-wrap">
 
 <button
 class="back"
-onclick="home()">
+onclick="goHome()">
 ← Back to News
 </button>
 
 <div id="articleContent"></div>
+
+</div>
 
 </div>
 
@@ -561,17 +612,61 @@ onclick="home()">
 
 <script>
 
-/* =====================================
-   DAILY AI HUB — FINAL ONE CODE
-===================================== */
+/* =========================================
+   DAILY AI HUB FINAL SYSTEM
+========================================= */
 
-let news=[];
-let current="All";
-let language=
-localStorage.getItem("daihub_lang") || "en";
+let allNews = [];
 
-document.getElementById("language").value=
-language;
+let currentCategory = "All";
+
+let selectedLanguage =
+localStorage.getItem("dailyAI_language") || "en";
+
+let lastDataHash = "";
+
+let rotationIndex = 0;
+
+let currentArticle = null;
+
+
+/* LANGUAGE */
+
+document.getElementById("language").value =
+selectedLanguage;
+
+
+function changeLanguage(){
+
+selectedLanguage =
+document.getElementById("language").value;
+
+localStorage.setItem(
+"dailyAI_language",
+selectedLanguage
+);
+
+rotationIndex = 0;
+
+renderNews();
+
+if(currentArticle !== null){
+
+openArticle(currentArticle,false);
+
+}
+
+}
+
+
+/* NEWS URL */
+
+function getNewsURL(){
+
+return "./news.json?refresh=" +
+Date.now();
+
+}
 
 
 /* LOAD NEWS */
@@ -580,51 +675,126 @@ async function loadNews(){
 
 try{
 
-const response=
+const response =
 await fetch(
-"./news.json?x="+Date.now(),
+getNewsURL(),
 {
 cache:"no-store"
 }
 );
 
-if(!response.ok)
-throw new Error("news.json "+response.status);
+if(!response.ok){
 
-const data=
+throw new Error(
+"news.json HTTP " +
+response.status
+);
+
+}
+
+const data =
 await response.json();
 
-news=
+
+let incoming =
 Array.isArray(data)
-?data
-:(data.news || []);
+? data
+: (
+Array.isArray(data.news)
+? data.news
+: []
+);
 
-render();
 
-document.getElementById("updated")
-.textContent=
-data.updated
-?
-"● Updated: "+
-new Date(data.updated).toLocaleString()
-:
-"● Live News";
+/* REMOVE DUPLICATES */
+
+const seen = new Set();
+
+incoming =
+incoming.filter(item => {
+
+const key =
+String(
+item.id ||
+item.link ||
+item.title ||
+""
+)
+.toLowerCase()
+.trim();
+
+if(!key)
+return false;
+
+if(seen.has(key))
+return false;
+
+seen.add(key);
+
+return true;
+
+});
+
+
+const hash =
+JSON.stringify(incoming);
+
+
+if(hash !== lastDataHash){
+
+allNews = incoming;
+
+lastDataHash = hash;
+
+rotationIndex = 0;
+
+renderNews();
+
+}
+
+
+/* UPDATED TIME */
+
+if(data.updated){
+
+document.getElementById(
+"updated"
+).textContent =
+"● Updated: " +
+formatDate(data.updated);
+
+}else{
+
+document.getElementById(
+"updated"
+).textContent =
+"● LIVE NEWS";
+
+}
+
 
 }catch(error){
 
-console.log(error);
+console.log(
+"News loading error:",
+error
+);
 
-if(!news.length){
 
-document.getElementById("news")
-.innerHTML=`
+if(!allNews.length){
+
+document.getElementById(
+"news"
+).innerHTML = `
 
 <div class="empty">
 
-<h3>⚠️ News load नहीं हो रही</h3>
+<h3>
+⚠️ News load नहीं हो रही
+</h3>
 
 <p style="margin-top:10px">
-news.json उपलब्ध नहीं है या अभी update हो रही है।
+कृपया थोड़ी देर बाद फिर कोशिश करें।
 </p>
 
 <button
@@ -649,515 +819,123 @@ onclick="loadNews()">
 
 /* TITLE */
 
-function title(item){
-
-if(
-language!=="en" &&
-item["title_"+language]
-){
-
-return item["title_"+language];
-
-}
+function getTitle(item){
 
 if(
 item.translations &&
-item.translations[language] &&
-item.translations[language].title
+item.translations[selectedLanguage] &&
+item.translations[selectedLanguage].title
 ){
 
-return item.translations[language].title;
+return item.translations[
+selectedLanguage
+].title;
 
 }
 
-return item.title || "Latest News";
+
+const langTitle =
+"title_" +
+selectedLanguage;
+
+
+if(
+selectedLanguage !== "en" &&
+item[langTitle]
+){
+
+return item[langTitle];
+
+}
+
+
+return item.title ||
+"Latest News";
 
 }
 
 
 /* SUMMARY */
 
-function summary(item){
+function getSummary(item){
 
 if(
 item.translations &&
-item.translations[language] &&
-item.translations[language].summary
+item.translations[selectedLanguage] &&
+item.translations[selectedLanguage].summary
 ){
 
-return item.translations[language].summary;
+return item.translations[
+selectedLanguage
+].summary;
 
 }
 
-if(item["summary_"+language]){
 
-return item["summary_"+language];
+const langSummary =
+"summary_" +
+selectedLanguage;
+
+
+if(
+selectedLanguage !== "en" &&
+item[langSummary]
+){
+
+return item[langSummary];
 
 }
 
-return item.summary ||
-item.description ||
-"इस खबर की short information अभी उपलब्ध नहीं है। पूरी जानकारी के लिए नीचे दिए गए original source को देखें।";
+
+if(item.summary){
+
+return item.summary;
+
+}
+
+
+if(item.description){
+
+return item.description;
+
+}
+
+
+if(item.content){
+
+return item.content;
+
+}
+
+
+/*
+Fallback only.
+Real 100-word summaries should be
+provided by the news backend.
+*/
+
+return getTitle(item) +
+" से जुड़ी यह महत्वपूर्ण खबर सामने आई है। " +
+"उपलब्ध जानकारी के अनुसार इस घटनाक्रम पर " +
+"लगातार नजर रखी जा रही है। खबर से जुड़े " +
+"महत्वपूर्ण तथ्यों और आगे होने वाले संभावित " +
+"घटनाक्रम को समझना जरूरी है। नई जानकारी " +
+"सामने आने पर इस खबर को अपडेट किया जाएगा। " +
+"पूरी जानकारी के लिए नीचे दिए गए original " +
+"source को जरूर देखें।";
 
 }
 
 
 /* FILTER */
 
-function filtered(){
+function getFilteredNews(){
 
-let list=[...news];
+let list =
+[...allNews];
 
-if(current!=="All"){
 
-list=list.filter(item=>
-String(item.category || "")
-.toLowerCase()
-.includes(
-current.toLowerCase()
-)
-);
+if(currentCategory !== "All"){
 
-}
-
-const text=
-document.getElementById("search")
-.value
-.toLowerCase()
-.trim();
-
-if(text){
-
-list=list.filter(item=>
-
-title(item)
-.toLowerCase()
-.includes(text)
-
-);
-
-}
-
-return list;
-
-}
-
-
-/* RENDER */
-
-function render(){
-
-const box=
-document.getElementById("news");
-
-const list=filtered();
-
-if(!list.length){
-
-box.innerHTML=
-`<div class="empty">
-कोई news नहीं मिली।
-</div>`;
-
-return;
-
-}
-
-box.innerHTML=
-list.slice(0,100)
-.map((item,index)=>`
-
-<article class="card">
-
-<span class="badge">
-${safe(item.category || "News")}
-</span>
-
-<h2>
-${safe(title(item))}
-</h2>
-
-<p>
-${safe(item.source || "News Source")}
-${item.date ? " • "+safe(item.date) : ""}
-</p>
-
-<button
-class="read"
-onclick="openArticle(${index})">
-
-Read News →
-
-</button>
-
-</article>
-
-`)
-.join("");
-
-}
-
-
-/* CATEGORY */
-
-function category(name,button){
-
-current=name;
-
-document
-.querySelectorAll(".categories button")
-.forEach(x=>x.classList.remove("active"));
-
-if(button)
-button.classList.add("active");
-
-document.getElementById("search").value="";
-
-render();
-
-closeMenu();
-
-}
-
-
-/* SEARCH */
-
-function searchNews(){
-render();
-}
-
-
-/* LANGUAGE */
-
-function setLanguage(){
-
-language=
-document.getElementById("language").value;
-
-localStorage.setItem(
-"daihub_lang",
-language
-);
-
-render();
-
-}
-
-
-/* ARTICLE */
-
-function openArticle(index){
-
-const list=filtered();
-
-const item=list[index];
-
-if(!item)
-return;
-
-document.getElementById("homePage")
-.style.display="none";
-
-document.getElementById("articlePage")
-.style.display="block";
-
-
-let sourceHTML="";
-
-if(
-Array.isArray(item.sources) &&
-item.sources.length
-){
-
-sourceHTML=
-item.sources.map(s=>`
-
-<a
-class="source"
-href="${safeURL(s.url || s.link || "#")}"
-target="_blank"
-rel="noopener noreferrer">
-
-🔗 ${safe(s.name || "Original Source")}
-→ Full Article
-
-</a>
-
-`).join("");
-
-}else{
-
-const url=
-item.originalLink ||
-item.link ||
-"#";
-
-if(url!=="#"){
-
-sourceHTML=`
-
-<a
-class="source"
-href="${safeURL(url)}"
-target="_blank"
-rel="noopener noreferrer">
-
-🔗 ${safe(item.source || "Original Source")}
-→ Full Article
-
-</a>
-
-`;
-
-}else{
-
-sourceHTML=
-"<p>Original source उपलब्ध नहीं है।</p>";
-
-}
-
-}
-
-
-/* FACTS */
-
-let factsHTML="";
-
-if(
-Array.isArray(item.facts) &&
-item.facts.length
-){
-
-factsHTML=`
-
-<div class="facts">
-
-<h3>📌 Important Facts</h3>
-
-<ul>
-
-${
-item.facts.map(x=>
-`<li>${safe(x)}</li>`
-).join("")
-}
-
-</ul>
-
-</div>
-
-`;
-
-}
-
-
-/* ARTICLE */
-
-document.getElementById(
-"articleContent"
-).innerHTML=`
-
-<article class="article">
-
-<span class="badge">
-${safe(item.category || "News")}
-</span>
-
-<h1>
-${safe(title(item))}
-</h1>
-
-<div class="meta">
-
-${safe(item.source || "News Source")}
-
-${item.date ? " • "+safe(item.date) : ""}
-
-</div>
-
-
-<div class="summary">
-
-<h3>
-📰 News in Short
-</h3>
-
-<p>
-${safe(
-limitWords(
-summary(item),
-120
-)
-)}
-</p>
-
-</div>
-
-
-${factsHTML}
-
-
-<div class="sources">
-
-<h3>
-🔗 Full Article — Original Sources
-</h3>
-
-${sourceHTML}
-
-</div>
-
-</article>
-
-`;
-
-window.scrollTo(0,0);
-
-history.pushState(
-{article:true},
-"",
-"#article"
-);
-
-}
-
-
-/* HOME */
-
-function home(){
-
-document.getElementById("articlePage")
-.style.display="none";
-
-document.getElementById("homePage")
-.style.display="block";
-
-if(location.hash){
-
-history.replaceState(
-null,
-"",
-location.pathname+
-location.search
-);
-
-}
-
-window.scrollTo(0,0);
-
-}
-
-
-/* MENU */
-
-function toggleMenu(){
-
-document.getElementById("nav")
-.classList.toggle("show");
-
-}
-
-function closeMenu(){
-
-document.getElementById("nav")
-.classList.remove("show");
-
-}
-
-
-/* HTML SAFE */
-
-function safe(value){
-
-return String(value)
-.replace(/&/g,"&amp;")
-.replace(/</g,"&lt;")
-.replace(/>/g,"&gt;")
-.replace(/"/g,"&quot;")
-.replace(/'/g,"&#039;");
-
-}
-
-
-/* URL SAFE */
-
-function safeURL(value){
-
-try{
-
-const u=
-new URL(
-String(value),
-window.location.href
-);
-
-if(
-u.protocol==="http:" ||
-u.protocol==="https:"
-){
-
-return safe(u.href);
-
-}
-
-return "#";
-
-}catch(e){
-
-return "#";
-
-}
-
-}
-
-
-/* WORD LIMIT */
-
-function limitWords(text,max){
-
-const words=
-String(text)
-.trim()
-.split(/\s+/);
-
-if(words.length<=max)
-return text;
-
-return words.slice(0,max).join("")+"…";
-
-}
-
-
-/* AUTO CHECK */
-
-setInterval(
-loadNews,
-1000
-);
-
-
-/* START */
-
-loadNews();
-
-
-/* BROWSER BACK */
-
-window.addEventListener(
-"popstate",
-function(){
-
-if(
-location.hash!=="#article"
-){
-
-home();
-
-}
-
-});
-
-</script>
-
-</body>
-</html>
+list =
+list.filter(item =>
