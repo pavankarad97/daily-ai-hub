@@ -1,145 +1,446 @@
 name: Daily AI Hub News Update
 
 on:
+
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "*/30 * * * *"
+
   workflow_dispatch:
 
 permissions:
   contents: write
 
+
 jobs:
+
   update-news:
+
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch Indian and Global News
+
+      - name: Fetch News and Generate AI Summaries
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
         run: |
+
           python3 <<'PY'
+
           import urllib.request
           import urllib.parse
+          import urllib.error
           import xml.etree.ElementTree as ET
           import json
+          import re
+          import html
+          import time
           from datetime import datetime, timezone
+          from html.parser import HTMLParser
+
+
+          # --------------------------------
+          # NEWS SEARCHES
+          # --------------------------------
 
           feeds = [
-              ("India", "India latest news", "en"),
-              ("India", "भारत की ताज़ा खबरें", "hi"),
-              ("India", "महाराष्ट्र ताज़ा खबरें", "mr"),
-              ("India", "தமிழ்நாடு செய்திகள்", "ta"),
-              ("India", "తెలుగు వార్తలు", "te"),
-              ("India", "বাংলা সংবাদ", "bn"),
-              ("India", "ಕನ್ನಡ ಸುದ್ದಿ", "kn"),
-              ("India", "മലയാളം വാർത്തകൾ", "ml"),
-              ("India", "ગુજરાત સમાચાર", "gu"),
-              ("India", "ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ", "pa"),
 
-              ("Trending", "India trending news", "en"),
-              ("Trending", "भारत trending news", "hi"),
+              ("India","India latest news","en"),
+              ("India","भारत की ताज़ा खबरें","hi"),
+              ("India","महाराष्ट्र ताज़ा खबरें","mr"),
 
-              ("World", "world latest news", "en"),
+              ("Trending","India trending news","en"),
+              ("Trending","भारत trending news","hi"),
 
-              ("Cricket", "cricket latest news", "en"),
-              ("Cricket", "भारत क्रिकेट", "hi"),
+              ("World","world latest news","en"),
 
-              ("Technology", "technology latest news", "en"),
-              ("AI", "artificial intelligence AI latest", "en"),
+              ("Cricket","cricket latest news","en"),
+              ("Cricket","भारत क्रिकेट","hi"),
 
-              ("Movies", "Indian movies latest news", "en"),
-              ("Movies", "Bollywood latest news", "hi"),
-              ("Movies", "South Indian movies latest", "en"),
+              ("Technology","technology latest news","en"),
+
+              ("AI","artificial intelligence latest news","en"),
+              ("AI","AI technology latest news","en"),
+
+              ("Movies","Indian movies latest news","en"),
+              ("Movies","Bollywood latest news","hi"),
+              ("Movies","South Indian movies latest","en")
+
           ]
 
-          news = []
-          seen = set()
 
-          for category, query, language in feeds:
+          news=[]
+          seen=set()
+
+
+          # --------------------------------
+          # DOWNLOAD RSS
+          # --------------------------------
+
+          for category,query,language in feeds:
+
               try:
-                  q = urllib.parse.quote(query)
 
-                  if language == "hi":
-                      hl, gl, ceid = "hi", "IN", "IN:hi"
-                  elif language == "mr":
-                      hl, gl, ceid = "mr", "IN", "IN:mr"
-                  elif language == "ta":
-                      hl, gl, ceid = "ta", "IN", "IN:ta"
-                  elif language == "te":
-                      hl, gl, ceid = "te", "IN", "IN:te"
-                  elif language == "bn":
-                      hl, gl, ceid = "bn", "IN", "IN:bn"
-                  elif language == "kn":
-                      hl, gl, ceid = "kn", "IN", "IN:kn"
-                  elif language == "ml":
-                      hl, gl, ceid = "ml", "IN", "IN:ml"
-                  elif language == "gu":
-                      hl, gl, ceid = "gu", "IN", "IN:gu"
-                  elif language == "pa":
-                      hl, gl, ceid = "pa", "IN", "IN:pa"
-                  else:
-                      hl, gl, ceid = "en-IN", "IN", "IN:en"
+                  q=urllib.parse.quote(query)
 
-                  url = (
+                  params={
+                      "en":("en-IN","IN","IN:en"),
+                      "hi":("hi","IN","IN:hi"),
+                      "mr":("mr","IN","IN:mr")
+                  }
+
+                  hl,gl,ceid=params.get(
+                      language,
+                      ("en-IN","IN","IN:en")
+                  )
+
+                  url=(
                       "https://news.google.com/rss/search?"
                       f"q={q}&hl={hl}&gl={gl}&ceid={ceid}"
                   )
 
-                  req = urllib.request.Request(
+                  req=urllib.request.Request(
                       url,
-                      headers={"User-Agent": "Mozilla/5.0"}
+                      headers={
+                          "User-Agent":
+                          "Mozilla/5.0 DailyAIHub/1.0"
+                      }
                   )
 
-                  data = urllib.request.urlopen(
-                      req, timeout=20
+                  data=urllib.request.urlopen(
+                      req,
+                      timeout=20
                   ).read()
 
-                  root = ET.fromstring(data)
+                  root=ET.fromstring(data)
 
-                  for item in root.findall(".//item")[:8]:
-                      title = item.findtext("title", "").strip()
-                      link = item.findtext("link", "").strip()
-                      pub = item.findtext("pubDate", "").strip()
+                  for item in root.findall(".//item")[:10]:
+
+                      title=item.findtext(
+                          "title",""
+                      ).strip()
+
+                      link=item.findtext(
+                          "link",""
+                      ).strip()
+
+                      pub=item.findtext(
+                          "pubDate",""
+                      ).strip()
 
                       if not title or not link:
                           continue
 
-                      key = title.lower()
 
-                      if key in seen:
+                      clean=re.sub(
+                          r"[^a-zA-Z0-9]+",
+                          "",
+                          title.lower()
+                      )
+
+                      if clean in seen:
                           continue
 
-                      seen.add(key)
+                      seen.add(clean)
+
 
                       news.append({
-                          "title": title,
-                          "link": link,
-                          "date": pub,
-                          "category": category,
-                          "language": language,
-                          "source": "Google News"
+
+                          "title":title,
+
+                          "link":link,
+
+                          "originalLink":link,
+
+                          "date":pub,
+
+                          "category":category,
+
+                          "language":language,
+
+                          "source":"Google News",
+
+                          "summary":"",
+
+                          "translations":{}
+
                       })
 
-              except Exception as e:
-                  print("Feed error:", query, e)
 
-          result = {
-              "updated": datetime.now(timezone.utc).isoformat(),
-              "total": len(news),
-              "news": news
+              except Exception as e:
+
+                  print(
+                      "RSS ERROR:",
+                      query,
+                      e
+                  )
+
+
+          # --------------------------------
+          # KEEP LATEST 60
+          # --------------------------------
+
+          news=news[:60]
+
+
+          # --------------------------------
+          # GEMINI FUNCTION
+          # --------------------------------
+
+          def gemini(prompt):
+
+              key=__import__(
+                  "os"
+              ).environ.get(
+                  "GEMINI_API_KEY"
+              )
+
+              if not key:
+                  return None
+
+
+              endpoint=(
+                  "https://generativelanguage.googleapis.com/"
+                  "v1beta/models/gemini-2.5-flash:generateContent"
+                  "?key="+urllib.parse.quote(key)
+              )
+
+
+              payload={
+                  "contents":[
+                      {
+                          "parts":[
+                              {
+                                  "text":prompt
+                              }
+                          ]
+                      }
+                  ],
+                  "generationConfig":{
+                      "temperature":0.2,
+                      "responseMimeType":"application/json"
+                  }
+              }
+
+
+              req=urllib.request.Request(
+
+                  endpoint,
+
+                  data=json.dumps(
+                      payload
+                  ).encode("utf-8"),
+
+                  headers={
+                      "Content-Type":
+                      "application/json"
+                  },
+
+                  method="POST"
+              )
+
+
+              try:
+
+                  response=
+                  urllib.request.urlopen(
+                      req,
+                      timeout=60
+                  )
+
+                  data=json.loads(
+                      response.read()
+                  )
+
+                  text=data[
+                      "candidates"
+                  ][0][
+                      "content"
+                  ][
+                      "parts"
+                  ][0][
+                      "text"
+                  ]
+
+                  return json.loads(text)
+
+
+              except Exception as e:
+
+                  print(
+                      "GEMINI ERROR:",
+                      e
+                  )
+
+                  return None
+
+
+          # --------------------------------
+          # GENERATE MULTI LANGUAGE SUMMARY
+          # --------------------------------
+
+          for index,item in enumerate(news[:20]):
+
+              print(
+                  "AI processing:",
+                  index+1,
+                  item["title"]
+              )
+
+
+              prompt=f"""
+
+You are the editorial AI for Daily AI Hub.
+
+Create a factual mini news story from the information below.
+
+IMPORTANT:
+- Do NOT invent facts.
+- Do NOT create fake quotes.
+- Keep the story around 100 words.
+- Clearly distinguish reported facts.
+- If information is uncertain, say that it is reported/alleged.
+- This is a news summary, not an opinion.
+- Do not copy sentences word-for-word.
+- Use the supplied source information only.
+
+NEWS TITLE:
+{item["title"]}
+
+SOURCE:
+{item["source"]}
+
+DATE:
+{item["date"]}
+
+ORIGINAL LINK:
+{item["link"]}
+
+Return JSON only:
+
+{{
+  "en": {{
+    "title": "...",
+    "summary": "around 100 words"
+  }},
+  "hi": {{
+    "title": "...",
+    "summary": "around 100 Hindi words"
+  }},
+  "mr": {{
+    "title": "...",
+    "summary": "around 100 Marathi words"
+  }},
+  "ta": {{
+    "title": "...",
+    "summary": "Tamil summary"
+  }},
+  "te": {{
+    "title": "...",
+    "summary": "Telugu summary"
+  }},
+  "bn": {{
+    "title": "...",
+    "summary": "Bengali summary"
+  }},
+  "kn": {{
+    "title": "...",
+    "summary": "Kannada summary"
+  }},
+  "ml": {{
+    "title": "...",
+    "summary": "Malayalam summary"
+  }},
+  "gu": {{
+    "title": "...",
+    "summary": "Gujarati summary"
+  }},
+  "pa": {{
+    "title": "...",
+    "summary": "Punjabi summary"
+  }}
+}}
+
+"""
+
+
+              result=gemini(prompt)
+
+
+              if result:
+
+                  item["translations"]=result
+
+
+                  if result.get("en"):
+
+                      item["summary"]=
+                      result["en"].get(
+                          "summary",
+                          ""
+                      )
+
+
+              time.sleep(1)
+
+
+          # --------------------------------
+          # RESULT
+          # --------------------------------
+
+          output={
+
+              "updated":
+              datetime.now(
+                  timezone.utc
+              ).isoformat(),
+
+              "total":
+              len(news),
+
+              "news":
+              news
+
           }
 
-          with open("news.json", "w", encoding="utf-8") as f:
-              json.dump(result, f, ensure_ascii=False, indent=2)
 
-          print("News collected:", len(news))
+          with open(
+              "news.json",
+              "w",
+              encoding="utf-8"
+          ) as f:
+
+              json.dump(
+                  output,
+                  f,
+                  ensure_ascii=False,
+                  indent=2
+              )
+
+
+          print(
+              "TOTAL NEWS:",
+              len(news)
+          )
+
           PY
 
+
       - name: Save News
+
         run: |
+
           git config user.name "Daily AI Hub Bot"
+
           git config user.email "actions@github.com"
+
           git add news.json
-          git diff --cached --quiet || git commit -m "Auto update news"
+
+          git diff --cached --quiet || \
+          git commit -m "Auto update news"
+
           git push
