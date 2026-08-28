@@ -1,8 +1,8 @@
-name: Daily AI News Update
+name: Daily AI Hub News Update
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,41 +16,91 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch AI News
+      - name: Fetch Indian and Global News
         run: |
           python3 <<'PY'
           import urllib.request
+          import urllib.parse
           import xml.etree.ElementTree as ET
           import json
           from datetime import datetime, timezone
 
           feeds = [
-              "https://news.google.com/rss/search?q=artificial+intelligence+AI&hl=en-US&gl=US&ceid=US:en",
-              "https://news.google.com/rss/search?q=OpenAI+OR+Google+AI+OR+Microsoft+AI&hl=en-US&gl=US&ceid=US:en"
+              ("India", "India latest news", "en"),
+              ("India", "भारत की ताज़ा खबरें", "hi"),
+              ("India", "महाराष्ट्र ताज़ा खबरें", "mr"),
+              ("India", "தமிழ்நாடு செய்திகள்", "ta"),
+              ("India", "తెలుగు వార్తలు", "te"),
+              ("India", "বাংলা সংবাদ", "bn"),
+              ("India", "ಕನ್ನಡ ಸುದ್ದಿ", "kn"),
+              ("India", "മലയാളം വാർത്തകൾ", "ml"),
+              ("India", "ગુજરાત સમાચાર", "gu"),
+              ("India", "ਪੰਜਾਬੀ ਖ਼ਬਰਾਂ", "pa"),
+
+              ("Trending", "India trending news", "en"),
+              ("Trending", "भारत trending news", "hi"),
+
+              ("World", "world latest news", "en"),
+
+              ("Cricket", "cricket latest news", "en"),
+              ("Cricket", "भारत क्रिकेट", "hi"),
+
+              ("Technology", "technology latest news", "en"),
+              ("AI", "artificial intelligence AI latest", "en"),
+
+              ("Movies", "Indian movies latest news", "en"),
+              ("Movies", "Bollywood latest news", "hi"),
+              ("Movies", "South Indian movies latest", "en"),
           ]
 
           news = []
           seen = set()
 
-          for url in feeds:
+          for category, query, language in feeds:
               try:
-                  request = urllib.request.Request(
+                  q = urllib.parse.quote(query)
+
+                  if language == "hi":
+                      hl, gl, ceid = "hi", "IN", "IN:hi"
+                  elif language == "mr":
+                      hl, gl, ceid = "mr", "IN", "IN:mr"
+                  elif language == "ta":
+                      hl, gl, ceid = "ta", "IN", "IN:ta"
+                  elif language == "te":
+                      hl, gl, ceid = "te", "IN", "IN:te"
+                  elif language == "bn":
+                      hl, gl, ceid = "bn", "IN", "IN:bn"
+                  elif language == "kn":
+                      hl, gl, ceid = "kn", "IN", "IN:kn"
+                  elif language == "ml":
+                      hl, gl, ceid = "ml", "IN", "IN:ml"
+                  elif language == "gu":
+                      hl, gl, ceid = "gu", "IN", "IN:gu"
+                  elif language == "pa":
+                      hl, gl, ceid = "pa", "IN", "IN:pa"
+                  else:
+                      hl, gl, ceid = "en-IN", "IN", "IN:en"
+
+                  url = (
+                      "https://news.google.com/rss/search?"
+                      f"q={q}&hl={hl}&gl={gl}&ceid={ceid}"
+                  )
+
+                  req = urllib.request.Request(
                       url,
                       headers={"User-Agent": "Mozilla/5.0"}
                   )
 
                   data = urllib.request.urlopen(
-                      request,
-                      timeout=20
+                      req, timeout=20
                   ).read()
 
                   root = ET.fromstring(data)
 
-                  for item in root.findall(".//item"):
+                  for item in root.findall(".//item")[:8]:
                       title = item.findtext("title", "").strip()
                       link = item.findtext("link", "").strip()
                       pub = item.findtext("pubDate", "").strip()
-                      source = item.findtext("source", "Google News").strip()
 
                       if not title or not link:
                           continue
@@ -66,40 +116,30 @@ jobs:
                           "title": title,
                           "link": link,
                           "date": pub,
-                          "source": source
+                          "category": category,
+                          "language": language,
+                          "source": "Google News"
                       })
 
-                      if len(news) >= 12:
-                          break
-
               except Exception as e:
-                  print("Feed error:", e)
+                  print("Feed error:", query, e)
 
-              if len(news) >= 12:
-                  break
-
-          output = {
+          result = {
               "updated": datetime.now(timezone.utc).isoformat(),
-              "count": len(news),
-              "articles": news[:12]
+              "total": len(news),
+              "news": news
           }
 
           with open("news.json", "w", encoding="utf-8") as f:
-              json.dump(output, f, ensure_ascii=False, indent=2)
+              json.dump(result, f, ensure_ascii=False, indent=2)
 
-          print("News articles:", len(news))
+          print("News collected:", len(news))
           PY
 
-      - name: Save Updated News
+      - name: Save News
         run: |
           git config user.name "Daily AI Hub Bot"
-          git config user.email "actions@users.noreply.github.com"
-
+          git config user.email "actions@github.com"
           git add news.json
-
-          if git diff --cached --quiet; then
-            echo "No news changes."
-          else
-            git commit -m "Update daily AI news"
-            git push
-          fi
+          git diff --cached --quiet || git commit -m "Auto update news"
+          git push
