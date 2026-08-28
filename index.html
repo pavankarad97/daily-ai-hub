@@ -1,1 +1,465 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Daily AI Hub - AI News, Facts, Tools and Updates">
+<title>Daily AI Hub</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#080b14;
+color:#fff;
+min-height:100vh;
+}
+
+header{
+padding:18px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #202638;
+background:#0d1120;
+position:sticky;
+top:0;
+z-index:10;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+.logo span{color:#6c63ff}
+
+.menu{
+font-size:24px;
+cursor:pointer;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:25px 16px 50px;
+}
+
+.hero{
+text-align:center;
+padding:35px 15px;
+}
+
+.badge{
+display:inline-block;
+background:#171b32;
+border:1px solid #343b66;
+color:#8e87ff;
+padding:8px 14px;
+border-radius:30px;
+font-size:13px;
+margin-bottom:15px;
+}
+
+h1{
+font-size:40px;
+line-height:1.1;
+margin-bottom:12px;
+}
+
+.hero p{
+color:#aeb5c9;
+font-size:16px;
+line-height:1.6;
+}
+
+.search{
+display:flex;
+margin:20px auto 30px;
+max-width:650px;
+background:#111627;
+border:1px solid #29304a;
+border-radius:14px;
+overflow:hidden;
+}
+
+.search input{
+flex:1;
+background:none;
+border:0;
+outline:none;
+padding:15px;
+color:white;
+font-size:15px;
+}
+
+.search button{
+border:0;
+background:#635bff;
+color:white;
+padding:0 20px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.section-title{
+font-size:23px;
+margin:25px 0 15px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+}
+
+.card{
+background:#101525;
+border:1px solid #252c42;
+border-radius:18px;
+padding:20px;
+transition:.2s;
+}
+
+.card:hover{
+transform:translateY(-3px);
+border-color:#635bff;
+}
+
+.icon{
+font-size:30px;
+margin-bottom:12px;
+}
+
+.card h3{
+font-size:18px;
+margin-bottom:8px;
+}
+
+.card p{
+color:#aab1c4;
+font-size:14px;
+line-height:1.6;
+}
+
+.read{
+display:inline-block;
+margin-top:14px;
+color:#8d87ff;
+font-size:13px;
+cursor:pointer;
+}
+
+.fact{
+background:linear-gradient(135deg,#171b38,#101525);
+border:1px solid #383d6a;
+border-radius:20px;
+padding:25px;
+}
+
+.fact h2{
+margin-bottom:12px;
+}
+
+.fact p{
+color:#c2c7d6;
+line-height:1.7;
+}
+
+.tools{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:12px;
+}
+
+.tool{
+background:#111627;
+border:1px solid #252c42;
+padding:17px;
+border-radius:15px;
+text-align:center;
+cursor:pointer;
+}
+
+.tool:hover{
+background:#171d31;
+}
+
+.chat{
+margin-top:30px;
+background:#101525;
+border:1px solid #292f47;
+border-radius:20px;
+padding:22px;
+}
+
+.chat h2{
+margin-bottom:10px;
+}
+
+.chat p{
+color:#aab1c4;
+font-size:14px;
+margin-bottom:15px;
+}
+
+.chatbox{
+display:flex;
+gap:8px;
+}
+
+.chatbox input{
+flex:1;
+padding:14px;
+border-radius:12px;
+border:1px solid #303750;
+background:#080b14;
+color:white;
+outline:none;
+}
+
+.chatbox button{
+border:0;
+border-radius:12px;
+background:#635bff;
+color:white;
+padding:0 18px;
+font-weight:bold;
+}
+
+#answer{
+margin-top:15px;
+padding:15px;
+border-radius:12px;
+background:#171c2d;
+color:#cbd0df;
+display:none;
+line-height:1.6;
+}
+
+footer{
+text-align:center;
+padding:30px 15px;
+border-top:1px solid #202638;
+color:#777f96;
+font-size:13px;
+}
+
+@media(max-width:650px){
+h1{font-size:31px}
+
+.grid{
+grid-template-columns:1fr;
+}
+
+.tools{
+grid-template-columns:repeat(2,1fr);
+}
+
+.chatbox{
+flex-direction:column;
+}
+
+.chatbox button{
+padding:13px;
+}
+
+.search button{
+padding:0 15px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🤖 Daily <span>AI Hub</span></div>
+<div class="menu">☰</div>
+</header>
+
+<div class="container">
+
+<section class="hero">
+<div class="badge">⚡ AI • NEWS • TOOLS • FACTS</div>
+
+<h1>Your Daily AI Hub</h1>
+
+<p>
+Discover the latest AI news, useful tools, interesting facts
+and daily technology updates — all in one place.
+</p>
+
+<div class="search">
+<input id="searchInput" type="text" placeholder="Search AI topics...">
+<button onclick="searchAI()">Search</button>
+</div>
+</section>
+
+<h2 class="section-title">🔥 Today's AI</h2>
+
+<div class="grid">
+
+<div class="card">
+<div class="icon">📰</div>
+<h3>AI Daily News</h3>
+<p>
+Latest artificial intelligence and technology updates.
+</p>
+<span class="read" onclick="showMessage('AI News section will receive live updates after the API is connected.')">
+Read Updates →
+</span>
+</div>
+
+<div class="card">
+<div class="icon">🧠</div>
+<h3>AI Fact of the Day</h3>
+<p id="dailyFact">
+Loading today's AI fact...
+</p>
+</div>
+
+</div>
+
+<h2 class="section-title">🛠️ AI Tools</h2>
+
+<div class="tools">
+
+<div class="tool" onclick="showMessage('AI Writing tools')">
+✍️<br><br>
+<strong>AI Writer</strong>
+</div>
+
+<div class="tool" onclick="showMessage('AI Image tools')">
+🖼️<br><br>
+<strong>AI Images</strong>
+</div>
+
+<div class="tool" onclick="showMessage('AI Video tools')">
+🎬<br><br>
+<strong>AI Video</strong>
+</div>
+
+<div class="tool" onclick="showMessage('AI Coding tools')">
+💻<br><br>
+<strong>AI Coding</strong>
+</div>
+
+<div class="tool" onclick="showMessage('AI Productivity tools')">
+⚡<br><br>
+<strong>Productivity</strong>
+</div>
+
+<div class="tool" onclick="showMessage('AI Education tools')">
+🎓<br><br>
+<strong>Education</strong>
+</div>
+
+</div>
+
+<h2 class="section-title">💡 Daily AI Tip</h2>
+
+<div class="fact">
+<h2>🚀 Use AI Smarter</h2>
+<p id="dailyTip">
+A clear and specific prompt usually gives better AI results.
+Try telling the AI exactly what you want, who it is for,
+and what format you need.
+</p>
+</div>
+
+<div class="chat">
+
+<h2>🤖 Ask AI</h2>
+
+<p>
+Ask a question and prepare to connect this section to a secure AI API.
+</p>
+
+<div class="chatbox">
+<input id="question" type="text" placeholder="Ask something about AI...">
+<button onclick="askAI()">ASK</button>
+</div>
+
+<div id="answer"></div>
+
+</div>
+
+</div>
+
+<footer>
+© <span id="year"></span> Daily AI Hub • Made for AI lovers 🤖
+</footer>
+
+<script>
+
+const facts = [
+"AI can analyze huge amounts of information much faster than humans.",
+"Machine learning is a major technology behind modern AI systems.",
+"AI is used in search engines, recommendation systems and voice assistants.",
+"Generative AI can create text, images, audio, video and computer code.",
+"Good prompts can make AI responses more useful and specific.",
+"AI systems learn patterns from data rather than thinking exactly like humans.",
+"Computer vision allows AI systems to understand information from images and video."
+];
+
+const tips = [
+"Give AI a clear role, task, context and desired output format.",
+"Ask AI to explain difficult topics step by step.",
+"Use examples in your prompt when you need a specific style.",
+"Ask AI to improve your first draft instead of starting from zero.",
+"Break a large task into smaller prompts for better results."
+];
+
+function getDailyItem(array){
+const day = Math.floor(Date.now() / 86400000);
+return array[day % array.length];
+}
+
+document.getElementById("dailyFact").textContent = getDailyItem(facts);
+document.getElementById("dailyTip").textContent = getDailyItem(tips);
+document.getElementById("year").textContent = new Date().getFullYear();
+
+function showMessage(message){
+const answer=document.getElementById("answer");
+answer.style.display="block";
+answer.textContent=message;
+window.scrollTo({
+top:document.body.scrollHeight,
+behavior:"smooth"
+});
+}
+
+function searchAI(){
+const q=document.getElementById("searchInput").value.trim();
+
+if(!q){
+showMessage("Please enter something to search.");
+return;
+}
+
+showMessage("🔎 Search requested: " + q +
+"\n\nLive AI search will be connected in the next version.");
+}
+
+function askAI(){
+const q=document.getElementById("question").value.trim();
+
+if(!q){
+showMessage("Please type your question first.");
+return;
+}
+
+showMessage(
+"🤖 Your question:\n" + q +
+"\n\nThe secure AI connection will be added in the next version."
+);
+
+}
+
+</script>
+
+</body>
+</html>
