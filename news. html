@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#080b14">
-
+<meta name="description" content="Daily AI Hub News Viewer - Indian and Global News">
 <title>News Viewer • Daily AI Hub</title>
 
 <style>
@@ -12,6 +12,10 @@
   box-sizing:border-box;
   margin:0;
   padding:0;
+}
+
+html{
+  scroll-behavior:smooth;
 }
 
 body{
@@ -24,7 +28,7 @@ body{
 header{
   position:sticky;
   top:0;
-  z-index:100;
+  z-index:1000;
   background:#0d1120;
   border-bottom:1px solid #292f49;
   padding:15px 18px;
@@ -42,166 +46,252 @@ header{
   color:#6c63ff;
 }
 
-.home{
-  color:white;
+.home-btn{
+  color:#fff;
   text-decoration:none;
   background:#171c31;
   border:1px solid #353b5b;
   padding:9px 14px;
   border-radius:10px;
+  font-weight:bold;
 }
 
 .container{
-  max-width:850px;
+  max-width:900px;
   margin:auto;
-  padding:25px 16px 60px;
+  padding:22px 16px 70px;
 }
 
-.back{
+.top-title{
+  margin:10px 0 18px;
+}
+
+.top-title h1{
+  font-size:32px;
+  margin-bottom:5px;
+}
+
+.top-title p{
+  color:#9da5c2;
+}
+
+.controls{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin:20px 0;
+}
+
+.controls input,
+.controls select{
+  flex:1;
+  min-width:150px;
+  background:#111629;
+  color:#fff;
+  border:1px solid #303752;
+  border-radius:10px;
+  padding:12px;
+  outline:none;
+}
+
+.trending{
+  margin:20px 0;
+}
+
+.trending-title{
+  font-size:23px;
+  margin-bottom:12px;
+}
+
+.trending-box{
+  background:linear-gradient(135deg,#271526,#15182b);
+  border:1px solid #a92e58;
+  border-radius:16px;
+  padding:18px;
+}
+
+.badge{
   display:inline-block;
-  color:#9d96ff;
+  background:#ed2855;
+  padding:6px 11px;
+  border-radius:8px;
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:12px;
+}
+
+.trending-box h2{
+  font-size:22px;
+  line-height:1.35;
+}
+
+.news-list{
+  display:grid;
+  gap:14px;
+  margin-top:25px;
+}
+
+.news-card{
+  background:#111629;
+  border:1px solid #292f49;
+  border-radius:16px;
+  padding:18px;
+  transition:.2s;
+}
+
+.news-card:hover{
+  border-color:#6c63ff;
+  transform:translateY(-2px);
+}
+
+.news-meta{
+  color:#8e96b5;
+  font-size:13px;
+  margin-bottom:8px;
+}
+
+.news-card h2{
+  font-size:20px;
+  line-height:1.4;
+  margin-bottom:10px;
+}
+
+.news-summary{
+  color:#b2b8ce;
+  font-size:15px;
+}
+
+.read-btn{
+  display:inline-block;
+  margin-top:15px;
+  background:#6c63ff;
+  color:#fff;
   text-decoration:none;
-  margin-bottom:25px;
+  padding:9px 14px;
+  border-radius:9px;
+  font-weight:bold;
 }
 
-.category{
+.viewer{
+  display:none;
+}
+
+.viewer-card{
+  background:#101426;
+  border:1px solid #303752;
+  border-radius:18px;
+  padding:22px;
+}
+
+.back-btn{
   display:inline-block;
-  background:#e52d55;
-  color:white;
+  color:#aeb4ff;
+  text-decoration:none;
+  margin-bottom:20px;
+  font-weight:bold;
+}
+
+.viewer-badge{
+  display:inline-block;
+  background:#6c63ff;
   padding:7px 12px;
   border-radius:8px;
   font-size:12px;
   font-weight:bold;
-  margin-bottom:18px;
+  margin-bottom:15px;
 }
 
-h1{
-  font-size:38px;
-  line-height:1.25;
-  margin-bottom:18px;
-}
-
-.meta{
-  color:#8991a8;
-  margin-bottom:25px;
-}
-
-.image{
-  width:100%;
-  min-height:230px;
-  border-radius:18px;
-  background:#151a2c;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  overflow:hidden;
-  margin-bottom:25px;
-}
-
-.image img{
-  width:100%;
-  max-height:500px;
-  object-fit:cover;
-}
-
-.placeholder{
-  font-size:70px;
-}
-
-.article{
-  background:#111526;
-  border:1px solid #292f49;
-  border-radius:18px;
-  padding:25px;
-}
-
-.article p{
-  color:#d1d5e2;
-  font-size:18px;
-  margin-bottom:18px;
-}
-
-.source{
-  margin-top:25px;
-  padding-top:20px;
-  border-top:1px solid #292f49;
-  color:#9299ae;
-}
-
-.source a{
-  color:#8d84ff;
-  text-decoration:none;
-}
-
-.buttons{
-  display:flex;
-  gap:12px;
-  flex-wrap:wrap;
-  margin-top:25px;
-}
-
-.btn{
-  border:1px solid #3b4164;
-  background:#171c31;
-  color:white;
-  padding:12px 18px;
-  border-radius:10px;
-  text-decoration:none;
-  cursor:pointer;
-  font-size:15px;
-}
-
-.btn.primary{
-  background:#6559f5;
-  border-color:#6559f5;
-}
-
-.status{
-  text-align:center;
-  padding:60px 20px;
-  color:#9299ae;
-}
-
-.related{
-  margin-top:35px;
-}
-
-.related h2{
-  margin-bottom:18px;
-}
-
-.related-card{
-  display:block;
-  color:white;
-  text-decoration:none;
-  background:#111526;
-  border:1px solid #292f49;
-  border-radius:15px;
-  padding:18px;
+.viewer h1{
+  font-size:34px;
+  line-height:1.3;
   margin-bottom:12px;
 }
 
-.related-card small{
-  color:#8d84ff;
+.viewer-info{
+  color:#8f98b5;
+  font-size:14px;
+  margin-bottom:20px;
+}
+
+.viewer-summary{
+  color:#c0c5d8;
+  font-size:18px;
+  margin-bottom:22px;
+}
+
+.viewer-content{
+  font-size:17px;
+  color:#e4e6ef;
+}
+
+.viewer-content p{
+  margin-bottom:18px;
+}
+
+.source-btn{
+  display:inline-block;
+  margin-top:20px;
+  background:#202744;
+  border:1px solid #3b456b;
+  color:#fff;
+  text-decoration:none;
+  padding:11px 15px;
+  border-radius:10px;
+}
+
+.loading{
+  text-align:center;
+  padding:35px;
+  color:#929ab8;
+}
+
+.error{
+  background:#241521;
+  border:1px solid #7e294c;
+  padding:16px;
+  border-radius:12px;
+  color:#ffb4c8;
+}
+
+.empty{
+  text-align:center;
+  padding:35px;
+  color:#969eb8;
 }
 
 footer{
-  border-top:1px solid #252b40;
   text-align:center;
-  padding:30px;
-  color:#737b92;
+  color:#777f9c;
+  padding:25px;
+  border-top:1px solid #20263b;
 }
 
 @media(max-width:600px){
 
-  h1{
-    font-size:29px;
+  .logo{
+    font-size:20px;
   }
 
-  .article p{
-    font-size:17px;
+  .home-btn{
+    padding:8px 10px;
+    font-size:13px;
   }
 
+  .top-title h1{
+    font-size:28px;
+  }
+
+  .viewer h1{
+    font-size:27px;
+  }
+
+  .viewer-summary{
+    font-size:16px;
+  }
+
+  .viewer-content{
+    font-size:16px;
+  }
 }
 </style>
 </head>
@@ -209,502 +299,238 @@ footer{
 <body>
 
 <header>
-
-  <div class="logo">
-    🤖 Daily <span>AI Hub</span>
-  </div>
-
-  <a class="home" href="index.html">
-    🏠 Home
-  </a>
-
+  <div class="logo">🤖 Daily <span>AI Hub</span></div>
+  <a class="home-btn" href="index.html">🏠 Home</a>
 </header>
-
 
 <main class="container">
 
-  <a class="back" href="index.html">
-    ← Back to Daily AI Hub
-  </a>
+  <!-- NEWS LIST -->
+  <section id="newsHome">
 
-  <div id="loading" class="status">
-    📰 Loading news...
-  </div>
-
-  <article id="viewer" style="display:none;">
-
-    <div id="category" class="category">
-      NEWS
+    <div class="top-title">
+      <h1>📰 News</h1>
+      <p>Indian & Global News • Trending • Technology • Sports • Movies</p>
     </div>
 
-    <h1 id="title">
-      News Title
-    </h1>
+    <div class="controls">
+      <input
+        type="search"
+        id="searchBox"
+        placeholder="🔎 Search news..."
+        oninput="filterNews()"
+      >
 
-    <div id="meta" class="meta">
-      Daily AI Hub
+      <select id="languageFilter" onchange="filterNews()">
+        <option value="all">🌐 All Languages</option>
+        <option value="English">English</option>
+        <option value="Hindi">हिंदी</option>
+        <option value="Marathi">मराठी</option>
+        <option value="Bengali">বাংলা</option>
+        <option value="Tamil">தமிழ்</option>
+        <option value="Telugu">తెలుగు</option>
+        <option value="Kannada">ಕನ್ನಡ</option>
+        <option value="Malayalam">മലയാളം</option>
+        <option value="Gujarati">ગુજરાતી</option>
+        <option value="Punjabi">ਪੰਜਾਬੀ</option>
+      </select>
+
+      <select id="categoryFilter" onchange="filterNews()">
+        <option value="all">📂 All Categories</option>
+        <option value="India">🇮🇳 India</option>
+        <option value="World">🌎 World</option>
+        <option value="Technology">💻 Technology</option>
+        <option value="AI">🤖 AI</option>
+        <option value="Cricket">🏏 Cricket</option>
+        <option value="Movies">🎬 Movies</option>
+        <option value="Business">💰 Business</option>
+        <option value="Sports">🏆 Sports</option>
+      </select>
     </div>
 
-    <div id="imageBox" class="image">
-      <div class="placeholder">📰</div>
+    <section class="trending" id="trendingSection">
+      <div class="trending-title">🔥 Trending Now</div>
+      <div class="trending-box" id="trendingBox">
+        <div class="loading">Loading trending news...</div>
+      </div>
+    </section>
+
+    <div id="newsList" class="news-list">
+      <div class="loading">📰 Loading latest news...</div>
     </div>
 
-    <div class="article">
+  </section>
 
-      <p id="description">
-        Loading article...
-      </p>
 
-      <div class="source">
-        Original Source:
-        <a id="sourceLink" href="#" target="_blank" rel="noopener">
-          Open Original Source
-        </a>
+  <!-- SINGLE NEWS VIEWER -->
+  <section id="viewer" class="viewer">
+
+    <a href="news.html" class="back-btn">← Back to News</a>
+
+    <article class="viewer-card">
+
+      <div id="viewerBadge" class="viewer-badge">
+        NEWS
       </div>
 
-      <div class="buttons">
+      <h1 id="viewerTitle">
+        Loading...
+      </h1>
 
-        <a class="btn primary" href="index.html">
-          🏠 Back Home
-        </a>
+      <div id="viewerInfo" class="viewer-info"></div>
 
-        <button class="btn" onclick="shareNews()">
-          📤 Share
-        </button>
+      <div id="viewerSummary" class="viewer-summary"></div>
 
-        <a id="originalButton"
-           class="btn"
-           href="#"
-           target="_blank"
-           rel="noopener">
-          🔗 Original Source
-        </a>
+      <div id="viewerContent" class="viewer-content"></div>
 
-      </div>
+      <a
+        id="sourceBtn"
+        class="source-btn"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+        🔗 Original Source
+      </a>
 
-    </div>
-
-  </article>
-
-
-  <section class="related">
-
-    <h2>📰 More News</h2>
-
-    <div id="relatedList">
-      Loading...
-    </div>
+    </article>
 
   </section>
 
 </main>
 
-
 <footer>
-  © 2026 Daily AI Hub • News Viewer
+  © 2026 Daily AI Hub • Indian & Global News
 </footer>
 
 
 <script>
 
-let currentArticle = null;
+let allNews = [];
 
 
-/* -----------------------------
-   LOAD NEWS
------------------------------ */
+/* LOAD NEWS */
 
 async function loadNews(){
 
-  const loading =
-    document.getElementById("loading");
+  const list = document.getElementById("newsList");
 
   try{
 
-    const response =
-      await fetch("news.json?cache=" + Date.now());
+    const response = await fetch("news.json?cache=" + Date.now());
 
     if(!response.ok){
-
-      throw new Error(
-        "news.json not found"
-      );
-
+      throw new Error("News file not found");
     }
 
-    const data =
-      await response.json();
+    const data = await response.json();
 
-    if(
-      !data.articles ||
-      data.articles.length === 0
-    ){
+    allNews = Array.isArray(data)
+      ? data
+      : (data.articles || []);
 
-      loading.innerHTML =
-        "⚠️ No news available.";
+    if(!allNews.length){
+
+      list.innerHTML =
+        '<div class="empty">📰 No news available right now.</div>';
 
       return;
-
     }
 
+    showTrending();
+    filterNews();
 
-    const params =
-      new URLSearchParams(
-        window.location.search
-      );
+    openSelectedNews();
 
-    const index =
-      parseInt(
-        params.get("index") || "0"
-      );
+  }catch(error){
 
-
-    let article =
-      data.articles[index];
-
-
-    if(!article){
-
-      article =
-        data.articles[0];
-
-    }
-
-
-    currentArticle =
-      article;
-
-
-    showArticle(article);
-
-
-    showRelated(
-      data.articles,
-      index
-    );
-
-  }
-
-  catch(error){
+    list.innerHTML = `
+      <div class="error">
+        ⚠️ News load नहीं हो सकी।<br><br>
+        कृपया check करें कि <b>news.json</b> file repository में मौजूद है।
+      </div>
+    `;
 
     console.error(error);
-
-    loading.innerHTML = `
-      ⚠️ News could not be loaded.
-      <br><br>
-      Please try again.
-    `;
-
   }
-
 }
 
 
-/* -----------------------------
-   SHOW ARTICLE
------------------------------ */
+/* TRENDING */
 
-function showArticle(article){
+function showTrending(){
 
-  document.getElementById(
-    "loading"
-  ).style.display = "none";
+  const box = document.getElementById("trendingBox");
+
+  const trending =
+    allNews.find(n =>
+      n.trending === true ||
+      n.trending === "true"
+    ) || allNews[0];
+
+  if(!trending) return;
+
+  const id =
+    trending.id ||
+    trending.url ||
+    encodeURIComponent(trending.title);
+
+  box.innerHTML = `
+    <div class="badge">🔥 TRENDING</div>
+
+    <h2>${escapeHTML(trending.title || "Trending News")}</h2>
+
+    <div class="news-meta">
+      ${escapeHTML(trending.category || "News")}
+      •
+      ${escapeHTML(trending.language || "English")}
+    </div>
+
+    <a class="read-btn"
+       href="news.html?id=${encodeURIComponent(id)}">
+       Read Full News →
+    </a>
+  `;
+}
 
 
-  document.getElementById(
-    "viewer"
-  ).style.display = "block";
+/* FILTER */
 
+function filterNews(){
 
-  const title =
-    article.title ||
-    "Latest News";
+  const search =
+    document.getElementById("searchBox").value
+    .toLowerCase()
+    .trim();
 
-
-  const description =
-    article.description ||
-    article.summary ||
-    "Latest news update from Daily AI Hub.";
-
+  const language =
+    document.getElementById("languageFilter").value;
 
   const category =
-    article.category ||
-    "NEWS";
+    document.getElementById("categoryFilter").value;
 
+  let filtered = allNews.filter(news => {
 
-  const source =
-    article.source ||
-    "News Source";
+    const title =
+      String(news.title || "").toLowerCase();
 
+    const summary =
+      String(news.summary || "").toLowerCase();
 
-  const url =
-    article.url ||
-    article.link ||
-    "#";
+    const text =
+      String(news.content || "").toLowerCase();
 
+    const matchesSearch =
+      !search ||
+      title.includes(search) ||
+      summary.includes(search) ||
+      text.includes(search);
 
-  document.getElementById(
-    "title"
-  ).textContent = title;
+    const matchesLanguage =
+      language === "all" ||
+      String(news.language || "")
+      .toLowerCase() === language.toLowerCase();
 
-
-  document.getElementById(
-    "description"
-  ).textContent = description;
-
-
-  document.getElementById(
-    "category"
-  ).textContent = category;
-
-
-  document.getElementById(
-    "meta"
-  ).textContent =
-    "📰 " + source;
-
-
-  document.getElementById(
-    "sourceLink"
-  ).href = url;
-
-
-  document.getElementById(
-    "originalButton"
-  ).href = url;
-
-
-  /* IMAGE */
-
-  const imageBox =
-    document.getElementById(
-      "imageBox"
-    );
-
-
-  const image =
-    article.image ||
-    article.image_url ||
-    article.urlToImage;
-
-
-  if(image){
-
-    imageBox.innerHTML = `
-      <img
-        src="${safeURL(image)}"
-        alt="News image"
-        onerror="this.parentElement.innerHTML='<div class=placeholder>📰</div>'"
-      >
-    `;
-
-  }else{
-
-    imageBox.innerHTML =
-      '<div class="placeholder">📰</div>';
-
-  }
-
-
-  document.title =
-    title + " • Daily AI Hub";
-
-}
-
-
-/* -----------------------------
-   RELATED NEWS
------------------------------ */
-
-function showRelated(
-  articles,
-  currentIndex
-){
-
-  const box =
-    document.getElementById(
-      "relatedList"
-    );
-
-  box.innerHTML = "";
-
-
-  articles.forEach(
-    (article,index)=>{
-
-      if(index === currentIndex)
-        return;
-
-
-      const card =
-        document.createElement(
-          "a"
-        );
-
-
-      card.className =
-        "related-card";
-
-
-      card.href =
-        "news.html?index=" +
-        index;
-
-
-      card.innerHTML = `
-        <small>
-          ${escapeHTML(
-            article.category ||
-            "NEWS"
-          )}
-        </small>
-
-        <br>
-
-        <strong>
-          ${escapeHTML(
-            article.title ||
-            "Latest News"
-          )}
-        </strong>
-      `;
-
-
-      box.appendChild(card);
-
-    }
-  );
-
-}
-
-
-/* -----------------------------
-   SHARE
------------------------------ */
-
-async function shareNews(){
-
-  if(!currentArticle)
-    return;
-
-
-  const shareData = {
-
-    title:
-      currentArticle.title ||
-      "Daily AI Hub News",
-
-    text:
-      currentArticle.title ||
-      "Latest News",
-
-    url:
-      window.location.href
-
-  };
-
-
-  if(
-    navigator.share
-  ){
-
-    try{
-
-      await navigator.share(
-        shareData
-      );
-
-    }catch(e){}
-
-  }else{
-
-    try{
-
-      await navigator.clipboard.writeText(
-        window.location.href
-      );
-
-      alert(
-        "News link copied!"
-      );
-
-    }catch(e){
-
-      alert(
-        "Copy this page link to share."
-      );
-
-    }
-
-  }
-
-}
-
-
-/* -----------------------------
-   SECURITY HELPERS
------------------------------ */
-
-function escapeHTML(text){
-
-  return String(text)
-    .replace(
-      /&/g,
-      "&amp;"
-    )
-    .replace(
-      /</g,
-      "&lt;"
-    )
-    .replace(
-      />/g,
-      "&gt;"
-    )
-    .replace(
-      /"/g,
-      "&quot;"
-    )
-    .replace(
-      /'/g,
-      "&#039;"
-    );
-
-}
-
-
-function safeURL(url){
-
-  try{
-
-    const parsed =
-      new URL(
-        url,
-        window.location.href
-      );
-
-    if(
-      parsed.protocol ===
-        "https:" ||
-      parsed.protocol ===
-        "http:"
-    ){
-
-      return parsed.href;
-
-    }
-
-  }catch(e){}
-
-  return "";
-
-}
-
-
-/* START */
-
-loadNews();
-
-</script>
-
-</body>
-</html>
+    const matchesCategory =
+      category === "all" ||
+      String(news
