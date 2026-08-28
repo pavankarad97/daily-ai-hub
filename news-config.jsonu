@@ -1,0 +1,35 @@
+{
+  "siteName": "Daily AI Hub",
+  "version": "3.1",
+  "news": {
+    "india": true,
+    "global": true,
+    "breaking": true,
+    "trending": true,
+    "technology": true,
+    "ai": true,
+    "business": true,
+    "sports": true,
+    "movies": true
+  },
+  "languages": [
+    "English",
+    "Hindi",
+    "Marathi",
+    "Bengali",
+    "Tamil",
+    "Telugu",
+    "Kannada",
+    "Malayalam",
+    "Gujarati",
+    "Punjabi",
+    "Urdu"
+  ],
+  "display": {
+    "maxNews": 50,
+    "showSource": true,
+    "showDate": true,
+    "showOriginalLink": true,
+    "openInsideWebsite": true
+  }
+}
