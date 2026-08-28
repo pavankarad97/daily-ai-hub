@@ -460,6 +460,149 @@ showMessage(
 }
 
 </script>
+<!-- V2 LIVE AI NEWS -->
+<section id="live-news" style="
+max-width:1000px;
+margin:30px auto;
+padding:0 16px;
+">
+<h2 style="font-size:26px;margin-bottom:15px;">
+📰 Latest AI News
+</h2>
 
+<div id="news-status" style="
+color:#aeb5c9;
+margin-bottom:15px;
+">
+Loading latest AI news...
+</div>
+
+<div id="news-list"></div>
+</section>
+
+<script>
+async function loadLiveNews(){
+
+const status = document.getElementById("news-status");
+const list = document.getElementById("news-list");
+
+try{
+
+const response = await fetch(
+"news.json?cache=" + Date.now()
+);
+
+if(!response.ok){
+throw new Error("News file not found");
+}
+
+const data = await response.json();
+
+list.innerHTML = "";
+
+if(!data.articles || data.articles.length === 0){
+status.textContent = "No news available right now.";
+return;
+}
+
+status.textContent =
+"🔥 Updated: " +
+new Date(data.updated).toLocaleString();
+
+data.articles.forEach((article,index)=>{
+
+const card = document.createElement("article");
+
+card.style.cssText = `
+background:#101525;
+border:1px solid #252c42;
+border-radius:18px;
+padding:18px;
+margin-bottom:14px;
+`;
+
+card.innerHTML = `
+<div style="
+color:#8d87ff;
+font-size:12px;
+margin-bottom:8px;
+">
+AI NEWS #${index+1}
+</div>
+
+<h3 style="
+font-size:18px;
+line-height:1.4;
+margin-bottom:10px;
+">
+${escapeHTML(article.title)}
+</h3>
+
+<div style="
+color:#858da3;
+font-size:12px;
+margin-bottom:12px;
+">
+${escapeHTML(article.source || "AI News")}
+</div>
+
+<a href="${safeURL(article.link)}"
+target="_blank"
+rel="noopener noreferrer"
+style="
+color:#8d87ff;
+text-decoration:none;
+font-weight:bold;
+">
+Read Full News →
+</a>
+`;
+
+list.appendChild(card);
+
+});
+
+}catch(error){
+
+status.textContent =
+"⚠️ News is being updated. Please try again.";
+
+console.log(error);
+
+}
+
+}
+
+function escapeHTML(text){
+
+return String(text || "")
+.replace(/&/g,"&amp;")
+.replace(/</g,"&lt;")
+.replace(/>/g,"&gt;")
+.replace(/"/g,"&quot;")
+.replace(/'/g,"&#039;");
+
+}
+
+function safeURL(url){
+
+try{
+
+const u = new URL(url);
+
+if(u.protocol === "http:" ||
+u.protocol === "https:"){
+return u.href;
+}
+
+}catch(e){}
+
+return "#";
+
+}
+
+loadLiveNews();
+
+</script>
 </body>
 </html>
