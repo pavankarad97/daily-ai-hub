@@ -4,43 +4,49 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-<title>Daily Utility Hub - Free Online Calculators</title>
+<title>Daily Utility Hub | Free Online Calculators & Tools</title>
 
-<meta name="description"
-content="Free EMI, SIP, FD, RD, GST, discount, profit loss, salary, construction, health and daily life calculators.">
+<meta name="description" content="Free online calculators for EMI, SIP, FD, RD, GST, discount, profit and loss, salary, construction, age, BMI and more.">
+
+<meta name="keywords" content="calculator, EMI calculator, SIP calculator, FD calculator, RD calculator, GST calculator, discount calculator, profit loss calculator, salary calculator, construction calculator">
+
+<meta name="robots" content="index,follow">
 
 <style>
-
 *{
 box-sizing:border-box;
 margin:0;
 padding:0;
 }
 
+html{
+scroll-behavior:smooth;
+}
+
 body{
 font-family:Arial,Helvetica,sans-serif;
 background:#f5f7fb;
 color:#172033;
-line-height:1.5;
+line-height:1.55;
 }
 
-button,input{
+button,input,textarea{
 font-family:inherit;
 }
 
 header{
 background:#101828;
-color:white;
+color:#fff;
 position:sticky;
 top:0;
 z-index:1000;
-box-shadow:0 2px 10px rgba(0,0,0,.15);
+box-shadow:0 2px 12px rgba(0,0,0,.15);
 }
 
 .header{
 max-width:1100px;
 margin:auto;
-padding:15px;
+padding:14px 15px;
 display:flex;
 align-items:center;
 justify-content:space-between;
@@ -58,7 +64,7 @@ color:#39bdf8;
 .menu{
 background:#24324a;
 border:1px solid #40516c;
-color:white;
+color:#fff;
 padding:9px 13px;
 border-radius:8px;
 font-size:20px;
@@ -69,12 +75,13 @@ nav{
 display:none;
 position:absolute;
 right:15px;
-top:65px;
-width:240px;
+top:64px;
+width:250px;
 background:#101828;
 border:1px solid #34445d;
 border-radius:12px;
 padding:10px;
+box-shadow:0 10px 30px rgba(0,0,0,.4);
 }
 
 nav.show{
@@ -86,7 +93,7 @@ width:100%;
 padding:12px;
 background:transparent;
 border:0;
-color:white;
+color:#fff;
 text-align:left;
 border-radius:8px;
 cursor:pointer;
@@ -100,19 +107,19 @@ background:#24324a;
 .container{
 max-width:1100px;
 margin:auto;
-padding:25px 15px 50px;
+padding:25px 15px 55px;
 }
 
 .hero{
 background:linear-gradient(135deg,#101828,#1d3557);
-color:white;
+color:#fff;
 border-radius:18px;
 padding:30px 25px;
 margin-bottom:25px;
 }
 
 .hero h1{
-font-size:32px;
+font-size:34px;
 margin-bottom:8px;
 }
 
@@ -126,37 +133,46 @@ width:100%;
 padding:15px;
 border:1px solid #d4dbe5;
 border-radius:10px;
-background:white;
+background:#fff;
 font-size:16px;
 outline:none;
 margin-bottom:20px;
+}
+
+.search:focus{
+border-color:#1677b8;
 }
 
 .categories{
 display:flex;
 gap:8px;
 overflow-x:auto;
-margin-bottom:25px;
+margin-bottom:28px;
 padding-bottom:5px;
+scrollbar-width:none;
+}
+
+.categories::-webkit-scrollbar{
+display:none;
 }
 
 .categories button{
 white-space:nowrap;
 padding:10px 15px;
 border:1px solid #d4dbe5;
-background:white;
+background:#fff;
 border-radius:20px;
 cursor:pointer;
 }
 
 .categories button.active{
 background:#1677b8;
-color:white;
+color:#fff;
 border-color:#1677b8;
 }
 
 .section-title{
-font-size:22px;
+font-size:23px;
 margin-bottom:15px;
 }
 
@@ -167,7 +183,7 @@ gap:15px;
 }
 
 .tool{
-background:white;
+background:#fff;
 border:1px solid #e0e5ed;
 border-radius:14px;
 padding:20px;
@@ -178,12 +194,12 @@ box-shadow:0 2px 8px rgba(0,0,0,.04);
 
 .tool:hover{
 transform:translateY(-3px);
-box-shadow:0 6px 18px rgba(0,0,0,.08);
+box-shadow:0 7px 20px rgba(0,0,0,.08);
 }
 
 .icon{
 font-size:30px;
-margin-bottom:10px;
+margin-bottom:9px;
 }
 
 .tool h2{
@@ -196,13 +212,9 @@ font-size:13px;
 color:#667085;
 }
 
-.popular{
-margin-bottom:30px;
-}
-
 .calculator{
 display:none;
-max-width:650px;
+max-width:700px;
 margin:auto;
 }
 
@@ -216,7 +228,7 @@ margin-bottom:15px;
 }
 
 .calc-card{
-background:white;
+background:#fff;
 border:1px solid #e0e5ed;
 border-radius:16px;
 padding:25px;
@@ -239,12 +251,14 @@ font-weight:bold;
 margin-bottom:6px;
 }
 
-.field input{
+.field input,
+.field textarea{
 width:100%;
 padding:13px;
 border:1px solid #ccd4df;
 border-radius:8px;
 font-size:16px;
+outline:none;
 }
 
 .calculate{
@@ -253,11 +267,15 @@ padding:13px;
 border:0;
 border-radius:9px;
 background:#1677b8;
-color:white;
+color:#fff;
 font-size:16px;
 font-weight:bold;
 cursor:pointer;
 margin-top:5px;
+}
+
+.calculate:hover{
+background:#12699f;
 }
 
 .result{
@@ -269,7 +287,7 @@ padding:18px;
 font-size:17px;
 font-weight:bold;
 color:#075985;
-line-height:1.8;
+line-height:1.9;
 }
 
 .result-actions{
@@ -282,7 +300,7 @@ margin-top:10px;
 flex:1;
 padding:10px;
 border:1px solid #ccd4df;
-background:white;
+background:#fff;
 border-radius:8px;
 cursor:pointer;
 font-weight:bold;
@@ -293,7 +311,7 @@ background:#f1f5f9;
 }
 
 .ad{
-margin:25px 0;
+margin:28px 0;
 min-height:90px;
 background:#eef1f5;
 border:1px dashed #c5ccd7;
@@ -301,840 +319,4 @@ display:flex;
 align-items:center;
 justify-content:center;
 color:#8a94a3;
-border-radius:10px;
-font-size:12px;
-}
-
-footer{
-background:#101828;
-color:#98a2b3;
-text-align:center;
-padding:30px 15px;
-margin-top:20px;
-}
-
-footer a{
-color:#67c9ff;
-text-decoration:none;
-margin:0 5px;
-}
-
-@media(max-width:800px){
-
-.tools{
-grid-template-columns:repeat(2,1fr);
-}
-
-}
-
-@media(max-width:550px){
-
-.tools{
-grid-template-columns:1fr;
-}
-
-.hero h1{
-font-size:27px;
-}
-
-.calc-card{
-padding:18px;
-}
-
-.result-actions{
-flex-direction:column;
-}
-
-}
-</style>
-</head>
-
-<body>
-
-<header>
-
-<div class="header">
-
-<div class="logo">
-Daily <span>Utility Hub</span>
-</div>
-
-<button class="menu" onclick="toggleMenu()">☰</button>
-
-<nav id="nav">
-
-<button onclick="showHome()">🏠 Home</button>
-<button onclick="filterTools('Finance')">💰 Finance</button>
-<button onclick="filterTools('Construction')">🏗️ Construction</button>
-<button onclick="filterTools('Daily')">📅 Daily Life</button>
-<button onclick="filterTools('Health')">❤️ Health</button>
-
-</nav>
-
-</div>
-
-</header>
-
-
-<main class="container">
-
-
-<!-- HOME -->
-
-<section id="home">
-
-<div class="hero">
-
-<h1>🛠️ Daily Utility Hub</h1>
-
-<p>
-Free calculators and useful online tools for everyday life.
-</p>
-
-</div>
-
-
-<input
-id="search"
-class="search"
-placeholder="🔍 Search a tool..."
-oninput="searchTools()">
-
-
-<div class="categories">
-
-<button class="active"
-onclick="filterTools('All',this)">
-All
-</button>
-
-<button onclick="filterTools('Finance',this)">
-💰 Finance
-</button>
-
-<button onclick="filterTools('Construction',this)">
-🏗️ Construction
-</button>
-
-<button onclick="filterTools('Daily',this)">
-📅 Daily Life
-</button>
-
-<button onclick="filterTools('Health',this)">
-❤️ Health
-</button>
-
-</div>
-
-
-<section class="popular">
-
-<h2 class="section-title">
-⭐ Popular Tools
-</h2>
-
-<div id="popularTools"
-class="tools">
-</div>
-
-</section>
-
-
-<h2 class="section-title">
-🧮 All Tools
-</h2>
-
-<div id="tools"
-class="tools">
-</div>
-
-
-<div class="ad">
-ADVERTISEMENT
-</div>
-
-</section>
-
-
-<!-- CALCULATOR -->
-
-<section id="calculator"
-class="calculator">
-
-<button class="back"
-onclick="showHome()">
-← Back to Tools
-</button>
-
-<div id="calculatorContent">
-</div>
-
-</section>
-
-</main>
-
-
-<footer>
-
-<p>
-© 2026 Daily Utility Hub
-</p>
-
-<p style="margin-top:8px">
-Free Online Tools & Calculators
-</p>
-
-<p style="margin-top:10px">
-<a href="#">Privacy</a>
-<a href="#">About</a>
-<a href="#">Contact</a>
-</p>
-
-</footer>
-
-
-<script>
-
-
-/* ==========================================
-   TOOL DATABASE
-========================================== */
-
-const tools=[
-
-{
-id:"emi",
-name:"EMI Calculator",
-category:"Finance",
-icon:"💳",
-description:"Calculate monthly loan EMI"
-},
-
-{
-id:"sip",
-name:"SIP Calculator",
-category:"Finance",
-icon:"📈",
-description:"Estimate SIP investment value"
-},
-
-{
-id:"fd",
-name:"FD Calculator",
-category:"Finance",
-icon:"🏦",
-description:"Calculate fixed deposit returns"
-},
-
-{
-id:"rd",
-name:"RD Calculator",
-category:"Finance",
-icon:"🏦",
-description:"Calculate recurring deposit returns"
-},
-
-{
-id:"gst",
-name:"GST Calculator",
-category:"Finance",
-icon:"🧾",
-description:"Calculate GST amount and total"
-},
-
-{
-id:"discount",
-name:"Discount Calculator",
-category:"Finance",
-icon:"🏷️",
-description:"Calculate discount and final price"
-},
-
-{
-id:"profit",
-name:"Profit & Loss",
-category:"Finance",
-icon:"📊",
-description:"Calculate profit or loss percentage"
-},
-
-{
-id:"salary",
-name:"Salary Calculator",
-category:"Finance",
-icon:"💼",
-description:"Calculate annual salary"
-},
-
-{
-id:"percentage",
-name:"Percentage Calculator",
-category:"Daily",
-icon:"％",
-description:"Calculate percentage easily"
-},
-
-{
-id:"age",
-name:"Age Calculator",
-category:"Daily",
-icon:"🎂",
-description:"Calculate your exact age"
-},
-
-{
-id:"date",
-name:"Date Calculator",
-category:"Daily",
-icon:"📅",
-description:"Calculate days between dates"
-},
-
-{
-id:"unit",
-name:"Unit Converter",
-category:"Daily",
-icon:"🔄",
-description:"Convert metres to feet"
-},
-
-{
-id:"area",
-name:"Area Calculator",
-category:"Construction",
-icon:"📐",
-description:"Calculate rectangle area"
-},
-
-{
-id:"concrete",
-name:"Concrete Calculator",
-category:"Construction",
-icon:"🏗️",
-description:"Calculate concrete volume"
-},
-
-{
-id:"cement",
-name:"Cement Calculator",
-category:"Construction",
-icon:"🧱",
-description:"Estimate cement requirement"
-},
-
-{
-id:"bmi",
-name:"BMI Calculator",
-category:"Health",
-icon:"❤️",
-description:"Calculate body mass index"
-}
-
-];
-
-
-let currentCategory="All";
-
-
-/* ==========================================
-   RENDER
-========================================== */
-
-function renderTools(list=tools){
-
-const box=
-document.getElementById("tools");
-
-box.innerHTML=
-list.map(tool=>`
-
-<div
-class="tool"
-onclick="openTool('${tool.id}')">
-
-<div class="icon">
-${tool.icon}
-</div>
-
-<h2>
-${tool.name}
-</h2>
-
-<p>
-${tool.description}
-</p>
-
-</div>
-
-`).join("");
-
-}
-
-
-/* POPULAR */
-
-function renderPopular(){
-
-const ids=[
-"emi",
-"sip",
-"gst",
-"fd",
-"discount",
-"percentage"
-];
-
-const popular=
-ids.map(id=>
-tools.find(x=>x.id===id)
-).filter(Boolean);
-
-document.getElementById(
-"popularTools"
-).innerHTML=
-popular.map(tool=>`
-
-<div
-class="tool"
-onclick="openTool('${tool.id}')">
-
-<div class="icon">
-${tool.icon}
-</div>
-
-<h2>
-${tool.name}
-</h2>
-
-<p>
-${tool.description}
-</p>
-
-</div>
-
-`).join("");
-
-}
-
-
-/* FILTER */
-
-function filterTools(category,button){
-
-currentCategory=category;
-
-document
-.querySelectorAll(".categories button")
-.forEach(x=>
-x.classList.remove("active")
-);
-
-if(button){
-button.classList.add("active");
-}
-
-const list=
-category==="All"
-?tools
-:tools.filter(
-x=>x.category===category
-);
-
-renderTools(list);
-
-document.getElementById(
-"popularTools"
-).style.display=
-category==="All"
-?"grid"
-:"none";
-
-showHome();
-
-}
-
-
-/* SEARCH */
-
-function searchTools(){
-
-const text=
-document.getElementById("search")
-.value
-.toLowerCase()
-.trim();
-
-const list=
-tools.filter(x=>
-(
-x.name+
-" "+
-x.description+
-" "+
-x.category
-)
-.toLowerCase()
-.includes(text)
-);
-
-renderTools(list);
-
-}
-
-
-/* ==========================================
-   OPEN TOOL
-========================================== */
-
-function openTool(id){
-
-document.getElementById("home")
-.style.display="none";
-
-document.getElementById("calculator")
-.style.display="block";
-
-const content=
-document.getElementById(
-"calculatorContent"
-);
-
-
-/* EMI */
-
-if(id==="emi"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>💳 EMI Calculator</h1>
-
-${input("loan","Loan Amount","500000")}
-${input("rate","Interest Rate (% per year)","8.5")}
-${input("years","Loan Tenure (years)","5")}
-
-<button class="calculate"
-onclick="calculateEMI()">
-Calculate EMI
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* SIP */
-
-else if(id==="sip"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>📈 SIP Calculator</h1>
-
-${input("sipAmount","Monthly Investment","5000")}
-${input("sipRate","Expected Annual Return (%)","12")}
-${input("sipYears","Investment Period (years)","10")}
-
-<button class="calculate"
-onclick="calculateSIP()">
-Calculate SIP
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* FD */
-
-else if(id==="fd"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>🏦 FD Calculator</h1>
-
-${input("fdPrincipal","Deposit Amount","100000")}
-${input("fdRate","Interest Rate (% per year)","7")}
-${input("fdYears","Tenure (years)","5")}
-
-<button class="calculate"
-onclick="calculateFD()">
-Calculate FD
-
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* RD */
-
-else if(id==="rd"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>🏦 RD Calculator</h1>
-
-${input("rdMonthly","Monthly Deposit","5000")}
-${input("rdRate","Interest Rate (% per year)","7")}
-${input("rdYears","Tenure (years)","5")}
-
-<button class="calculate"
-onclick="calculateRD()">
-Calculate RD
-
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* GST */
-
-else if(id==="gst"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>🧾 GST Calculator</h1>
-
-${input("gstAmount","Amount","10000")}
-${input("gstRate","GST Rate (%)","18")}
-
-<button class="calculate"
-onclick="calculateGST()">
-Calculate GST
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* DISCOUNT */
-
-else if(id==="discount"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>🏷️ Discount Calculator</h1>
-
-${input("price","Original Price","1000")}
-${input("discountRate","Discount (%)","20")}
-
-<button class="calculate"
-onclick="calculateDiscount()">
-Calculate Discount
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* PROFIT LOSS */
-
-else if(id==="profit"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>📊 Profit & Loss Calculator</h1>
-
-${input("cost","Cost Price","1000")}
-${input("selling","Selling Price","1200")}
-
-<button class="calculate"
-onclick="calculateProfit()">
-Calculate
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* SALARY */
-
-else if(id==="salary"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>💼 Salary Calculator</h1>
-
-${input("monthlySalary","Monthly Salary","30000")}
-
-<button class="calculate"
-onclick="calculateSalary()">
-Calculate
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* PERCENTAGE */
-
-else if(id==="percentage"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>％ Percentage Calculator</h1>
-
-${input("pValue","Value","1000")}
-${input("pRate","Percentage (%)","20")}
-
-<button class="calculate"
-onclick="calculatePercentage()">
-Calculate
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* AGE */
-
-else if(id==="age"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>🎂 Age Calculator</h1>
-
-<div class="field">
-
-<label>Date of Birth</label>
-
-<input
-id="dob"
-type="date">
-
-</div>
-
-<button class="calculate"
-onclick="calculateAge()">
-Calculate Age
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* DATE */
-
-else if(id==="date"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>📅 Date Calculator</h1>
-
-<div class="field">
-
-<label>Start Date</label>
-
-<input
-id="date1"
-type="date">
-
-</div>
-
-<div class="field">
-
-<label>End Date</label>
-
-<input
-id="date2"
-type="date">
-
-</div>
-
-<button class="calculate"
-onclick="calculateDates()">
-Calculate Days
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* AREA */
-
-else if(id==="area"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>📐 Area Calculator</h1>
-
-${input("length","Length","10")}
-${input("width","Width","10")}
-
-<button class="calculate"
-onclick="calculateArea()">
-Calculate Area
-</button>
-
-<div id="result"></div>
-
-</div>`;
-
-}
-
-
-/* CONCRETE */
-
-else if(id==="concrete"){
-
-content.innerHTML=`
-
-<div class="calc-card">
-
-<h1>🏗
+border-radius:
