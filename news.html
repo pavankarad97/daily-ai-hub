@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080b14">
+<title>News Viewer • Daily AI Hub</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#080b14;
+  color:#fff;
+  min-height:100vh;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:100;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 22px;
+  background:#0d1120;
+  border-bottom:1px solid #262b3d;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:800;
+}
+
+.logo span{
+  color:#6c63ff;
+}
+
+.home{
+  color:#fff;
+  text-decoration:none;
+  font-size:16px;
+  border:1px solid #343b66;
+  padding:9px 14px;
+  border-radius:10px;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:25px 16px 60px;
+}
+
+.back{
+  display:inline-block;
+  margin:10px 0 25px;
+  color:#aeb5ff;
+  text-decoration:none;
+}
+
+.badge{
+  display:inline-block;
+  background:#e52355;
+  padding:8px 14px;
+  border-radius:20px;
+  font-size:13px;
+  font-weight:bold;
+  margin-bottom:18px;
+}
+
+h1{
+  font-size:38px;
+  line-height:1.18;
+  margin-bottom:18px;
+}
+
+.meta{
+  color:#9ca3b8;
+  margin-bottom:25px;
+  font-size:15px;
+}
+
+.source{
+  color:#8f86ff;
+  font-weight:bold;
+}
+
+.viewer{
+  background:#111525;
+  border:1px solid #303752;
+  border-radius:20px;
+  padding:25px;
+  box-shadow:0 15px 50px rgba(0,0,0,.25);
+}
+
+.section-title{
+  font-size:22px;
+  margin-bottom:12px;
+}
+
+.summary{
+  color:#c7ccdc;
+  line-height:1.8;
+  font-size:17px;
+  margin-bottom:28px;
+}
+
+.info{
+  background:#191e30;
+  border-radius:14px;
+  padding:16px;
+  margin-bottom:25px;
+  color:#b8bfd2;
+}
+
+.button{
+  display:inline-block;
+  background:#665cff;
+  color:white;
+  text-decoration:none;
+  padding:13px 20px;
+  border-radius:12px;
+  font-weight:bold;
+  margin-right:8px;
+  margin-bottom:10px;
+}
+
+.button.secondary{
+  background:#191e30;
+  border:1px solid #343b66;
+}
+
+.loading{
+  text-align:center;
+  color:#9da5bd;
+  padding:50px 10px;
+}
+
+.error{
+  background:#351827;
+  border:1px solid #81314d;
+  padding:20px;
+  border-radius:15px;
+  color:#ffb5c8;
+}
+
+footer{
+  text-align:center;
+  color:#707890;
+  padding:35px 15px;
+  border-top:1px solid #202537;
+}
+
+@media(max-width:600px){
+  h1{
+    font-size:29px;
+  }
+
+  .viewer{
+    padding:20px;
+  }
+
+  .summary{
+    font-size:16px;
+  }
+
+  header{
+    padding:16px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">🤖 Daily <span>AI Hub</span></div>
+  <a class="home" href="index.html">🏠 Home</a>
+</header>
+
+<main class="container">
+
+  <a class="back" href="index.html">← Back to Daily AI Hub</a>
+
+  <div id="loading" class="loading">
+    📰 Loading news...
+  </div>
+
+  <article id="article" style="display:none;">
+
+    <div class="badge">🔴 NEWS VIEWER</div>
+
+    <h1 id="title"></h1>
+
+    <div class="meta">
+      📰 Source:
+      <span id="source" class="source"></span>
+      <br><br>
+      📅 Published:
+      <span id="date"></span>
+    </div>
+
+    <div class="viewer">
+
+      <h2 class="section-title">
+        📝 About This News
+      </h2>
+
+      <div id="summary" class="summary">
+      </div>
+
+      <div class="info">
+        ℹ️ Daily AI Hub collects news information from
+        available news sources and presents it in a simple
+        viewer format. The original publisher remains the
+        source of the reported information.
+      </div>
+
+      <a id="original"
+         class="button"
+         href="#"
+         target="_blank"
+         rel="noopener noreferrer">
+         🔗 Read Original Source
+      </a>
+
+      <a class="button secondary" href="index.html">
+         🏠 More News
+      </a>
+
+    </div>
+
+  </article>
+
+</main>
+
+<footer>
+  © 2026 Daily AI Hub • News Aggregator
+</footer>
+
+<script>
+
+async function loadNews(){
+
+  const loading = document.getElementById("loading");
+  const article = document.getElementById("article");
+
+  try{
+
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+
+    const response = await fetch("news.json?cache=" + Date.now());
+
+    if(!response.ok){
+      throw new Error("News file could not be loaded.");
+    }
+
+    const data = await response.json();
+
+    if(!data.articles || data.articles.length === 0){
+      throw new Error("No news available.");
+    }
+
+    let index = parseInt(id);
+
+    if(isNaN(index) || index < 0 || index >= data.articles.length){
+      index = 0;
+    }
+
+    const news = data.articles[index];
+
+    document.getElementById("title").textContent =
+      news.title || "Latest News";
+
+    document.getElementById("source").textContent =
+      news.source || "Unknown Source";
+
+    document.getElementById("date").textContent =
+      news.date || "Latest Update";
+
+    document.getElementById("summary").textContent =
+      news.summary ||
+      "This news item is currently available through the original publisher. Daily AI Hub is preparing the latest available information for this story.";
+
+    document.getElementById("original").href =
+      news.link || "#";
+
+    loading.style.display = "none";
+    article.style.display = "block";
+
+  }catch(error){
+
+    loading.innerHTML = `
+      <div class="error">
+        ❌ News could not be loaded.<br><br>
+        Please try again later.
+      </div>
+    `;
+
+  }
+
+}
+
+loadNews();
+
+</script>
+
+</body>
+</html>
