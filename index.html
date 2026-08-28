@@ -1,608 +1,205 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Daily AI Hub - AI News, Facts, Tools and Updates">
-<title>Daily AI Hub</title>
+<meta name="description" content="Daily AI Hub - Latest AI News, Tools, Facts and Technology Updates">
+<meta name="theme-color" content="#080b14">
+<title>🤖 Daily AI Hub</title>
 
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior:smooth;
+}
 
 body{
-font-family:Arial,Helvetica,sans-serif;
-background:#080b14;
-color:#fff;
-min-height:100vh;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#080b14;
+  color:#fff;
+  min-height:100vh;
 }
 
 header{
-padding:18px 20px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-border-bottom:1px solid #202638;
-background:#0d1120;
-position:sticky;
-top:0;
-z-index:10;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 22px;
+  background:#0d1120;
+  border-bottom:1px solid #262b3d;
 }
 
 .logo{
-font-size:22px;
-font-weight:bold;
+  font-size:23px;
+  font-weight:800;
 }
 
-.logo span{color:#6c63ff}
+.logo span{
+  color:#6c63ff;
+}
 
 .menu{
-font-size:24px;
-cursor:pointer;
+  font-size:28px;
+  cursor:pointer;
+  user-select:none;
+}
+
+nav{
+  display:none;
+  position:absolute;
+  right:15px;
+  top:70px;
+  background:#15192b;
+  border:1px solid #30364d;
+  border-radius:14px;
+  padding:12px;
+  width:190px;
+  box-shadow:0 15px 40px rgba(0,0,0,.4);
+}
+
+nav.show{
+  display:block;
+}
+
+nav a{
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  padding:13px;
+  border-radius:9px;
+}
+
+nav a:hover{
+  background:#252a43;
+  color:#8f88ff;
 }
 
 .container{
-max-width:1000px;
-margin:auto;
-padding:25px 16px 50px;
+  max-width:1050px;
+  margin:auto;
+  padding:20px 16px 60px;
 }
 
 .hero{
-text-align:center;
-padding:35px 15px;
+  text-align:center;
+  padding:65px 10px 50px;
 }
 
 .badge{
-display:inline-block;
-background:#171b32;
-border:1px solid #343b66;
-color:#8e87ff;
-padding:8px 14px;
-border-radius:30px;
-font-size:13px;
-margin-bottom:15px;
+  display:inline-block;
+  background:#171b32;
+  border:1px solid #414875;
+  color:#aaa5ff;
+  padding:10px 16px;
+  border-radius:30px;
+  font-size:14px;
+  margin-bottom:18px;
 }
 
 h1{
-font-size:40px;
-line-height:1.1;
-margin-bottom:12px;
+  font-size:clamp(38px,8vw,64px);
+  line-height:1.05;
+  margin-bottom:18px;
 }
 
 .hero p{
-color:#aeb5c9;
-font-size:16px;
-line-height:1.6;
+  color:#aeb4c8;
+  font-size:18px;
+  line-height:1.7;
+  max-width:700px;
+  margin:auto;
 }
 
 .search{
-display:flex;
-margin:20px auto 30px;
-max-width:650px;
-background:#111627;
-border:1px solid #29304a;
-border-radius:14px;
-overflow:hidden;
+  display:flex;
+  max-width:700px;
+  margin:30px auto 0;
+  background:#121628;
+  border:1px solid #303650;
+  border-radius:18px;
+  overflow:hidden;
 }
 
 .search input{
-flex:1;
-background:none;
-border:0;
-outline:none;
-padding:15px;
-color:white;
-font-size:15px;
+  flex:1;
+  min-width:0;
+  padding:18px;
+  background:transparent;
+  border:0;
+  outline:0;
+  color:#fff;
+  font-size:16px;
 }
 
 .search button{
-border:0;
-background:#635bff;
-color:white;
-padding:0 20px;
-font-weight:bold;
-cursor:pointer;
+  border:0;
+  padding:0 25px;
+  background:#635bff;
+  color:#fff;
+  font-weight:bold;
+  cursor:pointer;
+  font-size:16px;
 }
 
 .section-title{
-font-size:23px;
-margin:25px 0 15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:25px 0 20px;
+}
+
+.section-title h2{
+  font-size:28px;
+}
+
+.status{
+  color:#9da4bc;
+  font-size:14px;
+  margin-bottom:18px;
 }
 
 .grid{
-display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:15px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+  gap:18px;
 }
 
 .card{
-background:#101525;
-border:1px solid #252c42;
-border-radius:18px;
-padding:20px;
-transition:.2s;
+  background:#121627;
+  border:1px solid #292f47;
+  border-radius:20px;
+  padding:24px;
+  transition:.25s;
 }
 
 .card:hover{
-transform:translateY(-3px);
-border-color:#635bff;
+  transform:translateY(-4px);
+  border-color:#635bff;
+  box-shadow:0 12px 35px rgba(0,0,0,.25);
 }
 
-.icon{
-font-size:30px;
-margin-bottom:12px;
+.card-number{
+  color:#8d87ff;
+  font-size:13px;
+  font-weight:bold;
+  margin-bottom:12px;
 }
 
 .card h3{
-font-size:18px;
-margin-bottom:8px;
+  font-size:20px;
+  line-height:1.4;
+  margin-bottom:13px;
 }
 
 .card p{
-color:#aab1c4;
-font-size:14px;
-line-height:1.6;
-}
-
-.read{
-display:inline-block;
-margin-top:14px;
-color:#8d87ff;
-font-size:13px;
-cursor:pointer;
-}
-
-.fact{
-background:linear-gradient(135deg,#171b38,#101525);
-border:1px solid #383d6a;
-border-radius:20px;
-padding:25px;
-}
-
-.fact h2{
-margin-bottom:12px;
-}
-
-.fact p{
-color:#c2c7d6;
-line-height:1.7;
-}
-
-.tools{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:12px;
-}
-
-.tool{
-background:#111627;
-border:1px solid #252c42;
-padding:17px;
-border-radius:15px;
-text-align:center;
-cursor:pointer;
-}
-
-.tool:hover{
-background:#171d31;
-}
-
-.chat{
-margin-top:30px;
-background:#101525;
-border:1px solid #292f47;
-border-radius:20px;
-padding:22px;
-}
-
-.chat h2{
-margin-bottom:10px;
-}
-
-.chat p{
-color:#aab1c4;
-font-size:14px;
-margin-bottom:15px;
-}
-
-.chatbox{
-display:flex;
-gap:8px;
-}
-
-.chatbox input{
-flex:1;
-padding:14px;
-border-radius:12px;
-border:1px solid #303750;
-background:#080b14;
-color:white;
-outline:none;
-}
-
-.chatbox button{
-border:0;
-border-radius:12px;
-background:#635bff;
-color:white;
-padding:0 18px;
-font-weight:bold;
-}
-
-#answer{
-margin-top:15px;
-padding:15px;
-border-radius:12px;
-background:#171c2d;
-color:#cbd0df;
-display:none;
-line-height:1.6;
-}
-
-footer{
-text-align:center;
-padding:30px 15px;
-border-top:1px solid #202638;
-color:#777f96;
-font-size:13px;
-}
-
-@media(max-width:650px){
-h1{font-size:31px}
-
-.grid{
-grid-template-columns:1fr;
-}
-
-.tools{
-grid-template-columns:repeat(2,1fr);
-}
-
-.chatbox{
-flex-direction:column;
-}
-
-.chatbox button{
-padding:13px;
-}
-
-.search button{
-padding:0 15px;
-}
-}
-</style>
-</head>
-
-<body>
-
-<header>
-<div class="logo">🤖 Daily <span>AI Hub</span></div>
-<div class="menu">☰</div>
-</header>
-
-<div class="container">
-
-<section class="hero">
-<div class="badge">⚡ AI • NEWS • TOOLS • FACTS</div>
-
-<h1>Your Daily AI Hub</h1>
-
-<p>
-Discover the latest AI news, useful tools, interesting facts
-and daily technology updates — all in one place.
-</p>
-
-<div class="search">
-<input id="searchInput" type="text" placeholder="Search AI topics...">
-<button onclick="searchAI()">Search</button>
-</div>
-</section>
-
-<h2 class="section-title">🔥 Today's AI</h2>
-
-<div class="grid">
-
-<div class="card">
-<div class="icon">📰</div>
-<h3>AI Daily News</h3>
-<p>
-Latest artificial intelligence and technology updates.
-</p>
-<span class="read" onclick="showMessage('AI News section will receive live updates after the API is connected.')">
-Read Updates →
-</span>
-</div>
-
-<div class="card">
-<div class="icon">🧠</div>
-<h3>AI Fact of the Day</h3>
-<p id="dailyFact">
-Loading today's AI fact...
-</p>
-</div>
-
-</div>
-
-<h2 class="section-title">🛠️ AI Tools</h2>
-
-<div class="tools">
-
-<div class="tool" onclick="showMessage('AI Writing tools')">
-✍️<br><br>
-<strong>AI Writer</strong>
-</div>
-
-<div class="tool" onclick="showMessage('AI Image tools')">
-🖼️<br><br>
-<strong>AI Images</strong>
-</div>
-
-<div class="tool" onclick="showMessage('AI Video tools')">
-🎬<br><br>
-<strong>AI Video</strong>
-</div>
-
-<div class="tool" onclick="showMessage('AI Coding tools')">
-💻<br><br>
-<strong>AI Coding</strong>
-</div>
-
-<div class="tool" onclick="showMessage('AI Productivity tools')">
-⚡<br><br>
-<strong>Productivity</strong>
-</div>
-
-<div class="tool" onclick="showMessage('AI Education tools')">
-🎓<br><br>
-<strong>Education</strong>
-</div>
-
-</div>
-
-<h2 class="section-title">💡 Daily AI Tip</h2>
-
-<div class="fact">
-<h2>🚀 Use AI Smarter</h2>
-<p id="dailyTip">
-A clear and specific prompt usually gives better AI results.
-Try telling the AI exactly what you want, who it is for,
-and what format you need.
-</p>
-</div>
-
-<div class="chat">
-
-<h2>🤖 Ask AI</h2>
-
-<p>
-Ask a question and prepare to connect this section to a secure AI API.
-</p>
-
-<div class="chatbox">
-<input id="question" type="text" placeholder="Ask something about AI...">
-<button onclick="askAI()">ASK</button>
-</div>
-
-<div id="answer"></div>
-
-</div>
-
-</div>
-
-<footer>
-© <span id="year"></span> Daily AI Hub • Made for AI lovers 🤖
-</footer>
-
-<script>
-
-const facts = [
-"AI can analyze huge amounts of information much faster than humans.",
-"Machine learning is a major technology behind modern AI systems.",
-"AI is used in search engines, recommendation systems and voice assistants.",
-"Generative AI can create text, images, audio, video and computer code.",
-"Good prompts can make AI responses more useful and specific.",
-"AI systems learn patterns from data rather than thinking exactly like humans.",
-"Computer vision allows AI systems to understand information from images and video."
-];
-
-const tips = [
-"Give AI a clear role, task, context and desired output format.",
-"Ask AI to explain difficult topics step by step.",
-"Use examples in your prompt when you need a specific style.",
-"Ask AI to improve your first draft instead of starting from zero.",
-"Break a large task into smaller prompts for better results."
-];
-
-function getDailyItem(array){
-const day = Math.floor(Date.now() / 86400000);
-return array[day % array.length];
-}
-
-document.getElementById("dailyFact").textContent = getDailyItem(facts);
-document.getElementById("dailyTip").textContent = getDailyItem(tips);
-document.getElementById("year").textContent = new Date().getFullYear();
-
-function showMessage(message){
-const answer=document.getElementById("answer");
-answer.style.display="block";
-answer.textContent=message;
-window.scrollTo({
-top:document.body.scrollHeight,
-behavior:"smooth"
-});
-}
-
-function searchAI(){
-const q=document.getElementById("searchInput").value.trim();
-
-if(!q){
-showMessage("Please enter something to search.");
-return;
-}
-
-showMessage("🔎 Search requested: " + q +
-"\n\nLive AI search will be connected in the next version.");
-}
-
-function askAI(){
-const q=document.getElementById("question").value.trim();
-
-if(!q){
-showMessage("Please type your question first.");
-return;
-}
-
-showMessage(
-"🤖 Your question:\n" + q +
-"\n\nThe secure AI connection will be added in the next version."
-);
-
-}
-
-</script>
-<!-- V2 LIVE AI NEWS -->
-<section id="live-news" style="
-max-width:1000px;
-margin:30px auto;
-padding:0 16px;
-">
-<h2 style="font-size:26px;margin-bottom:15px;">
-📰 Latest AI News
-</h2>
-
-<div id="news-status" style="
-color:#aeb5c9;
-margin-bottom:15px;
-">
-Loading latest AI news...
-</div>
-
-<div id="news-list"></div>
-</section>
-
-<script>
-async function loadLiveNews(){
-
-const status = document.getElementById("news-status");
-const list = document.getElementById("news-list");
-
-try{
-
-const response = await fetch(
-"news.json?cache=" + Date.now()
-);
-
-if(!response.ok){
-throw new Error("News file not found");
-}
-
-const data = await response.json();
-
-list.innerHTML = "";
-
-if(!data.articles || data.articles.length === 0){
-status.textContent = "No news available right now.";
-return;
-}
-
-status.textContent =
-"🔥 Updated: " +
-new Date(data.updated).toLocaleString();
-
-data.articles.forEach((article,index)=>{
-
-const card = document.createElement("article");
-
-card.style.cssText = `
-background:#101525;
-border:1px solid #252c42;
-border-radius:18px;
-padding:18px;
-margin-bottom:14px;
-`;
-
-card.innerHTML = `
-<div style="
-color:#8d87ff;
-font-size:12px;
-margin-bottom:8px;
-">
-AI NEWS #${index+1}
-</div>
-
-<h3 style="
-font-size:18px;
-line-height:1.4;
-margin-bottom:10px;
-">
-${escapeHTML(article.title)}
-</h3>
-
-<div style="
-color:#858da3;
-font-size:12px;
-margin-bottom:12px;
-">
-${escapeHTML(article.source || "AI News")}
-</div>
-
-<a href="${safeURL(article.link)}"
-target="_blank"
-rel="noopener noreferrer"
-style="
-color:#8d87ff;
-text-decoration:none;
-font-weight:bold;
-">
-Read Full News →
-</a>
-`;
-
-list.appendChild(card);
-
-});
-
-}catch(error){
-
-status.textContent =
-"⚠️ News is being updated. Please try again.";
-
-console.log(error);
-
-}
-
-}
-
-function escapeHTML(text){
-
-return String(text || "")
-.replace(/&/g,"&amp;")
-.replace(/</g,"&lt;")
-.replace(/>/g,"&gt;")
-.replace(/"/g,"&quot;")
-.replace(/'/g,"&#039;");
-
-}
-
-function safeURL(url){
-
-try{
-
-const u = new URL(url);
-
-if(u.protocol === "http:" ||
-u.protocol === "https:"){
-return u.href;
-}
-
-}catch(e){}
-
-return "#";
-
-}
-
-loadLiveNews();
-
-</script>
-</body>
-</html>
+  color:#aab0c3;
+  line-height:1.6;
+  margin-bottom:18
