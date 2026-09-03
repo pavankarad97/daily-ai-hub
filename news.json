@@ -1,9 +1,20 @@
 {
-  "updated": "2026-09-03T23:06:34.078801+00:00",
+  "updated": "2026-09-03T23:37:12.349132+00:00",
   "total": 40,
   "news": [
     {
-      "title": "India GDP: Q1 growth defies oil shock but data faces credibility questions - BBC",
+      "title": "Isro’s GSLV-F17 successfully places EOS-05 Earth observation satellite in geosynchronous orbit - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaGVtWTV4N1FGYnpBbEQtVjcwUmxRV0xhV2ZGTEdUNXFkRVd0MFp2M2E0NDZmRjV3SVREbzlKd0lhcUo3VTlPOTAtVHd3RklxbWJQNC1LOU1tbDZqR2lsa2lWQWxjR1UxMkFMUm8yQjNzcFhpWkJkSUk2Y204dFVwRlZjSWRocDRzWEJacGVZV19aMHh2a3Z4SG5FMENQSVRNTVNfQVNfMl95alJwUEJmbk1MWHcyMVlaeDVDMWlidlhabDUtRXVJcjE4N2hUQ19NWFVoSV9ReHNrdnAtMjBIOEtMNkFvOTZzTjZyeE9qTkdyWnfSAfgBQVVfeXFMTlNVTy1PcFhZQ2VoUE12ZG1Oa1R1TkpuVmw2TmhTTVlPVlBVNzViV045Um9yYmFsVEEtM3hta2VObjdoekdxV1F3R0NsRWpFYldmZ19LbVByc2F4WjdRNG1tZ3dhZ055YzhJeUJiTHRQLXZHZzJEUVI2NXYzY2Z5UmJwMnlIRk10RDZ1cU1vY2JDT2ozZWpaQkE4RU94RjVyMHBSTjFHS0g2d0R3SFlaSG1sMjIySi1HOFRfOGV5VzRhUm91UWtIbWpSVExjWFU4VHZlNlVzYUpKemo0LU9wcXdpY25laHc4VUlOMjAwUGFDWlJrQl9Obms?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaGVtWTV4N1FGYnpBbEQtVjcwUmxRV0xhV2ZGTEdUNXFkRVd0MFp2M2E0NDZmRjV3SVREbzlKd0lhcUo3VTlPOTAtVHd3RklxbWJQNC1LOU1tbDZqR2lsa2lWQWxjR1UxMkFMUm8yQjNzcFhpWkJkSUk2Y204dFVwRlZjSWRocDRzWEJacGVZV19aMHh2a3Z4SG5FMENQSVRNTVNfQVNfMl95alJwUEJmbk1MWHcyMVlaeDVDMWlidlhabDUtRXVJcjE4N2hUQ19NWFVoSV9ReHNrdnAtMjBIOEtMNkFvOTZzTjZyeE9qTkdyWnfSAfgBQVVfeXFMTlNVTy1PcFhZQ2VoUE12ZG1Oa1R1TkpuVmw2TmhTTVlPVlBVNzViV045Um9yYmFsVEEtM3hta2VObjdoekdxV1F3R0NsRWpFYldmZ19LbVByc2F4WjdRNG1tZ3dhZ055YzhJeUJiTHRQLXZHZzJEUVI2NXYzY2Z5UmJwMnlIRk10RDZ1cU1vY2JDT2ozZWpaQkE4RU94RjVyMHBSTjFHS0g2d0R3SFlaSG1sMjIySi1HOFRfOGV5VzRhUm91UWtIbWpSVExjWFU4VHZlNlVzYUpKemo0LU9wcXdpY25laHc4VUlOMjAwUGFDWlJrQl9Obms?oc=5",
+      "date": "Thu, 03 Sep 2026 21:50:00 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "India GDP: Q1 growth defies oil shock but data faces credibility questions - bbc.com",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4ybS1BMjM5bndaZmFDVFlZRDhlTGoxMVNfeGJVOV9PYzZxUjUwcnhHbS1nMVNrcno3NUg3dEhpMG1WZURjYzBaWlk1WkhKMDJnWDBwekpNY3B1UQ?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4ybS1BMjM5bndaZmFDVFlZRDhlTGoxMVNfeGJVOV9PYzZxUjUwcnhHbS1nMVNrcno3NUg3dEhpMG1WZURjYzBaWlk1WkhKMDJnWDBwekpNY3B1UQ?oc=5",
       "date": "Thu, 03 Sep 2026 07:11:46 GMT",
@@ -58,17 +69,6 @@
       "translations": {}
     },
     {
-      "title": "Ex-bureaucrat Ashish Joshi questioned by Delhi Police for 9 hours over social media posts - The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMDBORUdBUHpMY0g1eHQ3QktpZFNMZEtQY2N6QUVjTjRaMnM2RGNueHVtVlVjYkVNTWVjcExIdVlpMzk2aWNxZXlidG5xZmhNdjcyRWp3RTh4b1IzZ3NZd1B4MTVmWTF6cHVMVXdfNHJKZkF2ajVyWU45aUpfR2R1RlNJNEM5ZkVMTG1iYVVsTDNXRGgtaldzRUFUd0NBWDN0YlRVUWcxbmU0cEx0UXBYS2JLQ2ZUVExMS1RSZlRsVDlsN2pKX0ZOZG9iYU43bHdhaHVWRmdCcTlSSlVVM25DUHRpU0t0T0xI0gHvAUFVX3lxTFB4Q0pxOGowbnVYdnpIa3JWQmpiaHFrZlhCUG03M2M5dVQ0M0RYZVVFaXBhUjhIeWliYzc4QmR2eWE4aUUwcDdDZ2FmUmlsUE5fT1RnQjdCVzBRcE9GMVlSUXZTUFk4MzFJMW1uUzlrWXZ1cFVuQWVPRXZOOEkzQmpBUTVkUlZIWHNSbks5ODF2akZjVVpmY0VTUV9lYkE3WlBsRzZPMHF2eXBuUl9UVFNIZTFROHlnOHZfMFRQQ2RaNzJELXdPbzRUYmZLcG94OTRLMzJ1ZlQyMGtXd0lfTmdWc2lzcmxYSkJJaUFWT0NV?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMDBORUdBUHpMY0g1eHQ3QktpZFNMZEtQY2N6QUVjTjRaMnM2RGNueHVtVlVjYkVNTWVjcExIdVlpMzk2aWNxZXlidG5xZmhNdjcyRWp3RTh4b1IzZ3NZd1B4MTVmWTF6cHVMVXdfNHJKZkF2ajVyWU45aUpfR2R1RlNJNEM5ZkVMTG1iYVVsTDNXRGgtaldzRUFUd0NBWDN0YlRVUWcxbmU0cEx0UXBYS2JLQ2ZUVExMS1RSZlRsVDlsN2pKX0ZOZG9iYU43bHdhaHVWRmdCcTlSSlVVM25DUHRpU0t0T0xI0gHvAUFVX3lxTFB4Q0pxOGowbnVYdnpIa3JWQmpiaHFrZlhCUG03M2M5dVQ0M0RYZVVFaXBhUjhIeWliYzc4QmR2eWE4aUUwcDdDZ2FmUmlsUE5fT1RnQjdCVzBRcE9GMVlSUXZTUFk4MzFJMW1uUzlrWXZ1cFVuQWVPRXZOOEkzQmpBUTVkUlZIWHNSbks5ODF2akZjVVpmY0VTUV9lYkE3WlBsRzZPMHF2eXBuUl9UVFNIZTFROHlnOHZfMFRQQ2RaNzJELXdPbzRUYmZLcG94OTRLMzJ1ZlQyMGtXd0lfTmdWc2lzcmxYSkJJaUFWT0NV?oc=5",
-      "date": "Wed, 02 Sep 2026 18:31:28 GMT",
-      "category": "India",
-      "language": "en",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
       "title": "How President Muizzu of Maldives has made a U-turn: From India out to Delhi's bridge of friendship - India Today",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ05pVDlzdWM5ZmdNRzZudE9IdTR6amFEZnhoVG5hWElkSVNCcF9IMUpTSmwtWlhQd2g0cG9qWXltcXpsZ010VjdrYU03a2VkbXFFQ0RObnRGREU3VkZ3LUFBclp1LXkzZjZvbXhodkVtYW5teHg0eVZvTllsR0c5NkRva2dmNTZ1eXBEbTVsR1p2bm5zRW9pQ1dHQ0lXSC1xZUZ4ZHFldDVCUC1oZUhOSHgya29UdktXOVFkbzZZZWI3NGJWQ3NmbnlUNVNyNFFPMWVvUVY0UGhTUdIB3wFBVV95cUxQc0RCZlVNQWFYRGhFcGJJLTA0YVFTMjVydzJmaldLNGdFVl94dXlHNUJfekEwYnRwX2xXRnVwSmd6QkhQSjI3aWlOYXN4OWtibjJtOFk2R0ZQVHQxTFpMUXFxc0l0WkVsOEFtMUtRZDZ2ZGs2TGRHajloMG4tQzdTaHpERFhPbndXTHFZQ29SaV9kdGNabHRTbDZ4cDRReXY4ek14U1hfUWVxZ25kX2d0UkJvUThlT3lJNURVb0g3akJ2a2h3TGpUbXN3NkdfNnowZ2piNFE2Z2FfYXhtUWtR?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ05pVDlzdWM5ZmdNRzZudE9IdTR6amFEZnhoVG5hWElkSVNCcF9IMUpTSmwtWlhQd2g0cG9qWXltcXpsZ010VjdrYU03a2VkbXFFQ0RObnRGREU3VkZ3LUFBclp1LXkzZjZvbXhodkVtYW5teHg0eVZvTllsR0c5NkRva2dmNTZ1eXBEbTVsR1p2bm5zRW9pQ1dHQ0lXSC1xZUZ4ZHFldDVCUC1oZUhOSHgya29UdktXOVFkbzZZZWI3NGJWQ3NmbnlUNVNyNFFPMWVvUVY0UGhTUdIB3wFBVV95cUxQc0RCZlVNQWFYRGhFcGJJLTA0YVFTMjVydzJmaldLNGdFVl94dXlHNUJfekEwYnRwX2xXRnVwSmd6QkhQSjI3aWlOYXN4OWtibjJtOFk2R0ZQVHQxTFpMUXFxc0l0WkVsOEFtMUtRZDZ2ZGs2TGRHajloMG4tQzdTaHpERFhPbndXTHFZQ29SaV9kdGNabHRTbDZ4cDRReXY4ek14U1hfUWVxZ25kX2d0UkJvUThlT3lJNURVb0g3akJ2a2h3TGpUbXN3NkdfNnowZ2piNFE2Z2FfYXhtUWtR?oc=5",
@@ -91,7 +91,7 @@
       "translations": {}
     },
     {
-      "title": "नई दिल्ली में आज ‘भारत टेक्स-2026’ में शामिल होंगे मध्य प्रदेश के मुख्यमंत्री डॉ. मोहन यादव - News On AIR",
+      "title": "नई दिल्ली में आज ‘भारत टेक्स-2026’ में शामिल होंगे मध्य प्रदेश के मुख्यमंत्री डॉ. मोहन यादव - newsonair.gov.in",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEVsVXRjQTZxUWg2dTc4ZGRZNndrRjcxempKWTZ4ZWZXS1lNX1JBYXpKVDJlYjVUekJvcER0UXluUVNVTnFKSG9ORTlOdUJMRVhpZGJFQjlsYml6dVJHWEJCWk5RVHhOUExDRUw0bzlJUDBNQmRGcDZBYk1tQWZjbW9nLTlPcW1aWDZSWVZsaDZjQkxXUmZNUXdfcWkxcUF4WGhsVGtaYkdwblhaN2dXaHVKcFo0ZFo4MFkwdzZQdWZTcDU4eWZj?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEVsVXRjQTZxUWg2dTc4ZGRZNndrRjcxempKWTZ4ZWZXS1lNX1JBYXpKVDJlYjVUekJvcER0UXluUVNVTnFKSG9ORTlOdUJMRVhpZGJFQjlsYml6dVJHWEJCWk5RVHhOUExDRUw0bzlJUDBNQmRGcDZBYk1tQWZjbW9nLTlPcW1aWDZSWVZsaDZjQkxXUmZNUXdfcWkxcUF4WGhsVGtaYkdwblhaN2dXaHVKcFo0ZFo4MFkwdzZQdWZTcDU4eWZj?oc=5",
       "date": "Thu, 16 Jul 2026 07:00:00 GMT",
@@ -102,7 +102,7 @@
       "translations": {}
     },
     {
-      "title": "Aaj Ki Taza Khabar: पढ़ें 14 जुलाई 2026 की सुबह की बड़ी खबरें और अन्य समाचार - Aaj Tak News",
+      "title": "Aaj Ki Taza Khabar: पढ़ें 14 जुलाई 2026 की सुबह की बड़ी खबरें और अन्य समाचार - aajtak.in",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWWQ2eWowZmhfT2V6ZzVIOFpmOHFYMWxtZ3dpWS1KTERuXzVnZVdLNWdQbnhLMWpDeWI1MmhHLTltQzNYazRtRDZELVBFbHk4OThFSUltOEpfNDJhR1A5MlV0TjB2dHFnS1JIR2w2aEV5SENsZ0NGUVRXc2FGV3hsbzVqS1pDdmlmd21Bc3NtQXhnVkNEaXhqbFVGcDBsTWpJc3QzdHdZb2dJSHptSjZ6Y2J4WmdHVXY0NjI5aEU0cTlXTGfSAcgBQVVfeXFMT3BPWWtINUxRM0dGTzZtWHJKWTFOSkR5eEVfc0tIV29PbXRWYnBRX3cyUEQtSU5qMzJtODZ6Z1lUR2ZpT2p5UlhfZ3JUNWZfQVZxdUVCTkhybE51QW02akhGV25WWVpPLTF6QmJGaFNaaFphZ1pTYldJcVVxM29ZWGV1dVVtbjNxOHk0Q3QtWGpqUFBWaU1xbWJXVzlqN2ZSSWt3SVctSTgwMzJTWHEtSS00YXhab2ttal9TVE4temZKNHFORTNNd0c?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWWQ2eWowZmhfT2V6ZzVIOFpmOHFYMWxtZ3dpWS1KTERuXzVnZVdLNWdQbnhLMWpDeWI1MmhHLTltQzNYazRtRDZELVBFbHk4OThFSUltOEpfNDJhR1A5MlV0TjB2dHFnS1JIR2w2aEV5SENsZ0NGUVRXc2FGV3hsbzVqS1pDdmlmd21Bc3NtQXhnVkNEaXhqbFVGcDBsTWpJc3QzdHdZb2dJSHptSjZ6Y2J4WmdHVXY0NjI5aEU0cTlXTGfSAcgBQVVfeXFMT3BPWWtINUxRM0dGTzZtWHJKWTFOSkR5eEVfc0tIV29PbXRWYnBRX3cyUEQtSU5qMzJtODZ6Z1lUR2ZpT2p5UlhfZ3JUNWZfQVZxdUVCTkhybE51QW02akhGV25WWVpPLTF6QmJGaFNaaFphZ1pTYldJcVVxM29ZWGV1dVVtbjNxOHk0Q3QtWGpqUFBWaU1xbWJXVzlqN2ZSSWt3SVctSTgwMzJTWHEtSS00YXhab2ttal9TVE4temZKNHFORTNNd0c?oc=5",
       "date": "Tue, 14 Jul 2026 07:00:00 GMT",
@@ -135,7 +135,7 @@
       "translations": {}
     },
     {
-      "title": "Aaj Ki Taza Khabar: पढ़ें 5 जुलाई 2026 की सुबह की बड़ी खबरें और अन्य समाचार - Aaj Tak News",
+      "title": "Aaj Ki Taza Khabar: पढ़ें 5 जुलाई 2026 की सुबह की बड़ी खबरें और अन्य समाचार - aajtak.in",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdDdXcVByVEJ3VEYzaVpPV0wzWW9xdkdtbzU5V01aRkpkMjlZSVp5bTFxVDkwNlRBRjZPTHdyOENTX2tTU0xOUFJyYXJuNms1elAzRjhMNVJqLU9ZTU9CXzZ0d0xzSWp0N2x1dFhTalpWZVlERk5WSHJ6c0dYQ2xoczVFV2xCa3ZxbHVMbGktelZhNkw0a1pDVG16VWZfWEo2cGN6YTBINEhfcGZqb2lNUUFhSE9pY0paVmlnTnNJUGcxUnZEdzR6StIBzgFBVV95cUxPTU5hNkZYRExxaTRiSWJUZlIxUk9YbDRwUGYzdXdWOGJ1VlVGSHhoc3JtUFBNTm9TNGlMZ0hNa1o5ZG9JUVVvaHRRdGRTR25uM184Q3N4LXZ3NWluYWtEalFTemJ0WUNUemlCSVNfeERpR2FlWm05TG1iSDVkOThrbzJ2aWVNWVVxRkpuRXp6cngwMVlHZGVBR24xNUNFdjJld0tBaVlZSFBZVjdnUXdVV1dtajNCa1ZZUXlEd1dvYUhHbHc5STJrZG9yUFV2QQ?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdDdXcVByVEJ3VEYzaVpPV0wzWW9xdkdtbzU5V01aRkpkMjlZSVp5bTFxVDkwNlRBRjZPTHdyOENTX2tTU0xOUFJyYXJuNms1elAzRjhMNVJqLU9ZTU9CXzZ0d0xzSWp0N2x1dFhTalpWZVlERk5WSHJ6c0dYQ2xoczVFV2xCa3ZxbHVMbGktelZhNkw0a1pDVG16VWZfWEo2cGN6YTBINEhfcGZqb2lNUUFhSE9pY0paVmlnTnNJUGcxUnZEdzR6StIBzgFBVV95cUxPTU5hNkZYRExxaTRiSWJUZlIxUk9YbDRwUGYzdXdWOGJ1VlVGSHhoc3JtUFBNTm9TNGlMZ0hNa1o5ZG9JUVVvaHRRdGRTR25uM184Q3N4LXZ3NWluYWtEalFTemJ0WUNUemlCSVNfeERpR2FlWm05TG1iSDVkOThrbzJ2aWVNWVVxRkpuRXp6cngwMVlHZGVBR24xNUNFdjJld0tBaVlZSFBZVjdnUXdVV1dtajNCa1ZZUXlEd1dvYUhHbHc5STJrZG9yUFV2QQ?oc=5",
       "date": "Sun, 05 Jul 2026 07:00:00 GMT",
@@ -146,7 +146,7 @@
       "translations": {}
     },
     {
-      "title": "नई दिल्ली में इंडिया-एआई इम्पैक्ट समिट 2026 के पांचवे दिन आज नेताओं के साझा घोषणा पत्र को अपनाया जाएगा - News On AIR",
+      "title": "नई दिल्ली में इंडिया-एआई इम्पैक्ट समिट 2026 के पांचवे दिन आज नेताओं के साझा घोषणा पत्र को अपनाया जाएगा - newsonair.gov.in",
       "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPX2JOUExTd2gxblFZdkhGUXVVSlpsRHpDRTFXU0VlUjZ6SHJ4QkFPU2YyQUEwRkFONWlIN0tCWUFreml1ZlliYXByMFc3d2lWMnJsLVZZMDFXRmgtazhnRUdET19VX0Y3WENqcERFZjAtV1JtODRUbTFIRzZ1cDhHWmJuNm9PLTJPUnh2ckUweGpuTlBCT05rOE84Q2g5cGF5dGtmQVY2YTh4ZzVGS05TZFBSN0E1d1pWWXFTNWRya0FkU3VQQ01HYzFUbF8za1hPZ0F2ZjBkZWxBOUtXTnhrV3pWYnd0bGNBLVFiU2Q2bVd4bUJZcHNIRnI0NV9RTnplM25pamczbGl4NFdOOGJnNDBwLWZXay1peEt3cW5nNlNfZ3R0Tjk3UHNTU3J0UldBSFh2SGFvdWRIa05ERWZKWnprSzBIcUhk?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPX2JOUExTd2gxblFZdkhGUXVVSlpsRHpDRTFXU0VlUjZ6SHJ4QkFPU2YyQUEwRkFONWlIN0tCWUFreml1ZlliYXByMFc3d2lWMnJsLVZZMDFXRmgtazhnRUdET19VX0Y3WENqcERFZjAtV1JtODRUbTFIRzZ1cDhHWmJuNm9PLTJPUnh2ckUweGpuTlBCT05rOE84Q2g5cGF5dGtmQVY2YTh4ZzVGS05TZFBSN0E1d1pWWXFTNWRya0FkU3VQQ01HYzFUbF8za1hPZ0F2ZjBkZWxBOUtXTnhrV3pWYnd0bGNBLVFiU2Q2bVd4bUJZcHNIRnI0NV9RTnplM25pamczbGl4NFdOOGJnNDBwLWZXay1peEt3cW5nNlNfZ3R0Tjk3UHNTU3J0UldBSFh2SGFvdWRIa05ERWZKWnprSzBIcUhk?oc=5",
       "date": "Wed, 27 May 2026 07:22:03 GMT",
@@ -179,7 +179,7 @@
       "translations": {}
     },
     {
-      "title": "BR Sharath प्रोफाइल- BR Sharath ICC रैंकिंग, करियर, बैटिंग, बोलिंग, लेटेस्ट न्यूज़ मराठी मध्ये - tv9marathi.com",
+      "title": "BR Sharath प्रोफाइल- BR Sharath ICC रैंकिंग, करियर, बैटिंग, बोलिंग, लेटेस्ट न्यूज़ मराठी मध्ये - TV9 Marathi",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3Rya0hTakh1VUhCbUU0TzVYUzlaajBIeC0tY2VSRktkVnRzTVZMX08yeHZ4MWd1M2tSX0NpUnNSQ3ltLTB4aXFhQUwtOWZUd1phMklxdWdISmFjNlp3Z1NEOGtJSmxRUEhfUHd3UmtRaF80MjJEQ0prY3ZQLTQ1V1ZKQ2w?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3Rya0hTakh1VUhCbUU0TzVYUzlaajBIeC0tY2VSRktkVnRzTVZMX08yeHZ4MWd1M2tSX0NpUnNSQ3ltLTB4aXFhQUwtOWZUd1phMklxdWdISmFjNlp3Z1NEOGtJSmxRUEhfUHd3UmtRaF80MjJEQ0prY3ZQLTQ1V1ZKQ2w?oc=5",
       "date": "Thu, 20 Aug 2026 15:30:33 GMT",
@@ -234,7 +234,7 @@
       "translations": {}
     },
     {
-      "title": "मुंबईला उद्याही पावसाचा अलर्ट, बुधवारी शाळा-ऑफिस चालू की बंद? वाचा लेटेस्ट अपडेट - tv9marathi.com",
+      "title": "मुंबईला उद्याही पावसाचा अलर्ट, बुधवारी शाळा-ऑफिस चालू की बंद? वाचा लेटेस्ट अपडेट - TV9 Marathi",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN2NMX25Mc1hKdXdDT0RyNFVEWTJIa1ppckpRdDMxOExUNUlVTXpkdVhyc1NoZ3p1ZGFicE9yMTFzM3JDQWRLQlpSM014NjRLclVlc016NC1feGlRTGltMlhyUkoxTzljX185eGdNRUhpRFpGcHY4anhNdWloMmhqTEFKTl8xMVM0RlkxN3RDSkREdnZacFNpZnU2ZzJ5ZF9YUXhFVFcxM0phWnJ3akUxcTdSeG15LW1FTnNjdVcxZDBpeEpxeTRGME5NTXh3cEV40gHWAUFVX3lxTE00R0lUT1pRTFhBanlHcUpITDhuWTFrakpLOVMtQm4xSnF2RWdWZ2NnYU5KTndpaFlyY29BWGJ5VHZJeXFySWNQdUlKMFY3dmZEalg0dmtuZEIyMGNyYk5lRGM2S0FXRDRheVJWOUJiQlAxMTFoYldCOFpVRDVSZnV6dmlOMmtWSDFtS19VVjdUaU9WRmEtSTZxRTB4T0FfUVM3VGx6OHljcUc0ODBWOHFmTFB6aW1qTDZwaW5GMjRkRVlZS0hLTjVMV0l0b2Q5VTlSMGFqVGc?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN2NMX25Mc1hKdXdDT0RyNFVEWTJIa1ppckpRdDMxOExUNUlVTXpkdVhyc1NoZ3p1ZGFicE9yMTFzM3JDQWRLQlpSM014NjRLclVlc016NC1feGlRTGltMlhyUkoxTzljX185eGdNRUhpRFpGcHY4anhNdWloMmhqTEFKTl8xMVM0RlkxN3RDSkREdnZacFNpZnU2ZzJ5ZF9YUXhFVFcxM0phWnJ3akUxcTdSeG15LW1FTnNjdVcxZDBpeEpxeTRGME5NTXh3cEV40gHWAUFVX3lxTE00R0lUT1pRTFhBanlHcUpITDhuWTFrakpLOVMtQm4xSnF2RWdWZ2NnYU5KTndpaFlyY29BWGJ5VHZJeXFySWNQdUlKMFY3dmZEalg0dmtuZEIyMGNyYk5lRGM2S0FXRDRheVJWOUJiQlAxMTFoYldCOFpVRDVSZnV6dmlOMmtWSDFtS19VVjdUaU9WRmEtSTZxRTB4T0FfUVM3VGx6OHljcUc0ODBWOHFmTFB6aW1qTDZwaW5GMjRkRVlZS0hLTjVMV0l0b2Q5VTlSMGFqVGc?oc=5",
       "date": "Tue, 07 Jul 2026 07:00:00 GMT",
@@ -300,10 +300,10 @@
       "translations": {}
     },
     {
-      "title": "Indian tourists sing, clap loudly on crowded train in Germany. Video sparks outrage - India Today",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLXZPYnkya3VDSjBnNjhHNFUtaV90N2pSTWJXam5rcFVHdklYSjRPSVpvNjBSRW1iekwtR3VtTVZYdDZxTExIQ1RuX1Z3R2lHLWg2cGkxOHMwdEU0QVFiSE1WMDVxMVNWYzR0Zm9Ld25xVGRjeE1HVVE0T0dPVV9iT3RicUd1bjhvVEpMeGl2MDBEX05fQlNSbzJ5b3d4Tkk3YktOczE1Ti1IckxTcXZES0FMR3ZDZkVTejBXeDlQNDYwQUJ1bzM4b3Z6eXJTc0daUXJtLVlWWXktenA3MEpJ0gHkAUFVX3lxTFBUeWhteDFXYThQUW9STmhRdEM4ZTdLX0pwQmJmTEI4ZE1MQnliOWh1R3pXZlFKR0JZVVV3VENETl9mRm9Jc3ZfVmxjb0xNYWdUR3lDOHBIWHVxdmxCbFpxZkd6SEF1dTIwS3kzRXZkaWNRVDVIN0ktdnhpZ0pWWFBMQ1BWaFpVTTNSbUJqN2ppUFp2S3Z6a1l5Z0ZubkNrTUZaQ1NadlkwNGJCMXZiNDhpZzBMejhXbjcwX2NOU1oxREdlSHpXSnJNTFBoTzhfc2FEMkdhZWJYdV9FQUcxcHFHUmRfUg?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLXZPYnkya3VDSjBnNjhHNFUtaV90N2pSTWJXam5rcFVHdklYSjRPSVpvNjBSRW1iekwtR3VtTVZYdDZxTExIQ1RuX1Z3R2lHLWg2cGkxOHMwdEU0QVFiSE1WMDVxMVNWYzR0Zm9Ld25xVGRjeE1HVVE0T0dPVV9iT3RicUd1bjhvVEpMeGl2MDBEX05fQlNSbzJ5b3d4Tkk3YktOczE1Ti1IckxTcXZES0FMR3ZDZkVTejBXeDlQNDYwQUJ1bzM4b3Z6eXJTc0daUXJtLVlWWXktenA3MEpJ0gHkAUFVX3lxTFBUeWhteDFXYThQUW9STmhRdEM4ZTdLX0pwQmJmTEI4ZE1MQnliOWh1R3pXZlFKR0JZVVV3VENETl9mRm9Jc3ZfVmxjb0xNYWdUR3lDOHBIWHVxdmxCbFpxZkd6SEF1dTIwS3kzRXZkaWNRVDVIN0ktdnhpZ0pWWFBMQ1BWaFpVTTNSbUJqN2ppUFp2S3Z6a1l5Z0ZubkNrTUZaQ1NadlkwNGJCMXZiNDhpZzBMejhXbjcwX2NOU1oxREdlSHpXSnJNTFBoTzhfc2FEMkdhZWJYdV9FQUcxcHFHUmRfUg?oc=5",
-      "date": "Tue, 01 Sep 2026 06:55:33 GMT",
+      "title": "UP man celebrates pet buffalo Basanti's 4th birthday with cake, balloons and cap - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUjd2RmdpN1pqOTI3ektDTGJuUUhDbGtkbGZhaDktM043dzN3QUlodFBBQ2pXb2FEUi1GWU1nUU1ORVBxUHV5NkdfRHQ2VWczbFJCXzlfODhBaERwclVQWEI3enlhb0RZUEw0R0cweWtCUGVHcHJpcXRxdzBSVnhzbmt5X3NmTndXa2FndUNpb01nTmZwb2ZWbXZLb1d4NTZkRGtOOWdfdzBLZDJOb2RLbHVUVzFFVExhcC05eXpma2ZkWk9hZjNHVHhReTl1UXZRZ0R4TkFvd3VaUdIB3wFBVV95cUxON1hzT01RMklVN3cwNm9XOFBXMkVPbDhKNTlfYUhDOHVhVFJVb3JsOWFtaHpYaGN5anZPT21mTHl3NFdwMDZQU0JrT2tpV3hSU0xtZTZ5OEI0R09RenFCQVJ2QTYxY0pXNzdYRU1OcGdiRS1tdXM1NTRycHFGVjJwQWo4X1h2Y19JbkNhVVR5WmRXQXJzalJ6NGVheHd5RDRIRVl4Vy1qVXg5dURWcUo2aE5heU5feWZjM0VMd0tDTDZSbGsxQ1JyRzhYNUV3Q1JnMzNvREZ6THEzTkZBaXcw?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUjd2RmdpN1pqOTI3ektDTGJuUUhDbGtkbGZhaDktM043dzN3QUlodFBBQ2pXb2FEUi1GWU1nUU1ORVBxUHV5NkdfRHQ2VWczbFJCXzlfODhBaERwclVQWEI3enlhb0RZUEw0R0cweWtCUGVHcHJpcXRxdzBSVnhzbmt5X3NmTndXa2FndUNpb01nTmZwb2ZWbXZLb1d4NTZkRGtOOWdfdzBLZDJOb2RLbHVUVzFFVExhcC05eXpma2ZkWk9hZjNHVHhReTl1UXZRZ0R4TkFvd3VaUdIB3wFBVV95cUxON1hzT01RMklVN3cwNm9XOFBXMkVPbDhKNTlfYUhDOHVhVFJVb3JsOWFtaHpYaGN5anZPT21mTHl3NFdwMDZQU0JrT2tpV3hSU0xtZTZ5OEI0R09RenFCQVJ2QTYxY0pXNzdYRU1OcGdiRS1tdXM1NTRycHFGVjJwQWo4X1h2Y19JbkNhVVR5WmRXQXJzalJ6NGVheHd5RDRIRVl4Vy1qVXg5dURWcUo2aE5heU5feWZjM0VMd0tDTDZSbGsxQ1JyRzhYNUV3Q1JnMzNvREZ6THEzTkZBaXcw?oc=5",
+      "date": "Thu, 03 Sep 2026 10:01:25 GMT",
       "category": "Trending",
       "language": "en",
       "source": "Google News",
@@ -344,10 +344,10 @@
       "translations": {}
     },
     {
-      "title": "Indian woman living in Canada shares 5 things she doesn't miss about life back home - India Today",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOU01PaGdJVXlYMUI3WWlOMWQ2aGgxbVFhX1pNYTZRcE0tcDUycTRzOXlMN3FiNVN2RFdLXzVHVS1PSHJfZ2JZQ3BSWkJlMDAwZXN0QWV0N2E5LW5Mc3Bhbk42dndoNjBFbjAxLTcwVWtxdklyT2x2M2VIbEU0emtqc3pObXYtUjNLNWlna2ZDcGRpXzN5Tkh4VEw3b2dHcEJ3YnNUMFB6Q3VHaWhuejNNVW52S1hOMWFxRDZsNVJobk9HRjl2RlpvT2ZDRjAwcDdwRl9UcHNzVDg0NFNZU1dfUtIB5gFBVV95cUxOdGhFV1dTVXhGUll6SUZQUGUtbWtKeVF3dGFvbHZERlpqTFZZZmJ3VGE0d2FuNjI3eEJObHh6R2tIb0VLb1pEaFJHeERCUzFKempGM1RqUXBDX3lrdGRMLWhscU9kZFRzTjdnM1laQkpMRGVJeGlhb05ia2NxOGc3aHlyWWhjWkY3bGpoaUtPREQ3N2l3QnJNRTRBZU1rLWZERmoyUTR2RzliekhjZ2pkRVZSenU4NVljWHhZSVdrNloxejh6UEF2NzZMcFdDeWFaaEFUdy1aVEluMnNnenJ0QkZfUXd1QQ?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOU01PaGdJVXlYMUI3WWlOMWQ2aGgxbVFhX1pNYTZRcE0tcDUycTRzOXlMN3FiNVN2RFdLXzVHVS1PSHJfZ2JZQ3BSWkJlMDAwZXN0QWV0N2E5LW5Mc3Bhbk42dndoNjBFbjAxLTcwVWtxdklyT2x2M2VIbEU0emtqc3pObXYtUjNLNWlna2ZDcGRpXzN5Tkh4VEw3b2dHcEJ3YnNUMFB6Q3VHaWhuejNNVW52S1hOMWFxRDZsNVJobk9HRjl2RlpvT2ZDRjAwcDdwRl9UcHNzVDg0NFNZU1dfUtIB5gFBVV95cUxOdGhFV1dTVXhGUll6SUZQUGUtbWtKeVF3dGFvbHZERlpqTFZZZmJ3VGE0d2FuNjI3eEJObHh6R2tIb0VLb1pEaFJHeERCUzFKempGM1RqUXBDX3lrdGRMLWhscU9kZFRzTjdnM1laQkpMRGVJeGlhb05ia2NxOGc3aHlyWWhjWkY3bGpoaUtPREQ3N2l3QnJNRTRBZU1rLWZERmoyUTR2RzliekhjZ2pkRVZSenU4NVljWHhZSVdrNloxejh6UEF2NzZMcFdDeWFaaEFUdy1aVEluMnNnenJ0QkZfUXd1QQ?oc=5",
-      "date": "Wed, 02 Sep 2026 11:26:11 GMT",
+      "title": "Indian tourists sing, clap loudly on crowded train in Germany. Video sparks outrage - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLXZPYnkya3VDSjBnNjhHNFUtaV90N2pSTWJXam5rcFVHdklYSjRPSVpvNjBSRW1iekwtR3VtTVZYdDZxTExIQ1RuX1Z3R2lHLWg2cGkxOHMwdEU0QVFiSE1WMDVxMVNWYzR0Zm9Ld25xVGRjeE1HVVE0T0dPVV9iT3RicUd1bjhvVEpMeGl2MDBEX05fQlNSbzJ5b3d4Tkk3YktOczE1Ti1IckxTcXZES0FMR3ZDZkVTejBXeDlQNDYwQUJ1bzM4b3Z6eXJTc0daUXJtLVlWWXktenA3MEpJ0gHkAUFVX3lxTFBUeWhteDFXYThQUW9STmhRdEM4ZTdLX0pwQmJmTEI4ZE1MQnliOWh1R3pXZlFKR0JZVVV3VENETl9mRm9Jc3ZfVmxjb0xNYWdUR3lDOHBIWHVxdmxCbFpxZkd6SEF1dTIwS3kzRXZkaWNRVDVIN0ktdnhpZ0pWWFBMQ1BWaFpVTTNSbUJqN2ppUFp2S3Z6a1l5Z0ZubkNrTUZaQ1NadlkwNGJCMXZiNDhpZzBMejhXbjcwX2NOU1oxREdlSHpXSnJNTFBoTzhfc2FEMkdhZWJYdV9FQUcxcHFHUmRfUg?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNLXZPYnkya3VDSjBnNjhHNFUtaV90N2pSTWJXam5rcFVHdklYSjRPSVpvNjBSRW1iekwtR3VtTVZYdDZxTExIQ1RuX1Z3R2lHLWg2cGkxOHMwdEU0QVFiSE1WMDVxMVNWYzR0Zm9Ld25xVGRjeE1HVVE0T0dPVV9iT3RicUd1bjhvVEpMeGl2MDBEX05fQlNSbzJ5b3d4Tkk3YktOczE1Ti1IckxTcXZES0FMR3ZDZkVTejBXeDlQNDYwQUJ1bzM4b3Z6eXJTc0daUXJtLVlWWXktenA3MEpJ0gHkAUFVX3lxTFBUeWhteDFXYThQUW9STmhRdEM4ZTdLX0pwQmJmTEI4ZE1MQnliOWh1R3pXZlFKR0JZVVV3VENETl9mRm9Jc3ZfVmxjb0xNYWdUR3lDOHBIWHVxdmxCbFpxZkd6SEF1dTIwS3kzRXZkaWNRVDVIN0ktdnhpZ0pWWFBMQ1BWaFpVTTNSbUJqN2ppUFp2S3Z6a1l5Z0ZubkNrTUZaQ1NadlkwNGJCMXZiNDhpZzBMejhXbjcwX2NOU1oxREdlSHpXSnJNTFBoTzhfc2FEMkdhZWJYdV9FQUcxcHFHUmRfUg?oc=5",
+      "date": "Tue, 01 Sep 2026 06:55:33 GMT",
       "category": "Trending",
       "language": "en",
       "source": "Google News",
@@ -355,7 +355,7 @@
       "translations": {}
     },
     {
-      "title": "Top News: उत्तर भारत में बारिश का कहर, नेपाल में फिर बाढ़ में झूला पुल बहा; दिल्ली में स्वाइन फ्लू का बढ़ा खौफ - amarujala.com",
+      "title": "Top News: उत्तर भारत में बारिश का कहर, नेपाल में फिर बाढ़ में झूला पुल बहा; दिल्ली में स्वाइन फ्लू का बढ़ा खौफ - Amar Ujala",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNRi1SamVRbUREc0xmaV9YYzNXSnVudHBvNjRhMVJPV2JjTFYwUDdkMFdkUUZQbWFFNXRVaTdpbEFzcDJ0X1B0ZjVnM0hmVjVwQXRybnZMQ2JnUzBjZ21mUzFPb1FYeUhJN3pfS2VyZFJGblFVVUt4X3RFcHdNZHd2eG5uRFNNVDlHV21RNzdTMEtneVcyd2hIVm9OOEtFb2FSajd4eXJsOUVZeGUyUGNJRUlqTldsdUlqYWhzNzBOVUlUZnVNN1ctWGN6OTBZdnJ0alRURzl6cS1rYk1Rc21QR1Y0b25XaHJDd0pWeXdNTTNBUlNic04zWHltd9IBgAJBVV95cUxNTmVCY3lLVGczSFBjQ1VYMGhTMjhhcTBvX0NiQlNobklOb0h3NnNVcThVZGkxZllsMi13N1VURkhuSkM0enhRcjB6LVVIN3I1bUdPVEdFX1JsaTRsZTVSNklPTVU1eGhVYmRkU3FxaVB1V2ZHeXJvLVczZFlvWWF3Y042OXh3U24yRUtzLU85UlNicWNpQXJMblVQVFNXMTItaDZ4cWo0SWMyOGRzeU1idU84RWdpdjAtaW9Zc3RNcnl5dGMwamVBaDNZQm9kZHIzOEx5bHVXMUhCWEtZRXpWVmtzeUlDSW5VaFowa21DakowYkVFUDIwWHFrb0UtRThx?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNRi1SamVRbUREc0xmaV9YYzNXSnVudHBvNjRhMVJPV2JjTFYwUDdkMFdkUUZQbWFFNXRVaTdpbEFzcDJ0X1B0ZjVnM0hmVjVwQXRybnZMQ2JnUzBjZ21mUzFPb1FYeUhJN3pfS2VyZFJGblFVVUt4X3RFcHdNZHd2eG5uRFNNVDlHV21RNzdTMEtneVcyd2hIVm9OOEtFb2FSajd4eXJsOUVZeGUyUGNJRUlqTldsdUlqYWhzNzBOVUlUZnVNN1ctWGN6OTBZdnJ0alRURzl6cS1rYk1Rc21QR1Y0b25XaHJDd0pWeXdNTTNBUlNic04zWHltd9IBgAJBVV95cUxNTmVCY3lLVGczSFBjQ1VYMGhTMjhhcTBvX0NiQlNobklOb0h3NnNVcThVZGkxZllsMi13N1VURkhuSkM0enhRcjB6LVVIN3I1bUdPVEdFX1JsaTRsZTVSNklPTVU1eGhVYmRkU3FxaVB1V2ZHeXJvLVczZFlvWWF3Y042OXh3U24yRUtzLU85UlNicWNpQXJMblVQVFNXMTItaDZ4cWo0SWMyOGRzeU1idU84RWdpdjAtaW9Zc3RNcnl5dGMwamVBaDNZQm9kZHIzOEx5bHVXMUhCWEtZRXpWVmtzeUlDSW5VaFowa21DakowYkVFUDIwWHFrb0UtRThx?oc=5",
       "date": "Sun, 30 Aug 2026 23:48:25 GMT",
@@ -377,7 +377,7 @@
       "translations": {}
     },
     {
-      "title": "Top News: झारखंड में CM से इस्तीफे की मांग; पूर्वोत्तर भारत में भूस्खलन; US में बारिश-तूफान से टूटे रिकॉर्ड - amarujala.com",
+      "title": "Top News: झारखंड में CM से इस्तीफे की मांग; पूर्वोत्तर भारत में भूस्खलन; US में बारिश-तूफान से टूटे रिकॉर्ड - Amar Ujala",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSGlLWWl3QW11dFh4MzNjSEZCekdBWFJVTDJGQUlkWlljYTBVSFFKbXE2Q2JhdUZaamphM2psTDdObkVRTTdSNnY0Q3FEb1pfelNhelBjVEVZMGFfY05OU2hmYlV6WUpjcDNSN1g2M0gzd1RhUUJHYWU3R2M2MGRfVlYwTW5DemhDN0FXNXdVS3M5TUN3ci1mM2ZBUnB3SDhZeUJiQTNDMU5wejlHa0tCbFdZWV80aHBEeUFxd3Z5V0NVM0VLMXowZV9XWmJUUmFzMFJLWUlEYTB4UmFPVzNvUlF1QnJHV0tGWnpB0gHwAUFVX3lxTE1ycEY3ODRuOFlucDVWblBWV3dISDhORHpXdDhxcmd3ektVTlRfbHBaWkREZTdKc0R2M0txTDlsSGxCTHQxTU5XSjdLa1RfMHk2bTlUbDJIOFRUeUJyR054SW9DRk9kRnFGRjhDZmRzOUhHNXNKSWN4SXMwYm9DRzM2cGQ4c2VCb0ZJN19CdnhQYy1LalVXeFFEbEN6TXd0OXRVQjJhMzg3bEZuU3RWcDZ1QXlhWFdyMjBDbDBXSnFpYUJndUFCMHM4MzhXbU14UXZIMU9EbHI2X3dTSlctQjJJMHBablBsU0JKNjhoR0NydA?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSGlLWWl3QW11dFh4MzNjSEZCekdBWFJVTDJGQUlkWlljYTBVSFFKbXE2Q2JhdUZaamphM2psTDdObkVRTTdSNnY0Q3FEb1pfelNhelBjVEVZMGFfY05OU2hmYlV6WUpjcDNSN1g2M0gzd1RhUUJHYWU3R2M2MGRfVlYwTW5DemhDN0FXNXdVS3M5TUN3ci1mM2ZBUnB3SDhZeUJiQTNDMU5wejlHa0tCbFdZWV80aHBEeUFxd3Z5V0NVM0VLMXowZV9XWmJUUmFzMFJLWUlEYTB4UmFPVzNvUlF1QnJHV0tGWnpB0gHwAUFVX3lxTE1ycEY3ODRuOFlucDVWblBWV3dISDhORHpXdDhxcmd3ektVTlRfbHBaWkREZTdKc0R2M0txTDlsSGxCTHQxTU5XSjdLa1RfMHk2bTlUbDJIOFRUeUJyR054SW9DRk9kRnFGRjhDZmRzOUhHNXNKSWN4SXMwYm9DRzM2cGQ4c2VCb0ZJN19CdnhQYy1LalVXeFFEbEN6TXd0OXRVQjJhMzg3bEZuU3RWcDZ1QXlhWFdyMjBDbDBXSnFpYUJndUFCMHM4MzhXbU14UXZIMU9EbHI2X3dTSlctQjJJMHBablBsU0JKNjhoR0NydA?oc=5",
       "date": "Sun, 16 Aug 2026 07:00:00 GMT",
@@ -388,7 +388,7 @@
       "translations": {}
     },
     {
-      "title": "क्लाउड मैप में पूरा भारत दिख रहा व्हाइट, क्यों इसे मॉनसून के नए फेज का संकेत बताया जा रहा - Aaj Tak News",
+      "title": "क्लाउड मैप में पूरा भारत दिख रहा व्हाइट, क्यों इसे मॉनसून के नए फेज का संकेत बताया जा रहा - aajtak.in",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcXR4S2lKdmxVUUw2MHJsV3EyQ3RSQkFtOFA2SE5wMi1zYnhHaFd3TDd3RHd3Z3NoUlMwNkU3MUxYVWhlT1g1OHZfVnE0dEt0SENPSDJLRUlFZ0l2dTZCWTdfUTE3RktVOERHM01pQmRNVU5mV2FvajROTmtheDZWZmpfVVNwX1ZSUk1kTU1ja0Zrb0VDbkVRTzVlczFLRWNlNDBpMG0xa2hnQzVYNGpJUnpMRXVYYmJlNl82bllvcUxiZ9IBxwFBVV95cUxOTVlxdTN2dDdobkEzOHVDcmdLOU4zUVJhTkRVNENVa0k4OWZDZEJkTG1Ya25JTzFUdkRIZXo5Uzc3Y0lRSXZydGZHa0xDRzc2dlJDYW5Mdk5RSC1sMERsMjV6clZ3RTczX3VDRVQ2MTk0T2xaOWpUa3Z1YVJXcWJtYTBiNVRZc0xwX25sZXNISHhUazcxcEdLOGh6azJ3VVBGOWEyMWhkVlh3YXBVeURqYU1wbDBsVTdiUV9DY3A2TlFqTmNNZS1R?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcXR4S2lKdmxVUUw2MHJsV3EyQ3RSQkFtOFA2SE5wMi1zYnhHaFd3TDd3RHd3Z3NoUlMwNkU3MUxYVWhlT1g1OHZfVnE0dEt0SENPSDJLRUlFZ0l2dTZCWTdfUTE3RktVOERHM01pQmRNVU5mV2FvajROTmtheDZWZmpfVVNwX1ZSUk1kTU1ja0Zrb0VDbkVRTzVlczFLRWNlNDBpMG0xa2hnQzVYNGpJUnpMRXVYYmJlNl82bllvcUxiZ9IBxwFBVV95cUxOTVlxdTN2dDdobkEzOHVDcmdLOU4zUVJhTkRVNENVa0k4OWZDZEJkTG1Ya25JTzFUdkRIZXo5Uzc3Y0lRSXZydGZHa0xDRzc2dlJDYW5Mdk5RSC1sMERsMjV6clZ3RTczX3VDRVQ2MTk0T2xaOWpUa3Z1YVJXcWJtYTBiNVRZc0xwX25sZXNISHhUazcxcEdLOGh6azJ3VVBGOWEyMWhkVlh3YXBVeURqYU1wbDBsVTdiUV9DY3A2TlFqTmNNZS1R?oc=5",
       "date": "Tue, 21 Jul 2026 07:00:00 GMT",
@@ -421,7 +421,7 @@
       "translations": {}
     },
     {
-      "title": "वंदे भारत ट्रेन से पहुंचाया गया 'धड़कता दिल', 2 घंटे का सफर... चप्पे-चप्पे पर तैनाती, देखें Video - Aaj Tak News",
+      "title": "वंदे भारत ट्रेन से पहुंचाया गया 'धड़कता दिल', 2 घंटे का सफर... चप्पे-चप्पे पर तैनाती, देखें Video - aajtak.in",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNzdUMUlkLXcydWRLWnMyNVlTdXVCWUxYYlp3Q1IxUC1nOGl5UTEtS2VGNXBoWWFPOHN1QVlXNlAxalNsb0stU3BVYnBtTWFzNDRBUEVqcWN1cU9NSV8zVkl2NFFES29HLXJqZDU5T1IySjA2UXg2MThxYTZWMlZiSlp2c0o3NnBUazNrenJWMmQ0MXdUZW96MzZjN0Znd09BNGU3VHhyTDNJNmFYaXpLajBPOFRhVVJmWmtKcmxySnNpQXM2c1RvRWVuRktScVFCcjJRN1ZEYmU4LTNRR3h3bm9rb2fSAeoBQVVfeXFMTm9sTjdKOGV3OGdQbllsNzdpRFJHd1o5X0QycGN2MVhqaWVib3YtUFh6UmZGOEIxd0FUQk1pNVR5VDhiR0xaY29Ecmkza2ZJa1c5TjFXdjA5QTV0UHpxemg4N0YydElhQVk0dlZGWktkWS1IS21iV0tXRmEyVS00X2k5R2RlcUxXaEhNZ2Ftd0dBNkpsbm9ULUVHaUFFVUIycUUtOUdiY1Z2WnZoSXlTZmxqU3dFQ20tOHUycnRGMGJHb2VLanRrMTdzQzM1LXQ0cGlGVzB4aW9Mc0xSYllQM3gtUHFuZ3hKeWpB?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNzdUMUlkLXcydWRLWnMyNVlTdXVCWUxYYlp3Q1IxUC1nOGl5UTEtS2VGNXBoWWFPOHN1QVlXNlAxalNsb0stU3BVYnBtTWFzNDRBUEVqcWN1cU9NSV8zVkl2NFFES29HLXJqZDU5T1IySjA2UXg2MThxYTZWMlZiSlp2c0o3NnBUazNrenJWMmQ0MXdUZW96MzZjN0Znd09BNGU3VHhyTDNJNmFYaXpLajBPOFRhVVJmWmtKcmxySnNpQXM2c1RvRWVuRktScVFCcjJRN1ZEYmU4LTNRR3h3bm9rb2fSAeoBQVVfeXFMTm9sTjdKOGV3OGdQbllsNzdpRFJHd1o5X0QycGN2MVhqaWVib3YtUFh6UmZGOEIxd0FUQk1pNVR5VDhiR0xaY29Ecmkza2ZJa1c5TjFXdjA5QTV0UHpxemg4N0YydElhQVk0dlZGWktkWS1IS21iV0tXRmEyVS00X2k5R2RlcUxXaEhNZ2Ftd0dBNkpsbm9ULUVHaUFFVUIycUUtOUdiY1Z2WnZoSXlTZmxqU3dFQ20tOHUycnRGMGJHb2VLanRrMTdzQzM1LXQ0cGlGVzB4aW9Mc0xSYllQM3gtUHFuZ3hKeWpB?oc=5",
       "date": "Fri, 31 Jul 2026 07:00:00 GMT",
