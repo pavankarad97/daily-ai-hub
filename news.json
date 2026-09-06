@@ -1,56 +1,12 @@
 {
-  "updated": "2026-09-06T10:37:20.605914+00:00",
+  "updated": "2026-09-06T11:06:59.390943+00:00",
   "total": 40,
   "news": [
-    {
-      "title": "China to proceed with Brahmaputra mega dam despite new concerns - The Hindu",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQnFmZDNOWDFic2FyMzJPSG8wZ3hZTWJsaUNCZzJDS0V1aExyanNDeElkR0pYWFRuc1Voc0dTVjRJeXpPUWNIZXJOaEV4Q0VUSnhDV1VULVMxM2kzRTQ5RENzTlZOSmVUU2pqaS12dEVmd082bUtDR1dzd2g3aFlIZkRrc0FRUmdkdVJ5bG9BQ3NSY1JpN193ckdmSW03ZlplNGJoSDlkclRyTjl2bExFRVN0LXVhQktoTHYtQkRtWWVSUWl2a2fSAcwBQVVfeXFMT0lucTdMVXk5M01WUDZuUnVGVzdTVWZ5eC1MT2tVYjhtazVuSElPVDZ4enZCcnNKTFpMMzh1WXNRQmZGWV9reDFUcjMwM1lYWWEzR1JHMlE0U1I0VUFpUzh0SFdiQ2VtRkhvcnJJcnptdFYwZVl1SG1tTzdmWWRZVm9xekdXNEdxUndTbGNSbzFrVndEZnNXcklXT19PaElxVTNmQy0zeEU2U01zMDctMTc2LXBTX2V6QXpMY19fV0hzWHpNZ1h6bjJJaEFQ?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQnFmZDNOWDFic2FyMzJPSG8wZ3hZTWJsaUNCZzJDS0V1aExyanNDeElkR0pYWFRuc1Voc0dTVjRJeXpPUWNIZXJOaEV4Q0VUSnhDV1VULVMxM2kzRTQ5RENzTlZOSmVUU2pqaS12dEVmd082bUtDR1dzd2g3aFlIZkRrc0FRUmdkdVJ5bG9BQ3NSY1JpN193ckdmSW03ZlplNGJoSDlkclRyTjl2bExFRVN0LXVhQktoTHYtQkRtWWVSUWl2a2fSAcwBQVVfeXFMT0lucTdMVXk5M01WUDZuUnVGVzdTVWZ5eC1MT2tVYjhtazVuSElPVDZ4enZCcnNKTFpMMzh1WXNRQmZGWV9reDFUcjMwM1lYWWEzR1JHMlE0U1I0VUFpUzh0SFdiQ2VtRkhvcnJJcnptdFYwZVl1SG1tTzdmWWRZVm9xekdXNEdxUndTbGNSbzFrVndEZnNXcklXT19PaElxVTNmQy0zeEU2U01zMDctMTc2LXBTX2V6QXpMY19fV0hzWHpNZ1h6bjJJaEFQ?oc=5",
-      "date": "Sat, 05 Sep 2026 16:07:23 GMT",
-      "category": "India",
-      "language": "en",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
     {
       "title": "India Appears Smaller In World Map Than It Really Is. Here's Why - NDTV",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2xmMjFrN0hHT2l1U3FQd1hqQTN5YWZxX29iMnBiLTJkUmg1N3JpTnJFdU84RUhjVkJxVHJzckJyZGEyOHZtQWFhZVkwYlpSSDRFa0RMSVZ4WnpTQnhmWl9UNG94OXZkOHNQeUx6Sk16a2tkY1JOR1FQNVdzLWR3amhMTjBRbVdCOXU0Ungzd0p1NXhJc2ZZUWRGcVlUQTdIZkc5STdB0gGuAUFVX3lxTE1FVzJRWElzb0ZZWE9MWW5RN1pqWER1ZGpqQXNYOVBLVmI1Zl9FUWNZdTFkM3JXYzV1XzE2a1VTZXdoSnlTODRPMHlSNUphMTkyTlptNkppSlFhbkxWay1nLUVEVkJwc3pCMFhHdEdZYUstWEVkQ0RJWXJCS0FrMm91X28yeWpsZ0VpT25peGdiOXpFY0hKZmEyZlpQbnMyS1Z2S2VPem1ydERJenhXQQ?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2xmMjFrN0hHT2l1U3FQd1hqQTN5YWZxX29iMnBiLTJkUmg1N3JpTnJFdU84RUhjVkJxVHJzckJyZGEyOHZtQWFhZVkwYlpSSDRFa0RMSVZ4WnpTQnhmWl9UNG94OXZkOHNQeUx6Sk16a2tkY1JOR1FQNVdzLWR3amhMTjBRbVdCOXU0Ungzd0p1NXhJc2ZZUWRGcVlUQTdIZkc5STdB0gGuAUFVX3lxTE1FVzJRWElzb0ZZWE9MWW5RN1pqWER1ZGpqQXNYOVBLVmI1Zl9FUWNZdTFkM3JXYzV1XzE2a1VTZXdoSnlTODRPMHlSNUphMTkyTlptNkppSlFhbkxWay1nLUVEVkJwc3pCMFhHdEdZYUstWEVkQ0RJWXJCS0FrMm91X28yeWpsZ0VpT25peGdiOXpFY0hKZmEyZlpQbnMyS1Z2S2VPem1ydERJenhXQQ?oc=5",
       "date": "Sun, 06 Sep 2026 07:34:24 GMT",
-      "category": "India",
-      "language": "en",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
-      "title": "In a first, 9 Isro staff bodies seek 'written clarity' on private sector shift - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdGhMZ2ZRblI3NzlxVmJMc0pBZnRXMGo5VmdyenAxa1lTVHZ6MFVxc1ZKQWNYMG9DV1hJSk5BanFDdzVzNHJXakRNaDMwOWFWeW5lclpTb3doX1BUN2ROOTkwbXRZeW1KOVFCdXBFdmRqQkRrWl9hejZYUWR3em9sNzQ3VmZyN1ZvWllpMU5HSHk4dzZvcHptY0xTVWVFSzhiS0w3VVZjM0NOZjZodjFiVEROcVVXRHVZX0VRVkJlN0J5NEt1XzNva2pLYWlZQkNtTzlBaHNrd2VReUXSAeABQVVfeXFMTUc3TWJlbmRLZ09BVjJ2S2FxVFBEbEJ2ZzljemdxMV9nZnRZYVc1S0o4QU1CUndzNW14eHVaQTlNYzJiYlhzYmdNYzhCM2NQYXB5dTE5SFl1aThKZWlVX21yektPNHZUTUptQ3UyeE1yM2RtYkhWMzRwbURQUkk1NmlxSDFjcC1yOEFyUUFrOFBBZk5kUjJzUUR1enIxbFBrdEptMDR4c3pSQTJTN09EazdTQlBjeTE5cExwcVJPVGpiald6Qmd5TnFVZ2w0M0ZDY2o3ZUV1eFd3b3htSEcybkU?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdGhMZ2ZRblI3NzlxVmJMc0pBZnRXMGo5VmdyenAxa1lTVHZ6MFVxc1ZKQWNYMG9DV1hJSk5BanFDdzVzNHJXakRNaDMwOWFWeW5lclpTb3doX1BUN2ROOTkwbXRZeW1KOVFCdXBFdmRqQkRrWl9hejZYUWR3em9sNzQ3VmZyN1ZvWllpMU5HSHk4dzZvcHptY0xTVWVFSzhiS0w3VVZjM0NOZjZodjFiVEROcVVXRHVZX0VRVkJlN0J5NEt1XzNva2pLYWlZQkNtTzlBaHNrd2VReUXSAeABQVVfeXFMTUc3TWJlbmRLZ09BVjJ2S2FxVFBEbEJ2ZzljemdxMV9nZnRZYVc1S0o4QU1CUndzNW14eHVaQTlNYzJiYlhzYmdNYzhCM2NQYXB5dTE5SFl1aThKZWlVX21yektPNHZUTUptQ3UyeE1yM2RtYkhWMzRwbURQUkk1NmlxSDFjcC1yOEFyUUFrOFBBZk5kUjJzUUR1enIxbFBrdEptMDR4c3pSQTJTN09EazdTQlBjeTE5cExwcVJPVGpiald6Qmd5TnFVZ2w0M0ZDY2o3ZUV1eFd3b3htSEcybkU?oc=5",
-      "date": "Sat, 05 Sep 2026 12:50:00 GMT",
-      "category": "India",
-      "language": "en",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
-      "title": "Building collapses in Delhi’s Satya Niketan, several feared trapped | India News - Hindustan Times",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZTM3UWJPWF9STVFsdEdLaHVndHVYcG1zRTdSYUVrbkJiR0huaDZtR0ViV2dJVWUybUR2cXl2bXA0cWptVTlUZG1QTmRQc2M1ak1VcWJkMFNoMHRNRGlockppUFdTTGI1NnRJOUhzZWs5N0g5eHh4d0ZLc3VCY09xUDhBYVVCWl8xUXlNTWxhSHVCbV9hMTdLSDdCYWZuWmd0ZGhIRDhMLVBieldPNnVMaGRMXzN4eUpZcF9NQ3pFQUVDd1Jaa2I0UtIBzgFBVV95cUxQUkNWOUFuSkxQWHFuR2RoelpzeFdlcE5ScGRvYmRNSUs3aTdEbXMwUmNKVVNXN1kyV1d3cXBxUjhBRUVOTVV1U1pfOVJZUDRXQ3E1R1J1dkdENk9zZGxRTlVzYTlhX0xhcWllaFdOLU9GS0g1U084VzlFTERPM2g0cFYzblRwV1ZHdk8wbzU3VldmcUVsOVhrbEZmQWVwVFc2N3haam9oSjRPZk50a0txVWZBb09maTN5WlBJRmQxM2JrV3lOaW9NUnlhY1FOQQ?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZTM3UWJPWF9STVFsdEdLaHVndHVYcG1zRTdSYUVrbkJiR0huaDZtR0ViV2dJVWUybUR2cXl2bXA0cWptVTlUZG1QTmRQc2M1ak1VcWJkMFNoMHRNRGlockppUFdTTGI1NnRJOUhzZWs5N0g5eHh4d0ZLc3VCY09xUDhBYVVCWl8xUXlNTWxhSHVCbV9hMTdLSDdCYWZuWmd0ZGhIRDhMLVBieldPNnVMaGRMXzN4eUpZcF9NQ3pFQUVDd1Jaa2I0UtIBzgFBVV95cUxQUkNWOUFuSkxQWHFuR2RoelpzeFdlcE5ScGRvYmRNSUs3aTdEbXMwUmNKVVNXN1kyV1d3cXBxUjhBRUVOTVV1U1pfOVJZUDRXQ3E1R1J1dkdENk9zZGxRTlVzYTlhX0xhcWllaFdOLU9GS0g1U084VzlFTERPM2g0cFYzblRwV1ZHdk8wbzU3VldmcUVsOVhrbEZmQWVwVFc2N3haam9oSjRPZk50a0txVWZBb09maTN5WlBJRmQxM2JrV3lOaW9NUnlhY1FOQQ?oc=5",
-      "date": "Sun, 06 Sep 2026 08:48:50 GMT",
-      "category": "India",
-      "language": "en",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
-      "title": "Tavleen Singh writes: Signs of political change - indianexpress.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYjRxel9iZllEMXVwSTQza041aTAxRVFiMV84dkpXZGJvMFZBX1dJckhMZmVBcG1HVVBwSEhDNEJ1MFNxODR0QzdqZnY5OFc1Yllndlpub0lVWWFfXzZ4WG5CTk5ONi0yUUpxYTBwdjZOUk5SMmNrcS1aS0l6elRVbUJfVnBmRHhEenIwQ0pZMWx3VHNJQTlScU5FYS1nOEYxTHREU3hUX0kyUdIBsAFBVV95cUxQc2dENFFwbU9WM2t3aThtaXRnZ0hJcFpMWHJwRWtWZ2VrQnNrZnRPM1pqZ2E2S25Sb0tYRHZGSTUwOVBScTlBZEFTQ2t5cmdfc3FIaEpmd3NLYWlJemxYR0FkUkZIOFZHdFhDd29mbk1TbkRCdm9OclZlMWxPVmxEb2tQbHR1S25CbV9IZVlvU2hFTWZ2X2IyV0JfWU5Oa04tLVdqdGlDM29UYXJpY19abg?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYjRxel9iZllEMXVwSTQza041aTAxRVFiMV84dkpXZGJvMFZBX1dJckhMZmVBcG1HVVBwSEhDNEJ1MFNxODR0QzdqZnY5OFc1Yllndlpub0lVWWFfXzZ4WG5CTk5ONi0yUUpxYTBwdjZOUk5SMmNrcS1aS0l6elRVbUJfVnBmRHhEenIwQ0pZMWx3VHNJQTlScU5FYS1nOEYxTHREU3hUX0kyUdIBsAFBVV95cUxQc2dENFFwbU9WM2t3aThtaXRnZ0hJcFpMWHJwRWtWZ2VrQnNrZnRPM1pqZ2E2S25Sb0tYRHZGSTUwOVBScTlBZEFTQ2t5cmdfc3FIaEpmd3NLYWlJemxYR0FkUkZIOFZHdFhDd29mbk1TbkRCdm9OclZlMWxPVmxEb2tQbHR1S25CbV9IZVlvU2hFTWZ2X2IyV0JfWU5Oa04tLVdqdGlDM29UYXJpY19abg?oc=5",
-      "date": "Sun, 06 Sep 2026 01:00:01 GMT",
       "category": "India",
       "language": "en",
       "source": "Google News",
@@ -69,10 +25,32 @@
       "translations": {}
     },
     {
-      "title": "Indian spinner takes five-for in England, seals 213-run win in County Championship - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRFdfQXNzZ0ZoM2xkMzhIa3pxR01HM25Nd0FkZTBZanQ5bHBSMjdEaHZjbVV5MXBWYk5ETkhjZFZuRnpUQ3pQd3JCZ1dkcE8tM0I4QTRQVGZyR0R1cEhVWk1kMlpXclNiTDRiUy1aSk5PdjZ0X3JVNVFmOXN2bjUycU82c3hrSWtGaVpnMTNmTmxFYVRtRWZnUGdMZkRtNVZ3Z1pLXy1fajgtUEo3bFJIdmo4M2x0UnZZaTBQZkF6YXB4NVlOZ3RMSVhwSDNrNktISzRKcHkyS205WmdnNUFIYm9KbGswekxWQURBdU80NjQxMUlGMlHSAfsBQVVfeXFMTTVtOFJBSXZqVnZfaDFtY05pMU9TdmtPclJwRHBuOTBiTlFDOWVieC1sbWoteUwwN3d4S0FwSV9vbV9zMUNySTd1TTc5VDhTem5sWm92TzhiQlpWaDVyb1hLRzFvWS1NQ3NDeDhYSFBWSUZyTnpmWk5SdFRTdGtLbWVEOVdTZ1JiYTlXdVhJNVhUd2FLb3JOT3hDVjIwM21GcjRwaklYN05xcmRaMXJZOFpDU1lkMmp2OWxmMDN0bVVBSXlWQWY0OWxaSVFtNzhiQURMc2tlQXZ6M2czbnFiN2VsQ0NZdGxZbm8xRXctRkNwY3hiQWZ2MWdjLUU?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRFdfQXNzZ0ZoM2xkMzhIa3pxR01HM25Nd0FkZTBZanQ5bHBSMjdEaHZjbVV5MXBWYk5ETkhjZFZuRnpUQ3pQd3JCZ1dkcE8tM0I4QTRQVGZyR0R1cEhVWk1kMlpXclNiTDRiUy1aSk5PdjZ0X3JVNVFmOXN2bjUycU82c3hrSWtGaVpnMTNmTmxFYVRtRWZnUGdMZkRtNVZ3Z1pLXy1fajgtUEo3bFJIdmo4M2x0UnZZaTBQZkF6YXB4NVlOZ3RMSVhwSDNrNktISzRKcHkyS205WmdnNUFIYm9KbGswekxWQURBdU80NjQxMUlGMlHSAfsBQVVfeXFMTTVtOFJBSXZqVnZfaDFtY05pMU9TdmtPclJwRHBuOTBiTlFDOWVieC1sbWoteUwwN3d4S0FwSV9vbV9zMUNySTd1TTc5VDhTem5sWm92TzhiQlpWaDVyb1hLRzFvWS1NQ3NDeDhYSFBWSUZyTnpmWk5SdFRTdGtLbWVEOVdTZ1JiYTlXdVhJNVhUd2FLb3JOT3hDVjIwM21GcjRwaklYN05xcmRaMXJZOFpDU1lkMmp2OWxmMDN0bVVBSXlWQWY0OWxaSVFtNzhiQURMc2tlQXZ6M2czbnFiN2VsQ0NZdGxZbm8xRXctRkNwY3hiQWZ2MWdjLUU?oc=5",
-      "date": "Sun, 06 Sep 2026 05:37:00 GMT",
+      "title": "China to proceed with Brahmaputra mega dam despite new concerns - The Hindu",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQnFmZDNOWDFic2FyMzJPSG8wZ3hZTWJsaUNCZzJDS0V1aExyanNDeElkR0pYWFRuc1Voc0dTVjRJeXpPUWNIZXJOaEV4Q0VUSnhDV1VULVMxM2kzRTQ5RENzTlZOSmVUU2pqaS12dEVmd082bUtDR1dzd2g3aFlIZkRrc0FRUmdkdVJ5bG9BQ3NSY1JpN193ckdmSW03ZlplNGJoSDlkclRyTjl2bExFRVN0LXVhQktoTHYtQkRtWWVSUWl2a2fSAcwBQVVfeXFMT0lucTdMVXk5M01WUDZuUnVGVzdTVWZ5eC1MT2tVYjhtazVuSElPVDZ4enZCcnNKTFpMMzh1WXNRQmZGWV9reDFUcjMwM1lYWWEzR1JHMlE0U1I0VUFpUzh0SFdiQ2VtRkhvcnJJcnptdFYwZVl1SG1tTzdmWWRZVm9xekdXNEdxUndTbGNSbzFrVndEZnNXcklXT19PaElxVTNmQy0zeEU2U01zMDctMTc2LXBTX2V6QXpMY19fV0hzWHpNZ1h6bjJJaEFQ?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQnFmZDNOWDFic2FyMzJPSG8wZ3hZTWJsaUNCZzJDS0V1aExyanNDeElkR0pYWFRuc1Voc0dTVjRJeXpPUWNIZXJOaEV4Q0VUSnhDV1VULVMxM2kzRTQ5RENzTlZOSmVUU2pqaS12dEVmd082bUtDR1dzd2g3aFlIZkRrc0FRUmdkdVJ5bG9BQ3NSY1JpN193ckdmSW03ZlplNGJoSDlkclRyTjl2bExFRVN0LXVhQktoTHYtQkRtWWVSUWl2a2fSAcwBQVVfeXFMT0lucTdMVXk5M01WUDZuUnVGVzdTVWZ5eC1MT2tVYjhtazVuSElPVDZ4enZCcnNKTFpMMzh1WXNRQmZGWV9reDFUcjMwM1lYWWEzR1JHMlE0U1I0VUFpUzh0SFdiQ2VtRkhvcnJJcnptdFYwZVl1SG1tTzdmWWRZVm9xekdXNEdxUndTbGNSbzFrVndEZnNXcklXT19PaElxVTNmQy0zeEU2U01zMDctMTc2LXBTX2V6QXpMY19fV0hzWHpNZ1h6bjJJaEFQ?oc=5",
+      "date": "Sat, 05 Sep 2026 16:07:23 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "Building collapses in Delhi’s Satya Niketan, several feared trapped | India News - Hindustan Times",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZTM3UWJPWF9STVFsdEdLaHVndHVYcG1zRTdSYUVrbkJiR0huaDZtR0ViV2dJVWUybUR2cXl2bXA0cWptVTlUZG1QTmRQc2M1ak1VcWJkMFNoMHRNRGlockppUFdTTGI1NnRJOUhzZWs5N0g5eHh4d0ZLc3VCY09xUDhBYVVCWl8xUXlNTWxhSHVCbV9hMTdLSDdCYWZuWmd0ZGhIRDhMLVBieldPNnVMaGRMXzN4eUpZcF9NQ3pFQUVDd1Jaa2I0UtIBzgFBVV95cUxQUkNWOUFuSkxQWHFuR2RoelpzeFdlcE5ScGRvYmRNSUs3aTdEbXMwUmNKVVNXN1kyV1d3cXBxUjhBRUVOTVV1U1pfOVJZUDRXQ3E1R1J1dkdENk9zZGxRTlVzYTlhX0xhcWllaFdOLU9GS0g1U084VzlFTERPM2g0cFYzblRwV1ZHdk8wbzU3VldmcUVsOVhrbEZmQWVwVFc2N3haam9oSjRPZk50a0txVWZBb09maTN5WlBJRmQxM2JrV3lOaW9NUnlhY1FOQQ?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZTM3UWJPWF9STVFsdEdLaHVndHVYcG1zRTdSYUVrbkJiR0huaDZtR0ViV2dJVWUybUR2cXl2bXA0cWptVTlUZG1QTmRQc2M1ak1VcWJkMFNoMHRNRGlockppUFdTTGI1NnRJOUhzZWs5N0g5eHh4d0ZLc3VCY09xUDhBYVVCWl8xUXlNTWxhSHVCbV9hMTdLSDdCYWZuWmd0ZGhIRDhMLVBieldPNnVMaGRMXzN4eUpZcF9NQ3pFQUVDd1Jaa2I0UtIBzgFBVV95cUxQUkNWOUFuSkxQWHFuR2RoelpzeFdlcE5ScGRvYmRNSUs3aTdEbXMwUmNKVVNXN1kyV1d3cXBxUjhBRUVOTVV1U1pfOVJZUDRXQ3E1R1J1dkdENk9zZGxRTlVzYTlhX0xhcWllaFdOLU9GS0g1U084VzlFTERPM2g0cFYzblRwV1ZHdk8wbzU3VldmcUVsOVhrbEZmQWVwVFc2N3haam9oSjRPZk50a0txVWZBb09maTN5WlBJRmQxM2JrV3lOaW9NUnlhY1FOQQ?oc=5",
+      "date": "Sun, 06 Sep 2026 08:48:50 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "Tavleen Singh writes: Signs of political change - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYjRxel9iZllEMXVwSTQza041aTAxRVFiMV84dkpXZGJvMFZBX1dJckhMZmVBcG1HVVBwSEhDNEJ1MFNxODR0QzdqZnY5OFc1Yllndlpub0lVWWFfXzZ4WG5CTk5ONi0yUUpxYTBwdjZOUk5SMmNrcS1aS0l6elRVbUJfVnBmRHhEenIwQ0pZMWx3VHNJQTlScU5FYS1nOEYxTHREU3hUX0kyUdIBsAFBVV95cUxQc2dENFFwbU9WM2t3aThtaXRnZ0hJcFpMWHJwRWtWZ2VrQnNrZnRPM1pqZ2E2S25Sb0tYRHZGSTUwOVBScTlBZEFTQ2t5cmdfc3FIaEpmd3NLYWlJemxYR0FkUkZIOFZHdFhDd29mbk1TbkRCdm9OclZlMWxPVmxEb2tQbHR1S25CbV9IZVlvU2hFTWZ2X2IyV0JfWU5Oa04tLVdqdGlDM29UYXJpY19abg?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYjRxel9iZllEMXVwSTQza041aTAxRVFiMV84dkpXZGJvMFZBX1dJckhMZmVBcG1HVVBwSEhDNEJ1MFNxODR0QzdqZnY5OFc1Yllndlpub0lVWWFfXzZ4WG5CTk5ONi0yUUpxYTBwdjZOUk5SMmNrcS1aS0l6elRVbUJfVnBmRHhEenIwQ0pZMWx3VHNJQTlScU5FYS1nOEYxTHREU3hUX0kyUdIBsAFBVV95cUxQc2dENFFwbU9WM2t3aThtaXRnZ0hJcFpMWHJwRWtWZ2VrQnNrZnRPM1pqZ2E2S25Sb0tYRHZGSTUwOVBScTlBZEFTQ2t5cmdfc3FIaEpmd3NLYWlJemxYR0FkUkZIOFZHdFhDd29mbk1TbkRCdm9OclZlMWxPVmxEb2tQbHR1S25CbV9IZVlvU2hFTWZ2X2IyV0JfWU5Oa04tLVdqdGlDM29UYXJpY19abg?oc=5",
+      "date": "Sun, 06 Sep 2026 01:00:01 GMT",
       "category": "India",
       "language": "en",
       "source": "Google News",
@@ -91,7 +69,29 @@
       "translations": {}
     },
     {
-      "title": "Today Breaking News ! आज 17 मई 2026 के मुख्य समाचार बड़ी खबरें, PM Modi, UP, Bihar, Delhi, SBI Dj Shockley (UiMCzUW5y7) - mshale.com",
+      "title": "PM Modi: Those who put India in Fragile 5 doubting GDP - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOTI3M1pEV1poUnhBY0FVTl9PLUxlY0tFRTlBQTV6azJBZmc4NjQtQzY5T3RXQ1FMYUdyQTdBNkZlNEJJdVp6ZW5LeVB3MHd6NHBab1VHU05jd2twWV9iYkZyeGhuYXU1SkNBdG9SMTlMNGY0ZzkzTjE4S0lQNERVcTdWeXpLUWU2cXdneTZYUmxqalNwNmRPemlOa3I1aWdtM09kaW9MdFVXeDE4MDVnOU42R2NWVHfSAbwBQVVfeXFMTjBGdkFLYmdldlZmNlFIeHQ3LVcwMG9NR21XdGVBM05qUElnX3A1X2FUenFBZ3ZoNWIyaDJmUFgyRE1XTmxQeC13d0hKbjF0c1dwVUhWWlR6M25HX242M2h6bVBLRDZiLWV3ZUE2VUt1OThSbkI3ZkpHYzVlTXJWeFhnTjEwN1BMOVR4azRKSUgyOHhITjR4MXlRZk9ROFlDLXRoam1pYUVtMkI1aEpqb2x3R0NleWRjN29PMlU?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOTI3M1pEV1poUnhBY0FVTl9PLUxlY0tFRTlBQTV6azJBZmc4NjQtQzY5T3RXQ1FMYUdyQTdBNkZlNEJJdVp6ZW5LeVB3MHd6NHBab1VHU05jd2twWV9iYkZyeGhuYXU1SkNBdG9SMTlMNGY0ZzkzTjE4S0lQNERVcTdWeXpLUWU2cXdneTZYUmxqalNwNmRPemlOa3I1aWdtM09kaW9MdFVXeDE4MDVnOU42R2NWVHfSAbwBQVVfeXFMTjBGdkFLYmdldlZmNlFIeHQ3LVcwMG9NR21XdGVBM05qUElnX3A1X2FUenFBZ3ZoNWIyaDJmUFgyRE1XTmxQeC13d0hKbjF0c1dwVUhWWlR6M25HX242M2h6bVBLRDZiLWV3ZUE2VUt1OThSbkI3ZkpHYzVlTXJWeFhnTjEwN1BMOVR4azRKSUgyOHhITjR4MXlRZk9ROFlDLXRoam1pYUVtMkI1aEpqb2x3R0NleWRjN29PMlU?oc=5",
+      "date": "Sat, 05 Sep 2026 23:18:00 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "Indian spinner takes five-for in England, seals 213-run win in County Championship - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRFdfQXNzZ0ZoM2xkMzhIa3pxR01HM25Nd0FkZTBZanQ5bHBSMjdEaHZjbVV5MXBWYk5ETkhjZFZuRnpUQ3pQd3JCZ1dkcE8tM0I4QTRQVGZyR0R1cEhVWk1kMlpXclNiTDRiUy1aSk5PdjZ0X3JVNVFmOXN2bjUycU82c3hrSWtGaVpnMTNmTmxFYVRtRWZnUGdMZkRtNVZ3Z1pLXy1fajgtUEo3bFJIdmo4M2x0UnZZaTBQZkF6YXB4NVlOZ3RMSVhwSDNrNktISzRKcHkyS205WmdnNUFIYm9KbGswekxWQURBdU80NjQxMUlGMlHSAfsBQVVfeXFMTTVtOFJBSXZqVnZfaDFtY05pMU9TdmtPclJwRHBuOTBiTlFDOWVieC1sbWoteUwwN3d4S0FwSV9vbV9zMUNySTd1TTc5VDhTem5sWm92TzhiQlpWaDVyb1hLRzFvWS1NQ3NDeDhYSFBWSUZyTnpmWk5SdFRTdGtLbWVEOVdTZ1JiYTlXdVhJNVhUd2FLb3JOT3hDVjIwM21GcjRwaklYN05xcmRaMXJZOFpDU1lkMmp2OWxmMDN0bVVBSXlWQWY0OWxaSVFtNzhiQURMc2tlQXZ6M2czbnFiN2VsQ0NZdGxZbm8xRXctRkNwY3hiQWZ2MWdjLUU?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRFdfQXNzZ0ZoM2xkMzhIa3pxR01HM25Nd0FkZTBZanQ5bHBSMjdEaHZjbVV5MXBWYk5ETkhjZFZuRnpUQ3pQd3JCZ1dkcE8tM0I4QTRQVGZyR0R1cEhVWk1kMlpXclNiTDRiUy1aSk5PdjZ0X3JVNVFmOXN2bjUycU82c3hrSWtGaVpnMTNmTmxFYVRtRWZnUGdMZkRtNVZ3Z1pLXy1fajgtUEo3bFJIdmo4M2x0UnZZaTBQZkF6YXB4NVlOZ3RMSVhwSDNrNktISzRKcHkyS205WmdnNUFIYm9KbGswekxWQURBdU80NjQxMUlGMlHSAfsBQVVfeXFMTTVtOFJBSXZqVnZfaDFtY05pMU9TdmtPclJwRHBuOTBiTlFDOWVieC1sbWoteUwwN3d4S0FwSV9vbV9zMUNySTd1TTc5VDhTem5sWm92TzhiQlpWaDVyb1hLRzFvWS1NQ3NDeDhYSFBWSUZyTnpmWk5SdFRTdGtLbWVEOVdTZ1JiYTlXdVhJNVhUd2FLb3JOT3hDVjIwM21GcjRwaklYN05xcmRaMXJZOFpDU1lkMmp2OWxmMDN0bVVBSXlWQWY0OWxaSVFtNzhiQURMc2tlQXZ6M2czbnFiN2VsQ0NZdGxZbm8xRXctRkNwY3hiQWZ2MWdjLUU?oc=5",
+      "date": "Sun, 06 Sep 2026 05:37:00 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "Today Breaking News ! आज 17 मई 2026 के मुख्य समाचार बड़ी खबरें, PM Modi, UP, Bihar, Delhi, SBI Dj Shockley (UiMCzUW5y7) - Mshale",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13dUZPT3FKU01qaHNJSzl2THpfUTVsbG9GTEZCUHRyUm1idVRTRm1fdXQ0RmgxYlBqb3cwSml1YmswLUdTQTJVa3oyTC1scEFDeFpBWkVOUmZGSjg?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13dUZPT3FKU01qaHNJSzl2THpfUTVsbG9GTEZCUHRyUm1idVRTRm1fdXQ0RmgxYlBqb3cwSml1YmswLUdTQTJVa3oyTC1scEFDeFpBWkVOUmZGSjg?oc=5",
       "date": "Sun, 06 Sep 2026 06:19:44 GMT",
@@ -124,9 +124,31 @@
       "translations": {}
     },
     {
+      "title": "Aaj Ki Taza Khabar: पढ़ें 28 जुलाई 2026 की शाम की बड़ी खबरें और अन्य समाचार - Aaj Tak News",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc05SeGNOXzZjZ0ExMUhraHZjOU43Wnd6OWo4SHN3WmxXQWROWkNMdGRCWk56UlAtVXhlMGF2N1gxUjZnRWtiVlE0TFktc1VUYTRRdGEtZ3N0RnpnOXY1MDRYVTZZMEVjcHE3UXdfbWNaWFNTaDY0bGxvcWtxWHVFR1ZFVzRZYmJsSFl2TXIxNEFIR1JxbThjS1ZMVE42YzJ2U1FDSGZEYkVqX0RlWkhDbVhicHNSOC0waEItSUZtc0dxMk3SAcgBQVVfeXFMTkpNWjkwaTFIMy11SWs0eWFDV0pzNF9sbWF6QVFuWU9fLURuNG55S2doYV91N0xQZW5QZHhBUF9qQXZmencyNlRzM1BaVF91NERENE91aVdOR0M3b2xULWYzVWpCbkQtZHZNMV9teGx1VHRVZUF6SEtIUE9UdE5WZ2tfZTlwTnFfQlZMVkJhcnVULVhWTkYzSkFpc01KeE5Kam5aNGxMY2hLR2J3NUZpRTV1YlhPcGQ1QS1oUUxyS0dPVUROOHRobmU?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc05SeGNOXzZjZ0ExMUhraHZjOU43Wnd6OWo4SHN3WmxXQWROWkNMdGRCWk56UlAtVXhlMGF2N1gxUjZnRWtiVlE0TFktc1VUYTRRdGEtZ3N0RnpnOXY1MDRYVTZZMEVjcHE3UXdfbWNaWFNTaDY0bGxvcWtxWHVFR1ZFVzRZYmJsSFl2TXIxNEFIR1JxbThjS1ZMVE42YzJ2U1FDSGZEYkVqX0RlWkhDbVhicHNSOC0waEItSUZtc0dxMk3SAcgBQVVfeXFMTkpNWjkwaTFIMy11SWs0eWFDV0pzNF9sbWF6QVFuWU9fLURuNG55S2doYV91N0xQZW5QZHhBUF9qQXZmencyNlRzM1BaVF91NERENE91aVdOR0M3b2xULWYzVWpCbkQtZHZNMV9teGx1VHRVZUF6SEtIUE9UdE5WZ2tfZTlwTnFfQlZMVkJhcnVULVhWTkYzSkFpc01KeE5Kam5aNGxMY2hLR2J3NUZpRTV1YlhPcGQ1QS1oUUxyS0dPVUROOHRobmU?oc=5",
+      "date": "Tue, 28 Jul 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
       "title": "Gorakhpur News: गोरखपुर से नई दिल्ली के बीच वंदे भारत ट्रेन चलाने की मांग - Amar Ujala",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcmt5R25SNkE5MGIzc1pHUWk1NThqU2xXVXVBRDFWMFI5WVVNRU1JRGZjRUlMRmI3aW1RUHEwZmxnc1FxTG0zMjBMM0VwSEd5a3Fnc0pnRXplSmo5SGdHRVpiUFVwd3lWc2JtWFdpS3VhcVB5Qy1VYmF3Yzh2WVQtLXotRU1vNVBYRzZxTzd4RDczR1g5TTBQdDRrYTQxMFhjUmJ2WHZNT2dhc1Q2cW92bFhNdEZocUVwUUUwdVItM1BiSlMyYVA3WGJlU1pvTzdoczBtSndnbWtIcEk0SlpJ0gHkAUFVX3lxTFBiS2h2S3FoR1RwQUM3QTUyWjFiSkZnMHM1ZnBUMzhOSUR2XzhMSXM1SVAxRm9rUV9Mbl9oellwYzlzd0V1S3ViaUlhN1hvWUE0Ri12b290aV9VNWppS0JQX1VkUE1FaE1SaVdFVmNBT0tPRTNHSEtWU3libzBFeFFPcjFKUEd3R2tvYVh4UFc4RFUwc1cyUWM4RDBtRmZReEczNE1TS0lZLXZSVVJHR2o3WFg5LTk4T0NWY0ZpUzk0M3hVX0xSUHU2eFpCbHpuV2VRS0lVUmxZQlJIQTZzQ3BXTmpUeg?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPcmt5R25SNkE5MGIzc1pHUWk1NThqU2xXVXVBRDFWMFI5WVVNRU1JRGZjRUlMRmI3aW1RUHEwZmxnc1FxTG0zMjBMM0VwSEd5a3Fnc0pnRXplSmo5SGdHRVpiUFVwd3lWc2JtWFdpS3VhcVB5Qy1VYmF3Yzh2WVQtLXotRU1vNVBYRzZxTzd4RDczR1g5TTBQdDRrYTQxMFhjUmJ2WHZNT2dhc1Q2cW92bFhNdEZocUVwUUUwdVItM1BiSlMyYVA3WGJlU1pvTzdoczBtSndnbWtIcEk0SlpJ0gHkAUFVX3lxTFBiS2h2S3FoR1RwQUM3QTUyWjFiSkZnMHM1ZnBUMzhOSUR2XzhMSXM1SVAxRm9rUV9Mbl9oellwYzlzd0V1S3ViaUlhN1hvWUE0Ri12b290aV9VNWppS0JQX1VkUE1FaE1SaVdFVmNBT0tPRTNHSEtWU3libzBFeFFPcjFKUEd3R2tvYVh4UFc4RFUwc1cyUWM4RDBtRmZReEczNE1TS0lZLXZSVVJHR2o3WFg5LTk4T0NWY0ZpUzk0M3hVX0xSUHU2eFpCbHpuV2VRS0lVUmxZQlJIQTZzQ3BXTmpUeg?oc=5",
+      "date": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "7 नई अमृत भारत ट्रेनों को रेलवे बोर्ड की मंजूरी, दिल्‍ली, प्रयागराज, आगरा, गया, धनबाद, जबलपुर, कोटा, मुंबई तक फायदा - ndtv.in",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdWczMFc3Y1VJRzhLQkF3WlMtdkM5TzhqTzZqWlVUSm8yQndhNEZ2cUU4UUlKSXBneEFRdG5tTGZpYUJXYTZzZmV3bmR5ZlpQamgzdXROaVMzV0pPVlhHWkJXWmtLYml3S0dja292bmxLdHk1TzlFY0UwSHJtX1Jic2QxT19fX1htUVh5bnFLYXZTXzBHMEZfT1lqNEZ6cko3d3JHS0UwdUFZai14Ukd5ZjJrRjFzeWo0emE3Q0R3WXF4UklpbXFJLTljaFZ3S1YzX3BTdG5vb1VFWTk0X0t4YTN1TjlEMG82VDhVVlFPV0dTZXpkQkw5akx3?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdWczMFc3Y1VJRzhLQkF3WlMtdkM5TzhqTzZqWlVUSm8yQndhNEZ2cUU4UUlKSXBneEFRdG5tTGZpYUJXYTZzZmV3bmR5ZlpQamgzdXROaVMzV0pPVlhHWkJXWmtLYml3S0dja292bmxLdHk1TzlFY0UwSHJtX1Jic2QxT19fX1htUVh5bnFLYXZTXzBHMEZfT1lqNEZ6cko3d3JHS0UwdUFZai14Ukd5ZjJrRjFzeWo0emE3Q0R3WXF4UklpbXFJLTljaFZ3S1YzX3BTdG5vb1VFWTk0X0t4YTN1TjlEMG82VDhVVlFPV0dTZXpkQkw5akx3?oc=5",
       "date": "Fri, 14 Aug 2026 07:00:00 GMT",
       "category": "India",
       "language": "hi",
@@ -157,29 +179,7 @@
       "translations": {}
     },
     {
-      "title": "भारत के पड़ोस में नई कूटनीति: चीन के इशारे पर पाकिस्तान और ईरान अमेरिका से बातचीत को तैयार - Navbharat Times",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQ2hmVW5tWFRYbVlnUjBqeTQxOTZQVVBvRmQtcWFoYl9HVWNRMWF5RTdPQjVBWnNHaS1mWDBNNEZuZnVYSW1OTEgxbGpQZmlaRVoxTms1STRaMU4zQ0FtbERqTjFOcEtRVGdUY0JlQzB3WFZzTi10dGt0UjNXM2gybHliMHI2VTFVMTJWa09Dc21UV0ZtUTlORndzNWNoWlVkSmdHdFF5LThQNEx6R2tLTjdXaXNvaEFCSUJ2c0cxRTZJZjBpejBuWVdVNWV0WVZRWVZ6U2JkcmVhaTZIRERaZ1VONUNTbF9wbFd3S3J30gHzAUFVX3lxTFB1VllUNjRBNW44STN2V0kzVUJ2bGFZcGpnT2JIZkVuZ3MzRWdNakV3aERXWFFXU01BOTZScWxRMDZNNGJDbnZyNEdYNmFyTmZJTHVsTzQ0MTRHR3daZjV3NDMyT0g2MW5pRkEzNTJsTUowX2ZVandON2w5Mm94bmlwWHJydE1tRFp3UjNielpUeHJtdTQyVVN4MUlaZ3pHcTAycnFlT1Rza29pS2p0RjlPdkpBSmIyb0gxRXhybmlSZHlWYk95cWd5bGtDV2hmN0I1SXd0Y2VWcmtiWG5aRTRlVWFlRmpycUExVXptM2JUOXgtbw?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQ2hmVW5tWFRYbVlnUjBqeTQxOTZQVVBvRmQtcWFoYl9HVWNRMWF5RTdPQjVBWnNHaS1mWDBNNEZuZnVYSW1OTEgxbGpQZmlaRVoxTms1STRaMU4zQ0FtbERqTjFOcEtRVGdUY0JlQzB3WFZzTi10dGt0UjNXM2gybHliMHI2VTFVMTJWa09Dc21UV0ZtUTlORndzNWNoWlVkSmdHdFF5LThQNEx6R2tLTjdXaXNvaEFCSUJ2c0cxRTZJZjBpejBuWVdVNWV0WVZRWVZ6U2JkcmVhaTZIRERaZ1VONUNTbF9wbFd3S3J30gHzAUFVX3lxTFB1VllUNjRBNW44STN2V0kzVUJ2bGFZcGpnT2JIZkVuZ3MzRWdNakV3aERXWFFXU01BOTZScWxRMDZNNGJDbnZyNEdYNmFyTmZJTHVsTzQ0MTRHR3daZjV3NDMyT0g2MW5pRkEzNTJsTUowX2ZVandON2w5Mm94bmlwWHJydE1tRFp3UjNielpUeHJtdTQyVVN4MUlaZ3pHcTAycnFlT1Rza29pS2p0RjlPdkpBSmIyb0gxRXhybmlSZHlWYk95cWd5bGtDV2hmN0I1SXd0Y2VWcmtiWG5aRTRlVWFlRmpycUExVXptM2JUOXgtbw?oc=5",
-      "date": "Sat, 25 Jul 2026 07:00:00 GMT",
-      "category": "India",
-      "language": "hi",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
-      "title": "Sirsa News: भारत नगर में नई सीवरेज लाइन का काम शुरू, मिलेगी राहत - Amar Ujala",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbUdSU1ZWUDBCYWVFWC1LWGVQNThNbERKZHFJYUJRcy1ITU9famdOUk1VbjBXYy1mbnNjSWM0Uzl0TUJtSkJvRUFvUjBuTmFJanA2UnpvVERDNUJucmE5WXNQREowQThOMkRKRml0cEd4WTBPVG1fOEF5WW1yd1lBS0RQWUpVaXVyeWxjTzhYQzNzRkNuUDVhUGRJdnJLY0NzQWgxRUdvVGItSklfb3RScWhQZFNtT3EwVmRNQWNoU2o2QdIBxwFBVV95cUxNazJlbHl2TDlEdGJDTmRWRFVLdTdqTjROMkJpUGM5MXljV2lJM1hqeThMVVctZ3g1WF9CRWJHYkhGQUlUQlhtTkV5VXQ2RWlwMVBKRmxRRjlSZm11X2RlMFBkNm02RE5fVmdTbC00a0RQM3dsYTI1UEhZSWswbUhvdG1TR1NJZVBwWVEwX0JRcFd1dDJUdjlOYldjQldjWVRjMGpTTGVrb0E0eUtNNEFiWmdzWktDTkNQSDVGQmQ5aThtckYyZExV?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbUdSU1ZWUDBCYWVFWC1LWGVQNThNbERKZHFJYUJRcy1ITU9famdOUk1VbjBXYy1mbnNjSWM0Uzl0TUJtSkJvRUFvUjBuTmFJanA2UnpvVERDNUJucmE5WXNQREowQThOMkRKRml0cEd4WTBPVG1fOEF5WW1yd1lBS0RQWUpVaXVyeWxjTzhYQzNzRkNuUDVhUGRJdnJLY0NzQWgxRUdvVGItSklfb3RScWhQZFNtT3EwVmRNQWNoU2o2QdIBxwFBVV95cUxNazJlbHl2TDlEdGJDTmRWRFVLdTdqTjROMkJpUGM5MXljV2lJM1hqeThMVVctZ3g1WF9CRWJHYkhGQUlUQlhtTkV5VXQ2RWlwMVBKRmxRRjlSZm11X2RlMFBkNm02RE5fVmdTbC00a0RQM3dsYTI1UEhZSWswbUhvdG1TR1NJZVBwWVEwX0JRcFd1dDJUdjlOYldjQldjWVRjMGpTTGVrb0E0eUtNNEFiWmdzWktDTkNQSDVGQmQ5aThtckYyZExV?oc=5",
-      "date": "Tue, 18 Aug 2026 07:00:00 GMT",
-      "category": "India",
-      "language": "hi",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
-      "title": "Good News : मुंबई-पुण्यात १० नवी मेट्रो सुरू होणार, नावे आली समोर, वाचा लेटेस्ट अपडेट - Saam Tv",
+      "title": "Good News : मुंबई-पुण्यात १० नवी मेट्रो सुरू होणार, नावे आली समोर, वाचा लेटेस्ट अपडेट - saamtv.esakal.com",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbGh6cy10NGkzNkt5bFQ3Q2ZuYVVydVotLUdyWlNLMTZOSjZjeDJ2elpaS2piN1NYdHYyRVpXalhLR0FyQUpHNkRqLWd5dGRuNC1ZM0JXSnAyeEVfbFhCdUVrWm1HR1gzdUt0SldjdUJsbkJnc3pyUzI2RGJOX2xhWEtUcEcyN0QybVp3YVRYSU5vcXMwWmo2b2lsUUJSODVxNlU1S3BUVG1iZ2xtb3NJWWtPRzgtQ2FrQm0ybjNob3YwNnU2ckptR0FaVUZDN2YxblVLRGhJRmwxR05za1U4Uk15cGw0Q3JldzZZVWFQVTlnTEXSAYACQVVfeXFMUDdJV3Nram1GUXRuUDVpeVRDUFEwc19BT3laaU5nWThfQWtnTWF4OEkzb2ZRSU85WUR2eGFsaUlyaUJmUktJd24wLXdqZmdtR2dqSVVLd1V0NGlYT1RxMGdtcjZCS0hrOVpvNWQwdEQtTk95VjcteFpHc1FpQnFUTkNqZHdjWnBnRWZleTlESDY2RVlSSWh4LU9FYjdwZURDWFA5b19QWlJZZnE1X0NRTjk3cTU5MHVyM3lJbW8xRkItazBwRzN2Y3AtRVpkbE1TUmdkQWZJQ1hkdFR0UXVVbnlVWDJYTnB6SlRsMFBlWDFrSU44MDgwTGFkc2pTU1JrcQ?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbGh6cy10NGkzNkt5bFQ3Q2ZuYVVydVotLUdyWlNLMTZOSjZjeDJ2elpaS2piN1NYdHYyRVpXalhLR0FyQUpHNkRqLWd5dGRuNC1ZM0JXSnAyeEVfbFhCdUVrWm1HR1gzdUt0SldjdUJsbkJnc3pyUzI2RGJOX2xhWEtUcEcyN0QybVp3YVRYSU5vcXMwWmo2b2lsUUJSODVxNlU1S3BUVG1iZ2xtb3NJWWtPRzgtQ2FrQm0ybjNob3YwNnU2ckptR0FaVUZDN2YxblVLRGhJRmwxR05za1U4Uk15cGw0Q3JldzZZVWFQVTlnTEXSAYACQVVfeXFMUDdJV3Nram1GUXRuUDVpeVRDUFEwc19BT3laaU5nWThfQWtnTWF4OEkzb2ZRSU85WUR2eGFsaUlyaUJmUktJd24wLXdqZmdtR2dqSVVLd1V0NGlYT1RxMGdtcjZCS0hrOVpvNWQwdEQtTk95VjcteFpHc1FpQnFUTkNqZHdjWnBnRWZleTlESDY2RVlSSWh4LU9FYjdwZURDWFA5b19QWlJZZnE1X0NRTjk3cTU5MHVyM3lJbW8xRkItazBwRzN2Y3AtRVpkbE1TUmdkQWZJQ1hkdFR0UXVVbnlVWDJYTnB6SlRsMFBlWDFrSU44MDgwTGFkc2pTU1JrcQ?oc=5",
       "date": "Wed, 05 Aug 2026 07:00:00 GMT",
@@ -190,7 +190,7 @@
       "translations": {}
     },
     {
-      "title": "Tasmia Rubab प्रोफाइल- Tasmia Rubab ICC रैंकिंग, करियर, बैटिंग, बोलिंग, लेटेस्ट न्यूज़ मराठी मध्ये - tv9marathi.com",
+      "title": "Tasmia Rubab प्रोफाइल- Tasmia Rubab ICC रैंकिंग, करियर, बैटिंग, बोलिंग, लेटेस्ट न्यूज़ मराठी मध्ये - TV9 Marathi",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORHNDTlN0ZjBIX1JEWDJYRHVoeVRFWm5aOTFZVGdhcXJLbENfTjdGTU1ESzhpdGFaNFBKelpibVE1YlVPSHEtRXQ0SUxGLWVwS2w3RXkyYW9EV2dpcEJpSmM0SkdSUkNtczhnZkd0cHhuUDlTRF9HZ2xPbXhjWWdCTHN4a19iYW94?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORHNDTlN0ZjBIX1JEWDJYRHVoeVRFWm5aOTFZVGdhcXJLbENfTjdGTU1ESzhpdGFaNFBKelpibVE1YlVPSHEtRXQ0SUxGLWVwS2w3RXkyYW9EV2dpcEJpSmM0SkdSUkNtczhnZkd0cHhuUDlTRF9HZ2xPbXhjWWdCTHN4a19iYW94?oc=5",
       "date": "Sun, 30 Aug 2026 05:24:42 GMT",
@@ -201,7 +201,7 @@
       "translations": {}
     },
     {
-      "title": "Mumbai Local Train:मुंबईत रात्रीपासून धो-धो पाऊस! घराबाहेर पडण्यापूर्वी पाहा लोकल ट्रेनची लेटेस्ट स्थिती काय? - News18 Marathi",
+      "title": "Mumbai Local Train:मुंबईत रात्रीपासून धो-धो पाऊस! घराबाहेर पडण्यापूर्वी पाहा लोकल ट्रेनची लेटेस्ट स्थिती काय? - news18marathi.com",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeF96OHkyenFUVGVJV2hmMTkwMHZDZVk2UFNFamNIOFgxbmVRUUNQSGlKU3Z4SktScHgwb2xROEw3ZGxzOXpvcHpfV3Z6SVdNOFFvT0NhQVVNMklsY1laV0V4U2JReHJabXlneURzcVlkc0hrR3JHdHN1TW90NGQ3anFkLUY4Zk55bHN1T1A4QXZPMnhZNWhfNVlwTWUzdTI2Y0xHdTdBTnVDV25qSlhVWjZ1MHdXNTVEbGF5OGQtYkluMENM?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeF96OHkyenFUVGVJV2hmMTkwMHZDZVk2UFNFamNIOFgxbmVRUUNQSGlKU3Z4SktScHgwb2xROEw3ZGxzOXpvcHpfV3Z6SVdNOFFvT0NhQVVNMklsY1laV0V4U2JReHJabXlneURzcVlkc0hrR3JHdHN1TW90NGQ3anFkLUY4Zk55bHN1T1A4QXZPMnhZNWhfNVlwTWUzdTI2Y0xHdTdBTnVDV25qSlhVWjZ1MHdXNTVEbGF5OGQtYkluMENM?oc=5",
       "date": "Mon, 20 Jul 2026 07:00:00 GMT",
@@ -245,7 +245,7 @@
       "translations": {}
     },
     {
-      "title": "BR Sharath प्रोफाइल- BR Sharath ICC रैंकिंग, करियर, बैटिंग, बोलिंग, लेटेस्ट न्यूज़ मराठी मध्ये - tv9marathi.com",
+      "title": "BR Sharath प्रोफाइल- BR Sharath ICC रैंकिंग, करियर, बैटिंग, बोलिंग, लेटेस्ट न्यूज़ मराठी मध्ये - TV9 Marathi",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3Rya0hTakh1VUhCbUU0TzVYUzlaajBIeC0tY2VSRktkVnRzTVZMX08yeHZ4MWd1M2tSX0NpUnNSQ3ltLTB4aXFhQUwtOWZUd1phMklxdWdISmFjNlp3Z1NEOGtJSmxRUEhfUHd3UmtRaF80MjJEQ0prY3ZQLTQ1V1ZKQ2w?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNS3Rya0hTakh1VUhCbUU0TzVYUzlaajBIeC0tY2VSRktkVnRzTVZMX08yeHZ4MWd1M2tSX0NpUnNSQ3ltLTB4aXFhQUwtOWZUd1phMklxdWdISmFjNlp3Z1NEOGtJSmxRUEhfUHd3UmtRaF80MjJEQ0prY3ZQLTQ1V1ZKQ2w?oc=5",
       "date": "Thu, 20 Aug 2026 15:30:33 GMT",
@@ -278,7 +278,7 @@
       "translations": {}
     },
     {
-      "title": "BCCI vs PCB net worth: What is the difference between India and Pakistan’s cricket boards? - storyboard18.com",
+      "title": "BCCI vs PCB net worth: What is the difference between India and Pakistan’s cricket boards? - Storyboard18",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU0h6V1c4UHEyOVQxZFdXdW9kcDZqODVmTWs4QURKZzlUYlV6ZTZlMHRha2NnQlNGZUhPRm1TRTJXMnZ0T3hvMkhfd09XcGV1MFVSOTAxajNoMXlwemNNM1FNdGxxeE01Z3U3X3lqN2VWSURBbGxkYndwLXlCU2tVS1FMZ1Y3ZnVTUFdOcFVBbUtqVVVpdE5KOEU5Mk9QYmdLaHVlbjF3d3dTQnk1TlllbUZ1VHZ4UHV3WlBTRFQxNWVrRHF0ckVOZU1xTjliTTY3MUHSAdcBQVVfeXFMUGpfV1d6UUVJYzNMZEtpZGlXTmJJVXpCVlFsZDYwd1ZndmlxOGUzajhmaklqWGdpU1JCa3VXUFJ5UTdwWElLU1RhQ1FOVlFvS0lxWUZ3T1RsZFM5QUZmMTZGQWw5UXE1bm1EQ0VNM0MwSlptN0pBN3JZRl9LNjBYd3ctTzJnN1BzajJZd3lfMWE3bGtoa2tUUEVibDRfekszYWhBQ0VoQTY3OHdKWE1oUnM3SXdTS1RHVzhlZkxxSWg3eENoT0dzTjg3Z09aeG1WVmJzbEh5RmM?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU0h6V1c4UHEyOVQxZFdXdW9kcDZqODVmTWs4QURKZzlUYlV6ZTZlMHRha2NnQlNGZUhPRm1TRTJXMnZ0T3hvMkhfd09XcGV1MFVSOTAxajNoMXlwemNNM1FNdGxxeE01Z3U3X3lqN2VWSURBbGxkYndwLXlCU2tVS1FMZ1Y3ZnVTUFdOcFVBbUtqVVVpdE5KOEU5Mk9QYmdLaHVlbjF3d3dTQnk1TlllbUZ1VHZ4UHV3WlBTRFQxNWVrRHF0ckVOZU1xTjliTTY3MUHSAdcBQVVfeXFMUGpfV1d6UUVJYzNMZEtpZGlXTmJJVXpCVlFsZDYwd1ZndmlxOGUzajhmaklqWGdpU1JCa3VXUFJ5UTdwWElLU1RhQ1FOVlFvS0lxWUZ3T1RsZFM5QUZmMTZGQWw5UXE1bm1EQ0VNM0MwSlptN0pBN3JZRl9LNjBYd3ctTzJnN1BzajJZd3lfMWE3bGtoa2tUUEVibDRfekszYWhBQ0VoQTY3OHdKWE1oUnM3SXdTS1RHVzhlZkxxSWg3eENoT0dzTjg3Z09aeG1WVmJzbEh5RmM?oc=5",
       "date": "Sun, 06 Sep 2026 09:11:02 GMT",
@@ -322,10 +322,21 @@
       "translations": {}
     },
     {
-      "title": "What happened outside this UP theatre after Hanuman Ansh screening has gone viral - indianexpress.com",
+      "title": "What happened outside this UP theatre after Hanuman Ansh screening has gone viral - The Indian Express",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOektmdlFJZzF1Q3U4T05jRWhEWEhJNklvTzVCcjdldkxSVkRxaVJHNmdzMW4wMW92WjZ3V2VzRXY5QWstZ2JBTlJLM1lPYjVUYnJJQnRSaTZpUDhNcnc5aVVuZzBfYURTUlN0Z1paUXlBSF9uS1MzeGFCZXFHWmdERHdhUHo5YUZCRFo0VjZuYWpMQ2pTVF9kV0dHNlhqOVRxUFh6WnJDSndEU1pSNmtPV1VKbTdmc2dqMFRKLURFeU9yZjFTUW9V0gHOAUFVX3lxTE9Sak1oR2UzSEJUT0FETWdMVkw4R3NsRkVRR0pwTHFZNmFxWWpleFVweE1mRFFPYW9xbU1jM2EtaFFxZW83c3BndmtfSV9vQlB5RWlzSmlZWU1qWFM5MU9OX3RjeTdWNFRZdWhUSS00T3F6TVk3aDlIaExtRXVZWDhXQTlJZkVyWVpRTXNMT3RHMldoZmtldThGdkVOa05jUTdwUmg3eUJ0YXRsN25fUF9JcG82X21BQlBZMUlycHl2T05YMU1vdnMySFYzaUp3?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOektmdlFJZzF1Q3U4T05jRWhEWEhJNklvTzVCcjdldkxSVkRxaVJHNmdzMW4wMW92WjZ3V2VzRXY5QWstZ2JBTlJLM1lPYjVUYnJJQnRSaTZpUDhNcnc5aVVuZzBfYURTUlN0Z1paUXlBSF9uS1MzeGFCZXFHWmdERHdhUHo5YUZCRFo0VjZuYWpMQ2pTVF9kV0dHNlhqOVRxUFh6WnJDSndEU1pSNmtPV1VKbTdmc2dqMFRKLURFeU9yZjFTUW9V0gHOAUFVX3lxTE9Sak1oR2UzSEJUT0FETWdMVkw4R3NsRkVRR0pwTHFZNmFxWWpleFVweE1mRFFPYW9xbU1jM2EtaFFxZW83c3BndmtfSV9vQlB5RWlzSmlZWU1qWFM5MU9OX3RjeTdWNFRZdWhUSS00T3F6TVk3aDlIaExtRXVZWDhXQTlJZkVyWVpRTXNMT3RHMldoZmtldThGdkVOa05jUTdwUmg3eUJ0YXRsN25fUF9JcG82X21BQlBZMUlycHl2T05YMU1vdnMySFYzaUp3?oc=5",
       "date": "Fri, 04 Sep 2026 09:51:54 GMT",
+      "category": "Trending",
+      "language": "en",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "“I haven’t been paid”: McDonald’s India X account allegedly hacked by intern, posts later deleted - Storyboard18",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQWhJNnhFaFRkNjFGRF9ENjEybGd1VXprbmV6MEhmLXJPdG1wVVZqcXcxczlWQnRhZXJWVU00UktaYk5zN2tSOGFmejdvZGxXRnVXNUFDd2VTZjNCVExJOG9Fa0ZBZ0RJQmdxQ0Fha0lsbmR6bWZBVUphc3FvR01oeUx2TFFPcHRqR25RYW80VFBqMmllOXk2S0NQOWJfSlV5azMtYUI0dzBLOW1lZ2NERWR2dUFKNDM1UUlFckRISVJhMFg5cjducmphakR0T215TUp0V2h3Y9IB3AFBVV95cUxORURCSy1VM0VSbzA3aDRsT3JRcUF1aFltVmNibnBLN3NfVUtZQzlhWC0xMmtjODNkQ2JfLWNveEE4dzNQRXhSMHpjWWZvejF4NWxxSmZRZktlM2hJSVhEQm8tWG9nUVdFRVE4azJidG9ic3ZyZ0JiUElqWlpEdU9EaTdIdmVoT1RYRXdpYl9aNjNTNXdTZmNBZjNiQjlBRGNyUVY3Wmlnb3NUajVBSTlYdWhVMkJIUlJKWEotUWptU2lhNzk3Z3RYaGx1SjNIZE1UNmhKX3lHU1RDRUJj?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQWhJNnhFaFRkNjFGRF9ENjEybGd1VXprbmV6MEhmLXJPdG1wVVZqcXcxczlWQnRhZXJWVU00UktaYk5zN2tSOGFmejdvZGxXRnVXNUFDd2VTZjNCVExJOG9Fa0ZBZ0RJQmdxQ0Fha0lsbmR6bWZBVUphc3FvR01oeUx2TFFPcHRqR25RYW80VFBqMmllOXk2S0NQOWJfSlV5azMtYUI0dzBLOW1lZ2NERWR2dUFKNDM1UUlFckRISVJhMFg5cjducmphakR0T215TUp0V2h3Y9IB3AFBVV95cUxORURCSy1VM0VSbzA3aDRsT3JRcUF1aFltVmNibnBLN3NfVUtZQzlhWC0xMmtjODNkQ2JfLWNveEE4dzNQRXhSMHpjWWZvejF4NWxxSmZRZktlM2hJSVhEQm8tWG9nUVdFRVE4azJidG9ic3ZyZ0JiUElqWlpEdU9EaTdIdmVoT1RYRXdpYl9aNjNTNXdTZmNBZjNiQjlBRGNyUVY3Wmlnb3NUajVBSTlYdWhVMkJIUlJKWEotUWptU2lhNzk3Z3RYaGx1SjNIZE1UNmhKX3lHU1RDRUJj?oc=5",
+      "date": "Sun, 06 Sep 2026 08:11:02 GMT",
       "category": "Trending",
       "language": "en",
       "source": "Google News",
@@ -337,17 +348,6 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT1E5SW5WUTQ4U3FZVkNXNUswcUQtVUszOEh6QzliTTR3QlpKdHFWRURweTZnSWRYbzJWLUZ2Tnc2ZFkyNnQxWVVQZ2gwZ1I2S3h5bVR2R25xa2djWXdZMTBxaTB6LTAwNDJYaUpmNFpFaWt5VlVFTTFoMXJRWW04VjJiaFdmZjVINHcwQS1ZY3Jvelkzb2QzVkJPZUR6LXR0SzBNdmtscFoyaW53Q2d30gG3AUFVX3lxTFAyYnJTWWhrQnlzT1E4STdjbDNCRGJ5bkNpTkFza3lycFlaQzBHQ3gzbXAzemFaeFU4MlFCZG9wQnBsbElpMmhFSm50dWZoVnpqTzVfcVB6QjUtZFh3TGZwVzFuZ2hKa2RhUmYwblZ2Szg1SXZoQlJtQzZObWs0TFBBeU8yXzRmVFYtN1BzWlZMYTlLcjlkVmJOaG1Ra1JfYnRRR0F4bUJBX0ZMZlpDaEVKTGM1a3ZTaw?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNT1E5SW5WUTQ4U3FZVkNXNUswcUQtVUszOEh6QzliTTR3QlpKdHFWRURweTZnSWRYbzJWLUZ2Tnc2ZFkyNnQxWVVQZ2gwZ1I2S3h5bVR2R25xa2djWXdZMTBxaTB6LTAwNDJYaUpmNFpFaWt5VlVFTTFoMXJRWW04VjJiaFdmZjVINHcwQS1ZY3Jvelkzb2QzVkJPZUR6LXR0SzBNdmtscFoyaW53Q2d30gG3AUFVX3lxTFAyYnJTWWhrQnlzT1E4STdjbDNCRGJ5bkNpTkFza3lycFlaQzBHQ3gzbXAzemFaeFU4MlFCZG9wQnBsbElpMmhFSm50dWZoVnpqTzVfcVB6QjUtZFh3TGZwVzFuZ2hKa2RhUmYwblZ2Szg1SXZoQlJtQzZObWs0TFBBeU8yXzRmVFYtN1BzWlZMYTlLcjlkVmJOaG1Ra1JfYnRRR0F4bUJBX0ZMZlpDaEVKTGM1a3ZTaw?oc=5",
       "date": "Sat, 05 Sep 2026 15:32:01 GMT",
-      "category": "Trending",
-      "language": "en",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
-      "title": "“I haven’t been paid”: McDonald’s India X account allegedly hacked by intern, posts later deleted - storyboard18.com",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQWhJNnhFaFRkNjFGRF9ENjEybGd1VXprbmV6MEhmLXJPdG1wVVZqcXcxczlWQnRhZXJWVU00UktaYk5zN2tSOGFmejdvZGxXRnVXNUFDd2VTZjNCVExJOG9Fa0ZBZ0RJQmdxQ0Fha0lsbmR6bWZBVUphc3FvR01oeUx2TFFPcHRqR25RYW80VFBqMmllOXk2S0NQOWJfSlV5azMtYUI0dzBLOW1lZ2NERWR2dUFKNDM1UUlFckRISVJhMFg5cjducmphakR0T215TUp0V2h3Y9IB3AFBVV95cUxORURCSy1VM0VSbzA3aDRsT3JRcUF1aFltVmNibnBLN3NfVUtZQzlhWC0xMmtjODNkQ2JfLWNveEE4dzNQRXhSMHpjWWZvejF4NWxxSmZRZktlM2hJSVhEQm8tWG9nUVdFRVE4azJidG9ic3ZyZ0JiUElqWlpEdU9EaTdIdmVoT1RYRXdpYl9aNjNTNXdTZmNBZjNiQjlBRGNyUVY3Wmlnb3NUajVBSTlYdWhVMkJIUlJKWEotUWptU2lhNzk3Z3RYaGx1SjNIZE1UNmhKX3lHU1RDRUJj?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQWhJNnhFaFRkNjFGRF9ENjEybGd1VXprbmV6MEhmLXJPdG1wVVZqcXcxczlWQnRhZXJWVU00UktaYk5zN2tSOGFmejdvZGxXRnVXNUFDd2VTZjNCVExJOG9Fa0ZBZ0RJQmdxQ0Fha0lsbmR6bWZBVUphc3FvR01oeUx2TFFPcHRqR25RYW80VFBqMmllOXk2S0NQOWJfSlV5azMtYUI0dzBLOW1lZ2NERWR2dUFKNDM1UUlFckRISVJhMFg5cjducmphakR0T215TUp0V2h3Y9IB3AFBVV95cUxORURCSy1VM0VSbzA3aDRsT3JRcUF1aFltVmNibnBLN3NfVUtZQzlhWC0xMmtjODNkQ2JfLWNveEE4dzNQRXhSMHpjWWZvejF4NWxxSmZRZktlM2hJSVhEQm8tWG9nUVdFRVE4azJidG9ic3ZyZ0JiUElqWlpEdU9EaTdIdmVoT1RYRXdpYl9aNjNTNXdTZmNBZjNiQjlBRGNyUVY3Wmlnb3NUajVBSTlYdWhVMkJIUlJKWEotUWptU2lhNzk3Z3RYaGx1SjNIZE1UNmhKX3lHU1RDRUJj?oc=5",
-      "date": "Sun, 06 Sep 2026 08:11:02 GMT",
       "category": "Trending",
       "language": "en",
       "source": "Google News",
@@ -399,7 +399,7 @@
       "translations": {}
     },
     {
-      "title": "Viral News: पाकिस्तान हाई कमीशन के बाहर हटा सुरक्षा घेरा, भारत का करारा जवाब! - ABP News",
+      "title": "Viral News: पाकिस्तान हाई कमीशन के बाहर हटा सुरक्षा घेरा, भारत का करारा जवाब! - abplive.com",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX2g0OGl1NGpEcUp1SXdoNmktQWE5NmszaGdqNXpHdC1teGNnTWpzX2Jja3oyWUNEekJ6dmFDWlhXN1hsYmMxM0R0QWY3OUhHSGhmSWRDU1pEdDJxcTVpTThEM1dteWxsa2xKemNOZWk2S3ZZdG9Ia1l0bjB4ZURnOEVuamtfa19MdXVIUC01c0xJWkVSeHBLSWxCRUpQb2NqTTVFRnpJVUxoSkdtaWRfV1FXcm1xZjhoOFlLN0NfOWppZUNzd3dpamdVX3hsSEh5N2lxbzJn?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX2g0OGl1NGpEcUp1SXdoNmktQWE5NmszaGdqNXpHdC1teGNnTWpzX2Jja3oyWUNEekJ6dmFDWlhXN1hsYmMxM0R0QWY3OUhHSGhmSWRDU1pEdDJxcTVpTThEM1dteWxsa2xKemNOZWk2S3ZZdG9Ia1l0bjB4ZURnOEVuamtfa19MdXVIUC01c0xJWkVSeHBLSWxCRUpQb2NqTTVFRnpJVUxoSkdtaWRfV1FXcm1xZjhoOFlLN0NfOWppZUNzd3dpamdVX3hsSEh5N2lxbzJn?oc=5",
       "date": "Thu, 20 Aug 2026 07:00:00 GMT",
