@@ -1,34 +1,12 @@
 {
-  "updated": "2026-10-13T23:34:05.332220+00:00",
+  "updated": "2026-10-14T03:08:27.361098+00:00",
   "total": 40,
   "news": [
     {
-      "title": "Generate questions at last minute to prevent paper leaks: Nilekani - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOEhIVmN4cnJVb2I4ZG85ZzJ0LWpUOUNYbnZoYzctTUZlc3dzYWdfU092WjNEU2tNNnJCT1M2cDlqb0VNVWRITDRJVFJuN1RaU2R5ODB6SWEzNGcwOTZaM3ZPdDJCbkN5cjJ0WFpGRlE2djhhUzVIR0xKT01RaEU4MzdMRExiTUxFcFo1QWxuT3hIT1JVUm9tVTlnTXdxMUlpajgxOXBIQzdwZWswRHMydGhaRmtvWkFldXZ5dXFHeUxtNW9DQWYwVzNhSTdoQdIB0wFBVV95cUxOMVVXNEZ3dUpCUVNRTE5scHIwLXBhbWw4S1JhN1dLWEppWTB1NTRsR2c2Qnp6T3N5bTh1eHZYVXBsbnZ4WG4tN2xFLTFPdWF6Q2cwV2VNanBGc1hjeGFEZXAxVUc1R280MXN5Sk45dmdSZGo5MnY3MjlwMkhkbUVjVTBiNkR2ZXM3aEZLY3ZCZ2M5S0pvQl9kYThYbUZTOWtqMHVHY0ZOSktIQUVsbE1UQWFUNmMzNWd3c3FWd1I2ZGdSNkhvVnEtS1lkVVQxeVlQRjkw?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOEhIVmN4cnJVb2I4ZG85ZzJ0LWpUOUNYbnZoYzctTUZlc3dzYWdfU092WjNEU2tNNnJCT1M2cDlqb0VNVWRITDRJVFJuN1RaU2R5ODB6SWEzNGcwOTZaM3ZPdDJCbkN5cjJ0WFpGRlE2djhhUzVIR0xKT01RaEU4MzdMRExiTUxFcFo1QWxuT3hIT1JVUm9tVTlnTXdxMUlpajgxOXBIQzdwZWswRHMydGhaRmtvWkFldXZ5dXFHeUxtNW9DQWYwVzNhSTdoQdIB0wFBVV95cUxOMVVXNEZ3dUpCUVNRTE5scHIwLXBhbWw4S1JhN1dLWEppWTB1NTRsR2c2Qnp6T3N5bTh1eHZYVXBsbnZ4WG4tN2xFLTFPdWF6Q2cwV2VNanBGc1hjeGFEZXAxVUc1R280MXN5Sk45dmdSZGo5MnY3MjlwMkhkbUVjVTBiNkR2ZXM3aEZLY3ZCZ2M5S0pvQl9kYThYbUZTOWtqMHVHY0ZOSktIQUVsbE1UQWFUNmMzNWd3c3FWd1I2ZGdSNkhvVnEtS1lkVVQxeVlQRjkw?oc=5",
-      "date": "Tue, 13 Oct 2026 22:43:00 GMT",
-      "category": "India",
-      "language": "en",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
-      "title": "INDIA bloc challenges SIR process but not its validity - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVNLUmtiZ01vWC1NdEZhNnVzTnBkZDNfb2wzYVR6Y0tzcHdaUGVxN1J0aVh0UDhrdW5GTUdhX2ZSZTFIbXJVQ2ZEMTV5VFByWTFNMHhRQzI5ZU5fSHVEWEFFQW01djlGMzNkbEwyR3dSc2hJd2thdDgtalRSVEpmSVFKbnZfdlFNYjh1R2doZ2tPb1FLVUFZSlJESHZHNE41aC16dVRraGhwMmp2bklXRUFpM1V2VThiem16VmlKRdIBxAFBVV95cUxNVmJ2YWlXTnJyOEZjZ2hyTEdJMUNfeGxNQWtxMmVsWmIxemJiNmpxYjVtLTR4Ym1uYXdvRE5TOXhwSVVmWlZEOUdXeElkYmVHTy1RRHd1Rm10MTE4TDBaNDFLb0xMTjVnZm1DN3hGbmZXNGxXb3Jsd09iRnNoU09SYmFYdEdIamRkZ21JNEZxWkd2eDBLZnBwbEZkSFRWXzNlX1Nwa2xfVVZhVV9PdEptTk9wZEIwSDJpdjhZVVVJSzYtbS1K?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVNLUmtiZ01vWC1NdEZhNnVzTnBkZDNfb2wzYVR6Y0tzcHdaUGVxN1J0aVh0UDhrdW5GTUdhX2ZSZTFIbXJVQ2ZEMTV5VFByWTFNMHhRQzI5ZU5fSHVEWEFFQW01djlGMzNkbEwyR3dSc2hJd2thdDgtalRSVEpmSVFKbnZfdlFNYjh1R2doZ2tPb1FLVUFZSlJESHZHNE41aC16dVRraGhwMmp2bklXRUFpM1V2VThiem16VmlKRdIBxAFBVV95cUxNVmJ2YWlXTnJyOEZjZ2hyTEdJMUNfeGxNQWtxMmVsWmIxemJiNmpxYjVtLTR4Ym1uYXdvRE5TOXhwSVVmWlZEOUdXeElkYmVHTy1RRHd1Rm10MTE4TDBaNDFLb0xMTjVnZm1DN3hGbmZXNGxXb3Jsd09iRnNoU09SYmFYdEdIamRkZ21JNEZxWkd2eDBLZnBwbEZkSFRWXzNlX1Nwa2xfVVZhVV9PdEptTk9wZEIwSDJpdjhZVVVJSzYtbS1K?oc=5",
-      "date": "Tue, 13 Oct 2026 22:46:00 GMT",
-      "category": "India",
-      "language": "en",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
-      "title": "'Whistle-blower' CRPF officer seeks probe into 'mistreatment' of protesters - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRnQteFM4U3QxUEo5WENWVkkzMmYwV2ZEb2g5RmpEamo0LXlJdWdIVUtOXzhzdy14aHVjUlJlN0NiZEpnajRpSUtyV09kQWFwUW5RYzlXenNVZGhHM3pvWkpBYnJQckh1aTJmd0tRLXQ3aEJjY08zSkNtR1JULUFKZU9GdDdRZmVMaExyQWhXdTJIVEJ1S2lvbW5EREE4akhUUE1saG1NZ2lWbHROOUNobVhEX21SeW9Yd3NIek12d1dzWmRlSDU4aUdBRlgwSW5yX2lzeDVn0gHbAUFVX3lxTE5TRGNQRHRTazFva2taN1RoOXpTUnNWMy1iMFptSHoyajlrelNLQU1wNWJOQi1KNEFmTkF3NlpXbHFZaFRlai1xQVdsaEg3MWNkYm1ZMTVtdmllVGlsOGROLVZ0TDJJNDhNSzAyNnFGR3d5cmdydzh5WU5MbWRVeHdHMXhETUZJX3FmNkE0UlFWelIwbHJHMkVwNmVyeE9WcWlEMDFtdmJDWnpJb0c1UGl6NUtObGc5TDZkWXdVWEVpbjRnNG01YXBzWGZ3TVlnZDRTc3lvVEFiVEZLcw?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRnQteFM4U3QxUEo5WENWVkkzMmYwV2ZEb2g5RmpEamo0LXlJdWdIVUtOXzhzdy14aHVjUlJlN0NiZEpnajRpSUtyV09kQWFwUW5RYzlXenNVZGhHM3pvWkpBYnJQckh1aTJmd0tRLXQ3aEJjY08zSkNtR1JULUFKZU9GdDdRZmVMaExyQWhXdTJIVEJ1S2lvbW5EREE4akhUUE1saG1NZ2lWbHROOUNobVhEX21SeW9Yd3NIek12d1dzWmRlSDU4aUdBRlgwSW5yX2lzeDVn0gHbAUFVX3lxTE5TRGNQRHRTazFva2taN1RoOXpTUnNWMy1iMFptSHoyajlrelNLQU1wNWJOQi1KNEFmTkF3NlpXbHFZaFRlai1xQVdsaEg3MWNkYm1ZMTVtdmllVGlsOGROLVZ0TDJJNDhNSzAyNnFGR3d5cmdydzh5WU5MbWRVeHdHMXhETUZJX3FmNkE0UlFWelIwbHJHMkVwNmVyeE9WcWlEMDFtdmJDWnpJb0c1UGl6NUtObGc5TDZkWXdVWEVpbjRnNG01YXBzWGZ3TVlnZDRTc3lvVEFiVEZLcw?oc=5",
-      "date": "Tue, 13 Oct 2026 22:21:00 GMT",
+      "title": "What Happened At Rahul Gandhi's High Tea With INDIA Bloc: Inside Story - NDTV",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM05nX05TZGxrRzd0Um4tU1BFMUZDU3k2RHUwYmQ5MUNuaGgtSkJSbGtoY1RFN0gwSzN3ZnhlSUVlT2NtWWdKTFF1ZjRvQWRNTUtWZzFaZkRuNmxpUXVkYUR2MzFfYktfcE5xTTlvQkVqRHZOUDBZLThxWm05VVlBaWZoRGJUcFl0X3BmVnRRWmZ5Sm9LOEZfMmxsRXJzU0JCWlluMXo0Nk5iNVlrbzFHeDFPbnbSAbwBQVVfeXFMUFdWZXNwSWs0QTNObmU0M2NlcjFGMmdaUy1UQ0xxYVhVd21rZ0VHMEtDbmNZV1c5Mm5MZ09xanJTX1FRMzFDZkFucndtQll0aEM3dDcyUml6UGNqM3NIUHlqT2JKeW9vc19lRHdacWc0UTAzUkswUWlhY1JJcTVhdThVOEVqTzIySXNoRXNsRWVHaVVhd19OM1BJa0MxMjQ5dl9PWWpWZ0xYYjR1c2dFNE9pekYxX2s1cWZfR2s?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM05nX05TZGxrRzd0Um4tU1BFMUZDU3k2RHUwYmQ5MUNuaGgtSkJSbGtoY1RFN0gwSzN3ZnhlSUVlT2NtWWdKTFF1ZjRvQWRNTUtWZzFaZkRuNmxpUXVkYUR2MzFfYktfcE5xTTlvQkVqRHZOUDBZLThxWm05VVlBaWZoRGJUcFl0X3BmVnRRWmZ5Sm9LOEZfMmxsRXJzU0JCWlluMXo0Nk5iNVlrbzFHeDFPbnbSAbwBQVVfeXFMUFdWZXNwSWs0QTNObmU0M2NlcjFGMmdaUy1UQ0xxYVhVd21rZ0VHMEtDbmNZV1c5Mm5MZ09xanJTX1FRMzFDZkFucndtQll0aEM3dDcyUml6UGNqM3NIUHlqT2JKeW9vc19lRHdacWc0UTAzUkswUWlhY1JJcTVhdThVOEVqTzIySXNoRXNsRWVHaVVhd19OM1BJa0MxMjQ5dl9PWWpWZ0xYYjR1c2dFNE9pekYxX2s1cWZfR2s?oc=5",
+      "date": "Tue, 13 Oct 2026 19:20:18 GMT",
       "category": "India",
       "language": "en",
       "source": "Google News",
@@ -47,10 +25,10 @@
       "translations": {}
     },
     {
-      "title": "'SIR Recent, Congress Has Been Losing Polls Under Rahul Gandhi': Amit Shah - NDTV",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVjdFSFlZQjgtZ1k1REdEWWd1VmxFWFdrLUZpOTY4Wm9SMWFfNFRSbndSUS1YY0VEOFJWLVZrcHZobE5YdURZRjRIOXlldWx3NVlqYTc4cmNvajVGLWRPWmZQUE5aQ2xmREpFSjdVRExva1pCcktnelRHcHpVczhWbTloTlhLMXVROGFYRUsxeU5aWERyYzIxSGd6ZDJYVHhhck5mNlJ1MHlWdDdyYjk5U293TzdlQUctYmJZ0gHDAUFVX3lxTE9LOFBILTNiRHpqMmx4ejNnNjRORjhiTk1neVFyU1V2dXhDd1JjZ2ozaVlaUHRSY0tPcUU0dGxNMjFJdFBEbmJBTFR6Xzh3TXRWdVU2WEhBajZPelR2UFdFUGNUS0xrbUdkYm5BQVFONVBOSGphcWpCUW1Vemk1YXI0ank3bEF0enl6TU16MmJ2VFExRzc4Q05oT201WUtDZmltM29DcENPZ3ZWVjdyUkZ2S2dFSnN0VWhFUkVpQ3RieVk0aw?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVjdFSFlZQjgtZ1k1REdEWWd1VmxFWFdrLUZpOTY4Wm9SMWFfNFRSbndSUS1YY0VEOFJWLVZrcHZobE5YdURZRjRIOXlldWx3NVlqYTc4cmNvajVGLWRPWmZQUE5aQ2xmREpFSjdVRExva1pCcktnelRHcHpVczhWbTloTlhLMXVROGFYRUsxeU5aWERyYzIxSGd6ZDJYVHhhck5mNlJ1MHlWdDdyYjk5U293TzdlQUctYmJZ0gHDAUFVX3lxTE9LOFBILTNiRHpqMmx4ejNnNjRORjhiTk1neVFyU1V2dXhDd1JjZ2ozaVlaUHRSY0tPcUU0dGxNMjFJdFBEbmJBTFR6Xzh3TXRWdVU2WEhBajZPelR2UFdFUGNUS0xrbUdkYm5BQVFONVBOSGphcWpCUW1Vemk1YXI0ank3bEF0enl6TU16MmJ2VFExRzc4Q05oT201WUtDZmltM29DcENPZ3ZWVjdyUkZ2S2dFSnN0VWhFUkVpQ3RieVk0aw?oc=5",
-      "date": "Tue, 13 Oct 2026 13:57:11 GMT",
+      "title": "INDIA bloc challenges SIR process but not its validity - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVNLUmtiZ01vWC1NdEZhNnVzTnBkZDNfb2wzYVR6Y0tzcHdaUGVxN1J0aVh0UDhrdW5GTUdhX2ZSZTFIbXJVQ2ZEMTV5VFByWTFNMHhRQzI5ZU5fSHVEWEFFQW01djlGMzNkbEwyR3dSc2hJd2thdDgtalRSVEpmSVFKbnZfdlFNYjh1R2doZ2tPb1FLVUFZSlJESHZHNE41aC16dVRraGhwMmp2bklXRUFpM1V2VThiem16VmlKRdIBxAFBVV95cUxNVmJ2YWlXTnJyOEZjZ2hyTEdJMUNfeGxNQWtxMmVsWmIxemJiNmpxYjVtLTR4Ym1uYXdvRE5TOXhwSVVmWlZEOUdXeElkYmVHTy1RRHd1Rm10MTE4TDBaNDFLb0xMTjVnZm1DN3hGbmZXNGxXb3Jsd09iRnNoU09SYmFYdEdIamRkZ21JNEZxWkd2eDBLZnBwbEZkSFRWXzNlX1Nwa2xfVVZhVV9PdEptTk9wZEIwSDJpdjhZVVVJSzYtbS1K?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQLVNLUmtiZ01vWC1NdEZhNnVzTnBkZDNfb2wzYVR6Y0tzcHdaUGVxN1J0aVh0UDhrdW5GTUdhX2ZSZTFIbXJVQ2ZEMTV5VFByWTFNMHhRQzI5ZU5fSHVEWEFFQW01djlGMzNkbEwyR3dSc2hJd2thdDgtalRSVEpmSVFKbnZfdlFNYjh1R2doZ2tPb1FLVUFZSlJESHZHNE41aC16dVRraGhwMmp2bklXRUFpM1V2VThiem16VmlKRdIBxAFBVV95cUxNVmJ2YWlXTnJyOEZjZ2hyTEdJMUNfeGxNQWtxMmVsWmIxemJiNmpxYjVtLTR4Ym1uYXdvRE5TOXhwSVVmWlZEOUdXeElkYmVHTy1RRHd1Rm10MTE4TDBaNDFLb0xMTjVnZm1DN3hGbmZXNGxXb3Jsd09iRnNoU09SYmFYdEdIamRkZ21JNEZxWkd2eDBLZnBwbEZkSFRWXzNlX1Nwa2xfVVZhVV9PdEptTk9wZEIwSDJpdjhZVVVJSzYtbS1K?oc=5",
+      "date": "Tue, 13 Oct 2026 22:46:00 GMT",
       "category": "India",
       "language": "en",
       "source": "Google News",
@@ -58,10 +36,32 @@
       "translations": {}
     },
     {
-      "title": "INDIA bloc marches through Delhi, takes SIR protest to Supreme Court - The Hindu",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa2I0bUNrTWxKNXRPU2d6Ymp5bDJxRlh0b1ZoU2x6OGVfOXhwbXFzZUxpRGZtSDJfMFlPMU0tcmNHajdrclZmQXAydTJxUEFMblpzU1ZyR1JWc3dQcVltS255N2t2V1c2SGJmRWlGOFAyZ2lwN0hfUlFpRWxMek1jWXlqeFZDelhSQ0d5by1yRWl2Z3hMdjVIMzBWZjh5YUhSN3NsTVpFVTlIOFhJSUpoQXp6dmpoUdIBvAFBVV95cUxNN0dHcGloMVRIbF9fNmYwbHlWRnl6X3lwdE1BcUYwejZHZ19YUGViNTBRbWtiazk4c2F0WnVKVUx3LXdCRUkwT3A2eDNHT2duRGZnNmQ5amxkZktqSnUtMzVvTDJ4cWJleExDTFRyekYyblpwbTl0WWVUX1k2ZG80NWl3VExQcXYyNmdyUE1NdHZGSHJsMkMweE8wRDFQN2NIbjdBRmdKa205SVBhN0NUbll2dDhrWVdDcnZFMw?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa2I0bUNrTWxKNXRPU2d6Ymp5bDJxRlh0b1ZoU2x6OGVfOXhwbXFzZUxpRGZtSDJfMFlPMU0tcmNHajdrclZmQXAydTJxUEFMblpzU1ZyR1JWc3dQcVltS255N2t2V1c2SGJmRWlGOFAyZ2lwN0hfUlFpRWxMek1jWXlqeFZDelhSQ0d5by1yRWl2Z3hMdjVIMzBWZjh5YUhSN3NsTVpFVTlIOFhJSUpoQXp6dmpoUdIBvAFBVV95cUxNN0dHcGloMVRIbF9fNmYwbHlWRnl6X3lwdE1BcUYwejZHZ19YUGViNTBRbWtiazk4c2F0WnVKVUx3LXdCRUkwT3A2eDNHT2duRGZnNmQ5amxkZktqSnUtMzVvTDJ4cWJleExDTFRyekYyblpwbTl0WWVUX1k2ZG80NWl3VExQcXYyNmdyUE1NdHZGSHJsMkMweE8wRDFQN2NIbjdBRmdKa205SVBhN0NUbll2dDhrWVdDcnZFMw?oc=5",
-      "date": "Mon, 12 Oct 2026 17:13:01 GMT",
+      "title": "Modi speaks to Carney, says India and Canada contribute to stable, prosperous world - The Hindu",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNblQ4SkxhWU1EV1dlMnNScHNoZTEwZWVTTW51eTNIem82czFNUXZ5Uzh5MmFBdlByTmVySE1WRTNMdXZ5VHVXVVdoUVRGNmRWVGVkdDdPQnB2R0M4Rzk3RlZEYmliNUh5OUNMLU1aNkY5V3E2NXpPM01yTW5sZXNJWXRaTmNmS2kxVHl4UE9yOGpYeURfZU00aUVrb1diaUlzUUwySFctRy1PODV3U09ubWFDYk1iLUhjNWJrVFRsN2FSd2pTaFRTX0dLS0xUNU4yMEVTaThqQdIB3gFBVV95cUxOWTFwSVFnRXVtd3MxXzNFVDl0ZDcxd1hkRUdMWjhPaTIxV3VUNlVXVWh5VU1lcm5fcGgzY0M0WW9HU3pvMUZLcTZTQUgtVjRVQzJPcmxxUUlybmJmLVpPWVRkdkM2RmMtbFpOOUxvRnVjU0U4aVAzc2NwUUVWMEs1cVdRSExCUF9zR0hEZVk3eVJyZzQwWXJ3dk9vUDNvV19JQkI2Z2wyUFVSdWVod0NsdF9uMGYzXzdDRU9GTzFZZW94WmVGNU03WFFpN2w0NmxzOFN2ZmFfNk1UU0xRQlE?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNblQ4SkxhWU1EV1dlMnNScHNoZTEwZWVTTW51eTNIem82czFNUXZ5Uzh5MmFBdlByTmVySE1WRTNMdXZ5VHVXVVdoUVRGNmRWVGVkdDdPQnB2R0M4Rzk3RlZEYmliNUh5OUNMLU1aNkY5V3E2NXpPM01yTW5sZXNJWXRaTmNmS2kxVHl4UE9yOGpYeURfZU00aUVrb1diaUlzUUwySFctRy1PODV3U09ubWFDYk1iLUhjNWJrVFRsN2FSd2pTaFRTX0dLS0xUNU4yMEVTaThqQdIB3gFBVV95cUxOWTFwSVFnRXVtd3MxXzNFVDl0ZDcxd1hkRUdMWjhPaTIxV3VUNlVXVWh5VU1lcm5fcGgzY0M0WW9HU3pvMUZLcTZTQUgtVjRVQzJPcmxxUUlybmJmLVpPWVRkdkM2RmMtbFpOOUxvRnVjU0U4aVAzc2NwUUVWMEs1cVdRSExCUF9zR0hEZVk3eVJyZzQwWXJ3dk9vUDNvV19JQkI2Z2wyUFVSdWVod0NsdF9uMGYzXzdDRU9GTzFZZW94WmVGNU03WFFpN2w0NmxzOFN2ZmFfNk1UU0xRQlE?oc=5",
+      "date": "Tue, 13 Oct 2026 18:11:18 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "After Lockdown, Sea of Protesters Flows Through India’s Capital - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaDR1VTA1b2plX21MRFBhUVJMc25FRkItN1Frejl4SVhObngtLXlHN2ZTXzlkbUxkZ1IyX3dPeXZQOER3QmVwOGtXMFRkcHA2aUhweWpHR25IT2FRYWpvQ2l3TG5Xa2I2WFVzU0FLUkNFWGhtMmFVVnBLY3BLcUpfMHZjZTBEQkJUWGdmd1FLdTU?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaDR1VTA1b2plX21MRFBhUVJMc25FRkItN1Frejl4SVhObngtLXlHN2ZTXzlkbUxkZ1IyX3dPeXZQOER3QmVwOGtXMFRkcHA2aUhweWpHR25IT2FRYWpvQ2l3TG5Xa2I2WFVzU0FLUkNFWGhtMmFVVnBLY3BLcUpfMHZjZTBEQkJUWGdmd1FLdTU?oc=5",
+      "date": "Mon, 12 Oct 2026 16:14:21 GMT",
+      "category": "India",
+      "language": "en",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "Jantar Mantar denotification vindictive, vow to fight: Opposition - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORDByNkMyTHY1T1VWcGtyX3UyR3FPQUVwX1hDQnVLZnNlTlhNaWR1OTlIZDhvZG9OOVVRbW42RVhfalBKdGFxNVJsRWpSZVdFWlluckFXYVdadWt0Vk1jRVg3VWw1MGpMbmhFV0tEeXZTZVBuMTA5WWJTMWVCYUtVWmRLNWcwRFZCMTFHYnQtVE5XcC12NXA4aGxBNHpxUTBFT1ROY3RLN2U1SmZ2SXlZSXlacWVHelI5TVdnX2c5ajFERlBOdEFCU2Exc9IB0AFBVV95cUxOejI1U1M1WlNwLXoyQmk5YnN1UWYtWjlrdkUtZmdOZldSbTZFM2NZMHBOTVVoWnVvMnpwcjhwMHBLdi1jZ2N6TVk5N1QwZHFxYkVKb240U0hTLVNOejRCNjlsUVJ6UERzSlRLUFhtNk03TGU3cHlHNU5kS1BJeWdHLW1DYWNhMjhsbVVzMXE5bWNZenhMRWRRMlliTjlDSmEwNDBkN1ZIaWpoeDA0cXZiXzhSU25ubkhpa2ZESEc2X2Rjc25BOU1wWllmaU1XaGtp?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORDByNkMyTHY1T1VWcGtyX3UyR3FPQUVwX1hDQnVLZnNlTlhNaWR1OTlIZDhvZG9OOVVRbW42RVhfalBKdGFxNVJsRWpSZVdFWlluckFXYVdadWt0Vk1jRVg3VWw1MGpMbmhFV0tEeXZTZVBuMTA5WWJTMWVCYUtVWmRLNWcwRFZCMTFHYnQtVE5XcC12NXA4aGxBNHpxUTBFT1ROY3RLN2U1SmZ2SXlZSXlacWVHelI5TVdnX2c5ajFERlBOdEFCU2Exc9IB0AFBVV95cUxOejI1U1M1WlNwLXoyQmk5YnN1UWYtWjlrdkUtZmdOZldSbTZFM2NZMHBOTVVoWnVvMnpwcjhwMHBLdi1jZ2N6TVk5N1QwZHFxYkVKb240U0hTLVNOejRCNjlsUVJ6UERzSlRLUFhtNk03TGU3cHlHNU5kS1BJeWdHLW1DYWNhMjhsbVVzMXE5bWNZenhMRWRRMlliTjlDSmEwNDBkN1ZIaWpoeDA0cXZiXzhSU25ubkhpa2ZESEc2X2Rjc25BOU1wWllmaU1XaGtp?oc=5",
+      "date": "Tue, 13 Oct 2026 23:03:00 GMT",
       "category": "India",
       "language": "en",
       "source": "Google News",
@@ -80,10 +80,10 @@
       "translations": {}
     },
     {
-      "title": "INDIA bloc files petition in SC on SIR voter deletions - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFhqTmJZdTEyTkIyVEU2RmotcXF2c095N1MteENfanpQcjAwOFQzdjNGLV8yTURxTUhvZnZQM3g0QzdZdlA2Z2hmN3JBUXZYTUptcUppc05nQkQzMTB4MzlXSk52R3VIa3pfTHUzZENyNjlVMHIxY1NSclkwUGttcFZhNzdYdGI4RkptS0Y1ZVdxZHJMdWludjM3dDV0UTdUWHBiNGI1dGhvXzhVWm1WQWRIS2hRdTRXRG5hVHJXSdIBxAFBVV95cUxOc205T1hvTWViMVF4dkUzcmFYbzlhRDBxTjZOVHNuQ0FWeTFISWt0ajNMaExZRDFxNVJNaHRtdE5yeE5QRnBDRmQzVGhqTndKQ1hqN095Yzc5d3RqOFZsMmp2Q2U2RTZnMjFZVlhUWUNySHdYdTBOQmdnSXVNUjhaRTVpRWhvdWgwcFlxLURoLUNCNEtEYm1rdEs1eUNFRjFQS0k5NHlvVmhJMTMwRDM2R29qaU8tWEg3VUw0QjhydUs4ME1R?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFhqTmJZdTEyTkIyVEU2RmotcXF2c095N1MteENfanpQcjAwOFQzdjNGLV8yTURxTUhvZnZQM3g0QzdZdlA2Z2hmN3JBUXZYTUptcUppc05nQkQzMTB4MzlXSk52R3VIa3pfTHUzZENyNjlVMHIxY1NSclkwUGttcFZhNzdYdGI4RkptS0Y1ZVdxZHJMdWludjM3dDV0UTdUWHBiNGI1dGhvXzhVWm1WQWRIS2hRdTRXRG5hVHJXSdIBxAFBVV95cUxOc205T1hvTWViMVF4dkUzcmFYbzlhRDBxTjZOVHNuQ0FWeTFISWt0ajNMaExZRDFxNVJNaHRtdE5yeE5QRnBDRmQzVGhqTndKQ1hqN095Yzc5d3RqOFZsMmp2Q2U2RTZnMjFZVlhUWUNySHdYdTBOQmdnSXVNUjhaRTVpRWhvdWgwcFlxLURoLUNCNEtEYm1rdEs1eUNFRjFQS0k5NHlvVmhJMTMwRDM2R29qaU8tWEg3VUw0QjhydUs4ME1R?oc=5",
-      "date": "Mon, 12 Oct 2026 22:48:00 GMT",
+      "title": "India updates: Opposition marches to Supreme Court against election chief - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObk1MVHRwSmRER3owV2hCcEhLMW03ZzVwSFczQWpDRHJJMXRLX05JUzhNR3h2ZHFkVDJ5S2ZjVkxjbzYwV0NQOUZ3b0FSX1FhbE4ybzd0ZWFyTno1c3J3YXBwdnZIbXVMbVVtQm9jdXU1Z0VRM3B1SG15bnZCX2sySzAxNVFXY2lGRkVXS2NhY2RibEVTSVRQN0pjWHNTdXdnLXAzQzhTWWNCOWNpcFFIVkxaRC1SZmZkSTYzN0JqTdIBxAFBVV95cUxNa3dDN1ZIRkV0TndmRGRBWkNoZVZvSE5UR1J5MDZMbEhZU2dCRWNzY0E3WHRJd0c0RkpPZll2VmVFVGpGQmRHVVZnbjkwMEhaSUkxWWR6TXMtZ2QxR2NIZU5mUFBkaV9xNkwtVG5zcWlDU3g5azBpX0UwbndNQ0d3WkhsT3d6b0F1MDA0RjBBejdqb2pLbUVvSUhUYXBnNXZLWUVpTEczcjZJNXVlaElwUmFRZy10aDZsZDBPeE80YnhSSmwx?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObk1MVHRwSmRER3owV2hCcEhLMW03ZzVwSFczQWpDRHJJMXRLX05JUzhNR3h2ZHFkVDJ5S2ZjVkxjbzYwV0NQOUZ3b0FSX1FhbE4ybzd0ZWFyTno1c3J3YXBwdnZIbXVMbVVtQm9jdXU1Z0VRM3B1SG15bnZCX2sySzAxNVFXY2lGRkVXS2NhY2RibEVTSVRQN0pjWHNTdXdnLXAzQzhTWWNCOWNpcFFIVkxaRC1SZmZkSTYzN0JqTdIBxAFBVV95cUxNa3dDN1ZIRkV0TndmRGRBWkNoZVZvSE5UR1J5MDZMbEhZU2dCRWNzY0E3WHRJd0c0RkpPZll2VmVFVGpGQmRHVVZnbjkwMEhaSUkxWWR6TXMtZ2QxR2NIZU5mUFBkaV9xNkwtVG5zcWlDU3g5azBpX0UwbndNQ0d3WkhsT3d6b0F1MDA0RjBBejdqb2pLbUVvSUhUYXBnNXZLWUVpTEczcjZJNXVlaElwUmFRZy10aDZsZDBPeE80YnhSSmwx?oc=5",
+      "date": "Mon, 12 Oct 2026 11:52:06 GMT",
       "category": "India",
       "language": "en",
       "source": "Google News",
@@ -102,10 +102,10 @@
       "translations": {}
     },
     {
-      "title": "नई दिल्ली में आज ‘भारत टेक्स-2026’ में शामिल होंगे मध्य प्रदेश के मुख्यमंत्री डॉ. मोहन यादव - News On AIR",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEVsVXRjQTZxUWg2dTc4ZGRZNndrRjcxempKWTZ4ZWZXS1lNX1JBYXpKVDJlYjVUekJvcER0UXluUVNVTnFKSG9ORTlOdUJMRVhpZGJFQjlsYml6dVJHWEJCWk5RVHhOUExDRUw0bzlJUDBNQmRGcDZBYk1tQWZjbW9nLTlPcW1aWDZSWVZsaDZjQkxXUmZNUXdfcWkxcUF4WGhsVGtaYkdwblhaN2dXaHVKcFo0ZFo4MFkwdzZQdWZTcDU4eWZj?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEVsVXRjQTZxUWg2dTc4ZGRZNndrRjcxempKWTZ4ZWZXS1lNX1JBYXpKVDJlYjVUekJvcER0UXluUVNVTnFKSG9ORTlOdUJMRVhpZGJFQjlsYml6dVJHWEJCWk5RVHhOUExDRUw0bzlJUDBNQmRGcDZBYk1tQWZjbW9nLTlPcW1aWDZSWVZsaDZjQkxXUmZNUXdfcWkxcUF4WGhsVGtaYkdwblhaN2dXaHVKcFo0ZFo4MFkwdzZQdWZTcDU4eWZj?oc=5",
-      "date": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "title": "ब्रिक्स के बाद भारत के सामने नई चुनौतियां - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDdKQ1pUdEZfc0h2M0FTS2lVQjlUT0JvN1lMWG5vTGJTNklKVEl1UUJnd3lJRkFqckdIRE0zeTZsb2w3U3NGdkdodUFDMUJFRF9EbUdoZEJuc0xCdjVZdS11a0VId3lLYTk0bUJ1UEljZnpWanR2bDR1aVFuakd4OUFraG1vZDVRNTZCRTJuczNhdDRjQVdRc0ZBTGJQMnh0ZVlkMmlGbWVCY2Vr0gGyAUFVX3lxTE4tSUJTaVVDdnk4LXpnY2llRk1mallqNVc1VmQ5Wlk2RWRGcUJ0dVRVOE0tcWd3d2lhakI0UmY0OUtYOTBDM1VtUnNqc2NXNDhfdl81ZjNsX2M5aFpJU01GZ2FCbU0tLVo4ejdhMExWOWpDVm4zbndlQTF5c096ME1FbFBvZDJpcm9jOXMxUlc0N2Y3ZEVMTER4bVE4bmYxM3NJZTE2alRoQTJtQThwYklMSGc?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUDdKQ1pUdEZfc0h2M0FTS2lVQjlUT0JvN1lMWG5vTGJTNklKVEl1UUJnd3lJRkFqckdIRE0zeTZsb2w3U3NGdkdodUFDMUJFRF9EbUdoZEJuc0xCdjVZdS11a0VId3lLYTk0bUJ1UEljZnpWanR2bDR1aVFuakd4OUFraG1vZDVRNTZCRTJuczNhdDRjQVdRc0ZBTGJQMnh0ZVlkMmlGbWVCY2Vr0gGyAUFVX3lxTE4tSUJTaVVDdnk4LXpnY2llRk1mallqNVc1VmQ5Wlk2RWRGcUJ0dVRVOE0tcWd3d2lhakI0UmY0OUtYOTBDM1VtUnNqc2NXNDhfdl81ZjNsX2M5aFpJU01GZ2FCbU0tLVo4ejdhMExWOWpDVm4zbndlQTF5c096ME1FbFBvZDJpcm9jOXMxUlc0N2Y3ZEVMTER4bVE4bmYxM3NJZTE2alRoQTJtQThwYklMSGc?oc=5",
+      "date": "Mon, 12 Oct 2026 15:44:00 GMT",
       "category": "India",
       "language": "hi",
       "source": "Google News",
@@ -113,10 +113,10 @@
       "translations": {}
     },
     {
-      "title": "भारत के 20 करोड़ मिडिल क्लास उपभोक्ता बनेंगे बाजार की नई ताकत, कंपनियां बदल रही हैं रणनीति - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUk5mdDgyX3FkMzNFRmhsejZWZ0ZERWs4OXVOcWZWeGo1VGJCUDRrc3poSjJ0aUJ2czAzODlrRE5CekNieE55UFhzVzRZZDVZOFJEVTMybldoWVQ1WGVXa0dUUjdyWjBEQUZxNmptalNySTNNOE00ckRPb0ZQUEUycVRHNWtncFZCNzFyVy02XzRjMWlPUjNnZGVMWGZ6VFBoeUdWLS1TUWFoMXliXzIwR1N3REZDMW4td3FKYmlXRdIBxgFBVV95cUxQVWtFb0dIaEQtbXNDSUphSncwT0lhNlhjQnhLU2dKTU9Fdll6ekk5T3BWSGJmSjJKM2lOY1g3Tm04bUVEaVk5bmU1bFZrNjhvLTY4ZDYzLW9yQ01MM0NCWjlDWnN5TXByTzhGanA5M3R4dFpPRkRrU0taNEVQSEViWk5ieWxGeU12cHY3UXdydURmc0ZzODRhWGFQQmpCaHRpMUloUFEtX2hibTBVZUpQSkhrNWtHRGJuZjE3QlU0dkhuNnR3MlE?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUk5mdDgyX3FkMzNFRmhsejZWZ0ZERWs4OXVOcWZWeGo1VGJCUDRrc3poSjJ0aUJ2czAzODlrRE5CekNieE55UFhzVzRZZDVZOFJEVTMybldoWVQ1WGVXa0dUUjdyWjBEQUZxNmptalNySTNNOE00ckRPb0ZQUEUycVRHNWtncFZCNzFyVy02XzRjMWlPUjNnZGVMWGZ6VFBoeUdWLS1TUWFoMXliXzIwR1N3REZDMW4td3FKYmlXRdIBxgFBVV95cUxQVWtFb0dIaEQtbXNDSUphSncwT0lhNlhjQnhLU2dKTU9Fdll6ekk5T3BWSGJmSjJKM2lOY1g3Tm04bUVEaVk5bmU1bFZrNjhvLTY4ZDYzLW9yQ01MM0NCWjlDWnN5TXByTzhGanA5M3R4dFpPRkRrU0taNEVQSEViWk5ieWxGeU12cHY3UXdydURmc0ZzODRhWGFQQmpCaHRpMUloUFEtX2hibTBVZUpQSkhrNWtHRGJuZjE3QlU0dkhuNnR3MlE?oc=5",
-      "date": "Sun, 11 Oct 2026 15:40:00 GMT",
+      "title": "नई दिल्ली में आज ‘भारत टेक्स-2026’ में शामिल होंगे मध्य प्रदेश के मुख्यमंत्री डॉ. मोहन यादव - News On AIR",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEVsVXRjQTZxUWg2dTc4ZGRZNndrRjcxempKWTZ4ZWZXS1lNX1JBYXpKVDJlYjVUekJvcER0UXluUVNVTnFKSG9ORTlOdUJMRVhpZGJFQjlsYml6dVJHWEJCWk5RVHhOUExDRUw0bzlJUDBNQmRGcDZBYk1tQWZjbW9nLTlPcW1aWDZSWVZsaDZjQkxXUmZNUXdfcWkxcUF4WGhsVGtaYkdwblhaN2dXaHVKcFo0ZFo4MFkwdzZQdWZTcDU4eWZj?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQOEVsVXRjQTZxUWg2dTc4ZGRZNndrRjcxempKWTZ4ZWZXS1lNX1JBYXpKVDJlYjVUekJvcER0UXluUVNVTnFKSG9ORTlOdUJMRVhpZGJFQjlsYml6dVJHWEJCWk5RVHhOUExDRUw0bzlJUDBNQmRGcDZBYk1tQWZjbW9nLTlPcW1aWDZSWVZsaDZjQkxXUmZNUXdfcWkxcUF4WGhsVGtaYkdwblhaN2dXaHVKcFo0ZFo4MFkwdzZQdWZTcDU4eWZj?oc=5",
+      "date": "Thu, 16 Jul 2026 07:00:00 GMT",
       "category": "India",
       "language": "hi",
       "source": "Google News",
@@ -135,6 +135,17 @@
       "translations": {}
     },
     {
+      "title": "भारत के 20 करोड़ मिडिल क्लास उपभोक्ता बनेंगे बाजार की नई ताकत, कंपनियां बदल रही हैं रणनीति - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUk5mdDgyX3FkMzNFRmhsejZWZ0ZERWs4OXVOcWZWeGo1VGJCUDRrc3poSjJ0aUJ2czAzODlrRE5CekNieE55UFhzVzRZZDVZOFJEVTMybldoWVQ1WGVXa0dUUjdyWjBEQUZxNmptalNySTNNOE00ckRPb0ZQUEUycVRHNWtncFZCNzFyVy02XzRjMWlPUjNnZGVMWGZ6VFBoeUdWLS1TUWFoMXliXzIwR1N3REZDMW4td3FKYmlXRdIBxgFBVV95cUxQVWtFb0dIaEQtbXNDSUphSncwT0lhNlhjQnhLU2dKTU9Fdll6ekk5T3BWSGJmSjJKM2lOY1g3Tm04bUVEaVk5bmU1bFZrNjhvLTY4ZDYzLW9yQ01MM0NCWjlDWnN5TXByTzhGanA5M3R4dFpPRkRrU0taNEVQSEViWk5ieWxGeU12cHY3UXdydURmc0ZzODRhWGFQQmpCaHRpMUloUFEtX2hibTBVZUpQSkhrNWtHRGJuZjE3QlU0dkhuNnR3MlE?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUk5mdDgyX3FkMzNFRmhsejZWZ0ZERWs4OXVOcWZWeGo1VGJCUDRrc3poSjJ0aUJ2czAzODlrRE5CekNieE55UFhzVzRZZDVZOFJEVTMybldoWVQ1WGVXa0dUUjdyWjBEQUZxNmptalNySTNNOE00ckRPb0ZQUEUycVRHNWtncFZCNzFyVy02XzRjMWlPUjNnZGVMWGZ6VFBoeUdWLS1TUWFoMXliXzIwR1N3REZDMW4td3FKYmlXRdIBxgFBVV95cUxQVWtFb0dIaEQtbXNDSUphSncwT0lhNlhjQnhLU2dKTU9Fdll6ekk5T3BWSGJmSjJKM2lOY1g3Tm04bUVEaVk5bmU1bFZrNjhvLTY4ZDYzLW9yQ01MM0NCWjlDWnN5TXByTzhGanA5M3R4dFpPRkRrU0taNEVQSEViWk5ieWxGeU12cHY3UXdydURmc0ZzODRhWGFQQmpCaHRpMUloUFEtX2hibTBVZUpQSkhrNWtHRGJuZjE3QlU0dkhuNnR3MlE?oc=5",
+      "date": "Sun, 11 Oct 2026 15:40:00 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
       "title": "नई दिल्ली: पीएम मोदी ने विकसित भारत के लिए नशा-मुक्त युवा संकल्प अभियान की शुरुआत की - News On AIR",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2tFem5XeGdFOVRKOUhwWWZEdnNSdGY1YV9UeVlvdkdrOWk1aDhoZzlXV0FjdDJ4Mk9mMWpkdlVpYjhuVVl2Y3VSbi1QYzlhQkJ6VjdJQ3lYQmoweVFvVlN0bmJpTTJzdlpGX2xBdTVYSUNLeFNrMFloV3ZUNTM1UV93ZzdKUzdpS1ctdXBkQ2V4WUNIbjFSUWNEdFJTY0NIUlYwN2Z2MXoteG9EUVZ1TFJPSkJvLTUxS1dtNklVaw?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2tFem5XeGdFOVRKOUhwWWZEdnNSdGY1YV9UeVlvdkdrOWk1aDhoZzlXV0FjdDJ4Mk9mMWpkdlVpYjhuVVl2Y3VSbi1QYzlhQkJ6VjdJQ3lYQmoweVFvVlN0bmJpTTJzdlpGX2xBdTVYSUNLeFNrMFloV3ZUNTM1UV93ZzdKUzdpS1ctdXBkQ2V4WUNIbjFSUWNEdFJTY0NIUlYwN2Z2MXoteG9EUVZ1TFJPSkJvLTUxS1dtNklVaw?oc=5",
@@ -146,32 +157,21 @@
       "translations": {}
     },
     {
-      "title": "बच्चों में बढ़ते मोटापे पर नोवो नॉर्डिस्क की नजर, भारत में नई दवा लाने की तैयारी - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSjFQbWdWVi1sR0pNenBrN0ExVllwUzM2NXBVal9qQzlWX1Q3YmlYRklnejdySV95RFFMR2JKWGdGREU2OTh1VGxLaW1YTXhrMjExS3BoVk5rTmtZZk5Vb0U3VExpY191T2ZBWHlDbTA5NW1lazhfTm1FUXE3X0Y2ZGVack1mNHBPX1k4NDZkQzdGQWhtZk5nVGFuUW8ycTJQcnJ2MERGYVNZenduT1ZUNjk3bzUxdGdmVVlXcFo0V2Q2eWRwY210dTRvekhEOC1SdDhhMXZRcWZFQdIB3wFBVV95cUxPMkl2TjJadUg3QXN1OWtxYVZNaGp5YTJvUHRFZjZjRVctajBNYXlQdXp1YnNLenhyNkxFOE5ubGNaQVk2RlRzbWowNnZXQ0VpV3BqT3VnY21GN2t5SWtBX1A2Y0hwWmxJbDJwSlVOVUxWbjZMOFRrdjlBQUdPaDRjZzExTWVUMS1MZjJyckdXUlpLUzBaNFY2dXI2U2VDMm9NUHRsS1ZKOE91ZUdTS1dmd3MzVGhLbklDa2xFaXdTRkREUkZjYnM5R2dEOWhrOFJqS0wyUlVHZTRhVDFJRU1J?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSjFQbWdWVi1sR0pNenBrN0ExVllwUzM2NXBVal9qQzlWX1Q3YmlYRklnejdySV95RFFMR2JKWGdGREU2OTh1VGxLaW1YTXhrMjExS3BoVk5rTmtZZk5Vb0U3VExpY191T2ZBWHlDbTA5NW1lazhfTm1FUXE3X0Y2ZGVack1mNHBPX1k4NDZkQzdGQWhtZk5nVGFuUW8ycTJQcnJ2MERGYVNZenduT1ZUNjk3bzUxdGdmVVlXcFo0V2Q2eWRwY210dTRvekhEOC1SdDhhMXZRcWZFQdIB3wFBVV95cUxPMkl2TjJadUg3QXN1OWtxYVZNaGp5YTJvUHRFZjZjRVctajBNYXlQdXp1YnNLenhyNkxFOE5ubGNaQVk2RlRzbWowNnZXQ0VpV3BqT3VnY21GN2t5SWtBX1A2Y0hwWmxJbDJwSlVOVUxWbjZMOFRrdjlBQUdPaDRjZzExTWVUMS1MZjJyckdXUlpLUzBaNFY2dXI2U2VDMm9NUHRsS1ZKOE91ZUdTS1dmd3MzVGhLbklDa2xFaXdTRkREUkZjYnM5R2dEOWhrOFJqS0wyUlVHZTRhVDFJRU1J?oc=5",
-      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "category": "India",
-      "language": "hi",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
-      "title": "मोबाइल बाजार में भारत 45% से 1% पर, चीनी ब्रांड्स 73% के पार, अब सरकार ने बनाया वापसी का प्लान - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNeTFHcWpueEJXcUhPVzZRTUxMdHlBaGtmcUtCLTNZYTZIR3gxMzE4Qk93ZHNFTkw1TkFkOWVPZFlRLTdJMVFueEk0N2p1ZzBLNUtKRWhsYkFlTTg2anZ4VHg0R1JrRW9keFlmS2ZYMl9OYWV5SGdCQ0ZOc3NCSEtYandPWHAzUlVvNnRtcG5xYUhZUnlkQ0tDV1R1WlplOV94dTkzTktrTW5hNldYOUVsMFNTVkVKNTRpWndKS3JrU0lBUVFmMm82Y05ZYWFqbU95S3ZHMGV1SVJzdUNWNkJBZ2JFOGtCWGx6b0FnVGcxcDhSR3hHXzZia1c3NXhnZmPSAYQCQVVfeXFMT01ZTXVBTFpSSW0wMzhzcFJIVGFPdE9rVTRTNXdvQ1dLT1JjNVM4SzktbmlpTEtacGlYcUlIQXpUeEgySGRvTHNsZThvTFI2eTN3Z0wzbVltTno4djVUc3dWZXgtSVhQbXJpUWxRTC1hSDJZVUVya3M1UUhyTHRQYjRMeG1YSC1YVkFZZnZKcDROOUxlbEVJYTBqSHMwbWRsWjRlOFRkaktLTGVRWU9wdVpTRlBEdUNnSHM3YTNvUG1MS2VEMldTYmhYOWRXNHY1dlgwbFhURWR3QktkNFZ4dHk4WTlGcWlScU1tdUprYXJMazI4ZTNpblZlY3NQc20zRTZaT2E?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNeTFHcWpueEJXcUhPVzZRTUxMdHlBaGtmcUtCLTNZYTZIR3gxMzE4Qk93ZHNFTkw1TkFkOWVPZFlRLTdJMVFueEk0N2p1ZzBLNUtKRWhsYkFlTTg2anZ4VHg0R1JrRW9keFlmS2ZYMl9OYWV5SGdCQ0ZOc3NCSEtYandPWHAzUlVvNnRtcG5xYUhZUnlkQ0tDV1R1WlplOV94dTkzTktrTW5hNldYOUVsMFNTVkVKNTRpWndKS3JrU0lBUVFmMm82Y05ZYWFqbU95S3ZHMGV1SVJzdUNWNkJBZ2JFOGtCWGx6b0FnVGcxcDhSR3hHXzZia1c3NXhnZmPSAYQCQVVfeXFMT01ZTXVBTFpSSW0wMzhzcFJIVGFPdE9rVTRTNXdvQ1dLT1JjNVM4SzktbmlpTEtacGlYcUlIQXpUeEgySGRvTHNsZThvTFI2eTN3Z0wzbVltTno4djVUc3dWZXgtSVhQbXJpUWxRTC1hSDJZVUVya3M1UUhyTHRQYjRMeG1YSC1YVkFZZnZKcDROOUxlbEVJYTBqSHMwbWRsWjRlOFRkaktLTGVRWU9wdVpTRlBEdUNnSHM3YTNvUG1MS2VEMldTYmhYOWRXNHY1dlgwbFhURWR3QktkNFZ4dHk4WTlGcWlScU1tdUprYXJMazI4ZTNpblZlY3NQc20zRTZaT2E?oc=5",
-      "date": "Fri, 02 Oct 2026 07:00:00 GMT",
-      "category": "India",
-      "language": "hi",
-      "source": "Google News",
-      "summary": "",
-      "translations": {}
-    },
-    {
       "title": "नई दिल्ली में इंडिया-एआई इम्पैक्ट समिट 2026 के पांचवे दिन आज नेताओं के साझा घोषणा पत्र को अपनाया जाएगा - News On AIR",
       "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPX2JOUExTd2gxblFZdkhGUXVVSlpsRHpDRTFXU0VlUjZ6SHJ4QkFPU2YyQUEwRkFONWlIN0tCWUFreml1ZlliYXByMFc3d2lWMnJsLVZZMDFXRmgtazhnRUdET19VX0Y3WENqcERFZjAtV1JtODRUbTFIRzZ1cDhHWmJuNm9PLTJPUnh2ckUweGpuTlBCT05rOE84Q2g5cGF5dGtmQVY2YTh4ZzVGS05TZFBSN0E1d1pWWXFTNWRya0FkU3VQQ01HYzFUbF8za1hPZ0F2ZjBkZWxBOUtXTnhrV3pWYnd0bGNBLVFiU2Q2bVd4bUJZcHNIRnI0NV9RTnplM25pamczbGl4NFdOOGJnNDBwLWZXay1peEt3cW5nNlNfZ3R0Tjk3UHNTU3J0UldBSFh2SGFvdWRIa05ERWZKWnprSzBIcUhk?oc=5",
       "originalLink": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPX2JOUExTd2gxblFZdkhGUXVVSlpsRHpDRTFXU0VlUjZ6SHJ4QkFPU2YyQUEwRkFONWlIN0tCWUFreml1ZlliYXByMFc3d2lWMnJsLVZZMDFXRmgtazhnRUdET19VX0Y3WENqcERFZjAtV1JtODRUbTFIRzZ1cDhHWmJuNm9PLTJPUnh2ckUweGpuTlBCT05rOE84Q2g5cGF5dGtmQVY2YTh4ZzVGS05TZFBSN0E1d1pWWXFTNWRya0FkU3VQQ01HYzFUbF8za1hPZ0F2ZjBkZWxBOUtXTnhrV3pWYnd0bGNBLVFiU2Q2bVd4bUJZcHNIRnI0NV9RTnplM25pamczbGl4NFdOOGJnNDBwLWZXay1peEt3cW5nNlNfZ3R0Tjk3UHNTU3J0UldBSFh2SGFvdWRIa05ERWZKWnprSzBIcUhk?oc=5",
       "date": "Wed, 27 May 2026 07:22:03 GMT",
+      "category": "India",
+      "language": "hi",
+      "source": "Google News",
+      "summary": "",
+      "translations": {}
+    },
+    {
+      "title": "बच्चों में बढ़ते मोटापे पर नोवो नॉर्डिस्क की नजर, भारत में नई दवा लाने की तैयारी - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSjFQbWdWVi1sR0pNenBrN0ExVllwUzM2NXBVal9qQzlWX1Q3YmlYRklnejdySV95RFFMR2JKWGdGREU2OTh1VGxLaW1YTXhrMjExS3BoVk5rTmtZZk5Vb0U3VExpY191T2ZBWHlDbTA5NW1lazhfTm1FUXE3X0Y2ZGVack1mNHBPX1k4NDZkQzdGQWhtZk5nVGFuUW8ycTJQcnJ2MERGYVNZenduT1ZUNjk3bzUxdGdmVVlXcFo0V2Q2eWRwY210dTRvekhEOC1SdDhhMXZRcWZFQdIB3wFBVV95cUxPMkl2TjJadUg3QXN1OWtxYVZNaGp5YTJvUHRFZjZjRVctajBNYXlQdXp1YnNLenhyNkxFOE5ubGNaQVk2RlRzbWowNnZXQ0VpV3BqT3VnY21GN2t5SWtBX1A2Y0hwWmxJbDJwSlVOVUxWbjZMOFRrdjlBQUdPaDRjZzExTWVUMS1MZjJyckdXUlpLUzBaNFY2dXI2U2VDMm9NUHRsS1ZKOE91ZUdTS1dmd3MzVGhLbklDa2xFaXdTRkREUkZjYnM5R2dEOWhrOFJqS0wyUlVHZTRhVDFJRU1J?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSjFQbWdWVi1sR0pNenBrN0ExVllwUzM2NXBVal9qQzlWX1Q3YmlYRklnejdySV95RFFMR2JKWGdGREU2OTh1VGxLaW1YTXhrMjExS3BoVk5rTmtZZk5Vb0U3VExpY191T2ZBWHlDbTA5NW1lazhfTm1FUXE3X0Y2ZGVack1mNHBPX1k4NDZkQzdGQWhtZk5nVGFuUW8ycTJQcnJ2MERGYVNZenduT1ZUNjk3bzUxdGdmVVlXcFo0V2Q2eWRwY210dTRvekhEOC1SdDhhMXZRcWZFQdIB3wFBVV95cUxPMkl2TjJadUg3QXN1OWtxYVZNaGp5YTJvUHRFZjZjRVctajBNYXlQdXp1YnNLenhyNkxFOE5ubGNaQVk2RlRzbWowNnZXQ0VpV3BqT3VnY21GN2t5SWtBX1A2Y0hwWmxJbDJwSlVOVUxWbjZMOFRrdjlBQUdPaDRjZzExTWVUMS1MZjJyckdXUlpLUzBaNFY2dXI2U2VDMm9NUHRsS1ZKOE91ZUdTS1dmd3MzVGhLbklDa2xFaXdTRkREUkZjYnM5R2dEOWhrOFJqS0wyUlVHZTRhVDFJRU1J?oc=5",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
       "category": "India",
       "language": "hi",
       "source": "Google News",
@@ -245,10 +245,10 @@
       "translations": {}
     },
     {
-      "title": "Solapur News: मुख्याध्यापकाने पत्नी अन् दोन मुलांसह जीवन संपवलं , घटनास्थळी सापडली 22 पानी सुसाईड नोट - NDTV Marathi",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNjJhd040RTh6NXRGbWxoWHFBSUMyYWM4eHFUSGg1UTR2UTFoRnNzZGloeC1VaThYd2d3ejdYLVgxTmZnVGFzWjZvWE1ib2dpeVZrUnM0R1JtZVZSNEdWZGpveHFaa24xZTk4bXRmdDNxN3lQQVJ2akVPVXBoSm9ZeXliV1phVE52ZWRqRGdUYTVtaWx6NV9YTHJHUUhkdnVHMzNjakpIaERuWlBhZ2xLTV9tREp1SnVKTFJWQjJtbFBkRU91YmItZ3ZrWEFxYTB4c1c4VVl0QnRzRTNzYlNFdk5QdFpZTUdLMER2ODl0ajkxeE3SAfsBQVVfeXFMTkNnOFV0Z1c3ZWhkLVBWV1lIWk8yMDdKYmJSM3dFeW9qa2JoNUVzXzNCdEE1R1R5M3N2bUtudG9fOEV6SjVkOHN1WnVEWDlrMExmTFpoTDFIbEpmcTVLVFJfMXdHVlQ1ZU5kd2FRREFBa1ZTdlJSamJ1eGZKQmE0ZmNqWmg4TUFyWW90dWY5VUtyU0pKR1FlYk9KY1QxSVRTN3RadENtckhfMTB2X3Vld1g5QkxhM0hGSHhHUUoyLXpfdEhFSjNyN2JNNkpZMWFJOEZpU2JOTkV3c0JGdnJyYXJnakJqZkRUVU0yZm5lQzBHdjFIU2F1aVctUkE?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNjJhd040RTh6NXRGbWxoWHFBSUMyYWM4eHFUSGg1UTR2UTFoRnNzZGloeC1VaThYd2d3ejdYLVgxTmZnVGFzWjZvWE1ib2dpeVZrUnM0R1JtZVZSNEdWZGpveHFaa24xZTk4bXRmdDNxN3lQQVJ2akVPVXBoSm9ZeXliV1phVE52ZWRqRGdUYTVtaWx6NV9YTHJHUUhkdnVHMzNjakpIaERuWlBhZ2xLTV9tREp1SnVKTFJWQjJtbFBkRU91YmItZ3ZrWEFxYTB4c1c4VVl0QnRzRTNzYlNFdk5QdFpZTUdLMER2ODl0ajkxeE3SAfsBQVVfeXFMTkNnOFV0Z1c3ZWhkLVBWV1lIWk8yMDdKYmJSM3dFeW9qa2JoNUVzXzNCdEE1R1R5M3N2bUtudG9fOEV6SjVkOHN1WnVEWDlrMExmTFpoTDFIbEpmcTVLVFJfMXdHVlQ1ZU5kd2FRREFBa1ZTdlJSamJ1eGZKQmE0ZmNqWmg4TUFyWW90dWY5VUtyU0pKR1FlYk9KY1QxSVRTN3RadENtckhfMTB2X3Vld1g5QkxhM0hGSHhHUUoyLXpfdEhFSjNyN2JNNkpZMWFJOEZpU2JOTkV3c0JGdnJyYXJnakJqZkRUVU0yZm5lQzBHdjFIU2F1aVctUkE?oc=5",
-      "date": "Fri, 12 Jun 2026 07:00:00 GMT",
+      "title": "Gold Rate : गुड न्यूज, सोने आणि चांदीच्या दरात घसरण कायम, 22 कॅरेट सोन्याचे दर 1 लाख 30 हजारांच्या खाली आले, जाणून घ्या लेटेस्ट दर - ABP Majha",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUzQ0MXVVMG1tY1BpN2F0cnpmdE5QYm15eWpnR0NHNkdYWlkzdDFYcW05NnlfeDBmcUNzbjQxWjM2TzYybFBNYXhZT3dJWE1maHpVVFVoWjNKczZwVEp6Q0h0aEVmTG93V3pCcWRYeUxISzdQZEpPSXkybmlSV0FhQ3QycXRXa1NnYjVjUUdBcWJqQWdad2c4aW9KRHNiS012LWs3OEtQb2FNRDl5WENGYlhVenpteUJJN1F5V3lMcER2RUphcldLS19KbU80bVRUQ1Q2SFlR0gHbAUFVX3lxTFBCOGtvN1M5QlRwUXhOR2c3aExOeGxNYjlPZjhpME1tSHduYlBmZXRpUUJvTXVJVnI2NVVrbHBEN2lTYzgwbjdUUWVlX3FuSmlTaVRjX2hmN0pSTDhtVU5FSElhY3BWMWlSczM4aHYtd3JpQlRZU1A2MEFWVzRSY3QwUUtjUFAxR1JLSzhOMTlPbjNtbnNyZ3hnemhlQXF0N1hKVktrQUxxTnRuUnI1S2t6a05qblBYdjlhYjN6UmU5ZDNMdHNId1ZRTXota0VpaFdJUmx5ZGw4MWJ2SQ?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUzQ0MXVVMG1tY1BpN2F0cnpmdE5QYm15eWpnR0NHNkdYWlkzdDFYcW05NnlfeDBmcUNzbjQxWjM2TzYybFBNYXhZT3dJWE1maHpVVFVoWjNKczZwVEp6Q0h0aEVmTG93V3pCcWRYeUxISzdQZEpPSXkybmlSV0FhQ3QycXRXa1NnYjVjUUdBcWJqQWdad2c4aW9KRHNiS012LWs3OEtQb2FNRDl5WENGYlhVenpteUJJN1F5V3lMcER2RUphcldLS19KbU80bVRUQ1Q2SFlR0gHbAUFVX3lxTFBCOGtvN1M5QlRwUXhOR2c3aExOeGxNYjlPZjhpME1tSHduYlBmZXRpUUJvTXVJVnI2NVVrbHBEN2lTYzgwbjdUUWVlX3FuSmlTaVRjX2hmN0pSTDhtVU5FSElhY3BWMWlSczM4aHYtd3JpQlRZU1A2MEFWVzRSY3QwUUtjUFAxR1JLSzhOMTlPbjNtbnNyZ3hnemhlQXF0N1hKVktrQUxxTnRuUnI1S2t6a05qblBYdjlhYjN6UmU5ZDNMdHNId1ZRTXota0VpaFdJUmx5ZGw4MWJ2SQ?oc=5",
+      "date": "Thu, 16 Jul 2026 07:00:00 GMT",
       "category": "India",
       "language": "mr",
       "source": "Google News",
@@ -256,10 +256,10 @@
       "translations": {}
     },
     {
-      "title": "Gold Rate : गुड न्यूज, सोने आणि चांदीच्या दरात घसरण कायम, 22 कॅरेट सोन्याचे दर 1 लाख 30 हजारांच्या खाली आले, जाणून घ्या लेटेस्ट दर - ABP Majha",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUzQ0MXVVMG1tY1BpN2F0cnpmdE5QYm15eWpnR0NHNkdYWlkzdDFYcW05NnlfeDBmcUNzbjQxWjM2TzYybFBNYXhZT3dJWE1maHpVVFVoWjNKczZwVEp6Q0h0aEVmTG93V3pCcWRYeUxISzdQZEpPSXkybmlSV0FhQ3QycXRXa1NnYjVjUUdBcWJqQWdad2c4aW9KRHNiS012LWs3OEtQb2FNRDl5WENGYlhVenpteUJJN1F5V3lMcER2RUphcldLS19KbU80bVRUQ1Q2SFlR0gHbAUFVX3lxTFBCOGtvN1M5QlRwUXhOR2c3aExOeGxNYjlPZjhpME1tSHduYlBmZXRpUUJvTXVJVnI2NVVrbHBEN2lTYzgwbjdUUWVlX3FuSmlTaVRjX2hmN0pSTDhtVU5FSElhY3BWMWlSczM4aHYtd3JpQlRZU1A2MEFWVzRSY3QwUUtjUFAxR1JLSzhOMTlPbjNtbnNyZ3hnemhlQXF0N1hKVktrQUxxTnRuUnI1S2t6a05qblBYdjlhYjN6UmU5ZDNMdHNId1ZRTXota0VpaFdJUmx5ZGw4MWJ2SQ?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUzQ0MXVVMG1tY1BpN2F0cnpmdE5QYm15eWpnR0NHNkdYWlkzdDFYcW05NnlfeDBmcUNzbjQxWjM2TzYybFBNYXhZT3dJWE1maHpVVFVoWjNKczZwVEp6Q0h0aEVmTG93V3pCcWRYeUxISzdQZEpPSXkybmlSV0FhQ3QycXRXa1NnYjVjUUdBcWJqQWdad2c4aW9KRHNiS012LWs3OEtQb2FNRDl5WENGYlhVenpteUJJN1F5V3lMcER2RUphcldLS19KbU80bVRUQ1Q2SFlR0gHbAUFVX3lxTFBCOGtvN1M5QlRwUXhOR2c3aExOeGxNYjlPZjhpME1tSHduYlBmZXRpUUJvTXVJVnI2NVVrbHBEN2lTYzgwbjdUUWVlX3FuSmlTaVRjX2hmN0pSTDhtVU5FSElhY3BWMWlSczM4aHYtd3JpQlRZU1A2MEFWVzRSY3QwUUtjUFAxR1JLSzhOMTlPbjNtbnNyZ3hnemhlQXF0N1hKVktrQUxxTnRuUnI1S2t6a05qblBYdjlhYjN6UmU5ZDNMdHNId1ZRTXota0VpaFdJUmx5ZGw4MWJ2SQ?oc=5",
-      "date": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "title": "Gold Price Today: सोमवारी सोनं-चांदीचे दर स्थिरावले, आज किती आहे २४ आणि २२ कॅरेट सोन्याचा भाव? जाणून घ्या लेटेस्ट रेट - Loksatta",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZkxwY3NnMm5lMWl2Q2VYOHpObUN6c1VLYW9VczN5MUdVMl9CcVVUSXRkVkpnOEtRN2xPZVExbnlsVm5fb3RIZEwtRC16NE9TX2UxdmJzVHBuY3BORW9DY3lGQzQyS2s0UnA5b3ZiS0F3REZFQXhGVTQ5dWlTekRpSURJNTloZy1BdmZwU016ZXFTRFRlVUV2dm93TXdJaG5wNFVPVkdSaVVCNXRCV2dzSDVnaXRzVVlIVkdrQnByZVpoSmpmRWtsUVozOFFtMnVZWFBDSkJySUZQcUluRmZ5UVpFSUhFclBETkRiZFVZbFdVNDliM2ZXREFVdWFLUDhXaHfSAYgCQVVfeXFMUGloaGlKX1RnNF9Ra2RTTnNyakJfXzBYc2VUZlIxRVhrTEF5blg3ZTRuSzVKa2pfdXllM2V1eHA4UGd2Z3lkTUQzYWpwMVhycDU5SnMwS1RpWi1zNTd1RHIyUElGSUxCamF6ZF9Dall5VzdrSFhSZDktdGV2eUlmNFlrRFdGNUJXOHU1aDFZVmpiUFg0QzZfaGw1TUZyX0RiSTdqemRmYktDMzVrODFJNDVGdW1BaDNwZWttaUtvOURoYVR6SkU5TVF1SWpjNjd4dE1IdXRzNWRISE9xcHlISF9ITlN1Szd4T1dzZTJiRlpqZmR1dlNLRDRhalJLS0JodFd3S2ZJWmNI?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZkxwY3NnMm5lMWl2Q2VYOHpObUN6c1VLYW9VczN5MUdVMl9CcVVUSXRkVkpnOEtRN2xPZVExbnlsVm5fb3RIZEwtRC16NE9TX2UxdmJzVHBuY3BORW9DY3lGQzQyS2s0UnA5b3ZiS0F3REZFQXhGVTQ5dWlTekRpSURJNTloZy1BdmZwU016ZXFTRFRlVUV2dm93TXdJaG5wNFVPVkdSaVVCNXRCV2dzSDVnaXRzVVlIVkdrQnByZVpoSmpmRWtsUVozOFFtMnVZWFBDSkJySUZQcUluRmZ5UVpFSUhFclBETkRiZFVZbFdVNDliM2ZXREFVdWFLUDhXaHfSAYgCQVVfeXFMUGloaGlKX1RnNF9Ra2RTTnNyakJfXzBYc2VUZlIxRVhrTEF5blg3ZTRuSzVKa2pfdXllM2V1eHA4UGd2Z3lkTUQzYWpwMVhycDU5SnMwS1RpWi1zNTd1RHIyUElGSUxCamF6ZF9Dall5VzdrSFhSZDktdGV2eUlmNFlrRFdGNUJXOHU1aDFZVmpiUFg0QzZfaGw1TUZyX0RiSTdqemRmYktDMzVrODFJNDVGdW1BaDNwZWttaUtvOURoYVR6SkU5TVF1SWpjNjd4dE1IdXRzNWRISE9xcHlISF9ITlN1Szd4T1dzZTJiRlpqZmR1dlNLRDRhalJLS0JodFd3S2ZJWmNI?oc=5",
+      "date": "Mon, 27 Apr 2026 07:00:00 GMT",
       "category": "India",
       "language": "mr",
       "source": "Google News",
@@ -333,10 +333,10 @@
       "translations": {}
     },
     {
-      "title": "India Protesters Use Make-Up, Batman Masks To Dodge Surveillance Cameras - TVC News",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSnhuenMyX3FjTUR4cGJWeThydUhadTFiMFVVVVhZYWg3V3AyZW1hVEF3U3VGMWk0cFhhenRPUlg3R0ZDSHJSaTQwT2lFWmJneGpUX1hzSnJIT0hiYlFjWGtpdTc5TlQ2a0FwOTJkdG9YaXEyZW5FeGVNWk41d0NNVzhQWW5mSGRJM1Zxc2lWNzdRMzhueTBXT3Rqcw?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSnhuenMyX3FjTUR4cGJWeThydUhadTFiMFVVVVhZYWg3V3AyZW1hVEF3U3VGMWk0cFhhenRPUlg3R0ZDSHJSaTQwT2lFWmJneGpUX1hzSnJIT0hiYlFjWGtpdTc5TlQ2a0FwOTJkdG9YaXEyZW5FeGVNWk41d0NNVzhQWW5mSGRJM1Zxc2lWNzdRMzhueTBXT3Rqcw?oc=5",
-      "date": "Tue, 13 Oct 2026 07:55:00 GMT",
+      "title": "Top 50 US news websites: 90% see traffic drop in September - Press Gazette",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQc3hXVlpHbGtDSldYbHdENUZQM1FOLWQ2U3FDUmItODZpNlpuYUowMy04Q3dralEtQUYtbzZMekNsR3ZyaVJUWGE3RTJOenJIMGxuMjBXVGwtUGRpblQwdDVZRFBOTEYzdVo3d3dLMTV4aUlkTFl2RFZ1QWh2cFUycFR2V2Q4XzVydWNiTTNWNkN1Rl9ZeERmcWoxRzJkc3ItbndyUTdzSHk3WmlTb0RzbWpFcE4?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQc3hXVlpHbGtDSldYbHdENUZQM1FOLWQ2U3FDUmItODZpNlpuYUowMy04Q3dralEtQUYtbzZMekNsR3ZyaVJUWGE3RTJOenJIMGxuMjBXVGwtUGRpblQwdDVZRFBOTEYzdVo3d3dLMTV4aUlkTFl2RFZ1QWh2cFUycFR2V2Q4XzVydWNiTTNWNkN1Rl9ZeERmcWoxRzJkc3ItbndyUTdzSHk3WmlTb0RzbWpFcE4?oc=5",
+      "date": "Thu, 08 Oct 2026 07:00:00 GMT",
       "category": "Trending",
       "language": "en",
       "source": "Google News",
@@ -344,10 +344,10 @@
       "translations": {}
     },
     {
-      "title": "Top 50 US news websites: 90% see traffic drop in September - Press Gazette",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQc3hXVlpHbGtDSldYbHdENUZQM1FOLWQ2U3FDUmItODZpNlpuYUowMy04Q3dralEtQUYtbzZMekNsR3ZyaVJUWGE3RTJOenJIMGxuMjBXVGwtUGRpblQwdDVZRFBOTEYzdVo3d3dLMTV4aUlkTFl2RFZ1QWh2cFUycFR2V2Q4XzVydWNiTTNWNkN1Rl9ZeERmcWoxRzJkc3ItbndyUTdzSHk3WmlTb0RzbWpFcE4?oc=5",
-      "originalLink": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQc3hXVlpHbGtDSldYbHdENUZQM1FOLWQ2U3FDUmItODZpNlpuYUowMy04Q3dralEtQUYtbzZMekNsR3ZyaVJUWGE3RTJOenJIMGxuMjBXVGwtUGRpblQwdDVZRFBOTEYzdVo3d3dLMTV4aUlkTFl2RFZ1QWh2cFUycFR2V2Q4XzVydWNiTTNWNkN1Rl9ZeERmcWoxRzJkc3ItbndyUTdzSHk3WmlTb0RzbWpFcE4?oc=5",
-      "date": "Thu, 08 Oct 2026 07:00:00 GMT",
+      "title": "From chocolate to paan: Google Search data unveils India’s top trending Modak variations - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOR0Z4WnBEYWVBOGt1U2t4WkRITXgxOW8zTUJmRngzRmRsYjNGMkZNUVEtTmxOQkZoSHViN0VNbTYyNHlDWHRmMUFfSm9GeWN4dDZTdDVuVUVBQjh3aURWc1VCSGVGYWVnZjBTekdJRERUOU1OazZVUFVyUU55aDI3NjVpUkNuSTJuNF9BczNxbFlPc3pvWjdpcnZyWHMzeUVDSXF0SlpLVHZ0dWh0RmJvVzZ1R2Jtb0J1cGNmWFZSZEI5S2RDb3JxaGpyejhJVGF1bjREVWNsZ0tjTXdoMXozVmduYVJaLWNWTDJKalJ0OTJlY05LRDhDMU80UGRQUdIBgwJBVV95cUxPeTNrZllFSHVKa0JNOUtGSnlmdGJSbHZLUkh0VmhickxvN0ZLdlFpeHRsM3VMZl81MGhfNFdpRDNHenphY21lb3JiWlFURmdMM3NvdU5MN0otMkxhZmFxT3lSTjJxdXY3QnFzbFRZUkY3UHBvNkg0OFZKMmcxbmJWNGtPME42SDM2Ukt0TjROZ2tnU2RIOWExMWt2eDI2UFVpUFdNZDZHWHdGQkV2bjFBVXRNbkxFUlJ4NXhuQlJBM3o1SmlCS3ZZb2hqbkljSHpBQkpwa3lydnYzaDVtemYzdHg5LVRzb3ZRN0d1dkxncjFWQ01xa3VrSEh6eXpxVTRuY2M4?oc=5",
+      "originalLink": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOR0Z4WnBEYWVBOGt1U2t4WkRITXgxOW8zTUJmRngzRmRsYjNGMkZNUVEtTmxOQkZoSHViN0VNbTYyNHlDWHRmMUFfSm9GeWN4dDZTdDVuVUVBQjh3aURWc1VCSGVGYWVnZjBTekdJRERUOU1OazZVUFVyUU55aDI3NjVpUkNuSTJuNF9BczNxbFlPc3pvWjdpcnZyWHMzeUVDSXF0SlpLVHZ0dWh0RmJvVzZ1R2Jtb0J1cGNmWFZSZEI5S2RDb3JxaGpyejhJVGF1bjREVWNsZ0tjTXdoMXozVmduYVJaLWNWTDJKalJ0OTJlY05LRDhDMU80UGRQUdIBgwJBVV95cUxPeTNrZllFSHVKa0JNOUtGSnlmdGJSbHZLUkh0VmhickxvN0ZLdlFpeHRsM3VMZl81MGhfNFdpRDNHenphY21lb3JiWlFURmdMM3NvdU5MN0otMkxhZmFxT3lSTjJxdXY3QnFzbFRZUkY3UHBvNkg0OFZKMmcxbmJWNGtPME42SDM2Ukt0TjROZ2tnU2RIOWExMWt2eDI2UFVpUFdNZDZHWHdGQkV2bjFBVXRNbkxFUlJ4NXhuQlJBM3o1SmlCS3ZZb2hqbkljSHpBQkpwa3lydnYzaDVtemYzdHg5LVRzb3ZRN0d1dkxncjFWQ01xa3VrSEh6eXpxVTRuY2M4?oc=5",
+      "date": "Fri, 18 Sep 2026 07:00:00 GMT",
       "category": "Trending",
       "language": "en",
       "source": "Google News",
